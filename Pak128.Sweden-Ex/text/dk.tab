@@ -1,0 +1,160 @@
+################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                               Scenario: pak128                               #
+#                              Language: dk Dansk                              #
+#                             Encoding: ISO-8859-1                             #
+#                            Font : Prop-Latin1.bdf                            #
+#                           Date Created: 25.10 2011                           #
+#                                                                              #
+#                                   authors:                                   #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+ClassicRail
+Jernbanebro (beton)
+SteelRail
+Byg jernbanebro (stål)
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+01_CITY
+Rådhus
+Avila_Big_StationBlg
+Stor passager stations bygning
+Avila_Small_StationBlg
+Lille passager stations bygning
+Avila_Warehouse_StationBlg
+Lagerhals Stations Bygning
+Bulk_StationBlg
+Massegods Stations Bygning
+canal_ChannelStop
+Kanal Stop
+Car_StationBlg
+Bil Stations Bygning
+CarDepot
+Bil Garage
+ClosedTrainStop
+Station Med Tag
+CoalTrainStop
+Kulstation
+COM_00_01
+Indeværende er en børnehave,\nder hvor små børn kan lege\nsamtidigt med at deres\nforældre er henne ved\narbejde. Selv om man engang\nimellem høre børn hyle op, så\ner det skam en hyggelig og\nfredelig børnehave, fyldt med\nlatter og yndige drømme det\nmeste af dagen. Her lærer små\nbørn tidligt at læse og gøre\nmatematik.\n
+COM_00_02
+Denne hyggelige cafe er\nvelkendt for sin store\nsandwicher. Ejeren nægter at\nudgive sin hemmelige opskrift,\nmen rygterne siger at han gror\nfrugterne hjemme i hans egen\nhave.\n
+COM_06_13
+En stor barber butik der altid\nhar travlt. Men stadig\natmosfæren er stadig\nfuldkommen forskellig fra\nandre mindre butikker.\n\n
+DenkFlor
+Dette monument tilegnes Flor\n'WF Ultd.' Wauters, den\nberømte ingeniør som skabte så\nmange glimrende køretøjer. Han\ner ligeledes kendt for at have\ndesignet mange velfungerende\nfabrikker.\n
+DenkOwen
+Denne plads tilegnes Owen\nRudge, den berømte\nfinansexpert og lydtekniker.\n\n
+DenkSeth
+Denne plads tilegnes Seth C.\nTriggs, den berømte arkitekt\nsom designede så mange\nsmukke bygninger. Han er\nligeledes kendt for at have\ngjort mange studier over\nhvorledes man kan forbedre\ntrafiksystemet.\n
+DenkTomas
+Dette monument tilegnes\nTomas Kubes, der forbedrede\nSimutrans på mange, mange\nområder med gode råd og\nhårdt arbejde.\n\n
+DenkTrikky
+Dette monument tilegnes\n'Trikky' Rick McGreal, den\nberømte arkitekt som\ndesignede så mange\nimponerende bygninger.\n\n
+DenkVM
+Dette monument tilegnes\nManfred 'VT Wien' Tomaschitz,\nden berømte ingeniør som\ndesignede mange utrolig gode\ntoge.\n\n
+DenkVolker
+Dette monument tilegnes\nVolker Meyer, som\nforbedrede Simutrans på\nmange, mange måder.\n\n
+RUIN_0
+En prægtig, gammel borgruin.\nKom forbi og mærk historiens\nvingesus!\n\n
+Windmill
+Mølle\n\n
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+bakery
+Bageri
+brewery
+Bryggeri
+cannery
+Konservesfabrik
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+biler
+beer
+øl
+Bretter
+brædder
+Bucher
+Bøger
+canned_food
+Dåsemad
+Cement
+cement
+Chemicals
+kemikalier
+Concrete
+beton
+Eisenerz
+jernmalm
+Gasoline
+benzin
+Holz
+tømmer
+Kohle
+kul
+Moebel
+møbler
+Oel
+olie
+Papier
+papir
+Plastik
+plast
+Sand
+grus
+Stahl
+stål
+Stone
+sten
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+1Dampflokomotive
+H-Trans 0-4-0T (damp)
+2Diesellokomotive
+H-Trans BR218 (diesel)
+Autotransportwagen
+TPI Lopomo Biltransportvogn
+BB-TS_Milk_Mack_Trailer
+Balcebox-TS Mælke Trailer
+Bretterwagen
+VT Wien Bræddevogn
+Bulk_trailer_0
+Massegods Trailer
+Bulk_Truck_0
+Shorty-Volvo 800
+Bulk_Truck_2
+VSYS-Tatra 801
+Bulk_Truck_3
+VSYS-Tatra 815 (Massegods)
+Bulk_Truck_4
+Volvo Massegods Truck
+Car_Tramsport_Trailer_0
+TS Bil Trailer
+Car_Transporter_0
+Teddy's Bil Transporter
+Car_Transporter_1
+Teddy's Bil Carrier
+Car_Waggon_1
+RVg Bil Transport Vogn
+Cementwagen
+WF Ultd. Cementtankvogn
+Concretewagen
+WF Ultd. Betontankvogn
+Holzwagen
+H-Trans Tømmervogn
+Passagierwagen
+H-Trans Passagervogn
+Postwagen
+H-Trans Post/Baggagevogn
+Stahlwagen
+VT Wien Stålvogn

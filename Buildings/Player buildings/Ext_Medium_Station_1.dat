@@ -1,0 +1,28 @@
+Obj=building
+Name=Se_Extension_Medium_Station_1
+Copyright=Ves
+intro_month=1
+intro_year=1913
+retire_month=1
+retire_year=2500
+type=extension
+enables_pax=1
+enables_post=1
+enables_ware=1
+station_capacity=50
+station_maintenance=250
+station_price=25000
+# waytype=track
+
+icon=> .././Images/Stationextensions/Medium_station_1_output.3.1
+cursor=.././Images/Stationextensions/Medium_station_1_output.3.0
+
+Dims=2,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.0.0
+BackImage[0][0][1][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.0.1
+BackImage[1][0][0][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.0.2
+BackImage[1][1][0][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.1.0
+BackImage[2][0][0][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.1.1
+BackImage[2][0][1][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.1.2
+BackImage[3][0][0][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.2.0
+BackImage[3][1][0][0][0][0]=.././Images/Stationextensions/Medium_station_1_output.2.1

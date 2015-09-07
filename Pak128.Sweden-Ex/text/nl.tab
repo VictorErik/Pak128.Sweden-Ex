@@ -1,0 +1,2230 @@
+################################################################################
+#                                                                              #
+#                Simutrans Scenario Specific Translation File                  #
+#                               Scenario: pak128                               #
+#                            Language: nl Nederlands                           #
+#                             Encoding: ISO-8859-1                             #
+#                            Font : Prop-Latin1.bdf                            #
+#                            Date Created: 2.11 2011                           #
+#                                                                              #
+#                                   authors:                                   #
+#                                   - Combuijs                                 #
+#                                    note:                                     #
+#                                    - Dwachs                                  #
+#                                    note:                                     #
+#                              Frank Penz - FrankP                             #
+#                                    note:                                     #
+#                            Nathan Samson - Nathan                            #
+#                                    note:                                     #
+#                        Lorenz Van Damme - gforcetheone                       #
+#                                    note:                                     #
+#                             Mark Knoester - mark                             #
+#                                    note:                                     #
+#                             P. Hamming - phamming                            #
+#                                    note:                                     #
+#                          Markus Pristovsek - prissi                          #
+#                                    note:                                     #
+#                           Michael Olbricht - whoami                          #
+#                                    note:                                     #
+#                            Wim Vreeswijk - wipi35                            #
+#                                    note:                                     #
+#                                                                              #
+################################################################################
+#____________________________________bridge_____________________________________
+#____________________________________bridge_____________________________________
+ClassicRail
+Spoorbrug (beton)
+PowerBridge
+HSP mast
+RVg_Concrete_Rail_Bridge
+Spoorbrug Max 110 km/h
+Schwebebahn_p_bridge
+hangbrug monorail
+SteelRail
+Stalen spoorbrug 160 km/h
+water_bridge
+Aquaduct
+Wooden_Rail
+Houten spoorbrug 30 km/h
+#___________________________________building____________________________________
+#___________________________________building____________________________________
+01_CITY
+Stadhuis
+01_CITY_1
+Stadhuis
+02_CITY
+Stadhuis
+02_CITY_1
+Stadhuis
+03_CITY
+Stadhuis
+03_CITY_1
+Stadhuis
+04_CITY
+Stadhuis
+1920_AirDepot
+Eenvoudige Hangar
+1930AirDepot
+Standaard hangar (hout)
+1940AirDepot
+Standaard Hangar (1940 golfplaat)
+1950AirDepot
+Hangar (beton)
+1990AirDepot
+hangar(modern)
+ABBYS_0
+Abdij
+Airport1920_AirportBlg
+Passagiershal (van 1918)
+Airport1930PostOffice
+Luchtpostgebouw
+Airport1990_Big_AirportBlg
+Moderne passagiers terminal
+Airport1990_Entrance_AirportBlg
+Entree moderne luchthaven
+Airport1990_Gates_AirportBlg
+Moderne vertrekhal
+Airport1990_PostOffice
+Modern luchtpostkantoor
+Airport1990_Small_AirportBlg
+Kleine moderne passagiers terminal
+Airport1990_Warehouse
+Vrachtterminal (van 1989)
+AirStop_AirportBlg
+Parkeerplatform vliegtuigen
+Almuthof_StationBlg
+Landelijk stationsgebouw
+Avila_Big_StationBlg
+Grote passagiershal
+Avila_Small_StationBlg
+Kleine passagiershal
+Avila_Warehouse_StationBlg
+Pakhuis (station)
+big_classic_bus_stop
+Grote Bushalte
+big_modern_bus_stop
+Moderne bushalte
+BigTerminal1930_AirportBlg
+Luchthaven Terminal (1930)
+BigTerminal1950_AirportBlg_S
+Grote passagiersterminal (1950)
+Bulk_Dock
+Bulkgoederenhaven
+Bulk_StationBlg
+Bulkgoederenopslag
+bus_terminus
+Moderne busterminal
+canal_ChannelStop
+Aanlegkade
+canal_ware_stop
+Aanlegkade
+Car_StationBlg
+Parkeerterrein
+CarDepot
+Garage
+CarStop
+Laadstation
+CASTLE_0
+Oud kasteel\n\n
+CHURCH_02
+Roze Kerk\n\nDeze apparte kerk werd in 1654\ngebouwd en roze geschilderd\ndoor een monnik met aanzien,\nmaar met afwijkende ideeën. De kleur\nvan de kerk is door de tijd\nvervaagd maar de naam is\nbehouden gebleven.\n
+CHURCH_03
+Kerk\n\nDeze beroemde kerk trekt\nmensen aan door zijn mooie\nomgeving en interesante\nkunstwerken.\n\n
+CHURCH_04
+Synagoge.\n\nAl lijkt deze synagoge van de\nbuitenkant op een moskee,\nhet is een joodse synagoge\n\n
+CHURCH_05
+St. Michael.\nDit monumentale gebouw \ndateert uit het eind van de\nnegentiende eeuw.\nHet is niet alleen interessant\ndoor zijn metalen dak maar\nomdat het ontworpen is\ndoor Alexander Gustavus Eiffel.\n\n
+CHURCH_06
+Kerk\n\nEen typische dorpkerk.\n\n
+CIRCUS_0
+Circus Humberto\n\nDit beroemd circus heeft in\ndeze stad zijn defenitieve\nstandplaats gevonden. De\nklasieke tent is behouden\ngebleven om de unieke\natmosfeer te bewaren. Het\ncircusvolk heeft echter\nallemaal hun eigen woningen\ngekocht in de stad. De\ngrootste atractie is de olifant\nJumbo, die telkens als de bel\ngaat, gaat zitten. Maak niet de fout\nachter Jumbo te staan als je de bel\nlaat gaan, tenzij je het leuk vind om\nhet achterste van jumbo van zeer\ndichtbij te zien.\n
+CIVILIAN_RADAR
+Radiotelescoop\n\n
+classic_mailbox
+Brievenbus aan de straat
+ClosedTrainStop
+Overdekt station
+CoalTrainStop
+Laadstation voor steenkool
+COM_00_01
+Kinderdagverblijf\n\n
+COM_00_02
+Café\n\n
+COM_00_03
+Café\n\n
+COM_00_04
+Werkplaats\n\n
+COM_00_05
+Café\n\n
+COM_00_06
+Audio-bedrijf\n\n
+COM_00_07
+Bloemist\n\n
+COM_00_08
+Chinees restaurant\n\n
+COM_00_09
+Herberg\n\n
+COM_00_10
+Rood stenen woonhuis\n\n
+COM_00_11
+Dierenwinkel\n\n
+COM_00_12
+Kruidenierswinkeltje\n\n
+COM_00_13
+Hotelletje met balkon\n\n
+COM_00_14
+Winkeltje\n\n
+COM_00_15
+Appartementgebouw met winkels\n\n
+COM_00_16
+Apotheek\n\n
+COM_00_17
+Modezaak\n\n
+COM_00_18
+Bed and Breakfast\n\n
+COM_00_19
+Herenmodewinkel\n\n
+COM_00_21
+Parkeergarage\n\n
+COM_00_22
+Kantoorgebouw\n\n
+COM_00_23
+Appartementgebouw\n\n
+COM_00_60
+Torenflat\n\n
+COM_01_01
+Vijverartikelen\n\n
+COM_01_05
+Appartementgebouw\n\n
+COM_01_13
+Visrestaurant\n\n
+COM_01_15
+Appartementjes met winkels\n\n
+COM_01_17
+Winkelcentrum met parkeerdak\n\n
+COM_01_18
+Marktgebouw\n\n
+COM_01_19
+Speelgoedwinkel\n\n
+COM_01_21
+Kantoorgebouw\n\n
+COM_01_23
+Kantoorgebouw\n\n
+COM_01_26
+Vakwerkhuis\n\n
+COM_01_28
+Fabrieksgebouw\n\n
+COM_01_29
+Kantoorgebouw\n\n
+COM_01_35
+Kantoor van de Inlichtingendienst\n\n
+COM_01_36
+Gebouw van de Inlichtingendienst\n\n
+COM_01_47
+Torenflat\n\n
+COM_01_52
+Kantoor van de Inlichtingendienst\n\n
+COM_01_60
+Futuristisch overheidsgebouw\n\n
+COM_02_13
+Vakwerkhuis\n\n
+COM_02_15
+Vakwerkhuis met overdekt terras\n\n
+COM_03_21
+Vakwerkhuis met loggia\n\n
+COM_03_28
+Prestigieus kantoorgebouw\n\n
+COM_05_01
+Disco\n\n
+COM_05_02
+Parkeerterrein\n\n
+COM_05_03
+Tearoom\n\n
+COM_05_04
+Wielersport winkel\n\n
+COM_05_05
+Reparatiebedrijf\n\n
+COM_05_06
+Schoonheidssalon\n\n
+COM_05_07
+Parkeerterrein\n\n
+COM_05_08
+Bowlingcentrum\n\n
+COM_05_09
+Drogist\n\n
+COM_05_10
+Casino\n\n
+COM_05_11
+Kantoor Sociale Dienst\n\n
+COM_05_12
+Kantoor met onderliggende parking\n\n
+COM_05_13
+Bed and Breakfast\n\n
+COM_05_15
+Hobbywinkel\n\n
+COM_05_16
+Watertoren\n\n
+COM_05_17
+Bioscoop\n\n
+COM_05_18
+Bioscoop\n\n
+COM_05_19
+Computerzaak\n\n
+COM_05_20
+Kantoorgebouw\n\n
+COM_05_21
+EHBO-post\n\n
+COM_05_22
+Parkeergarage\n\n
+COM_05_23
+Kantoorgebouw\n\n
+COM_05_24
+2 sterren hotel\n\n
+COM_06_01
+Café\n\n
+COM_06_02
+Parkeerterrein\n\n
+COM_06_03
+Openlucht podium met\ndansgelegenheid\n\n
+COM_06_04
+APK-station\n\n
+COM_06_05
+Tandartspraktijk\n\n
+COM_06_06
+Taxibedrijf\n\n
+COM_06_07
+Moeilijk te benaderen parkeerplaats\n\n
+COM_06_09
+Penitentiair centrum\n\n
+COM_06_10
+Penitentiair centrum\n\n
+COM_06_12
+Occasion bedrijf\n\n
+COM_06_13
+Kapperszaak\n\n
+COM_06_14
+Speciaalzaak in hippische producten\n\n
+COM_06_16
+Watertoren\n\n
+COM_06_17
+Filiaal van een bekende\nhamburgerketen\n\n
+COM_06_18
+Software bedrijf\n\n
+COM_06_19
+Klein hospitaal\n\n
+COM_06_20
+Snoepfabriek\n\n
+COM_06_21
+Kabel en satelliet bedrijf\n\n
+COM_06_22
+Kantoren complex\n\n
+COM_06_26
+Kantoren complex\n\n
+COM_06_27
+Kantorencomplex\n\n
+COM_06_30
+Fabriek van diepvriesmaaltijden\n\n
+COM_06_31
+Kantorencomplex\n\n
+COM_06_32
+Congrescentrum\n\n
+COM_06_33
+5 sterren hotel\n\n
+COM_06_34
+Hotel en conferentieoord\n\n
+COM_06_35
+Kantorencomplex\n\n
+COM_06_36
+ooit afgebouwde vekeerstoren\n\n
+COM_06_37
+Medisch centrum\n\n
+COM_06_38
+Groot kantoorgebouw met balcons\n\n
+COM_06_39
+Kantoorgebouw uit de jaren '60\n\n
+COM_06_40
+Studentenflat\n\n
+COM_06_41
+Driehoekig kantoorgebouw\n\n
+COM_06_42
+Driehoekig kantoorgebouw\n\n
+COM_06_43
+Kantoorgebouw\n\n
+COM_06_44
+Kantoorgebouw\n\n
+COM_06_45
+Kantoorgebouw\n\n
+COM_06_46
+HQ Kantoorgebouw\n\n
+COM_06_47
+Hoofdkantoor van fabriek in bouwsteentjes\n\n
+COM_06_48
+Hoofdkantoor van een chocoladefabriek\n\n
+COM_06_49
+Tweedelig appartementencomplex\n\n
+COM_06_50
+Modern kantoorgebouw\n\n
+COM_06_52
+Torenflat in aanbouw\n\n
+COM_06_53
+Torenflat in aanbouw\n\n
+COM_06_54
+Kantoorgebouw met zonnecollectors\n\n
+COM_06_55
+Kantoorgebouw met zonnecollectors\n\n
+COM_06_56
+Winkelcentrum en fitnessclub\n\n
+COM_06_57
+Woontoren met kantoren\n\n
+COM_06_59
+Kantorencomplex\n\n
+COM_06_60
+Flatgebouw met balkons\n\n
+COM_07_01
+Gereedschapswinkeltje\n\n
+COM_07_02
+Reclamebord met wisselende\nafbeeldingen\n\n
+COM_07_03
+Zelfbedieningsrestaurant met terras\n\n
+COM_07_04
+Tractordealer\n\n
+COM_07_05
+Internetcafé met buitenterras\n\n
+COM_07_06
+Bungalow met architectenbureau\n\n
+COM_07_09
+Honden en katten opvangcentrum\n\n
+COM_07_12
+Eenvoudig huis\n\n
+COM_07_13
+Tractordealer\n\n
+COM_07_14
+Marktgebouw\n\n
+COM_07_16
+Bungalow met acccountantpraktijk\n\n
+COM_07_17
+Hamburgers en steaks van bekende\nketen\n\n
+COM_07_18
+Parkeergarage\n\n
+COM_07_19
+Vakwerkhuis\n\n
+COM_07_20
+Redactie van het Simutrans dagblad\n\n
+COM_07_21
+Kantoorgebouwtjes\n\n
+COM_07_22
+Seniorenappartementen\n\n
+COM_08_01
+Centrum voor ballonvaarten\n\n
+COM_08_14
+Parkeergarage\n\n
+COM_08_18
+Appartementengebouw\n\n
+COM_08_32
+Kantoorgebouw\n\n
+COM_08_33
+Hotel met wellness voorzieningen\n\n
+COM_08_37
+Tweekleurig twin-flatgebouw\n\n
+COM_08_38
+Hoofdkantoor van SimuElectronics\n\n
+COM_08_39
+Modern kantoorgebouw\n\n
+COM_08_40
+Hoofdkantoor van petrochemisch concern\n\n
+COM_08_60
+Torenflat\n\n
+COM_09_18
+Romeinse tempel als mausoleum\n\n
+COM_09_22
+Verlaten hoofdkwartier van een\ncigarettenfabriek\n\n
+COM_10_01
+Winkel met kleine huisdieren en\naquariumvissen\n\n
+COM_10_04
+Kringloopwinkel\n\n
+COM_10_11
+Experimenteel pyramidevormig huis\n\n
+COM_10_12
+Radio zendstation\n\n
+COM_10_14
+Woonhuis\n\n
+COM_10_15
+Software ontwikkelings gebouw\n\n
+COM_10_16
+Autodealer met dubbeldeks showroom\n\n
+COM_10_19
+Flatgebouw met muurversiering\n\n
+COM_10_21
+Verkoop en reparatiecentrum voor\nmobiele telefoons\n\n
+COM_10_25
+Hoofdzakelijk uit glas opgetrokken gebouw\n\n
+COM_11_01
+Winkel in aquariumbenodigdheden\n\n
+COM_11_14
+Woonhuis\n\n
+COM_11_15
+IJssalon\n\n
+COM_11_29
+Web Hosting bedrijf\n\n
+COM_11_33
+Laboratorium voor onderzoek aan signalen\nuit de ruimte\n\n
+COM_11_41
+Laboratorium voor onderzoek aan signalen\nuit de ruimte\n\n
+COM_11_42
+Fundering van een kantoorgebouw\n\n
+COM_11_45
+Luxe residentie voor vermogende\npensionado's\n\n
+COM_11_46
+Luxe residentie voor vermogende\npensionado's\n\n
+COM_11_48
+atuurkundig museum met planetarium\n\n
+COM_11_49
+atuurkundig museum met planetarium\n\n
+COM_11_50
+Centrum voor interplanetaire communicatie\n\n
+COM_11_53
+Gebouw voor advocatenpraktijken en\nmedische faciliteiten.\n\n
+COM_11_54
+Gebouw voor advocatenpraktijken en\nmedische faciliteiten.\n\n
+COM_11_55
+Gebouw voor advocatenpraktijken en\nmedische faciliteiten.\n\n
+COM_11_57
+Torenflat in aanbouw\n\n
+COM_11_59
+Modern kantoorgebouw\n\n
+COM_12_01
+Kapperszaak\n\n
+Container1TrainStop
+Container station
+Container2TrainStop
+Container station
+Crate_Goods_Dock
+Containerhaven
+CunnersdorfStopBlg
+Stationsgebouw (Cunnersdorf)
+CUR_01_128_JH
+Atomium
+DenkFlor
+Monument "Flor"
+DenkGeorg
+Monument "MHz"
+DenkHajo
+Monument "Hajo"
+DenkOwen
+Monument "Owen"
+DenkPatrick
+Monument "Patrick"
+DenkRaven
+Monument "Raven"
+DenkSeth
+Monument "Seth"
+DenkTomas
+Monument "Tomas"
+DenkTrikky
+Monument "Trikky"
+DenkVM
+Monument "VM"
+DenkVolker
+Monument "Volker"
+ELEMENTARY_SCHOOL_1
+Basisschool\n\n
+ELEMENTARY_SCHOOL_2
+Basisschool\n\n
+Firestation
+Brandweerkazerne\n\n
+Fluid_StationBlg
+Vloeistoftank
+FORT_FUN
+Historisch Fort\n\n
+FreightTrainStop
+Vrachtperron
+FUTURISTIC_TOWER_0
+Toren met panoramarestaurant\n\n
+Gas_StationBlg
+Gastanks
+Goods_StationBlg
+Pakhuis
+GRASS_STADIUM
+Sportveld\n\n
+GREEN_HOUSE
+Plantenkas\n\n
+HIGH_SCHOOL_1
+School voor voortgezet\nonderwijs\n\n
+HOUSE_RUINS_0
+Ruine\n\n
+HQ1
+Hoofdkwartier
+HQ2
+Hoofdkwartier (II)
+IND_00_01
+Schuurtje\n\n
+IND_00_02
+Oude houtzagerij\n\n
+IND_00_03
+Veld met beplanting\n\n
+IND_00_05
+Bakkerij\n\n
+IND_00_06
+Bloempottenfabriek\n\n
+IND_00_10
+Opslagloods\n\n
+IND_00_13
+Autowerkplaats\n\n
+IND_00_14
+Locale brouwerij\n\n
+IND_00_15
+Spoorwegreparatiewerkplaats\n\n
+IND_00_16
+Onderdelenfabriek\n\n
+IND_00_17
+Fabriek met watertank\n\n
+IND_00_18
+Fabriek met watertank\n\n
+IND_00_20
+Linoleum fabriek\n\n
+IND_00_21
+Fabriek van dierenvoeding\n\n
+IND_00_22
+Fabriek van dierenvoeding\n\n
+IND_00_24
+Fabriek van verwarmingsketels\n\n
+IND_00_25
+Fabriek van verwarmingsketels\n\n
+IND_00_28
+Afvalverwerker\n\n
+IND_00_29
+Conservenfabriek\n\n
+IND_01_01
+Pompgebouwtje\n\n
+IND_01_03
+Weiland met koeien\n\n
+IND_01_04
+Bosperceel\n\n
+IND_01_05
+Varkensstal\n\n
+IND_01_06
+Kippenfarm\n\n
+IND_01_11
+Metaalbewerkingsbedrijf\n\n
+IND_01_13
+Bedrijfswoning\n\n
+IND_01_15
+Industriegebouw\n\n
+IND_01_16
+Tot pub omgebouwde windmolen\n\n
+IND_01_20
+Verffabriek\n\n
+IND_01_29
+Verlaten industriegebouw\n\n
+IND_01_30
+Zeepfabriek\n\n
+IND_01_35
+Laadstation voor vrachtwagens\n\n
+IND_01_36
+Glasfabriek\n\n
+IND_01_37
+Afvalverbrandingsinstallatie\n\n
+IND_02_01
+Veldje\n\n
+IND_02_03
+Veldje\n\n
+IND_02_04
+Veldje\n\n
+IND_02_05
+Watermolen\n\n
+IND_02_15
+Pluimveebedrijf\n\n
+IND_03_01
+Veldje\n\n
+IND_03_02
+Veldje\n\n
+IND_03_05
+Watermolen\n\n
+IND_03_15
+Boerderij\n\n
+IND_04_01
+Veldje\n\n
+IND_04_02
+Veldje\n\n
+IND_05_01
+Oude smederij\n\n
+IND_05_04
+Gastank\n\n
+IND_05_05
+Pompstation\n\n
+IND_05_06
+IJzergieterij\n\n
+IND_05_07
+Asfaltfabriek\n\n
+IND_05_08
+Waterzuivering\n\n
+IND_05_09
+Loods van bloembollenkweker\n\n
+IND_05_10
+Legbatterijenloods\n\n
+IND_05_11
+Keramiekfabriekje\n\n
+IND_05_12
+Transformatorstation\n\n
+IND_05_13
+Brouwerij van speciaalbier\n\n
+IND_05_14
+Fabriek van\nprecisiemeetinstrumenten\n\n
+IND_05_15
+Fabriek van industriegassen\n\n
+IND_05_16
+Confectiefabriek\n\n
+IND_05_17
+Chemische fabriek\n\n
+IND_05_18
+Fabriek van chemische\ngrondstoffen\n\n
+IND_05_19
+Onderzoekcentrum van zonnecollectoren\n\n
+IND_05_20
+Apparatenfabriek\n\n
+IND_05_21
+Verpakkingsbedrijf van bloemzaden\n\n
+IND_05_22
+Schoenenfabriek\n\n
+IND_05_23
+Metaalbewerkingsbedrijf\n\n
+IND_05_24
+Reparatiebedrijf voor oldtimers\n\n
+IND_05_25
+Opslagtanks voor vloeistoffen\n\n
+IND_05_26
+Gastank\n\n
+IND_05_27
+Aardgas compressorstation\n\n
+IND_05_28
+Drinkwaterzuiveringsinstallatie\n\n
+IND_05_29
+Bronwater bottelarij\n\n
+IND_05_30
+Skateboardfabriek\n\n
+IND_06_01
+Relaisstation van telefoonbedrijf\n\n
+IND_06_02
+Opslag voor bouwmaterialen\n\n
+IND_06_03
+Loods\n\n
+IND_06_04
+APK station\n\n
+IND_06_05
+Pompstation voor stadsverwarming\n\n
+IND_06_06
+ertsenfarm\n\n
+IND_06_07
+Opslag van vluchtige vloeistoffen\n\n
+IND_06_08
+Opslagtanks voor zoutzuur\n\n
+IND_06_09
+Goederenloods\n\n
+IND_06_10
+Champignonkwererij\n\n
+IND_06_11
+Installatie voor waterbehandeling\n\n
+IND_06_12
+Kunstmestfabriek\n\n
+IND_06_13
+Agrarisch researchbedrijf\n\n
+IND_06_14
+Fabriek van papieren luiers\n\n
+IND_06_15
+Leegstaande loods\n\n
+IND_06_17
+Auto-was station\n\n
+IND_06_18
+Opslagloods voor goederen\n\n
+IND_06_22
+Bedrijf voor gekoelde opslag\n\n
+IND_06_25
+Chemisch bedrijf\n\n
+IND_06_27
+Wateropslagtoren\n\n
+IND_06_30
+Koeltoren\n\n
+IND_06_31
+Luciferfabriek\n\n
+IND_06_32
+Balpennenfabriek\n\n
+IND_06_33
+Kleurpotlodenfabriek\n\n
+IND_06_34
+Potlodenfabriek\n\n
+IND_06_35
+Offset drukkerij\n\n
+IND_06_36
+Graansilo\n\n
+IND_06_43
+Fabriek van kantoormaterialen\n\n
+IND_06_44
+Leverancier van kerstpakketten\n\n
+IND_06_45
+Montagefabriek voor elektronische\napparatuur\n\n
+IND_06_46
+Biotechnisch laboratorium\n\n
+IND_06_47
+TV-productie bedrijf\n\n
+IND_06_53
+Gereedschapsfabriek\n\n
+IND_06_54
+Gereedschapsfabriek\n\n
+IND_06_55
+Waterleidingsbedrijf\n\n
+IND_06_56
+Universteitslab.\n\n
+IND_06_57
+Uitgeverij van kinderboeken\n\n
+IND_06_59
+Kleine energiecentrale\n\n
+IND_06_60
+Vuilverbrander/Elektriciteitscentrale\n\n
+IND_07_01
+Relaisstation van telefoniebedrijf\n\n
+IND_07_02
+Transformatorstation\n\n
+IND_07_03
+Houtskoolbedrijf\n\n
+IND_07_04
+Brandstoftank\n\n
+IND_07_09
+Reparatiewerkplaats voor auto's\n\n
+IND_07_10
+Dubbele loods van\nchampignonkweker\n\n
+IND_07_15
+Dierenasiel \n\n
+IND_07_17
+Dierenasiel\n\n
+IND_08_03
+Verwerkingsbedrijf voor afgewerkte olie\n\n
+IND_08_31
+Gereedschapsmakerij\n\n
+IND_08_36
+Vrachtautoshowroom\n\n
+IND_10_01
+Zendmast voor mobiele telefonie\n\n
+IND_10_02
+Zendmast voor mobiele telefonie\n\n
+IND_10_03
+Autosloperij\n\n
+IND_10_04
+Kwekerij van waterplanten\n\n
+IND_10_10
+Reparatiebedrijf voor gemotoriseerde\ngrasmaaiers\n\n
+IND_10_12
+Wasstraat annex reparatiewerkplaats\n\n
+IND_10_13
+Fabriek in aanbouw\n\n
+IND_10_16
+Confectiefabriekje\n\n
+IND_10_17
+Kringloopwinkel\n\n
+IND_10_18
+Electronicafabriekje\n\n
+IND_10_19
+Semiconductor bedrijf\n\n
+IND_10_22
+Fabriek voor HiFi apparatuur\n\n
+IND_10_23
+Frisdrankenfabriek\n\n
+IND_10_24
+Likeurfabriek\n\n
+IND_10_25
+Fabriek van inktcartridges\n\n
+IND_10_26
+Fabriek van diepvriesmaaltijden\n\n
+IND_11_01
+Hout en zand opslag\n\n
+IND_11_16
+TND_11_16\nConfectieatelier\n\n
+IND_11_46
+Hoofdkwartier petrochemisch concern\n\n
+IND_11_47
+Grafisch ontwerpstudio\n\n
+IND_11_48
+Advocaten- en notariskantoor\n\n
+IND_11_49
+Accountantskantoor\n\n
+IND_11_51
+Wetenschappelijke onderzoeksinstelling\n\n
+IND_11_52
+Hoofdkantoor van patato-chipfabriek\n\n
+IND_11_57
+Chocoladefabriek\n\n
+IND_11_58
+Laboratorium voor diergeneeskunde\n\n
+IND_12_16
+Textielfabriekje\n\n
+JUSTICE
+Kantongerech\n\n
+Lighthouse_0
+Vuurtoren\n\n
+Lighthouse_1
+Vuurtoren\n\n
+Long_Goods_Dock
+Goederenhaven
+LuftPost1950_AirportBlg
+Luchtpostkantoor 1950
+MANOR_0
+Landhuis
+MARKET_PLACE_0
+Markt
+medium_classic_bus_stop
+bushalte
+medium_early_bus_stop
+Bushalte met huisje
+medium_modern_bus_stop
+Overdekte bushalte
+MILITARY_RADAR
+Radar-observatiepost
+Modern_Warehouse
+Koelpakhuis
+ModernPostOffice
+Postkantoor
+ModernTrainStop
+Overdekt perron
+MonorailDepot
+Monorail remise
+MonorailFoundation
+Monorailgebouw
+MonorailGround
+Monorailgebouw
+MT_HOTEL_0
+Luxe Hotel
+MUSEUM_0
+Tot Museum omgebouwd kasteel
+OBSERVATORY
+Sterrenwacht
+Old_gate
+Oude stadspoort
+OLD_HOUSE_0
+Historisch pand
+OpenTrainStop
+Niet overdekt perron
+Pagoda01
+Pagode
+PARK_0
+Park met vijver
+parking_(catchemnt_area_ext)1
+Parkeerplaats
+parking_(catchemnt_area_ext)2
+Parkeerplaats
+parking_(catchemnt_area_ext)3
+Parkeerplaats
+Post_Dock
+Posthaven
+PostOffice
+Postkantoor
+PostOffice1920_AirportBlg
+Luchthavengebouw
+Radar3
+Vliegveld-Radar
+RADIO_TOWER_0
+Zendmast
+RES_00_01
+Kleine camping\n\n
+RES_00_02
+Huis met groententuintje\n\n
+RES_00_03
+Buitenhuisje\n\n
+RES_00_04
+Vakantiewoning\n\n
+RES_00_06
+Dubbel woonhuis\n\n
+RES_00_07
+Bar\n\n
+RES_00_08
+Boswachterswoning\n\n
+RES_00_11
+Klein park\n\n
+RES_00_12
+Houten buitenhuis\n\n
+RES_00_13
+Bed and Breakfast\n\n
+RES_00_14
+Kleine bungalow\n\n
+RES_00_15
+Villa in oude stijl\n\n
+RES_00_16
+Openlucht zwembad\n\n
+RES_00_17
+Twee geschakelde woonhuizen\n\n
+RES_00_18
+Appartementgebouw\n\n
+RES_00_19
+Vakwerkhuis\n\n
+RES_00_20
+Een jeugdhostel\n\n
+RES_00_21
+Tot appartementcomplex\nomgebouwd fabrieksgebouw\n\n
+RES_00_22
+Oude villa van locale\nfabrieksdirecteur\n\n
+RES_00_25
+Woonblok met drie verdiepingen\n\n
+RES_00_29
+Middelgroot woonblok\n\n
+RES_00_52
+Standbeeld in parkje\n\n
+RES_00_53
+Standbeeld in parkje\n\n
+RES_00_60
+Standbeeld in parkje\n\n
+RES_01_01
+Klein kampeerterrein\n\n
+RES_01_02
+Plattelandswoning\n\n
+RES_01_03
+Plattelandswoning\n\n
+RES_01_04
+Buitenhuisje\n\n
+RES_01_05
+Duplexwoning\n\n
+RES_01_09
+Plattelandswoning\n\n
+RES_01_10
+Plattelandswoning\n\n
+RES_01_12
+Woonbarakken voor gastarbeiders\n\n
+RES_01_13
+Plattelandsvilla\n\n
+RES_01_14
+Plattelandsvilla\n\n
+RES_01_15
+Plattelandsvilla\n\n
+RES_01_16
+Parkje\n\n
+RES_01_17
+Twee onder één kapwoning\n\n
+RES_01_18
+Luxe villa\n\n
+RES_01_19
+Hotelletje\n\n
+RES_01_21
+Kloostergebouw.\nNu opvangtehuis voor failliet gegane\nSimutraners\n\n
+RES_01_22
+Tuinmanswoning met klimop\n\n
+RES_01_23
+Parkje\n\n
+RES_01_24
+Gerenoveerd kantoorgebouw, nu\nappartementen\n\n
+RES_01_25
+Riant woonhuis\n\n
+RES_01_26
+Vijver met goudvissen\n\n
+RES_01_27
+Flatgebouw\n\n
+RES_01_28
+Sociale huurwoningen\n\n
+RES_01_29
+Appartementengebouw\n\n
+RES_01_30
+Parkje met monument\n\n
+RES_01_31
+Stadsvilla begin 19e eeuw\n\n
+RES_01_33
+Deftig wooncomplex\n\n
+RES_01_34
+Deftig wooncomplex\n\n
+RES_01_35
+Wooncomplex\n\n
+RES_01_37
+Elegante hoekwoning met café\n\n
+RES_01_38
+Appartementsgebouw\n\n
+RES_01_39
+Appartementsgebouw\n\n
+RES_01_41
+Appartementsgebouw\n\n
+RES_01_45
+Appartementsgebouw\n\n
+RES_01_46
+Appartementsgebouw\n\n
+RES_01_49
+Appartementsgebouw\n\n
+RES_01_50
+Goedkoop hotel\n\n
+RES_01_60
+Parkje met standbeeld\n\n
+RES_02_03
+Eenvoudig huisje in het bos\n\n
+RES_02_04
+Klein huis in buitenwijk\n\n
+RES_02_05
+Twee huisjes op één perceel\n\n
+RES_02_09
+Bungalow\n\n
+RES_02_10
+Vakantiewoning\n\n
+RES_02_12
+Kleine bungalow met garage\n\n
+RES_02_13
+Voormalige boerderij, nu luxueus\nvakantiehuis\n\n
+RES_02_14
+Riante woning\n\n
+RES_02_15
+Huis met aanleunwoning\n\n
+RES_02_16
+Hotelletje in de bossen\n\n
+RES_02_17
+Riant woonhuis\n\n
+RES_02_18
+Riant woonhuis\n\n
+RES_02_19
+Huis van een scenarioschrijver\n\n
+RES_02_20
+Woonhuis\n\n
+RES_02_21
+Woonhuis van een psychiater\n\n
+RES_02_22
+Spookachtig huis\n\n
+RES_02_24
+Complex woonhuis\n\n
+RES_02_27
+Universiteitsgebouw met laboratoria\n\n
+RES_02_28
+Vakwerkhuis met marktplaats\n\n
+RES_02_33
+Parkje met buste van Beethoven\n\n
+RES_02_38
+Parkje\n\n
+RES_02_39
+Parkje\n\n
+RES_03_05
+Eenvoudige rijtjeshuizen\n\n
+RES_03_09
+Groepje kleine woningen\n\n
+RES_03_10
+Groot buitenhuis\n\n
+RES_03_13
+Groot buitenhuis\n\n
+RES_03_14
+Comfortabele arbeiderswoning\n\n
+RES_03_15
+Woning met garage\n\n
+RES_03_16
+Ruime familiewoning\n\n
+RES_03_18
+Riant buitenhuis\n\n
+RES_03_19
+Geschakelde woning\n\n
+RES_03_20
+Dijkwoning\n\n
+RES_03_22
+Riante woning met torentje\n\n
+RES_03_27
+Appartementengebouw\n\n
+RES_03_31
+Appartementengebouw\n\n
+RES_03_33
+Parkje met beeld\n\n
+RES_03_34
+Fantasieloos flatgebouw uit de jaren '70\n\n
+RES_03_38
+Parkje\n\n
+RES_03_39
+Fontein met standbeeld\n\n
+RES_04_20
+Huis met Romaanse elementen\n\n
+RES_05_01
+Stacaravan\n\n
+RES_05_02
+Klein buitenhuisje\n\n
+RES_05_03
+Woonbarakken voor seizoenarbeiders\n\n
+RES_05_04
+Vakantiehuis\n\n
+RES_05_05
+Buitenhuisje\n\n
+RES_05_06
+Woonbarak\n\n
+RES_05_07
+Pre-fab woning\n\n
+RES_05_09
+Bungalow\n\n
+RES_05_11
+Visvijver\n\n
+RES_05_12
+Huis met inpandige garage\n\n
+RES_05_13
+Bedrijfswoning\n\n
+RES_05_14
+Vrijstaande woning met garage\n\n
+RES_05_15
+Huis met pannendak\n\n
+RES_05_16
+Riant buitenhuis\n\n
+RES_05_17
+Eenvuodige meergezinswoning\n\n
+RES_05_18
+Appartementgebouw\n\n
+RES_05_19
+Riant huis\n\n
+RES_05_20
+Groot huis met kamers te huur\n\n
+RES_05_21
+Sociale woonflat\n\n
+RES_05_22
+Woning voor tijdelijk verblijf\n\n
+RES_05_24
+Hotel Restaurant\n\n
+RES_05_25
+Comfortabel hotel\n\n
+RES_05_27
+Appartementengebouw\n\n
+RES_05_28
+Appartementengebouw\n\n
+RES_05_30
+Winkel\n\n
+RES_06_01
+Stacaravan\n\n
+RES_06_02
+Buitenhuisje\n\n
+RES_06_03
+Huis met werkplaats\n\n
+RES_06_04
+Klein huis met kleine garage voor\neen kleine auto\n\n
+RES_06_05
+Twee houten woningen\n\n
+RES_06_06
+Dubbel woonhuis\n\n
+RES_06_07
+Buitenhuis\n\n
+RES_06_08
+Vrijstaand huis met tuin\n\n
+RES_06_09
+Boerderij met rieten kap in wording\n\n
+RES_06_10
+Riante bungalow\n\n
+RES_06_11
+Vijver met fontein\n\n
+RES_06_12
+Eenvoudige woning\n\n
+RES_06_13
+Zomerhuis\n\n
+RES_06_14
+Appartementgebouw\n\n
+RES_06_15
+Seniorenwoning in aanbouw\n\n
+RES_06_16
+Huis tijdens renovatie\n\n
+RES_06_17
+Appartementgebouw\n\n
+RES_06_18
+Duplexwoning\n\n
+RES_06_19
+Hotel\n\n
+RES_06_21
+Flatgebouw\n\n
+RES_06_22
+Seniorenappartementen\n\n
+RES_06_24
+Hoekwoning met winkels\n\n
+RES_06_25
+Appartementgebouw\n\n
+RES_06_27
+Flatgebouw\n\n
+RES_06_30
+Winkel met appartementen\n\n
+RES_06_31
+Appartementgebouw\n\n
+RES_06_32
+Appartementgebouw\n\n
+RES_06_33
+Appartementgebouw met balkons\n\n
+RES_06_34
+Flatgebouw\n\n
+RES_06_35
+Flatgebouw met airco's\n\n
+RES_06_36
+Appartementgebouw\n\n
+RES_06_37
+Torenflat\n\n
+RES_06_38
+Dubbele torenflat\n\n
+RES_06_40
+Flatgebouw met luxe appartementen\n\n
+RES_06_41
+Torenflat\n\n
+RES_06_42
+Torenflat met airco's\n\n
+RES_06_43
+Flatgebouw met penthouse\n\n
+RES_06_44
+Torenflat\n\n
+RES_06_48
+Torenflat met penthouse\n\n
+RES_06_52
+Torenflat\n\n
+RES_06_53
+Prestigieus appartemetgebouw\n\n
+RES_06_54
+Simpele torenflat\n\n
+RES_06_55
+Torenflat\n\n
+RES_06_56
+Appartementgebouw met penthouse\n\n
+RES_06_57
+Torenflat\n\n
+RES_06_60
+Futuristisch flatgebouw\n\n
+RES_07_01
+Stacaravan\n\n
+RES_07_02
+Kleine plattelandswoning\n\n
+RES_07_03
+Plattelandswoning\nmet vijver\n\n
+RES_07_04
+Plattelandswoning met kleine garage\n\n
+RES_07_05
+Dubbele plattelandswoning\n\n
+RES_07_06
+Plattelandswoning\n\n
+RES_07_07
+Driedubbel woonhuis\n\n
+RES_07_08
+Plattelandswoning\n met grote garage\n\n
+RES_07_09
+Plattelandswoning\n\n
+RES_07_10
+Plattelandswoning\n\n
+RES_07_12
+Bungalow met moestuin\n\n
+RES_07_13
+Buitenhuis\n\n
+RES_07_14
+Dubbel woonhuis\n\n
+RES_07_15
+Vrijstaand woonhuis\n\n
+RES_07_16
+Huis met tuin en zwembad\n\n
+RES_07_17
+Stenen huis met metalen dak\n\n
+RES_07_18
+Familiehuis\n\n
+RES_07_19
+Bungalow met grote tuin\n\n
+RES_07_21
+Appartementgebouw\n\n
+RES_07_22
+Appartementgebouw\n\n
+RES_07_24
+Appartementgebouw\n\n
+RES_07_25
+Appartementgebouw\n\n
+RES_08_10
+Bungalow met overdekt terras\n\n
+RES_08_11
+Vijver met Japans bruggetje\n\n
+RES_08_12
+Bungalow\n\n
+RES_08_13
+L-vormig woonhuis\n\n
+RES_08_14
+Villa met carport\n\n
+RES_08_15
+Villa\n\n
+RES_08_16
+Buitenhuis\n\n
+RES_08_17
+Appartementgebouw\n\n
+RES_08_18
+Appartementgebouw\n\n
+RES_08_21
+Appartementgebouw\n\n
+RES_08_31
+Appartementgebouw\n\n
+RES_08_32
+Appartementgebouw\n\n
+RES_08_34
+Appartementgebouw\n\n
+RES_08_36
+Appartementgebouw\n\n
+RES_08_43
+Appartementgebouw\n\n
+RES_09_35
+Appartementgebouw\n\n
+RES_10_01
+Plantsoentje\n\n
+RES_10_02
+Buitenhuisje met grote garage\n\n
+RES_10_03
+Experimenteel huis in overstromingsgebied\n\n
+RES_10_05
+Dubbele houten woning\n\n
+RES_10_08
+Bungalow met terras\n\n
+RES_10_09
+Buitenhuis\n\n
+RES_10_10
+Bungalow met carport\n\n
+RES_10_12
+Bungalow\n\n
+RES_10_13
+L-vormig woonhuis\n\n
+RES_10_15
+Appartementgebouw\n\n
+RES_10_16
+Bungalow met aanleunwoning\n\n
+RES_10_17
+Appartementgebouw\n\n
+RES_10_18
+Stadsvilla\n\n
+RES_10_19
+Stadsvilla met dakterras\n\n
+RES_10_21
+Vroegere boswachterswoning met\nschuur\n\n
+RES_10_22
+Woning met huisartsenpraktijk\n\n
+RES_10_24
+Appartementgebouw\n\n
+RES_10_25
+Appartementgebou\n\n
+RES_10_26
+Appartementgebouw\n\n
+RES_10_29
+Design Appartementgebouw\n\n
+RES_10_30
+Appartementgebouw\n\n
+RES_11_03
+Bungalow\n\n
+RES_11_04
+Huis met aanleunwoning\n\n
+RES_11_05
+Dubbel houten woonhuis\n\n
+RES_11_06
+Buitenhuis\n\n
+RES_11_09
+Bungalow met ruime garage\n\n
+RES_11_10
+Woning met verhoogd terras\n\n
+RES_11_12
+Vakantiebungalows\n\n
+RES_11_13
+L-vormig woonhuis\n\n
+RES_11_15
+Huis met aanbouw\n\n
+RES_11_17
+Geschakelde woningen\n\n
+RES_11_18
+Riante woning\n\n
+RES_11_19
+Vakantiehuisje\n\n
+RES_11_20
+Dubbele woning met serre\n\n
+RES_11_21
+Vakwerkhuis\n\n
+RES_11_22
+Villa\n\n
+RES_11_24
+Appartementengebouw\n\n
+RES_11_25
+Drie geschakelde huizen\n\n
+RES_11_29
+Futuristische kubusflat\n\n
+RES_11_30
+Appartementengebouw\n\n
+RES_11_31
+Dubbele flat\n\n
+RES_11_32
+Appartementengebouw\n\n
+RES_11_33
+Kubusflat met zonnecollectoren\n\n
+RES_11_40
+Appartementengebouw\n\n
+RES_11_41
+Appartementengebouw\n\n
+RES_11_45
+Appartementengebouw met penthouse\n\n
+RES_11_46
+Kubusflat\n\n
+RES_11_47
+Appartementengebouw\n\n
+RES_11_50
+Appartementengebouw\n\n
+RES_11_58
+Appartementengebouw\n\n
+RES_11_59
+Appartementengebouw\n\n
+RES_11_60
+Kubusflat\n\n
+RES_12_03
+Modulair huis\n\n
+RES_12_04
+Woning met aangebouwde garage\n\n
+RES_12_09
+C-vormige bungalow\n\n
+RES_12_10
+Bungalow met terras\n\n
+RES_12_12
+Bungalow\n\n
+RES_12_13
+Dubbele woning\n\n
+RES_12_14
+Schoolgebouw\n\n
+RES_12_15
+Bejaardenwoningen\n\n
+RES_12_16
+Woonhuis\n\n
+RES_12_17
+Groepje vakwerkhuizen\n\n
+RES_12_18
+Twee onder één kapwoning\n\n
+RES_12_19
+Appartementen in een voormalige brouwerij\n\n
+RES_12_20
+Appartementengebouw\n\n
+RES_12_21
+Appartementengebouw\n\n
+RES_12_22
+Appartementengebouw\n\n
+RES_12_24
+Appartementengebouw\n\n
+RES_12_25
+Appartementengebouw\n\n
+RES_12_30
+Appartementengebouw\n\n
+RES_12_32
+Appartementengebouw\n\n
+RES_13_12
+Dijkwoning\n\n
+RES_13_13
+Geschakelde bungalow\n\n
+RES_13_14
+Bungalow\n\n
+RES_13_15
+Appartementengebouw\n\n
+RES_13_16
+Zwembad\n\n
+RES_13_17
+Twee onder één kapwoning\n\n
+RES_13_18
+Appartementengebouw\n\n
+RES_13_20
+Appartementengebouw\n\n
+RES_13_21
+Appartementengebouw\n\n
+RES_13_22
+Appartementengebouw\n\n
+RES_13_24
+Appartementengebouw\n\n
+RES_13_25
+Appartementengebouw\n\n
+RES_13_31
+Flatgebouw\n\n
+RES_13_32
+Appartementengebouw\n\n
+RES_13_46
+Kubusflat\n\n
+RES_13_60
+Kubusflat\n\n
+RES_14_13
+Dubbele bungalow\n\n
+RES_14_14
+Appartementgebouw\n\n
+RES_14_16
+Appartementengebouw\n\n
+RES_14_17
+Boswachterswoning\n\n
+RES_14_18
+Appartementengebouw\n\n
+RES_14_20
+Appartementengebouw\n\n
+RES_14_21
+Appartementengebouw\n\n
+RES_14_22
+Appartementengebouw\n\n
+RES_14_24
+Appartementengebouw\n\n
+RES_14_31
+Appartementengebouw\n\n
+RES_15_13
+Dubbele bungalow\n\n
+RES_15_14
+Huis met torentje en groen dak\n\n
+RES_15_16
+Dubbele bungalow\n\n
+RES_15_17
+Voorname villa\n\n
+RES_15_20
+Appartementengebouw\n\n
+RES_15_21
+Appartementengebouw\n\n
+RES_15_22
+Appartementengebouw\n\n
+RES_15_31
+Appartementengebouw\n\n
+RES_16_14
+Buitenhuis\n\n
+RES_16_16
+Appartementengebouw\n\n
+RES_16_20
+Appartementengebouw\n\n
+RES_16_21
+Appartementengebouw\n\n
+RES_17_16
+Appartementengebouw\n\n
+RES_17_20
+Appartementengebouw\n\n
+RES_17_21
+Appartementengebouw\n\n
+rmax_clock_tower
+Klokkentoren\n\n
+rmax_courthouse
+Gerechtsgebouw
+rmax_DenkManualTeam
+Brandende Fakkel\n\nDit monument is voor iedereen\ndie helpt met het\nonderhouden van de wiki, de\nhelp teksten en andere\nhandleidingen, voor iedereen\ndie de geheimen van Simutrans onthult.\n\nDank jullie wel!\n
+rmax_dictator_statue
+Standbeeld voor de Welgezinde\nDictator\n\n
+rmax_fabio_bust
+Buste van Fagonellus Romanus\n\n
+rmax_icarus
+Raketlanceer installatie\n\n
+rmax_mosque
+Moskee\n\n
+ROCK_0
+Restant van uitgedoofde\nvulkaan\n\n
+RUIN_0
+Amusementspark in oud\nkasteel\n\n
+RUIN_1
+Kasteelruine\n\n
+Russian_Cathedral
+Russische kerk\n\n
+Secession_Chapel
+Retraite-kapel
+sh_oasis_seasons
+Oase
+ShipDepot
+Scheepswerf
+ShipStop
+Haven
+small_classic_bus_stop
+Eenvoudige bushalte >1950
+small_early_bus_stop
+Eenvoudige bushalte <1950
+SMALL_MANOR
+Landhuis
+st_benedict_church
+St. Benedict Church\n\nEen van de mooiste kerken in\nsimuworld trekt enorm veel\ntouristen die niet komen voor\neen gebed, maar eerder voor\nde  schilderijen van\nonschatbare waarde.
+ST_PETER
+St. Peter's Kerk\n\nLaat romaanse kerk, gebouwd\nrond 1220. Heeft een\nprachtige koorgalerij,\nfresco's uit de dertiende\neeuw en een goed bewaard\ngebleven mummie van een 300\njaar oude heilige.\nwaarschijnlijk Wilhelm van\nHolbach. Deze mummie ligt in\neen nis in het westelijke schip.\n
+Suspended_Monorail_Bahnhof_Modern
+Monorail Halte
+Terminal1930_AirportBlg
+kleine terminal hal 1930
+Terminal1950_AirportBlg_S
+Kleine terminal 1950
+Tower1920_AirportBlg
+Verkeerstoren 1918
+Tower1930_AirportBlg
+Verkeerstoren 1930
+Tower1950_AirportBlg
+Verkeerstoren 1950
+Tower1990_AirportBlg
+Verkeerstoren 1990
+TrainDepot
+Treindepot
+TrainStop
+Overdekt station
+TramDepot
+Tramremise
+TRIUMPH
+Triomfboog\n\nDeze Arc de Triomphe is opgericht\ndoor Napoleon als blijvende\nherinnering aan zijn gewonnen\nveldslagen. Deze boog is\nspeciaal ontworpen voor\nsimuworld door één van de\nberoemdste architekten in\ndeze wereld genaamd George,\nlater beter bekend geworden\nals Mhz.\n
+TV_TOWER_0
+TV-Toren\n\nDeze toren is eigendom van een\nlokaal TV-station. Behalve dat\ndeze toren als TV-zender\nfunctioneert is het een\ngeliefde plek voor fotografen.\n\n
+TV_TOWER_1
+TV-Zendmast\n\nEén van de hoogste gebouwen\nin Simuworld. Deze toren\nherbergt een gezellig\nrestaurant met gigantische\nramen. Het restaurant\ndraait in\néén uur volledig rond, en biedt\n op deze manier\neen prachtig uitzicht\ngecombineerd met fantastisch\neten. Voor mensen met\nhoogtevrees is deze toren\nechter geen aanrader.\n
+Very_Big_Terminal
+Grote passagiers terminal (3x3)
+VictorianStation
+Stationsgebouw in Victoriaans stijl
+VillageTrainStop
+Kleinsteeds stationsgebouw
+WHEEL
+Reuzenrad
+Windmill
+Windmolen
+WOODEN_CHURCH
+Houten kerkje\n\n
+#__________________________________dummy_info___________________________________
+#__________________________________dummy_info___________________________________
+factory_autoshop3_details
+Auto Dealer
+factory_Saegewerk_details
+Zagerij\n
+#____________________________________factory____________________________________
+#____________________________________factory____________________________________
+autoshop3
+Auto dealer
+bakery
+Bakkerij
+brewery
+Brouwerij
+cannery
+Conservenfabriek
+car_assembly_plant
+Autofabriek
+car_dealer
+Auto dealer
+Cementmill
+Cementfabriek
+chicken_farm
+Kippenfarm
+classical_goods_factory
+Goederenfabriek
+Concretefactory
+Betonfabriek
+cornfield
+Maisveld
+cotton_farm_w_fields
+Katoenplantage
+cow_farm
+Koeienfarm
+dairy
+Melkfabriek
+Druckerei
+Drukkerij
+electronics_factory_new
+Elektronicafabriek
+Erzbergwerk
+IJzererts mijn
+ethanol_plant
+Ethanolfabriek
+fish_pond
+Kweekvijver
+fish_swarm
+Visgrond
+food_processing_plant
+Voedingsmiddelenfabriek
+ForestPlantation
+Productiebos
+Geothermal powerplant_kraftwerk
+Geothermische centrale
+Glass_factory
+Glasfabriek
+grain_farm_w_fields
+Graanboerderij
+grain_mill
+Graanmolen
+MaterialsWholesales
+Bouwmarkt
+meat_packing_plant
+Vleesconservenfabriek
+modern_fuel_station
+Tankstation
+Moebelfabrik
+Meubelfabriek
+Moebelhaus
+Meubelzaak
+Oelbohrinsel
+Boorplatform
+Oelfeld
+Olieveld
+oilkraftwerk
+Electr. centrale/olie
+old_fish_cannery
+Visconservenfabriek
+old_powerplant_kraftwerk
+Kolencentrale
+open_coal_mine
+Steenkoolgroeve
+Papierfabrik
+Papierfabriek
+publisher
+Uitgeverij
+Raffinerie
+Raffinaderij
+Saegewerk
+Houtzagerij
+sand_quarry_dd
+zandgroeve
+shaft_coal_mine
+Kolenmijn
+shaft_coal_mine_small
+Kolenmijn
+sheep_farm
+Schapenfarm
+shopping_mall
+Winkelcentrum
+SolarThermalOne_kraftwerk
+Zonne-energie centrale
+steel_mill
+Staalfabriek
+StirlingThermalCollectorsFarm_kraftwerk
+Sterling Warmtekrachtcentrale
+Stonequarry
+Steengroeve
+supermarket
+Supermarkt
+TANKE1
+Benzinestation
+TANKE2
+Tankstation
+textile_factory
+Textielfabriek
+waste_disposal
+Afvaldepot
+waste_incinerator_kraftwerk
+Vuilverbrander/centrale
+wind_kraftwerk
+Windturbine
+#_____________________________________good______________________________________
+#_____________________________________good______________________________________
+Autos
+auto's
+beer
+bier
+Bretter
+planken
+Bucher
+boeken
+canned_food
+conserven
+Cement
+cement
+Chemicals
+chemicaliën
+Concrete
+beton
+corn
+Mais
+cotton
+katoen
+Eisenerz
+ijzererts
+electronics
+electronica
+Ethanol
+ethanol
+fertilizer
+mest
+fish
+vis
+flour
+meel
+food
+voedsel
+Gasoline
+benzine
+glass
+glas
+goods_
+stukgoederen
+grain
+graan
+Holz
+hout
+Kohle
+steenkool
+meat
+vlees
+milk
+melk
+Moebel
+meubels
+Oel
+olie
+Papier
+papier
+Passagiere
+Passagiers
+Plastik
+plastic
+Sand
+zand
+Stahl
+staal
+Stone
+steen
+textile
+textiel
+waste
+afval
+wool
+wol
+#___________________________________menu_text___________________________________
+#___________________________________menu_text___________________________________
+MONORAILTOOLS
+Monorail-objecten
+#_________________________________program_text__________________________________
+#_________________________________program_text__________________________________
+Build monorail depot
+Bouw monorail remise
+CATEGORY_01
+stukgoederen
+CATEGORY_02
+bulk goederen
+CATEGORY_03
+olie/benzine
+CATEGORY_04
+gekoelde waren
+CATEGORY_05
+vloeibaar voedsel
+CATEGORY_06
+lange goederen
+CATEGORY_07
+boerderijprod.
+monorail vehicle
+Monorailcabine
+Monorailboden
+Monorailgebouw
+Monoraildepot
+Monorail remise
+Monorailhalt
+Monorailstation
+Monorailhalt muss auf\nMonorail liegen!\n
+Halte moet aan een Monorail liggen.
+Monorails are not available yet!
+Monorail nog niet beschikbaar!
+remove monorails
+Verwijder Monorails
+#__________________________________record_text__________________________________
+#__________________________________record_text__________________________________
+New world record for monorails: %.1f km/h by %s.
+Nieuw Monorail snelheidsrecord! %.1f km/h door %s.
+#___________________________________roadsign____________________________________
+#___________________________________roadsign____________________________________
+air_one-way
+Eenrichtingsweg
+airport_oneway
+Eenrichtingssignaal voor taxibaan
+autobahn_classic_entrance
+Begin Snelweg
+autobahn_classic_exit
+Einde Snelweg
+autobahn_modern_entrance
+Begin Snelweg
+autobahn_modern_exit
+Einde Snelweg
+choose_point
+richtingskeuze borden
+choose_signal_monorail
+Keuze seinen
+ChooseSignals
+Keuze seinen
+Classic_ChooseSignals_right
+Perronkeuze Signaal (klassiek)
+Classic_LongSignals_right
+Long Block Signaal (klassiek type)
+Classic_preSignals_right
+Voorsein (klassiek type)
+Classic_Signals_right
+Spoorwegsein (klassiek)
+Early_ChooseSignals_right
+Perronkeuzesein (oud type)
+Early_LongSignals_right
+Long Block Signaal (oud type)
+Early_preSignals_right
+Voorsein (oud type)
+Early_Signals_right
+Sein (oud type)
+EndOfChooseSignals
+Eindsignaal Perronkeuze
+Minimum80
+Snelheidsbord >80
+Modern_ChooseSignals_right
+Perronkeuze Signaal (modern)
+Modern_EndOfChooseSignals_right
+Einde Keuzesignaal (modern)
+Modern_OneWaySignals_right
+Eenrichtingssein (modern type)
+Modern_preSignals_right
+Voorsein (Modern)
+Modern_Signals_right
+Seinpaal (modern type)
+NoEntry
+Eenrichtingsbord
+OneWaySignals
+Eenrichtingssignaal
+preSignal_Monorail
+Monorail Voorsein
+preSignals
+Voorsein
+RoadClosed
+Wegversperring
+Signal_Monorail
+Monorail signaal
+Signals
+Seinen
+traffic_light
+Stoplicht
+#_____________________________________tree______________________________________
+#_____________________________________tree______________________________________
+palm010
+Palmboom
+palm011
+Palmboom
+#____________________________________tunnel_____________________________________
+#____________________________________tunnel_____________________________________
+RailTunnel
+Spoorwegtunnel
+#____________________________________vehicle____________________________________
+#____________________________________vehicle____________________________________
+1Benst134
+Bennhardt B-134 "Pixie"
+1Benst135t
+Bennhardt B-135 "Gremlin"
+1Benst138
+Bennhardt B-138 "Apple pie"
+1Benst162t
+Bennhardt B-162 "Jet"
+1Benst238
+Bennhardt B-238 "Kikvors"
+1Dampflokomotive
+H-Trans 0-4-0T
+20ft_Container_Trailer-128set
+20-voets Goederen Container Aanhanger
+2Diesellokomotive
+H-Trans BR218
+3Bens186t
+Bennhardt B-186 "Citroen"
+3Dampflokomotive
+RVg 0-3-0 - Chippy
+40ft_Container_Trailer
+40-voets Goederen Container Aanhanger
+Airport_express_shuttle
+Luchthaven Express Shuttle Bus
+Autotransportwagen
+Canonball Autotransporter
+BB-TS_Milk_Mack_Trailer
+BlackBox melk oplegger
+Big_Bretterwagen
+Oplegger voor planken
+Big_Erztruck
+Vrachtwagen voor Bulkgoed
+BR-373_Car
+BR-373 Eurostar
+BR-373_Eurostar
+BR-373 Eurostar
+BR-373_FrontCar
+BR-373 Eurostar
+Bretterwagen
+Oplegger voor planken
+Budd_Coach
+Budd RPO (passagierswagen)
+Budd_Lounge
+Budd RPO (passagierswagen met uitkijk)
+Budd_Observation
+Budd Wagon
+Budd_RPO
+Budd RPO (Post)
+Bulk_trailer_0
+Bulk aanhanger
+Bulk_Truck_0
+Volvo 800 Bulkwagen
+Bulk_Truck_2
+Vrachttruck
+Bulk_Truck_3
+Tatra 815 Bulkwagen
+Bulk_Truck_4
+Volvo Bulk Truck
+caboose_1
+RvG Wagen
+caboose_2
+RvG Wagen
+caboose_3
+RvG Wagen
+Car_Tramsport_Trailer_0
+Autotrailer
+Car_Transporter_0
+Autotrailer
+Car_Transporter_1
+Autotrailer
+Car_Waggon_1
+Autowagon
+Car_Waggon_2
+Autowagon
+CB_ALBATROS
+RVg Skoda 498 "Albatros"
+CB_DB-130_8
+Canonball & H-Trans BRAW61000 "Taiga Drum"
+Cement_Carrier_Fast
+cement wagon
+Cement_trailer_0
+Cement Trailer
+Cement_Truck_0
+Vrachtwagen (cement)
+Cement_Waggon_0
+BB-PMNV Cementwagen
+Cement_Waggon_1
+BB-PMNV Cementwagen
+Cementwagen
+SergeS cement wagon
+Concrete_Truck_0
+S.Kroytor beton mixer
+Concrete_Truck_1
+Beton Truck
+Concretewagen
+PMNV betonwagen 12
+Concretewagen_1
+Betonwagen
+Cooling_trailer_0
+Koeltrailer
+Cooling_Truck_0
+Koelvrachtwagen
+Cooling_Truck_1
+Koelvrachtwagen
+Cooling_Truck_2
+Koelvrachtwagen
+Cooling_wagon_0
+Koelwagon
+Cooling_wagon_1
+Koeltrailer
+Cooling_wagon_2
+Koelwagon
+DB_ADm101
+Haru-DB ADm101
+DB_Apmz121
+Haru-DB Apmz121
+DueWAG_GT6_motorwaggon
+Due WAG GT6
+DueWAG_GT6_tailwaggon
+Due WAG GT6 wagon
+E_423
+Sindor E-432 - "Topklas"
+EM400_1
+Sindor-FK EM400
+Express_tender
+Tender
+Fishing_Boat_1
+MHz vistrawler
+Fluid_trailer_0
+Olietrailer
+Fluid_trailer_1
+Olietrailer
+Goods_waggon_3
+Goederenwagon
+Goods_waggon_4
+HS goederenwagon
+Goods_waggon_5
+Gesloten goederenwagon
+Haru_E3_KOMACHI
+Haru E3 "Komachi"
+Holzwagen
+Houtwagon
+MHz-C11C_Bulk_Barge
+Duwboot Bulkgoederen
+MHz-C11C_Wood_Barge
+Duwboot Hout
+MHz-C273U_Cement_Barge
+Cementschip
+MHz-C3P_Post_Barge
+Postboot
+MHz-CC47_Container_Barge
+Containerschip
+MHz-MT7_Milk_Barge
+Melktransportschip
+MHz-OT5_Oil_Barge
+Olietanker
+MHz-P11C_Bulk_Boat
+Duwboot Bulkgoederen
+MHz-P11C_Wood_Boat
+Duwboot Hout
+MHz-R2A_Push-Tug
+Motorcompartiment Duwboot
+Milk_Truck_0
+Melktruck
+Milk_Truck_1
+Melktruck
+Milk_Truck_2
+Melktruck
+mja-volvoVN660
+Volvo VN660
+Passagierwagen
+Canonball BTx 060 2e klas passagierswagon
+Plank_waggon_0
+Plankenwagon
+Plank_waggon_1
+Plankenwagon
+PMNV_Hydrogen_Cruiser
+Waterstof-bus
+PMNV_Milk_Trailer_0
+PMNV aanhangwagen voor melk
+Post_Barge
+Postboot
+Post_waggon_0
+Postwagon
+RVg_Tigress
+RVg Tigress
+S_Kroytor_Ikarus-280_ext
+Ikarus 280 verlenging
+Sail_Post_Ship_0
+Post zeilschip
+Stahlwagen
+Staalwagon
+Stahlwagen_0
+Staalwagon
+Stahlwagen_1
+Staalwagon
+Stahlwagen_2
+Staalwagon
+Stahlwagen_3
+Staalwagon
+Steel_Truck_0
+PMNV Bed Truck (staal)
+Thunder_(rear_engine)
+BB Thunder (eind)
+Thunder_(waggon)
+BB Thunder (tussenstel)
+Vitus-AVECO_Eurocargo_Bretter
+Vitus-Aveco Eurocargo (vrachtwagen planken))
+Vitus-AVECO_Eurocargo_bulk_transporter
+Vitus-Aveco Eurocargo (vrachtwagen zwaar bulk vervoer)
+Vitus-AVECO_Eurocargo_freezing
+Vitus-Aveco Eurocargo (koel vrachtwagen)
+Vitus-AVECO_Eurocargo_transporter
+Vitus-Aveco Eurocargo (vrachtwagen goederen)
+VSYS_Car_Trailer_0
+VSYS heavy cargo trailer - Auto`s en machinerie
+#______________________________________way______________________________________
+#______________________________________way______________________________________
+air_movement_area
+Asfalt Taxibaan
+concrete_sleeper_track
+Spoorrails op betonliggers
+High_quality_track
+Rails voor intercitytreinen
+low_quality_track
+Lage snelheid spoorrails
+old_runway
+Onverharde start/landingsbaan
+old_taxiway
+Onverharde taxibaan
+Powerline
+Hoogspanningsleiding
+river_00
+Rivier (bevaarbaar)
+river_01
+Rivier (bevaarbaar)
+river_02
+Rivier (bevaarbaar)
+river_03
+Rivier
+river_04
+Rivier
+runway_modern
+Start/landingsbaan
+Schwebebahn_p_ground
+Monorail (Grond niveau)
+steel_sleeper_track
+HSL-spoorrails
+Suspended_Monorail_Track
+Hanggedeelte Monorail 
+water_road
+Kanaal
+wooden_sleeper_track
+Spoorrails op bielzen
+#__________________________________way-object___________________________________
+#__________________________________way-object___________________________________
+High_Speed_Catenary
+HSL bovenleiding
+old_catenary
+Bovenleiding Max 110 km/h
+standard_catenary
+Bovenleiding 280 km/h
+Third_Rail_Electrification
+Derde rail stroomgeleider
+Tram_Electrification
+tram bovenleiding
+TrolleyBus_Electrification
+Trolleybus Bovenleiding

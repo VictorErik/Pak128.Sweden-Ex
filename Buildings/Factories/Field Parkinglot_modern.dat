@@ -1,0 +1,84 @@
+# Author: VeS
+#
+# This Dat contains the parking lot fields used by big
+# consumer industries like IKEA, ICA etc.
+#
+# Field 0 = Empty Parking Lot
+# Field 1-4 = Parking lot 1-4
+#
+##############
+
+# Field 0 Empty parking lot
+
+obj=field
+name=Parking_modern_0_empty
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.0
+image[1]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.0
+image[2]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.0
+image[3]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.0
+image[4]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.0
+
+--
+
+# Field 1 parking lot with cars
+
+obj=field
+name=Parking_modern_1
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.1
+image[1]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.1
+image[2]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.1
+image[3]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.1
+image[4]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.1
+
+--
+
+# Field 2 parking lot with cars
+
+obj=field
+name=Parking_modern_2
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.2
+image[1]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.2
+image[2]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.2
+image[3]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.2
+image[4]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.2
+
+--
+
+# Field 3 parking lot with cars
+
+obj=field
+name=Parking_modern_3
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.3
+image[1]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.3
+image[2]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.3
+image[3]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.3
+image[4]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.3
+
+--
+
+# Field 4 parking lot with cars
+
+obj=field
+name=Parking_modern_4
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.4
+image[1]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.4
+image[2]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.4
+image[3]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.4
+image[4]=.././Images/Modular Buildings/Parking Fields/Field_Parkinglot_modern.0.4
+
+--

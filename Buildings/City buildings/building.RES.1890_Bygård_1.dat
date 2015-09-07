@@ -1,0 +1,25 @@
+obj=building
+name=1890_RES_Bygård_1_City
+copyright=VeS
+intro_month=4
+intro_year=1890
+retire_month=1
+retire_year=2500
+#retire_year=1920
+noinfo=1
+noconstruction=0
+type=res
+level=20
+needs_ground=1
+
+# Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.0.0
+BackImage[0][0][0][1][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.0.1
+BackImage[1][0][0][0][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.0.2
+BackImage[1][0][0][1][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.1.0
+BackImage[2][0][0][0][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.1.1
+BackImage[2][0][0][1][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.1.2
+BackImage[3][0][0][0][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.2.0
+BackImage[3][0][0][1][0][0]=.././Images/Normal Buildings/City Buildings/10m_Bygård_1_output.2.1

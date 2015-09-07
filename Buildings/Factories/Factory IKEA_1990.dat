@@ -1,0 +1,347 @@
+Obj=factory
+name=Se_IKEA_1990
+copyright=Ves
+intro_year=1990
+intro_month=1
+retire_year=2500
+retire_month=1
+level=4
+pax_level=6
+climates=rocky,tundra,temperate,mediterran,desert,arctic,tropic
+Location=city
+chance=4
+Productivity=8  
+Range=2  
+MapColor=7
+InputGood[0]=Bucher
+InputCapacity[0]=40 
+InputFactor[0]=100  
+#InputSupplier[0]=1
+
+electricity_boost=500
+passenger_boost=2000
+mail_boost=1000
+
+max_fields=100
+Min_Fields=10
+probability_to_spawn=300
+
+fields[0]=Parking_modern_0_empty
+production_per_field[0]=0
+storage_capacity[0]=10
+spawn_weight[0]=90
+has_snow[0]=0
+
+fields[1]=Parking_modern_1
+production_per_field[1]=0
+storage_capacity[1]=10
+spawn_weight[1]=100
+has_snow[1]=0
+
+fields[2]=Parking_modern_2
+production_per_field[2]=0
+storage_capacity[2]=10
+spawn_weight[2]=100
+has_snow[2]=0
+
+fields[3]=Parking_modern_3
+production_per_field[3]=0
+storage_capacity[3]=10
+spawn_weight[3]=100
+has_snow[3]=0
+
+fields[4]=Parking_modern_4
+production_per_field[4]=0
+storage_capacity[4]=10
+spawn_weight[4]=100
+has_snow[4]=0
+
+
+dims=8,8,4
+
+# Rotation = 0
+
+Backimage[0][0][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][1][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][2][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][3][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[0][4][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[0][5][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[0][6][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[0][0][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.2
+Backimage[0][1][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][2][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][3][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][4][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][5][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[0][6][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[0][0][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][1][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][2][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][3][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][4][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][5][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.2
+Backimage[0][6][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[0][0][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][1][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][2][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][3][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][4][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][5][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.0
+Backimage[0][6][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[0][7][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[0][0][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+Backimage[0][1][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+Backimage[0][2][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][3][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][4][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][5][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][6][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.1
+Backimage[0][7][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[0][0][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[0][1][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[0][2][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][3][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][4][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][5][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.1
+Backimage[0][6][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.3.0
+Backimage[0][7][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.0
+
+Backimage[0][0][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[0][1][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[0][2][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][3][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[0][4][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.0
+Backimage[0][5][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+Backimage[0][6][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.1
+Backimage[0][7][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[0][0][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[0][1][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[0][2][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.2
+Backimage[0][3][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.2
+Backimage[0][4][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[0][5][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+Backimage[0][6][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+
+# Rotation = 1
+
+Backimage[1][0][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][1][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][2][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][3][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][4][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][5][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][6][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][7][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+
+Backimage[1][0][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][1][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][2][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][3][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[1][4][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][5][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][6][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][7][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+
+Backimage[1][0][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][1][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][2][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][3][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][4][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][5][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][6][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][7][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.0
+
+Backimage[1][0][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][1][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][2][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][3][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][4][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][5][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][6][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][7][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.6
+
+Backimage[1][0][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[1][1][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.0
+Backimage[1][2][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][3][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][4][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][5][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][6][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][7][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+
+Backimage[1][0][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+Backimage[1][1][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+Backimage[1][2][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.1
+Backimage[1][3][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][4][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[1][5][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.2
+Backimage[1][6][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[1][7][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+
+Backimage[1][0][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[1][1][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[1][2][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.3.1
+Backimage[1][3][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.1
+Backimage[1][4][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[1][5][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[1][6][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[1][7][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[1][1][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[1][2][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.1
+Backimage[1][3][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[1][4][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+# Rotation = 2
+
+
+Backimage[2][1][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][2][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+Backimage[2][3][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[2][4][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][5][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][6][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[2][7][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+
+Backimage[2][0][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][1][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][2][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+Backimage[2][3][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][4][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][5][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][6][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[2][7][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+
+Backimage[2][0][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][1][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.3.0
+Backimage[2][2][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.1
+Backimage[2][3][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][4][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][5][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][6][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[2][7][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+
+Backimage[2][0][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][1][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.1
+Backimage[2][2][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][3][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][4][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][5][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][6][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+Backimage[2][7][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+
+Backimage[2][0][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][1][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][2][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][3][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][4][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][5][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][6][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][7][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+
+
+Backimage[2][1][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][2][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][3][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][4][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][5][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][6][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][7][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+
+
+Backimage[2][1][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][2][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[2][3][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][4][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][5][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][6][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][7][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+
+
+Backimage[2][1][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[2][2][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[2][3][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+Backimage[2][4][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.6
+Backimage[2][5][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.0
+Backimage[2][6][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[2][7][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+
+# Rotation = 3
+
+
+Backimage[3][3][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[3][4][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[3][5][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[3][6][0][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+
+Backimage[3][0][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[3][1][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[3][2][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[3][3][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+Backimage[3][4][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.1
+Backimage[3][5][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.3.1
+Backimage[3][6][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.0
+Backimage[3][7][1][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.4.2
+
+Backimage[3][0][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][1][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][2][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][3][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][4][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][5][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.1
+Backimage[3][6][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+Backimage[3][7][2][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.5
+
+Backimage[3][0][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][1][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][2][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][3][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][4][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][5][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][6][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.0
+Backimage[3][7][3][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.6
+
+Backimage[3][0][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][1][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][2][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][3][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][4][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][5][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][6][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][7][4][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.2
+
+Backimage[3][0][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][1][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][2][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][3][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][4][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][5][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][6][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][7][5][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.2.2
+
+Backimage[3][0][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][1][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][2][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][3][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][4][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+Backimage[3][5][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+Backimage[3][6][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+Backimage[3][7][6][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+
+Backimage[3][0][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][1][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][2][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][3][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.0.0
+Backimage[3][4][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.0
+Backimage[3][5][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[3][6][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
+Backimage[3][7][7][0][0][0]=.././Images/Modular Buildings/IKEA/IKEA.1.2
