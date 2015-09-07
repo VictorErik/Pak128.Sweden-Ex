@@ -8,7 +8,8 @@ Pak128.Sweden-Ex is a graphics set (pak) for Simutrans Experiemental. It require
 
 
 HOW TO PAK FILES
-Using the "Pak128.Sweden-Ex.bat", you need to put the S.E. "Makeobj.exe" in the same folder as this "Readme.txt" is located. Then just press the "Pak128.Sweden-Ex.bat" and it should pak itself.
+Using the "Pak128.Sweden-Ex.bat", you need to put the S.E. "Makeobj.exe" (found in the S.E. root folder) in the same folder as this "Readme.txt" is located. Then just press the "Pak128.Sweden-Ex.bat" and it should pak itself.
+Put the newly created folder "Pak128.Sweden-Ex" containing all the .pak-files into you existing S.E. root folder.
 
 
 COMPATIBILITY
