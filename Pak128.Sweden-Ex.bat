@@ -9,12 +9,29 @@ echo folder as this file pak128.bat.
 echo.
 if not exist .\makeobj.exe goto abort
 
-
 md Pak128.Sweden-Ex
-
 del err.txt
 
+rem delete old data
+
+cd Pak128.Sweden-Ex
+del *.pak
+del config\*.tab
+del text\*.tab
+del text\*.txt
+del text\*.zip
+del doc\*.txt
+del sound\*.wav
+del sound\*.tab
+
+cd ..
+
+
+
 xcopy /E Text\*.* Pak128.Sweden-Ex\
+
+echo Packing Misc-files
+echo ==================
 
 CD base\Big Logo
 ..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/symbol.biglogo.pak ./ >>..\..\err.txt
@@ -37,11 +54,17 @@ del *.pak
 CD ..
 CD ..
 
+echo Packing Good
+echo ============
+
 rem packing Good
 CD Good
 ..\makeobj PAK128 ../Pak128.Sweden-Ex/misc.Se_goods.pak ./ >>..\err.txt
 CD ..
 
+
+echo Packing Landscape
+echo =================
 rem packing Landskape
 CD Landscape\Grounds
 ..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/ground.Outside.pak ./ >>..\..\err.txt
@@ -56,6 +79,9 @@ CD ..\Trees
 CD ..
 CD ..
 
+
+echo Packing Ways
+echo ============
 rem packing ways
 
 CD Way\Crossings
@@ -87,6 +113,8 @@ CD ..
 CD ..
 CD ..
 
+echo Packing Buildings
+echo =================
 rem packing Buildings
 
 CD Buildings\City Buildings
@@ -115,6 +143,8 @@ del *.pak
 CD ..
 CD ..
 
+echo Packing Vehicles
+echo ================
 rem packing vehicles
 
 CD Vehicles\Rail Vehicles\Goodscars
@@ -138,8 +168,10 @@ rem Other types of vehicles here!!!
 
 CD ..
 
+echo =====
+echo DONE!
+echo =====
 
-echo DONE
 goto end
 
 :abort

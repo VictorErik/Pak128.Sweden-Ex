@@ -1,0 +1,4931 @@
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/symbol.biglogo.pak
+   reading file ./symbol.biglogo.dat
+      packing symbol.BigLogo
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 64x64
+writing invidual files to ../Misc_GUI/
+   reading file ./menu.dat
+   writing file ../Misc_GUI/menu.GeneralTools.pak
+      packing menu.GeneralTools
+   writing file ../Misc_GUI/menu.SimpleTools.pak
+      packing menu.SimpleTools
+   writing file ../Misc_GUI/menu.DialogeTools.pak
+      packing menu.DialogeTools
+   writing file ../Misc_GUI/menu.BarTools.pak
+      packing menu.BarTools
+   reading file ./Symbol.dat
+   writing file ../Misc_GUI/symbol.Builder.pak
+      packing symbol.Builder
+   writing file ../Misc_GUI/symbol.Logo.pak
+      packing symbol.Logo
+   writing file ../Misc_GUI/symbol.Flags.pak
+      packing symbol.Flags
+   writing file ../Misc_GUI/symbol.Message.pak
+      packing symbol.Message
+   writing file ../Misc_GUI/symbol.NewWorld.pak
+      packing symbol.NewWorld
+   writing file ../Misc_GUI/symbol.NewYear.pak
+      packing symbol.NewYear
+   writing file ../Misc_GUI/symbol.Builder.pak
+      packing symbol.Builder
+   writing file ../Misc_GUI/symbol.InTown.pak
+      packing symbol.InTown
+   writing file ../Misc_GUI/symbol.BusStop.pak
+      packing symbol.BusStop
+   writing file ../Misc_GUI/symbol.TrainStop.pak
+      packing symbol.TrainStop
+   writing file ../Misc_GUI/symbol.CarStop.pak
+      packing symbol.CarStop
+   writing file ../Misc_GUI/symbol.ShipStop.pak
+      packing symbol.ShipStop
+   writing file ../Misc_GUI/symbol.AirStop.pak
+      packing symbol.AirStop
+   writing file ../Misc_GUI/symbol.MonorailStop.pak
+      packing symbol.MonorailStop
+   writing file ../Misc_GUI/symbol.Electricity.pak
+      packing symbol.Electricity
+   writing file ../Misc_GUI/symbol.Passagiere.pak
+      packing symbol.Passagiere
+   writing file ../Misc_GUI/symbol.Post.pak
+      packing symbol.Post
+   writing file ../Misc_GUI/symbol.Waren.pak
+      packing symbol.Waren
+   writing file ../Misc_GUI/symbol.MessageOptions.pak
+      packing symbol.MessageOptions
+   writing file ../Misc_GUI/symbol.TramStop.pak
+      packing symbol.TramStop
+   writing file ../Misc_GUI/symbol.Seasons.pak
+      packing symbol.Seasons
+   writing file ../Misc_GUI/symbol.ColorOptions.pak
+      packing symbol.ColorOptions
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./construction.dat
+   writing file ./misc.Construction.pak
+      packing misc.Construction
+   reading file ./Cursor.dat
+   writing file ./cursor.Query.pak
+      packing cursor.Query
+   writing file ./cursor.Signal.pak
+      packing cursor.Signal
+   writing file ./cursor.Down.pak
+      packing cursor.Down
+   writing file ./cursor.Up.pak
+      packing cursor.Up
+   writing file ./cursor.Marked.pak
+      packing cursor.Marked
+   writing file ./cursor.Remove.pak
+      packing cursor.Remove
+   writing file ./cursor.Mouse.pak
+      packing cursor.Mouse
+   writing file ./cursor.Schedule.pak
+      packing cursor.Schedule
+   writing file ./cursor.ShipDepotNS.pak
+      packing cursor.ShipDepotNS
+   writing file ./cursor.ShipDepotEW.pak
+      packing cursor.ShipDepotEW
+   writing file ./cursor.Undocumented.pak
+      packing cursor.Undocumented
+   writing file ./cursor.Slope.pak
+      packing cursor.Slope
+   writing file ./cursor.Baum.pak
+      packing cursor.Baum
+   writing file ./cursor.City.pak
+      packing cursor.City
+   writing file ./cursor.Builder.pak
+      packing cursor.Builder
+   writing file ./cursor.GeneralTools.pak
+      packing cursor.GeneralTools
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../Pak128.Sweden-Ex/misc.Se_goods.pak
+   reading file ./good.dat
+      packing good.Passagiere
+      packing good.Post
+      packing good.livestock
+      packing good.None
+      packing good.Autos
+      packing good.FreshFish
+      packing good.Kohle
+      packing good.Eisenerz
+      packing good.woodchip
+      packing good.Stone
+      packing good.clay
+      packing good.Cement
+      packing good.grain
+      packing good.Bucher
+      packing good.fruit
+      packing good.vegetables
+      packing good.newspaper
+      packing good.hardware
+      packing good.Moebel
+      packing good.textile
+      packing good.flour
+      packing good.beer
+      packing good.cider
+      packing good.pharmaceuticals
+      packing good.Plastik
+      packing good.Papier
+      packing good.wool
+      packing good.china
+      packing good.bricks
+      packing good.canned_food
+      packing good.Stahl
+      packing good.Bretter
+      packing good.Oel
+      packing good.Gasoline
+      packing good.FuelOil
+      packing good.Chemicals
+      packing good.meat
+      packing good.fish
+      packing good.milk
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/ground.Outside.pak
+   reading file ./basement.dat
+      packing ground.Basement
+   reading file ./fences.dat
+      packing ground.Fence
+   reading file ./marker.dat
+      packing ground.Marker
+   reading file ./outside.dat
+      packing ground.Outside
+   reading file ./sidewalk.dat
+      packing misc.Sidewalk
+   reading file ./slope.dat
+      packing ground.Slopes
+   reading file ./TextureGrounds.dat
+      packing ground.LightTexture
+      packing ground.ClimateTexture
+      packing ground.ShoreTrans
+      packing ground.SlopeTrans
+      packing ground.Borders
+   reading file ./water_ani.dat
+      packing ground.Water
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_Rivers.pak
+   reading file ./River.dat
+      packing way.river_04
+      packing way.river_03
+      packing way.river_02
+      packing way.river_01
+      packing way.river_00
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_Trees.pak
+   reading file ./tree133.dat
+      packing tree.tree133
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_Crossings.pak
+   reading file ./Crossing_1.dat
+      packing crossing.STAX30_track_90kmt_road
+      packing crossing.STAX30_track_70kmt_road
+      packing crossing.CrossingRoadWater
+      packing crossing.CrossingTrackWater
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_AirWays.pak
+   reading file ./Taxibana.dat
+      packing way.Taxiway
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_MaglevWays.pak
+   reading file ./Stadsväg_50.dat
+      packing way.Maglevtrack
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_MonorailWays.pak
+   reading file ./Stadsväg_50.dat
+      packing way.monorailtrack
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_NarrowgaugeWays.pak
+   reading file ./Stadsväg_50.dat
+      packing way.Narrowgaugerail
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_Powerlines.pak
+   reading file ./Stadsväg_50.dat
+      packing way.Narrowgaugerail
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_RailWays.pak
+   reading file ./Räls_Singleheights.dat
+      packing way.Räls_1
+      packing way.Räls_1_br
+      packing way.Räls_2
+      packing way.Räls_2_br
+      packing way.Räls_3
+      packing way.Räls_3_br
+      packing way.Räls_4
+      packing way.Räls_4_br
+      packing way.Räls_5
+      packing way.Räls_5_br
+      packing way.Räls_6
+      packing way.Räls_6_br
+      packing way.Räls_7
+      packing way.Räls_7_br
+      packing way.Räls_8
+      packing way.Räls_8_br
+      packing way.Räls_9
+      packing way.Räls_9_br
+      packing way.Räls_10
+      packing way.Räls_10_br
+      packing way.Räls_11
+      packing way.Räls_11_br
+      packing way.Räls_12
+      packing way.Räls_12_br
+      packing way.Räls_13
+      packing way.Räls_13_br
+      packing way.Räls_14
+      packing way.Räls_14_br
+      packing way.Räls_15
+      packing way.Räls_15_br
+      packing way.Räls_16
+      packing way.Räls_16_br
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_RoadWays.pak
+   reading file ./Landsväg_70.dat
+      packing way.Se_70_road
+   reading file ./Landsväg_90.dat
+      packing way.Se_90_road
+   reading file ./Stadsväg_50.dat
+      packing way.Se_50_road
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/way.Se_SeaWays.pak
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../../Pak128.Sweden-Ex/wayobj.Se_Catenarys.pak
+   reading file ./Luftledning_Gammal.dat
+      packing way-object.Se_Luftledning_Gammal
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../../Pak128.Sweden-Ex/wayobj.Se_RailSignals.pak
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../../Pak128.Sweden-Ex/wayobj.Se_Streetsigns.pak
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing file ../../Pak128.Sweden-Ex/building.Se_Citybuildings.pak
+   reading file ./building.RES.1700_Trästuga.dat
+      packing building.Se_1700_RES_Stuga_1
+   reading file ./building.RES.1890_Bygård_1.dat
+      packing building.1890_RES_Bygård_1_City
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./Factory IKEA_1990.dat
+   writing file ./factory.Se_IKEA_1990.pak
+      packing factory.Se_IKEA_1990
+   reading file ./Factory Test_Brick_factory_1.dat
+   writing file ./factory.Se_Test_brick_1.pak
+      packing factory.Se_Test_brick_1
+   writing file ./factory.Se_Test_brick_2.pak
+      packing factory.Se_Test_brick_2
+   writing file ./factory.Se_Test_brick_3.pak
+      packing factory.Se_Test_brick_3
+   writing file ./factory.Se_Test_brick_4.pak
+      packing factory.Se_Test_brick_4
+   writing file ./factory.Se_Test_brick_5.pak
+      packing factory.Se_Test_brick_5
+   reading file ./Factory Test_Brick_factory_2.dat
+   writing file ./factory.Se_Test_brick_1_2.pak
+      packing factory.Se_Test_brick_1_2
+   writing file ./factory.Se_Test_brick_2_2.pak
+      packing factory.Se_Test_brick_2_2
+   writing file ./factory.Se_Test_brick_3_2.pak
+      packing factory.Se_Test_brick_3_2
+   writing file ./factory.Se_Test_brick_4_2.pak
+      packing factory.Se_Test_brick_4_2
+   writing file ./factory.Se_Test_brick_5_2.pak
+      packing factory.Se_Test_brick_5_2
+   reading file ./Factory Test_Concrete_Mines-Silos_1.dat
+   writing file ./factory.Se_Test_Concrete_1.pak
+      packing factory.Se_Test_Concrete_1
+   writing file ./factory.Se_Test_Concrete_2.pak
+      packing factory.Se_Test_Concrete_2
+   writing file ./factory.Se_Test_Concrete_3.pak
+      packing factory.Se_Test_Concrete_3
+   writing file ./factory.Se_Test_Concrete_4.pak
+      packing factory.Se_Test_Concrete_4
+   reading file ./Field Parkinglot_modern.dat
+   writing file ./field.Parking_modern_0_empty.pak
+      packing field.Parking_modern_0_empty
+   writing file ./field.Parking_modern_1.pak
+      packing field.Parking_modern_1
+   writing file ./field.Parking_modern_2.pak
+      packing field.Parking_modern_2
+   writing file ./field.Parking_modern_3.pak
+      packing field.Parking_modern_3
+   writing file ./field.Parking_modern_4.pak
+      packing field.Parking_modern_4
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+writing file ../../Pak128.Sweden-Ex/building.Se_Fields.pak
+   copying file field.Parking_modern_0_empty.pak
+   copying file field.Parking_modern_1.pak
+   copying file field.Parking_modern_2.pak
+   copying file field.Parking_modern_3.pak
+   copying file field.Parking_modern_4.pak
+WARNING: file or dir ./ not found
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+writing file ../../Pak128.Sweden-Ex/building.Se_Factories.pak
+   copying file factory.Se_IKEA_1990.pak
+   copying file factory.Se_Test_brick_1.pak
+   copying file factory.Se_Test_brick_1_2.pak
+   copying file factory.Se_Test_brick_2.pak
+   copying file factory.Se_Test_brick_2_2.pak
+   copying file factory.Se_Test_brick_3.pak
+   copying file factory.Se_Test_brick_3_2.pak
+   copying file factory.Se_Test_brick_4.pak
+   copying file factory.Se_Test_brick_4_2.pak
+   copying file factory.Se_Test_brick_5.pak
+   copying file factory.Se_Test_brick_5_2.pak
+   copying file factory.Se_Test_Concrete_1.pak
+   copying file factory.Se_Test_Concrete_2.pak
+   copying file factory.Se_Test_Concrete_3.pak
+   copying file factory.Se_Test_Concrete_4.pak
+WARNING: file or dir ./ not found
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./Depot_Air.dat
+   writing file ./building.Se_AirDepot_1.pak
+      packing building.Se_AirDepot_1
+   reading file ./Depot_Maglev.dat
+   writing file ./building.Se_MaglevDepot_1.pak
+      packing building.Se_MaglevDepot_1
+   reading file ./Depot_Monorail.dat
+   writing file ./building.Se_MonorailDepot_1.pak
+      packing building.Se_MonorailDepot_1
+   reading file ./Depot_Narrowgauge.dat
+   writing file ./building.Se_NarrowgaugeDepot_1.pak
+      packing building.Se_NarrowgaugeDepot_1
+   reading file ./Depot_Rail.dat
+   writing file ./building.Se_RailDepot_1.pak
+      packing building.Se_RailDepot_1
+   reading file ./Depot_Road.dat
+   writing file ./building.Se_RoadDepot_1.pak
+      packing building.Se_RoadDepot_1
+   reading file ./Depot_Sea.dat
+   writing file ./building.Se_SeaDepot_1.pak
+      packing building.Se_SeaDepot_1
+   reading file ./Depot_Tramway.dat
+   writing file ./building.Se_tramwayDepot_1.pak
+      packing building.Se_tramwayDepot_1
+   reading file ./Ext_Betongplatta.dat
+   writing file ./building.Se_Extension_Concreteplatform.pak
+      packing building.Se_Extension_Concreteplatform
+   reading file ./Ext_Medium_Station_1.dat
+   writing file ./building.Se_Extension_Medium_Station_1.pak
+      packing building.Se_Extension_Medium_Station_1
+   reading file ./Station_Betongplatform.dat
+   writing file ./building.Se_Station_Concreteplatform.pak
+      packing building.Se_Station_Concreteplatform
+   reading file ./Station_Lastramp_av_jord.dat
+   writing file ./building.Se_Station_dirtplatform.pak
+      packing building.Se_Station_dirtplatform
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+writing file ../../Pak128.Sweden-Ex/building.Se_Depots.pak
+   copying file building.Se_AirDepot_1.pak
+   copying file building.Se_MaglevDepot_1.pak
+   copying file building.Se_MonorailDepot_1.pak
+   copying file building.Se_NarrowgaugeDepot_1.pak
+   copying file building.Se_RailDepot_1.pak
+   copying file building.Se_RoadDepot_1.pak
+   copying file building.Se_SeaDepot_1.pak
+   copying file building.Se_tramwayDepot_1.pak
+WARNING: file or dir ./ not found
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+writing file ../../Pak128.Sweden-Ex/building.Se_Stations.pak
+   copying file building.Se_Extension_Medium_Station_1.pak
+   copying file building.Se_Station_Concreteplatform.pak
+   copying file building.Se_Station_dirtplatform.pak
+WARNING: file or dir ./ not found
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+writing file ../../Pak128.Sweden-Ex/building.Se_Extensions.pak
+   copying file building.Se_Extension_Concreteplatform.pak
+   copying file building.Se_Extension_Medium_Station_1.pak
+WARNING: file or dir ./ not found
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./Townhall.dat
+   writing file ./building.Se_Townhall_01.pak
+      packing building.Se_Townhall_01
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+writing file ../../Pak128.Sweden-Ex/building.Se_Townhalls.pak
+   copying file building.Se_Townhall_01.pak
+WARNING: file or dir ./ not found
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ../Passengercars/
+   reading file ./G.dat
+   writing file ../Passengercars/vehicle.Se_G4_1860_Piece_Nobrake.pak
+      packing vehicle.Se_G4_1860_Piece_Nobrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_G4_1860_Piece_Screwbrake.pak
+      packing vehicle.Se_G4_1860_Piece_Screwbrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_G1_1880_Piece_Nobrake.pak
+      packing vehicle.Se_G1_1880_Piece_Nobrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_G1_1880_Piece_Screwbrake.pak
+      packing vehicle.Se_G1_1880_Piece_Screwbrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_G3_1890_Piece_Nobrake.pak
+      packing vehicle.Se_G3_1890_Piece_Nobrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_G3_1910_Piece_Screwbrake.pak
+      packing vehicle.Se_G3_1910_Piece_Screwbrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_G5_1910_Animal_Screwbrake.pak
+      packing vehicle.Se_G5_1910_Animal_Screwbrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Grh_1920_Piece.pak
+      packing vehicle.Se_Grh_1920_Piece
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_G_1930_Piece.pak
+      packing vehicle.Se_G_1930_Piece
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading emptyimage[s][4]
+Reading emptyimage[s][5]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[s][3]
+Appending emptyimage[s][4]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[w][3]
+Appending emptyimage[w][4]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[sw][3]
+Appending emptyimage[sw][4]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[se][3]
+Appending emptyimage[se][4]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[n][3]
+Appending emptyimage[n][4]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[e][3]
+Appending emptyimage[e][4]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[ne][3]
+Appending emptyimage[ne][4]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Appending emptyimage[nw][3]
+Appending emptyimage[nw][4]
+Writing 40 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Grf_1950_Cool.pak
+      packing vehicle.Se_Grf_1950_Cool
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading emptyimage[s][4]
+Reading emptyimage[s][5]
+Reading emptyimage[s][6]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[s][3]
+Appending emptyimage[s][4]
+Appending emptyimage[s][5]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[w][3]
+Appending emptyimage[w][4]
+Appending emptyimage[w][5]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[sw][3]
+Appending emptyimage[sw][4]
+Appending emptyimage[sw][5]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[se][3]
+Appending emptyimage[se][4]
+Appending emptyimage[se][5]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[n][3]
+Appending emptyimage[n][4]
+Appending emptyimage[n][5]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[e][3]
+Appending emptyimage[e][4]
+Appending emptyimage[e][5]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[ne][3]
+Appending emptyimage[ne][4]
+Appending emptyimage[ne][5]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Appending emptyimage[nw][3]
+Appending emptyimage[nw][4]
+Appending emptyimage[nw][5]
+Writing 48 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Ge_1950_Piece.pak
+      packing vehicle.Se_Ge_1950_Piece
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gre_1960_piece.pak
+      packing vehicle.Se_Gre_1960_piece
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading emptyimage[s][4]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[s][3]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[w][3]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[sw][3]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[se][3]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[n][3]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[e][3]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[ne][3]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Appending emptyimage[nw][3]
+Writing 32 multiple livery empty images
+   reading file ./Gs.dat
+   writing file ../Passengercars/vehicle.Se_Gs_1910_Piece_G1G3nb.pak
+      packing vehicle.Se_Gs_1910_Piece_G1G3nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gs_1910_Piece_G1G3.pak
+      packing vehicle.Se_Gs_1910_Piece_G1G3
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gs_1910_Piece_G4nb.pak
+      packing vehicle.Se_Gs_1910_Piece_G4nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gs_1910_Piece_G4.pak
+      packing vehicle.Se_Gs_1910_Piece_G4
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsh_1910_Livestock_G1G3nb.pak
+      packing vehicle.Se_Gsh_1910_Livestock_G1G3nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsh_1910_Livestock_G1G3.pak
+      packing vehicle.Se_Gsh_1910_Livestock_G1G3
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsh_1910_Livestock_G4nb.pak
+      packing vehicle.Se_Gsh_1910_Livestock_G4nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsh_1910_Livestock_G4.pak
+      packing vehicle.Se_Gsh_1910_Livestock_G4
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsk_1910_Cool_G1G3nb.pak
+      packing vehicle.Se_Gsk_1910_Cool_G1G3nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsk_1910_Cool_G1G3.pak
+      packing vehicle.Se_Gsk_1910_Cool_G1G3
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsk_1910_Cool_G4nb.pak
+      packing vehicle.Se_Gsk_1910_Cool_G4nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsk_1910_Cool_G4.pak
+      packing vehicle.Se_Gsk_1910_Cool_G4
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsö_1910_Bulk_G1G3nb.pak
+      packing vehicle.Se_Gsö_1910_Bulk_G1G3nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsö_1910_Bulk_G1G3.pak
+      packing vehicle.Se_Gsö_1910_Bulk_G1G3
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsö_1910_Bulk_G4nb.pak
+      packing vehicle.Se_Gsö_1910_Bulk_G4nb
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Gsö_1910_Bulk_G4.pak
+      packing vehicle.Se_Gsö_1910_Bulk_G4
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./H.dat
+   writing file ../Passengercars/vehicle.Se_H1_1860_Cool_Nobrake.pak
+      packing vehicle.Se_H1_1860_Cool_Nobrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_H1_1890_Cool_Screwbrake.pak
+      packing vehicle.Se_H1_1890_Cool_Screwbrake
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_H3_1910_cool.pak
+      packing vehicle.Se_H3_1910_cool
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./M.dat
+   writing file ../Passengercars/vehicle.Se_M1_1880.pak
+      packing vehicle.Se_M1_1880
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Mas_1940.pak
+      packing vehicle.Se_Mas_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ../Passengercars/
+   reading file ./D.dat
+   writing file ../Passengercars/vehicle.Se_Ds_1920.pak
+      packing vehicle.Se_Ds_1920
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Dg_1920.pak
+      packing vehicle.Se_Dg_1920
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Ds_1930.pak
+      packing vehicle.Se_Ds_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Dg_1930.pak
+      packing vehicle.Se_Dg_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Du_1950.pak
+      packing vehicle.Se_Du_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Da_1950.pak
+      packing vehicle.Se_Da_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Dm(a)_1950.pak
+      packing vehicle.Se_Dm(a)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Dm(b)_1950.pak
+      packing vehicle.Se_Dm(b)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Dm3_1960.pak
+      packing vehicle.Se_Dm3_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./F.dat
+   writing file ../Passengercars/vehicle.Se_F_1940.pak
+      packing vehicle.Se_F_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./Oa.dat
+   writing file ../Passengercars/vehicle.Se_Oa(a)_1910.pak
+      packing vehicle.Se_Oa(a)_1910
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Oa(b)_1910.pak
+      packing vehicle.Se_Oa(b)_1910
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Oa(a)_1930.pak
+      packing vehicle.Se_Oa(a)_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Oa(b)_1930.pak
+      packing vehicle.Se_Oa(b)_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./Pa.dat
+   writing file ../Passengercars/vehicle.Se_Pa_1910.pak
+      packing vehicle.Se_Pa_1910
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Pa_1930.pak
+      packing vehicle.Se_Pa_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./Ra.dat
+   writing file ../Passengercars/vehicle.Se_Ra_1950.pak
+      packing vehicle.Se_Ra_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Ra_1960.pak
+      packing vehicle.Se_Ra_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   reading file ./Rb.dat
+   writing file ../Passengercars/vehicle.Se_Rb_1960.pak
+      packing vehicle.Se_Rb_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./Rc.dat
+   writing file ../Passengercars/vehicle.Se_Rc1_1960.pak
+      packing vehicle.Se_Rc1_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc3_1970.pak
+      packing vehicle.Se_Rc3_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc4_1970.pak
+      packing vehicle.Se_Rc4_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc6_1980.pak
+      packing vehicle.Se_Rc6_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc1_1990.pak
+      packing vehicle.Se_Rc1_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc3_1990.pak
+      packing vehicle.Se_Rc3_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 0 single livery empty images
+Writing 0 single type single livery freight images
+WARNING: More livery types (0) than liveries (0)!
+   writing file ../Passengercars/vehicle.Se_Rc4_1990.pak
+      packing vehicle.Se_Rc4_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc6_1990.pak
+      packing vehicle.Se_Rc6_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc4_2000.pak
+      packing vehicle.Se_Rc4_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc6_2000.pak
+      packing vehicle.Se_Rc6_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc7_2000.pak
+      packing vehicle.Se_Rc7_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Rc1_1960_SMS.pak
+      packing vehicle.Se_Rc1_1960_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc3_1970_SMS.pak
+      packing vehicle.Se_Rc3_1970_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc4_1970_SMS.pak
+      packing vehicle.Se_Rc4_1970_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc6_1980_SMS.pak
+      packing vehicle.Se_Rc6_1980_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc1_1990_SMS.pak
+      packing vehicle.Se_Rc1_1990_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc3_1990_SMS.pak
+      packing vehicle.Se_Rc3_1990_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 0 single livery empty images
+Writing 0 single type single livery freight images
+WARNING: More livery types (0) than liveries (0)!
+   writing file ../Passengercars/vehicle.Se_Rc4_1990_SMS.pak
+      packing vehicle.Se_Rc4_1990_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc6_1990_SMS.pak
+      packing vehicle.Se_Rc6_1990_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc4_2000_SMS.pak
+      packing vehicle.Se_Rc4_2000_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc6_2000_SMS.pak
+      packing vehicle.Se_Rc6_2000_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Rc7_2000_SMS.pak
+      packing vehicle.Se_Rc7_2000_SMS
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ../Passengercars/
+   reading file ./X1.dat
+   writing file ../Passengercars/vehicle.Se_X1A_1960.pak
+      packing vehicle.Se_X1A_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X1B_1960.pak
+      packing vehicle.Se_X1B_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X1A_1990.pak
+      packing vehicle.Se_X1A_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X1B_1990.pak
+      packing vehicle.Se_X1B_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X10.dat
+   writing file ../Passengercars/vehicle.Se_X10A_1980.pak
+      packing vehicle.Se_X10A_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X10B_1980.pak
+      packing vehicle.Se_X10B_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X10A_1990.pak
+      packing vehicle.Se_X10A_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X10B_1990.pak
+      packing vehicle.Se_X10B_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X10A_2000.pak
+      packing vehicle.Se_X10A_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X10B_2000.pak
+      packing vehicle.Se_X10B_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X12.dat
+   writing file ../Passengercars/vehicle.Se_X12A_1990.pak
+      packing vehicle.Se_X12A_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X12B_1990.pak
+      packing vehicle.Se_X12B_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X12A_2000.pak
+      packing vehicle.Se_X12A_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X12B_2000.pak
+      packing vehicle.Se_X12B_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X14.dat
+   writing file ../Passengercars/vehicle.Se_X14A_1990.pak
+      packing vehicle.Se_X14A_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X14B_1990.pak
+      packing vehicle.Se_X14B_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X14A_2000.pak
+      packing vehicle.Se_X14A_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X14B_2000.pak
+      packing vehicle.Se_X14B_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X2000.dat
+   writing file ../Passengercars/vehicle.Se_X2000_X2_1990.pak
+      packing vehicle.Se_X2000_X2_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_UA2_1990.pak
+      packing vehicle.Se_X2000_UA2_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_UB2_1990.pak
+      packing vehicle.Se_X2000_UB2_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_URB2_1990.pak
+      packing vehicle.Se_X2000_URB2_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_UB2X_1990.pak
+      packing vehicle.Se_X2000_UB2X_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_X2_2000.pak
+      packing vehicle.Se_X2000_X2_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_UA2_2000.pak
+      packing vehicle.Se_X2000_UA2_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_UB2_2000.pak
+      packing vehicle.Se_X2000_UB2_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_URB2_2000.pak
+      packing vehicle.Se_X2000_URB2_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X2000_UB2X_2000.pak
+      packing vehicle.Se_X2000_UB2X_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./X31.dat
+   writing file ../Passengercars/vehicle.Se_X31kA_1990.pak
+      packing vehicle.Se_X31kA_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X31kM_Unpowered_1990.pak
+      packing vehicle.Se_X31kM_Unpowered_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X31kB_1990.pak
+      packing vehicle.Se_X31kB_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X4 (Xoa4).dat
+   writing file ../Passengercars/vehicle.Se_Xoa4_1930.pak
+      packing vehicle.Se_Xoa4_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Cox4_1930.pak
+      packing vehicle.Se_Cox4_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Xoa4_1950.pak
+      packing vehicle.Se_Xoa4_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Cox4_1950.pak
+      packing vehicle.Se_Cox4_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X5 (Xoa5).dat
+   writing file ../Passengercars/vehicle.Se_Xoa5A(X5A)_1940.pak
+      packing vehicle.Se_Xoa5A(X5A)_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Xoa5M(X5M)_1940.pak
+      packing vehicle.Se_Xoa5M(X5M)_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Xoa5R(X5R)_1940.pak
+      packing vehicle.Se_Xoa5R(X5R)_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Xoa5B(X5B)_1940.pak
+      packing vehicle.Se_Xoa5B(X5B)_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   reading file ./X52.dat
+   writing file ../Passengercars/vehicle.Se_X52A_2000.pak
+      packing vehicle.Se_X52A_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UB52_2000.pak
+      packing vehicle.Se_UB52_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UB52_Unpowered_2000.pak
+      packing vehicle.Se_UB52_Unpowered_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X52B_2000.pak
+      packing vehicle.Se_X52B_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   reading file ./X55.dat
+   writing file ../Passengercars/vehicle.Se_X55A_2010.pak
+      packing vehicle.Se_X55A_2010
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X55M_2010.pak
+      packing vehicle.Se_X55M_2010
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_URB55_2010.pak
+      packing vehicle.Se_URB55_2010
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_X55B_2010.pak
+      packing vehicle.Se_X55B_2010
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./X6 (Xoa6).dat
+   writing file ../Passengercars/vehicle.Se_Xoa6A(X6A)_1960.pak
+      packing vehicle.Se_Xoa6A(X6A)_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Xoa6M(X6M)_1960.pak
+      packing vehicle.Se_Xoa6M(X6M)_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Xoa6B(X6B)_1960.pak
+      packing vehicle.Se_Xoa6B(X6B)_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X6A_1970.pak
+      packing vehicle.Se_X6A_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X6M_1970.pak
+      packing vehicle.Se_X6M_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X6B_1970.pak
+      packing vehicle.Se_X6B_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X7 (Xoa7).dat
+   writing file ../Passengercars/vehicle.Se_Xoa7_1940.pak
+      packing vehicle.Se_Xoa7_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Cox7_1940.pak
+      packing vehicle.Se_Cox7_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_X7_1970.pak
+      packing vehicle.Se_X7_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UBX7_1970.pak
+      packing vehicle.Se_UBX7_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   reading file ./X9 (Yoa2).dat
+   writing file ../Passengercars/vehicle.Se_Yoa2(X9a)_1960.pak
+      packing vehicle.Se_Yoa2(X9a)_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UAo2(UA9)_1960.pak
+      packing vehicle.Se_UAo2(UA9)_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UBo2(UB9)_1960.pak
+      packing vehicle.Se_UBo2(UB9)_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Yoa2b(X9b)_1960.pak
+      packing vehicle.Se_Yoa2b(X9b)_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   reading file ./Y3.dat
+   writing file ../Passengercars/vehicle.Se_Y3_1960.pak
+      packing vehicle.Se_Y3_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UA3_1960.pak
+      packing vehicle.Se_UA3_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UB3_1960.pak
+      packing vehicle.Se_UB3_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UB3b_1960.pak
+      packing vehicle.Se_UB3b_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_UB3y_1960.pak
+      packing vehicle.Se_UB3y_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ../Passengercars/vehicle.Se_Y3_1960_(Reversed).pak
+      packing vehicle.Se_Y3_1960_(Reversed)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   reading file ./Y6.dat
+   writing file ../Passengercars/vehicle.Se_YCo6(Y6)_1950.pak
+      packing vehicle.Se_YCo6(Y6)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_YBo7(Y7)_1950.pak
+      packing vehicle.Se_YBo7(Y7)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_YBo8(Y8)_1950.pak
+      packing vehicle.Se_YBo8(Y8)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_YCoa6(X16)_1950.pak
+      packing vehicle.Se_YCoa6(X16)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_YBoa7(X17)_1950.pak
+      packing vehicle.Se_YBoa7(X17)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_YBoa8(X18)_1950.pak
+      packing vehicle.Se_YBoa8(X18)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UCo6(UB)_1950.pak
+      packing vehicle.Se_UCo6(UB)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UBo7(UB7)_1950.pak
+      packing vehicle.Se_UBo7(UB7)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UAo8(UB8)_1950.pak
+      packing vehicle.Se_UAo8(UB8)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UADo7z(UADZ)_1950.pak
+      packing vehicle.Se_UADo7z(UADZ)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UADo7z(UADZ)_1950_extension.pak
+      packing vehicle.Se_UADo7z(UADZ)_1950_extension
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UDFo20(UDF20)_1950.pak
+      packing vehicle.Se_UDFo20(UDF20)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UF6(UFV)_1950.pak
+      packing vehicle.Se_UF6(UFV)_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./Yo.dat
+   writing file ../Passengercars/vehicle.Se_Y_1930.pak
+      packing vehicle.Se_Y_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_Yo_1930.pak
+      packing vehicle.Se_Yo_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UBo_1930.pak
+      packing vehicle.Se_UBo_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UBFo_1930.pak
+      packing vehicle.Se_UBFo_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UBFo_1930_extension.pak
+      packing vehicle.Se_UBFo_1930_extension
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UF_1930.pak
+      packing vehicle.Se_UF_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ../Passengercars/vehicle.Se_UDFo_1930.pak
+      packing vehicle.Se_UDFo_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./30-tals_vagnar.dat
+   writing file ./vehicle.Se_ACo4_1930_Sitt.pak
+      packing vehicle.Se_ACo4_1930_Sitt
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_ACo4_1930_Sleep.pak
+      packing vehicle.Se_ACo4_1930_Sleep
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Bo5_1930.pak
+      packing vehicle.Se_Bo5_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Co8_1930.pak
+      packing vehicle.Se_Co8_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Ro5_1930.pak
+      packing vehicle.Se_Ro5_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_RCo1_1930.pak
+      packing vehicle.Se_RCo1_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Fo4_1930.pak
+      packing vehicle.Se_Fo4_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Do40_1930.pak
+      packing vehicle.Se_Do40_1930
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WLABo4_1950_(rivet).pak
+      packing vehicle.Se_WLABo4_1950_(rivet)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL11_1970.pak
+      packing vehicle.Se_WL11_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./40-tals_vagnar.dat
+   writing file ./vehicle.Se_Bo5_1940.pak
+      packing vehicle.Se_Bo5_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Co8_1940.pak
+      packing vehicle.Se_Co8_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_ACo4_1940_Sitt.pak
+      packing vehicle.Se_ACo4_1940_Sitt
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_ACo4_1940_Sleep.pak
+      packing vehicle.Se_ACo4_1940_Sleep
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_DFo2_1940.pak
+      packing vehicle.Se_DFo2_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Ro5_1940.pak
+      packing vehicle.Se_Ro5_1940
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Ao5_1950_Sitt.pak
+      packing vehicle.Se_Ao5_1950_Sitt
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Ao5_1950_sleep.pak
+      packing vehicle.Se_Ao5_1950_sleep
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WLABo4_1950_(weld).pak
+      packing vehicle.Se_WLABo4_1950_(weld)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_DFo33_1950.pak
+      packing vehicle.Se_DFo33_1950
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL2_1960_(Ao5,ACo4,WLABo4).pak
+      packing vehicle.Se_WL2_1960_(Ao5,ACo4,WLABo4)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL2_1960_(Bo5).pak
+      packing vehicle.Se_WL2_1960_(Bo5)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL2_1960_(Co8).pak
+      packing vehicle.Se_WL2_1960_(Co8)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_BC2_1970_(Ao5,ACo4,WLABo4).pak
+      packing vehicle.Se_BC2_1970_(Ao5,ACo4,WLABo4)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_BC2_1970_(Bo5).pak
+      packing vehicle.Se_BC2_1970_(Bo5)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_BC2_1970_(Co8).pak
+      packing vehicle.Se_BC2_1970_(Co8)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_DF21_1970.pak
+      packing vehicle.Se_DF21_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_DF33_1970.pak
+      packing vehicle.Se_DF33_1970
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL2_1980_(Ao5,ACo4,WLABo4).pak
+      packing vehicle.Se_WL2_1980_(Ao5,ACo4,WLABo4)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL2_1980_(Bo5).pak
+      packing vehicle.Se_WL2_1980_(Bo5)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL2_1980_(Co8).pak
+      packing vehicle.Se_WL2_1980_(Co8)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_DF40_1980.pak
+      packing vehicle.Se_DF40_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_BC2_1990_(Ao5,ACo4,WLABo4).pak
+      packing vehicle.Se_BC2_1990_(Ao5,ACo4,WLABo4)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_BC2_1990_(Bo5).pak
+      packing vehicle.Se_BC2_1990_(Bo5)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_BC2_1990_(Co8).pak
+      packing vehicle.Se_BC2_1990_(Co8)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_DF46_1990.pak
+      packing vehicle.Se_DF46_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_BC2_2000_(Ao5,ACo4,WLABo4).pak
+      packing vehicle.Se_BC2_2000_(Ao5,ACo4,WLABo4)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_BC2_2000_(Bo5).pak
+      packing vehicle.Se_BC2_2000_(Bo5)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_BC2_2000_(Co8).pak
+      packing vehicle.Se_BC2_2000_(Co8)
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./60-tals_vagnar.dat
+   writing file ./vehicle.Se_Ao2_1960.pak
+      packing vehicle.Se_Ao2_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Bo1_1960.pak
+      packing vehicle.Se_Bo1_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_RB1_1960.pak
+      packing vehicle.Se_RB1_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_DFo28_1960.pak
+      packing vehicle.Se_DFo28_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_Fo5_1960.pak
+      packing vehicle.Se_Fo5_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WLABo1_1960.pak
+      packing vehicle.Se_WLABo1_1960
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_A2_1980.pak
+      packing vehicle.Se_A2_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_B1_1980.pak
+      packing vehicle.Se_B1_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_R2_1980.pak
+      packing vehicle.Se_R2_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_DF28_1980.pak
+      packing vehicle.Se_DF28_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL1_1980.pak
+      packing vehicle.Se_WL1_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_A2_1990.pak
+      packing vehicle.Se_A2_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_B1_1990.pak
+      packing vehicle.Se_B1_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_R2_1990.pak
+      packing vehicle.Se_R2_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_D38_1990.pak
+      packing vehicle.Se_D38_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_D48_1990.pak
+      packing vehicle.Se_D48_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_F33_1990.pak
+      packing vehicle.Se_F33_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_WL1_1990.pak
+      packing vehicle.Se_WL1_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_WL1_2000.pak
+      packing vehicle.Se_WL1_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   reading file ./80-tals_vagnar.dat
+   writing file ./vehicle.Se_A7_1980.pak
+      packing vehicle.Se_A7_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_B7_1980.pak
+      packing vehicle.Se_B7_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Writing 16 multiple livery empty images
+   writing file ./vehicle.Se_R4_1980.pak
+      packing vehicle.Se_R4_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_BC4_1980.pak
+      packing vehicle.Se_BC4_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_UA7R_1980.pak
+      packing vehicle.Se_UA7R_1980
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_A7_1990.pak
+      packing vehicle.Se_A7_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_B7_1990.pak
+      packing vehicle.Se_B7_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_R4_1990.pak
+      packing vehicle.Se_R4_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_BC4_1990.pak
+      packing vehicle.Se_BC4_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_WL4_1990.pak
+      packing vehicle.Se_WL4_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading emptyimage[s][4]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[s][3]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[w][3]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[sw][3]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[se][3]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[n][3]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[e][3]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[ne][3]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Appending emptyimage[nw][3]
+Writing 32 multiple livery empty images
+   writing file ./vehicle.Se_AFM7_1990.pak
+      packing vehicle.Se_AFM7_1990
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading emptyimage[s][2]
+Reading emptyimage[s][3]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[s][1]
+Appending emptyimage[s][2]
+Appending emptyimage[w][0]
+Appending emptyimage[w][1]
+Appending emptyimage[w][2]
+Appending emptyimage[sw][0]
+Appending emptyimage[sw][1]
+Appending emptyimage[sw][2]
+Appending emptyimage[se][0]
+Appending emptyimage[se][1]
+Appending emptyimage[se][2]
+Appending emptyimage[n][0]
+Appending emptyimage[n][1]
+Appending emptyimage[n][2]
+Appending emptyimage[e][0]
+Appending emptyimage[e][1]
+Appending emptyimage[e][2]
+Appending emptyimage[ne][0]
+Appending emptyimage[ne][1]
+Appending emptyimage[ne][2]
+Appending emptyimage[nw][0]
+Appending emptyimage[nw][1]
+Appending emptyimage[nw][2]
+Writing 24 multiple livery empty images
+   writing file ./vehicle.Se_A7_2000.pak
+      packing vehicle.Se_A7_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ./vehicle.Se_B7_2000.pak
+      packing vehicle.Se_B7_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ./vehicle.Se_R4_2000.pak
+      packing vehicle.Se_R4_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ./vehicle.Se_BC4_2000.pak
+      packing vehicle.Se_BC4_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ./vehicle.Se_WL4_2000.pak
+      packing vehicle.Se_WL4_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ./vehicle.Se_AFM7_2000.pak
+      packing vehicle.Se_AFM7_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading emptyimage[s][1]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Appending emptyimage[s][0]
+Appending emptyimage[w][0]
+Appending emptyimage[sw][0]
+Appending emptyimage[se][0]
+Appending emptyimage[n][0]
+Appending emptyimage[e][0]
+Appending emptyimage[ne][0]
+Appending emptyimage[nw][0]
+Writing 8 multiple livery empty images
+   writing file ./vehicle.Se_A11_2000.pak
+      packing vehicle.Se_A11_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_B11_2000.pak
+      packing vehicle.Se_B11_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_RB11_2000.pak
+      packing vehicle.Se_RB11_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+   writing file ./vehicle.Se_AFm11_2000.pak
+      packing vehicle.Se_AFm11_2000
+Reading freightimage[0][s]
+Reading freightimage[0][s][0]
+Reading emptyimage[s][0]
+Reading freightimage[s][0]
+Reading freightimage[s]
+Writing 8 single livery empty images
+Writing 0 non-images
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+writing file ../../../Pak128.Sweden-Ex/vehicle.Se_RailVehicles.pak
+   copying file vehicle.Se_A11_2000.pak
+   copying file vehicle.Se_A2_1980.pak
+   copying file vehicle.Se_A2_1990.pak
+   copying file vehicle.Se_A7_1980.pak
+   copying file vehicle.Se_A7_1990.pak
+   copying file vehicle.Se_A7_2000.pak
+   copying file vehicle.Se_ACo4_1930_Sitt.pak
+   copying file vehicle.Se_ACo4_1930_Sleep.pak
+   copying file vehicle.Se_ACo4_1940_Sitt.pak
+   copying file vehicle.Se_ACo4_1940_Sleep.pak
+   copying file vehicle.Se_AFm11_2000.pak
+   copying file vehicle.Se_AFM7_1990.pak
+   copying file vehicle.Se_AFM7_2000.pak
+   copying file vehicle.Se_Ao2_1960.pak
+   copying file vehicle.Se_Ao5_1950_Sitt.pak
+   copying file vehicle.Se_Ao5_1950_sleep.pak
+   copying file vehicle.Se_B11_2000.pak
+   copying file vehicle.Se_B1_1980.pak
+   copying file vehicle.Se_B1_1990.pak
+   copying file vehicle.Se_B7_1980.pak
+   copying file vehicle.Se_B7_1990.pak
+   copying file vehicle.Se_B7_2000.pak
+   copying file vehicle.Se_BC2_1970_(Ao5,ACo4,WLABo4).pak
+   copying file vehicle.Se_BC2_1970_(Bo5).pak
+   copying file vehicle.Se_BC2_1970_(Co8).pak
+   copying file vehicle.Se_BC2_1990_(Ao5,ACo4,WLABo4).pak
+   copying file vehicle.Se_BC2_1990_(Bo5).pak
+   copying file vehicle.Se_BC2_1990_(Co8).pak
+   copying file vehicle.Se_BC2_2000_(Ao5,ACo4,WLABo4).pak
+   copying file vehicle.Se_BC2_2000_(Bo5).pak
+   copying file vehicle.Se_BC2_2000_(Co8).pak
+   copying file vehicle.Se_BC4_1980.pak
+   copying file vehicle.Se_BC4_1990.pak
+   copying file vehicle.Se_BC4_2000.pak
+   copying file vehicle.Se_Bo1_1960.pak
+   copying file vehicle.Se_Bo5_1930.pak
+   copying file vehicle.Se_Bo5_1940.pak
+   copying file vehicle.Se_Co8_1930.pak
+   copying file vehicle.Se_Co8_1940.pak
+   copying file vehicle.Se_Cox4_1930.pak
+   copying file vehicle.Se_Cox4_1950.pak
+   copying file vehicle.Se_Cox7_1940.pak
+   copying file vehicle.Se_D38_1990.pak
+   copying file vehicle.Se_D48_1990.pak
+   copying file vehicle.Se_Da_1950.pak
+   copying file vehicle.Se_DF21_1970.pak
+   copying file vehicle.Se_DF28_1980.pak
+   copying file vehicle.Se_DF33_1970.pak
+   copying file vehicle.Se_DF40_1980.pak
+   copying file vehicle.Se_DF46_1990.pak
+   copying file vehicle.Se_DFo28_1960.pak
+   copying file vehicle.Se_DFo2_1940.pak
+   copying file vehicle.Se_DFo33_1950.pak
+   copying file vehicle.Se_Dg_1920.pak
+   copying file vehicle.Se_Dg_1930.pak
+   copying file vehicle.Se_Dm(a)_1950.pak
+   copying file vehicle.Se_Dm(b)_1950.pak
+   copying file vehicle.Se_Dm3_1960.pak
+   copying file vehicle.Se_Do40_1930.pak
+   copying file vehicle.Se_Ds_1920.pak
+   copying file vehicle.Se_Ds_1930.pak
+   copying file vehicle.Se_Du_1950.pak
+   copying file vehicle.Se_F33_1990.pak
+   copying file vehicle.Se_Fo4_1930.pak
+   copying file vehicle.Se_Fo5_1960.pak
+   copying file vehicle.Se_F_1940.pak
+   copying file vehicle.Se_G1_1880_Piece_Nobrake.pak
+   copying file vehicle.Se_G1_1880_Piece_Screwbrake.pak
+   copying file vehicle.Se_G3_1890_Piece_Nobrake.pak
+   copying file vehicle.Se_G3_1910_Piece_Screwbrake.pak
+   copying file vehicle.Se_G4_1860_Piece_Nobrake.pak
+   copying file vehicle.Se_G4_1860_Piece_Screwbrake.pak
+   copying file vehicle.Se_G5_1910_Animal_Screwbrake.pak
+   copying file vehicle.Se_Ge_1950_Piece.pak
+   copying file vehicle.Se_Gre_1960_piece.pak
+   copying file vehicle.Se_Grf_1950_Cool.pak
+   copying file vehicle.Se_Grh_1920_Piece.pak
+   copying file vehicle.Se_Gsh_1910_Livestock_G1G3.pak
+   copying file vehicle.Se_Gsh_1910_Livestock_G1G3nb.pak
+   copying file vehicle.Se_Gsh_1910_Livestock_G4.pak
+   copying file vehicle.Se_Gsh_1910_Livestock_G4nb.pak
+   copying file vehicle.Se_Gsk_1910_Cool_G1G3.pak
+   copying file vehicle.Se_Gsk_1910_Cool_G1G3nb.pak
+   copying file vehicle.Se_Gsk_1910_Cool_G4.pak
+   copying file vehicle.Se_Gsk_1910_Cool_G4nb.pak
+   copying file vehicle.Se_Gs_1910_Piece_G1G3.pak
+   copying file vehicle.Se_Gs_1910_Piece_G1G3nb.pak
+   copying file vehicle.Se_Gs_1910_Piece_G4.pak
+   copying file vehicle.Se_Gs_1910_Piece_G4nb.pak
+   copying file vehicle.Se_Gsö_1910_Bulk_G1G3.pak
+   copying file vehicle.Se_Gsö_1910_Bulk_G1G3nb.pak
+   copying file vehicle.Se_Gsö_1910_Bulk_G4.pak
+   copying file vehicle.Se_Gsö_1910_Bulk_G4nb.pak
+   copying file vehicle.Se_G_1930_Piece.pak
+   copying file vehicle.Se_H1_1860_Cool_Nobrake.pak
+   copying file vehicle.Se_H1_1890_Cool_Screwbrake.pak
+   copying file vehicle.Se_H3_1910_cool.pak
+   copying file vehicle.Se_M1_1880.pak
+   copying file vehicle.Se_Mas_1940.pak
+   copying file vehicle.Se_Oa(a)_1910.pak
+   copying file vehicle.Se_Oa(a)_1930.pak
+   copying file vehicle.Se_Oa(b)_1910.pak
+   copying file vehicle.Se_Oa(b)_1930.pak
+   copying file vehicle.Se_Pa_1910.pak
+   copying file vehicle.Se_Pa_1930.pak
+   copying file vehicle.Se_R2_1980.pak
+   copying file vehicle.Se_R2_1990.pak
+   copying file vehicle.Se_R4_1980.pak
+   copying file vehicle.Se_R4_1990.pak
+   copying file vehicle.Se_R4_2000.pak
+   copying file vehicle.Se_Ra_1950.pak
+   copying file vehicle.Se_Ra_1960.pak
+   copying file vehicle.Se_RB11_2000.pak
+   copying file vehicle.Se_RB1_1960.pak
+   copying file vehicle.Se_Rb_1960.pak
+   copying file vehicle.Se_Rc1_1960.pak
+   copying file vehicle.Se_Rc1_1960_SMS.pak
+   copying file vehicle.Se_Rc1_1990.pak
+   copying file vehicle.Se_Rc1_1990_SMS.pak
+   copying file vehicle.Se_Rc3_1970.pak
+   copying file vehicle.Se_Rc3_1970_SMS.pak
+   copying file vehicle.Se_Rc3_1990.pak
+   copying file vehicle.Se_Rc3_1990_SMS.pak
+   copying file vehicle.Se_Rc4_1970.pak
+   copying file vehicle.Se_Rc4_1970_SMS.pak
+   copying file vehicle.Se_Rc4_1990.pak
+   copying file vehicle.Se_Rc4_1990_SMS.pak
+   copying file vehicle.Se_Rc4_2000.pak
+   copying file vehicle.Se_Rc4_2000_SMS.pak
+   copying file vehicle.Se_Rc6_1980.pak
+   copying file vehicle.Se_Rc6_1980_SMS.pak
+   copying file vehicle.Se_Rc6_1990.pak
+   copying file vehicle.Se_Rc6_1990_SMS.pak
+   copying file vehicle.Se_Rc6_2000.pak
+   copying file vehicle.Se_Rc6_2000_SMS.pak
+   copying file vehicle.Se_Rc7_2000.pak
+   copying file vehicle.Se_Rc7_2000_SMS.pak
+   copying file vehicle.Se_RCo1_1930.pak
+   copying file vehicle.Se_Ro5_1930.pak
+   copying file vehicle.Se_Ro5_1940.pak
+   copying file vehicle.Se_UA3_1960.pak
+   copying file vehicle.Se_UA7R_1980.pak
+   copying file vehicle.Se_UADo7z(UADZ)_1950.pak
+   copying file vehicle.Se_UADo7z(UADZ)_1950_extension.pak
+   copying file vehicle.Se_UAo2(UA9)_1960.pak
+   copying file vehicle.Se_UAo8(UB8)_1950.pak
+   copying file vehicle.Se_UB3b_1960.pak
+   copying file vehicle.Se_UB3y_1960.pak
+   copying file vehicle.Se_UB3_1960.pak
+   copying file vehicle.Se_UB52_2000.pak
+   copying file vehicle.Se_UB52_Unpowered_2000.pak
+   copying file vehicle.Se_UBFo_1930.pak
+   copying file vehicle.Se_UBFo_1930_extension.pak
+   copying file vehicle.Se_UBo2(UB9)_1960.pak
+   copying file vehicle.Se_UBo7(UB7)_1950.pak
+   copying file vehicle.Se_UBo_1930.pak
+   copying file vehicle.Se_UBX7_1970.pak
+   copying file vehicle.Se_UCo6(UB)_1950.pak
+   copying file vehicle.Se_UDFo20(UDF20)_1950.pak
+   copying file vehicle.Se_UDFo_1930.pak
+   copying file vehicle.Se_UF6(UFV)_1950.pak
+   copying file vehicle.Se_UF_1930.pak
+   copying file vehicle.Se_URB55_2010.pak
+   copying file vehicle.Se_WL11_1970.pak
+   copying file vehicle.Se_WL1_1980.pak
+   copying file vehicle.Se_WL1_1990.pak
+   copying file vehicle.Se_WL1_2000.pak
+   copying file vehicle.Se_WL2_1960_(Ao5,ACo4,WLABo4).pak
+   copying file vehicle.Se_WL2_1960_(Bo5).pak
+   copying file vehicle.Se_WL2_1960_(Co8).pak
+   copying file vehicle.Se_WL2_1980_(Ao5,ACo4,WLABo4).pak
+   copying file vehicle.Se_WL2_1980_(Bo5).pak
+   copying file vehicle.Se_WL2_1980_(Co8).pak
+   copying file vehicle.Se_WL4_1990.pak
+   copying file vehicle.Se_WL4_2000.pak
+   copying file vehicle.Se_WLABo1_1960.pak
+   copying file vehicle.Se_WLABo4_1950_(rivet).pak
+   copying file vehicle.Se_WLABo4_1950_(weld).pak
+   copying file vehicle.Se_X10A_1980.pak
+   copying file vehicle.Se_X10A_1990.pak
+   copying file vehicle.Se_X10A_2000.pak
+   copying file vehicle.Se_X10B_1980.pak
+   copying file vehicle.Se_X10B_1990.pak
+   copying file vehicle.Se_X10B_2000.pak
+   copying file vehicle.Se_X12A_1990.pak
+   copying file vehicle.Se_X12A_2000.pak
+   copying file vehicle.Se_X12B_1990.pak
+   copying file vehicle.Se_X12B_2000.pak
+   copying file vehicle.Se_X14A_1990.pak
+   copying file vehicle.Se_X14A_2000.pak
+   copying file vehicle.Se_X14B_1990.pak
+   copying file vehicle.Se_X14B_2000.pak
+   copying file vehicle.Se_X1A_1960.pak
+   copying file vehicle.Se_X1A_1990.pak
+   copying file vehicle.Se_X1B_1960.pak
+   copying file vehicle.Se_X1B_1990.pak
+   copying file vehicle.Se_X2000_UA2_1990.pak
+   copying file vehicle.Se_X2000_UA2_2000.pak
+   copying file vehicle.Se_X2000_UB2X_1990.pak
+   copying file vehicle.Se_X2000_UB2X_2000.pak
+   copying file vehicle.Se_X2000_UB2_1990.pak
+   copying file vehicle.Se_X2000_UB2_2000.pak
+   copying file vehicle.Se_X2000_URB2_1990.pak
+   copying file vehicle.Se_X2000_URB2_2000.pak
+   copying file vehicle.Se_X2000_X2_1990.pak
+   copying file vehicle.Se_X2000_X2_2000.pak
+   copying file vehicle.Se_X31kA_1990.pak
+   copying file vehicle.Se_X31kB_1990.pak
+   copying file vehicle.Se_X31kM_Unpowered_1990.pak
+   copying file vehicle.Se_X52A_2000.pak
+   copying file vehicle.Se_X52B_2000.pak
+   copying file vehicle.Se_X55A_2010.pak
+   copying file vehicle.Se_X55B_2010.pak
+   copying file vehicle.Se_X55M_2010.pak
+   copying file vehicle.Se_X6A_1970.pak
+   copying file vehicle.Se_X6B_1970.pak
+   copying file vehicle.Se_X6M_1970.pak
+   copying file vehicle.Se_X7_1970.pak
+   copying file vehicle.Se_Xoa4_1930.pak
+   copying file vehicle.Se_Xoa4_1950.pak
+   copying file vehicle.Se_Xoa5A(X5A)_1940.pak
+   copying file vehicle.Se_Xoa5B(X5B)_1940.pak
+   copying file vehicle.Se_Xoa5M(X5M)_1940.pak
+   copying file vehicle.Se_Xoa5R(X5R)_1940.pak
+   copying file vehicle.Se_Xoa6A(X6A)_1960.pak
+   copying file vehicle.Se_Xoa6B(X6B)_1960.pak
+   copying file vehicle.Se_Xoa6M(X6M)_1960.pak
+   copying file vehicle.Se_Xoa7_1940.pak
+   copying file vehicle.Se_Y3_1960.pak
+   copying file vehicle.Se_Y3_1960_(Reversed).pak
+   copying file vehicle.Se_YBo7(Y7)_1950.pak
+   copying file vehicle.Se_YBo8(Y8)_1950.pak
+   copying file vehicle.Se_YBoa7(X17)_1950.pak
+   copying file vehicle.Se_YBoa8(X18)_1950.pak
+   copying file vehicle.Se_YCo6(Y6)_1950.pak
+   copying file vehicle.Se_YCoa6(X16)_1950.pak
+   copying file vehicle.Se_Yoa2(X9a)_1960.pak
+   copying file vehicle.Se_Yoa2b(X9b)_1960.pak
+   copying file vehicle.Se_Yo_1930.pak
+   copying file vehicle.Se_Y_1930.pak
+WARNING: file or dir ./ not found
