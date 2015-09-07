@@ -24,6 +24,7 @@ If you encounter any bugs by the pak itself (graphical glitches, missing objects
 
 GAMEPLAY NOTES
 This pak is currently in "pre alfa" state, meaning its not playable as a game for the moment. Many key features, such as economy, factories, lack of vehicles etc are yet to be added to the pak before it makes sence as a playable game. However, it should compile and the things currently added should work as intended ingame.
+Do note however, that any games saved with this pakset, might not be compatible with future paksets!
 
 
 
