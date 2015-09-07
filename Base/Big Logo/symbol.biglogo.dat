@@ -1,0 +1,6 @@
+Obj=symbol
+name=BigLogo
+Image[0]=> big_logo.0.0
+Image[1]=> big_logo.0.1
+Image[2]=> big_logo.1.0
+Image[3]=> big_logo.1.1

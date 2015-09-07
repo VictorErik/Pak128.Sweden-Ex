@@ -1,0 +1,275 @@
+#############################################
+
+#This Dat includes the X5(Xoa5) train:
+#
+#  - 1960 -
+# Yoa2(X9a) - second class
+# UAo2(UA9) - first class (UAo2????)
+# UBo2(UB9) - Second class (UBo2????)
+# Yoa2b(X9b) - Second class (Yoa2b????)
+#
+#
+# NOTE: I find no historical information of how the cars UA9, UB9 and X9b
+#       where named before the littera reform
+#
+######################
+
+---
+
+# Yoa2 - second class
+
+obj=vehicle
+copyright=Ves
+name=Se_Yoa2(X9a)_1960
+intro_year=1963
+intro_month=1
+retire_year=1981
+retire_month=1
+waytype=track
+length=12
+speed=115
+weight=26
+axles=4
+engine_type=electric
+tractive_effort=10
+power=170
+bidirectional=1
+freight=Passagiere
+payload=24
+overcrowded_capacity=15
+comfort=180
+catering_level=0
+min_loading_time=15
+max_loading_time=60
+
+cost=25000
+RunningCost=300
+fixed_maintenance=592
+
+
+#way_constraint_permissive[2]=2
+
+constraint[next][0]=Se_UAo2(UA9)_1960
+constraint[next][1]=Se_UBo2(UB9)_1960
+constraint[next][2]=Se_Yoa2b(X9b)_1960
+
+constraint[prev][0]=Se_Yoa2b(X9b)_1960
+constraint[prev][1]=none
+
+liverytype[0]=SJ-Orange
+#liverytype[1]=Player-1
+
+EmptyImage[W][0]=X9 (Yoa2).0.0
+EmptyImage[NW][0]=X9 (Yoa2).0.1
+EmptyImage[N][0]=X9 (Yoa2).0.2
+EmptyImage[NE][0]=X9 (Yoa2).0.3
+EmptyImage[E][0]=X9 (Yoa2).0.4
+EmptyImage[SE][0]=X9 (Yoa2).0.5
+EmptyImage[S][0]=X9 (Yoa2).0.6
+EmptyImage[SW][0]=X9 (Yoa2).0.7
+
+#EmptyImage[W][1]=X9 (Yoa2).4.0
+#EmptyImage[NW][1]=X9 (Yoa2).4.1
+#EmptyImage[N][1]=X9 (Yoa2).4.2
+#EmptyImage[NE][1]=X9 (Yoa2).4.3
+#EmptyImage[E][1]=X9 (Yoa2).4.4
+#EmptyImage[SE][1]=X9 (Yoa2).4.5
+#EmptyImage[S][1]=X9 (Yoa2).4.6
+#EmptyImage[SW][1]=X9 (Yoa2).4.7
+
+---
+
+# UAo2 - first class
+
+obj=vehicle
+copyright=Ves
+name=Se_UAo2(UA9)_1960
+intro_year=1963
+intro_month=1
+retire_year=1981
+retire_month=1
+waytype=track
+length=12
+speed=115
+weight=16
+axles=4
+engine_type=electric
+#No engine, Just to make it appear in "Electrics" list
+bidirectional=1
+freight=Passagiere
+payload=30
+overcrowded_capacity=0
+comfort=180
+min_loading_time=15
+max_loading_time=60
+
+cost=45000
+RunningCost=300
+fixed_maintenance=592
+
+
+#way_constraint_permissive[2]=2
+
+constraint[next][0]=Se_UAo2(UA9)_1960
+constraint[next][1]=Se_UBo2(UB9)_1960
+constraint[next][2]=Se_Yoa2b(X9b)_1960
+
+constraint[prev][0]=Se_Yoa2(X9a)_1960
+constraint[prev][1]=Se_UAo2(UA9)_1960
+constraint[prev][2]=Se_UBo2(UB9)_1960
+
+liverytype[0]=SJ-Orange
+#liverytype[1]=Player-1
+
+EmptyImage[W][0]=X9 (Yoa2).1.0
+EmptyImage[NW][0]=X9 (Yoa2).1.1
+EmptyImage[N][0]=X9 (Yoa2).1.2
+EmptyImage[NE][0]=X9 (Yoa2).1.3
+EmptyImage[E][0]=X9 (Yoa2).1.4
+EmptyImage[SE][0]=X9 (Yoa2).1.5
+EmptyImage[S][0]=X9 (Yoa2).1.6
+EmptyImage[SW][0]=X9 (Yoa2).1.7
+
+#EmptyImage[W][1]=X9 (Yoa2).5.0
+#EmptyImage[NW][1]=X9 (Yoa2).5.1
+#EmptyImage[N][1]=X9 (Yoa2).5.2
+#EmptyImage[NE][1]=X9 (Yoa2).5.3
+#EmptyImage[E][1]=X9 (Yoa2).5.4
+#EmptyImage[SE][1]=X9 (Yoa2).5.5
+#EmptyImage[S][1]=X9 (Yoa2).5.6
+#EmptyImage[SW][1]=X9 (Yoa2).5.7
+
+
+---
+#  UBo2 - second class
+
+obj=vehicle
+copyright=Ves
+name=Se_UBo2(UB9)_1960
+intro_year=1963
+intro_month=1
+retire_year=1981
+retire_month=1
+waytype=track
+length=12
+speed=115
+weight=16
+axles=4
+engine_type=electric
+#No engine, Just to make it appear in "Electrics" list
+bidirectional=1
+freight=Passagiere
+payload=54
+overcrowded_capacity=20
+comfort=180
+catering_level=4
+min_loading_time=15
+max_loading_time=60
+
+cost=25000
+RunningCost=300
+fixed_maintenance=592
+
+
+#way_constraint_permissive[2]=2
+
+constraint[next][0]=Se_UAo2(UA9)_1960
+constraint[next][1]=Se_UBo2(UB9)_1960
+constraint[next][2]=Se_Yoa2b(X9b)_1960
+
+constraint[prev][0]=Se_Yoa2(X9a)_1960
+constraint[prev][1]=Se_UAo2(UA9)_1960
+constraint[prev][2]=Se_UBo2(UB9)_1960
+
+
+liverytype[0]=SJ-Orange
+#liverytype[1]=Player-1
+
+EmptyImage[W][0]=X9 (Yoa2).2.0
+EmptyImage[NW][0]=X9 (Yoa2).2.1
+EmptyImage[N][0]=X9 (Yoa2).2.2
+EmptyImage[NE][0]=X9 (Yoa2).2.3
+EmptyImage[E][0]=X9 (Yoa2).2.4
+EmptyImage[SE][0]=X9 (Yoa2).2.5
+EmptyImage[S][0]=X9 (Yoa2).2.6
+EmptyImage[SW][0]=X9 (Yoa2).2.7
+
+#EmptyImage[W][1]=X9 (Yoa2).6.0
+#EmptyImage[NW][1]=X9 (Yoa2).6.1
+#EmptyImage[N][1]=X9 (Yoa2).6.2
+#EmptyImage[NE][1]=X9 (Yoa2).6.3
+#EmptyImage[E][1]=X9 (Yoa2).6.4
+#EmptyImage[SE][1]=X9 (Yoa2).6.5
+#EmptyImage[S][1]=X9 (Yoa2).6.6
+#EmptyImage[SW][1]=X9 (Yoa2).6.7
+
+
+
+---
+
+
+# Yoa2b - second class
+
+obj=vehicle
+copyright=Ves
+name=Se_Yoa2b(X9b)_1960
+intro_year=1963
+intro_month=1
+retire_year=1981
+retire_month=1
+waytype=track
+length=12
+speed=115
+weight=21
+axles=4
+engine_type=electric
+tractive_effort=10
+power=170
+bidirectional=1
+can_lead_from_rear=1
+freight=Passagiere
+payload=46
+overcrowded_capacity=17
+comfort=180
+catering_level=0
+min_loading_time=15
+max_loading_time=60
+
+cost=25000
+RunningCost=300
+fixed_maintenance=592
+
+
+#way_constraint_permissive[2]=2
+
+constraint[next][0]=Se_Yoa2(X9a)_1960
+constraint[next][1]=none
+
+constraint[prev][0]=Se_Yoa2(X9a)_1960
+constraint[prev][1]=Se_UAo2(UA9)_1960
+constraint[prev][2]=Se_UBo2(UB9)_1960
+
+liverytype[0]=SJ-Orange
+#liverytype[1]=Player-1
+
+EmptyImage[W][0]=X9 (Yoa2).3.0
+EmptyImage[NW][0]=X9 (Yoa2).3.1
+EmptyImage[N][0]=X9 (Yoa2).3.2
+EmptyImage[NE][0]=X9 (Yoa2).3.3
+EmptyImage[E][0]=X9 (Yoa2).3.4
+EmptyImage[SE][0]=X9 (Yoa2).3.5
+EmptyImage[S][0]=X9 (Yoa2).3.6
+EmptyImage[SW][0]=X9 (Yoa2).3.7
+
+#EmptyImage[W][1]=X9 (Yoa2).7.0
+#EmptyImage[NW][1]=X9 (Yoa2).7.1
+#EmptyImage[N][1]=X9 (Yoa2).7.2
+#EmptyImage[NE][1]=X9 (Yoa2).7.3
+#EmptyImage[E][1]=X9 (Yoa2).7.4
+#EmptyImage[SE][1]=X9 (Yoa2).7.5
+#EmptyImage[S][1]=X9 (Yoa2).7.6
+#EmptyImage[SW][1]=X9 (Yoa2).7.7
+
+
+---
+

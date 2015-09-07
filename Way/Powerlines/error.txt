@@ -1,0 +1,20 @@
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./Powerlines.dat
+   writing file ./misc.PowerSource.pak
+      packing misc.PowerSource
+   writing file ./misc.PowerDest.pak
+      packing misc.PowerDest
+   writing file ./way.Powerline.pak
+      packing way.Powerline
+   writing file ./tunnel.PowerTunnel.pak
+      packing tunnel.PowerTunnel
+   writing file ./way.PowerConduits.pak
+      packing way.PowerConduits
+   writing file ./bridge.PowerBridge.pak
+      packing bridge.PowerBridge

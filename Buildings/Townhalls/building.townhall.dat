@@ -1,0 +1,22 @@
+Obj=building
+Name=Se_Townhall_01
+Type=tow
+intro_year=1850
+retire_year=2500
+Build_Time=0
+Passengers=25
+copyright=Ves
+NoConstruction=1
+needs_ground=1
+
+# Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=10m_Bygård_1_output.0.0
+BackImage[0][0][0][1][0][0]=10m_Bygård_1_output.0.1
+BackImage[1][0][0][0][0][0]=10m_Bygård_1_output.0.2
+BackImage[1][0][0][1][0][0]=10m_Bygård_1_output.1.0
+BackImage[2][0][0][0][0][0]=10m_Bygård_1_output.1.1
+BackImage[2][0][0][1][0][0]=10m_Bygård_1_output.1.2
+BackImage[3][0][0][0][0][0]=10m_Bygård_1_output.2.0
+BackImage[3][0][0][1][0][0]=10m_Bygård_1_output.2.1

@@ -1,0 +1,13 @@
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./building.RES.1890_Bygård_1.dat
+   writing file ./building.1890_RES_Bygård_1_City.pak
+      packing building.1890_RES_Bygård_1_City
+   reading file ./building.RES.1700_Trästuga.dat
+   writing file ./building.Se_1700_RES_Stuga_1.pak
+      packing building.Se_1700_RES_Stuga_1

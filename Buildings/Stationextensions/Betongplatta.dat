@@ -1,0 +1,22 @@
+Obj=building
+Name=Se_Betongplatta
+type=extension
+# waytype=track
+enables_pax=1
+Level=2
+NoInfo=1
+needs_ground=1
+intro_year=1900
+intro_month=5
+retire_year=2500
+
+dims=1,1,1
+
+icon=> Betongplatta.0.2
+Cursor=Betongplatta.0.1
+
+BackImage[0][0][0][0][0][0]=Betongplatta.0.0
+BackImage[1][0][0][0][0][0]=Betongplatta.0.0
+BackImage[2][0][0][0][0][0]=Betongplatta.0.0
+BackImage[3][0][0][0][0][0]=Betongplatta.0.0
+

@@ -1,0 +1,10 @@
+
+Makeobj-Experimental, based on Makeobj version 55.1 for Simutrans 112.3 Experimental 11.16 and higher
+Experimental version by James E. Petts, derived from Makeobj, (c) 2002-2012 V. Meyer , Hj. Malthaner and 
+M. Pristovsek and the Simutrans development team. This is open source software, released under the Artistic Licence.
+
+Image size is set to 128x128
+writing invidual files to ./
+   reading file ./Stadsväg_50.dat
+   writing file ./way.Maclevtrack.pak
+      packing way.Maclevtrack
