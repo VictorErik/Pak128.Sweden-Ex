@@ -23,7 +23,7 @@ Image[14][0]=texture-lightmap.0.9
 #Climate texture
 Obj=ground
 Name=ClimateTexture
-copyright=DirrrtyDirk
+copyright=DirrrtyDirk & VeS
 # water 
 Image[0][0]=texture-climate.0.0
 # beach/desert 
