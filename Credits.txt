@@ -6,7 +6,6 @@ VeS
 People who have contributed with graphics (also specified in the dat-files):
 Vladki
 The Pak128 team
-The Pak128 Britain team
 
 Other, who have given thoughts, contributed with ideas and in other ways have helped to form this pakset etc:
 Junna

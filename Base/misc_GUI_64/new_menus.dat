@@ -20,11 +20,10 @@ Image[12]=> menu_buttons.1.6
 Image[13]=> menu_buttons.0.3
 Image[14]=> menu_buttons.0.4
 Image[15]=> menu_buttons.0.5
-Image[16]=> menu_buttons.0.8
-Image[17]=> menu_buttons.5.7
-
----
-
+Image[16]=> menu_buttons.0.7
+Image[17]=> menu_buttons.1.5
+Image[18]=> menu_buttons.7.14
+--
 Obj=menu
 name=SimpleTools
 copyright=none
@@ -37,9 +36,8 @@ Image[5]=> menu_buttons.2.6
 Image[6]=> menu_buttons.2.7
 Image[7]=> menu_buttons.3.1
 Image[8]=> menu_buttons.3.2
-
----
-
+Image[9]=> menu_buttons.3.3
+--
 Obj=menu
 name=DialogeTools
 copyright=none
@@ -72,10 +70,10 @@ Image[22]=> menu_buttons.5.9
 Image[23]=> menu_buttons.5.10
 Image[24]=> menu_buttons.5.11
 Image[25]=> menu_buttons.5.1
+# network
+Image[26]=> menu_buttons.5.2
 #
-
----
-
+--
 Obj=menu
 name=BarTools
 copyright=none
@@ -88,9 +86,7 @@ Image[5]=> menu_buttons.8.1
 Image[6]=> menu_buttons.8.2
 Image[7]=> menu_buttons.8.3
 Image[8]=> menu_buttons.8.4
-Image[9]=> menu_buttons.8.5
-Image[29]=> menu_buttons.8.6
-Image[28]=> menu_buttons.7.7
+Image[9]=-
 # slope tool icons
 Image[10]=> menu_buttons.0.9
 Image[11]=> menu_buttons.0.10
@@ -98,6 +94,22 @@ Image[12]=> menu_buttons.0.11
 Image[13]=> menu_buttons.0.12
 Image[14]=> menu_buttons.1.11
 Image[15]=> menu_buttons.1.10
+# double slope tool icons
+Image[43]=> menu_buttons.2.9
+Image[44]=> menu_buttons.2.10
+Image[45]=> menu_buttons.2.11
+Image[46]=> menu_buttons.2.12
+# climate tools icons
+Image[33]=> menu_buttons.3.13
+Image[34]=> menu_buttons.4.13
+Image[42]=> menu_buttons.3.9
+Image[35]=> menu_buttons.3.10
+Image[37]=> menu_buttons.3.11
+Image[40]=> menu_buttons.3.12
+Image[36]=> menu_buttons.4.9
+Image[38]=> menu_buttons.4.10
+Image[39]=> menu_buttons.4.11
+Image[41]=> menu_buttons.4.12
 # wayremover tool icons
 Image[16]=> menu_buttons.8.8
 Image[17]=> menu_buttons.8.9
@@ -105,10 +117,6 @@ Image[18]=> menu_buttons.8.11
 Image[19]=> menu_buttons.8.10
 Image[20]=> menu_buttons.8.12
 Image[21]=> menu_buttons.8.13
-Image[27]=> menu_buttons.8.7
-# wayobject remover
-Image[29]=> menu_buttons.9.7
-Image[30]=> menu_buttons.9.8
 #
 Image[22]=> menu_buttons.7.8
 Image[23]=> menu_buttons.7.9
@@ -118,5 +126,12 @@ Image[24]=> menu_buttons.7.10
 Image[25]=> menu_buttons.7.6
 #
 Image[26]=> menu_buttons.7.7
+Image[27]=> menu_buttons.8.7
+Image[28]=> menu_buttons.7.7
 
----
+Image[29]=> menu_buttons.8.6
+Image[30]=> menu_buttons.7.11
+Image[31]=> menu_buttons.7.12
+Image[32]=> menu_buttons.7.13
+
+--

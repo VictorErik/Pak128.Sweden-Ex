@@ -29,6 +29,7 @@ cd ..
 
 
 xcopy /E Text\*.* Pak128.Sweden-Ex\
+copy Credits.txt Pak128.Sweden-Ex\Text\doc\*.*
 
 echo Packing Misc-files
 echo ==================
