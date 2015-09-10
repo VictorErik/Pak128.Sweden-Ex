@@ -1,12 +1,15 @@
-Obj=building
-Name=Se_Townhall_01
-Type=tow
-intro_year=1850
+obj=building
+name=1890_RES_City_House_1_City
+copyright=VeS
+intro_month=4
+intro_year=1890
+retire_month=1
 retire_year=2500
-Build_Time=0
-Passengers=25
-copyright=Ves
-NoConstruction=1
+#retire_year=1920
+noinfo=1
+noconstruction=0
+type=res
+level=20
 needs_ground=1
 
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
