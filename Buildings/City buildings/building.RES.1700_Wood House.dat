@@ -1,5 +1,5 @@
 obj=building
-name=Se_1700_RES_Woode_House_1
+name=Se_1700_RES_Wooden_House_1
 copyright=VeS
 intro_month=4
 intro_year=1700
@@ -15,5 +15,5 @@ needs_ground=1
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
 
 dims=1,1,2
-BackImage[0][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Woode_Houses_1.0.0
-BackImage[1][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Woode_Houses_1.0.1
+BackImage[0][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Houses_1.0.0
+BackImage[1][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Houses_1.0.1
