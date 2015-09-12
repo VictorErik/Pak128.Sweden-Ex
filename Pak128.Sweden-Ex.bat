@@ -105,9 +105,9 @@ CD ..\Sea
 ..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/way.Se_SeaWays.pak ./ >>..\..\err.txt
 CD ..\Wayobjects\Catenarys
 ..\..\..\makeobj PAK128 ../../../Pak128.Sweden-Ex/wayobj.Se_Catenarys.pak ./ >>..\..\..\err.txt
-CD ..\Rail Signals
+CD ..\Rail-Signals
 ..\..\..\makeobj PAK128 ../../../Pak128.Sweden-Ex/wayobj.Se_RailSignals.pak ./ >>..\..\..\err.txt
-CD ..\Street Signs
+CD ..\Street-Signs
 ..\..\..\makeobj PAK128 ../../../Pak128.Sweden-Ex/wayobj.Se_Streetsigns.pak ./ >>..\..\..\err.txt
 
 CD ..
