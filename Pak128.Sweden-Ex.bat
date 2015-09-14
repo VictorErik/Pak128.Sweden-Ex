@@ -105,9 +105,9 @@ CD ..\Sea
 ..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/way.Se_SeaWays.pak ./ >>..\..\err.txt
 CD ..\Wayobjects\Catenarys
 ..\..\..\makeobj PAK128 ../../../Pak128.Sweden-Ex/wayobj.Se_Catenarys.pak ./ >>..\..\..\err.txt
-CD ..\Rail-Signals
+CD ..\Rail Signals
 ..\..\..\makeobj PAK128 ../../../Pak128.Sweden-Ex/wayobj.Se_RailSignals.pak ./ >>..\..\..\err.txt
-CD ..\Street-Signs
+CD ..\Street Signs
 ..\..\..\makeobj PAK128 ../../../Pak128.Sweden-Ex/wayobj.Se_Streetsigns.pak ./ >>..\..\..\err.txt
 
 CD ..
@@ -148,17 +148,17 @@ echo Packing Vehicles
 echo ================
 rem packing vehicles
 
-CD Vehicles\Rail Vehicles\Goodscars
+CD Vehicles\Rail Vehicles\Goods wagons
 
-..\..\..\makeobj PAK128 ../Passengercars/ ./ >>..\..\..\err.txt
+..\..\..\makeobj PAK128 ../Passenger Carriages/ ./ >>..\..\..\err.txt
 
 CD ..\Locomotives
-..\..\..\makeobj PAK128 ../Passengercars/ ./ >>..\..\..\err.txt
+..\..\..\makeobj PAK128 ../Passenger Carriages/ ./ >>..\..\..\err.txt
 
-CD ..\Motorcars
-..\..\..\makeobj PAK128 ../Passengercars/ ./ >>..\..\..\err.txt
+CD ..\Multiple Unit-Railcars
+..\..\..\makeobj PAK128 ../Passenger Carriages/ ./ >>..\..\..\err.txt
 
-CD ..\Passengercars
+CD ..\Passenger Carriages
 ..\..\..\makeobj PAK128 ./ >>..\..\..\err.txt
 ..\..\..\makeobj merge  ../../../Pak128.Sweden-Ex/vehicle.Se_RailVehicles.pak *.pak ./ >>..\..\..\err.txt
 del *.pak
