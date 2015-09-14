@@ -148,7 +148,7 @@ echo Packing Vehicles
 echo ================
 rem packing vehicles
 
-CD Vehicles\Rail Vehicles\Goods wagons
+CD Vehicles\Rail Vehicles\Goods Wagons
 
 ..\..\..\makeobj PAK128 ../Passenger Carriages/ ./ >>..\..\..\err.txt
 
