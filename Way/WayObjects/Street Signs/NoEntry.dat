@@ -1,0 +1,16 @@
+obj=roadsign
+name=NoEntry
+copyright=vladki
+waytype=road
+cost=500
+min_speed=0
+single_way=1
+#intro_year=1952
+offset_left=13
+Image[0]=NoEntry.0.0
+Image[1]=NoEntry.0.1
+Image[2]=NoEntry.0.2
+Image[3]=NoEntry.0.3
+Icon=> NoEntry.0.5
+Cursor=NoEntry.0.4
+--------------------
