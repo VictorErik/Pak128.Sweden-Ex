@@ -355,14 +355,14 @@ upgrade[0]=Se_Rc3_1990_SMS
 liverytype[0]=SJ-Blaa
 liverytype[1]=GC_Sticker
 
-EmptyImage[W][1]=Rc-SJ.2.0
-EmptyImage[NW][1]=Rc-SJ.2.1
-EmptyImage[N][1]=Rc-SJ.2.2
-EmptyImage[NE][1]=Rc-SJ.2.3
-EmptyImage[E][1]=Rc-SJ.2.4
-EmptyImage[SE][1]=Rc-SJ.2.5
-EmptyImage[S][1]=Rc-SJ.2.6
-EmptyImage[SW][1]=Rc-SJ.2.7
+EmptyImage[W][0]=Rc-SJ.2.0
+EmptyImage[NW][0]=Rc-SJ.2.1
+EmptyImage[N][0]=Rc-SJ.2.2
+EmptyImage[NE][0]=Rc-SJ.2.3
+EmptyImage[E][0]=Rc-SJ.2.4
+EmptyImage[SE][0]=Rc-SJ.2.5
+EmptyImage[S][0]=Rc-SJ.2.6
+EmptyImage[SW][0]=Rc-SJ.2.7
 
 EmptyImage[W][1]=Rc-GC.2.0
 EmptyImage[NW][1]=Rc-GC.2.1
@@ -976,14 +976,14 @@ upgrade[0]=Se_Rc3_1990
 liverytype[0]=SJ-Blaa
 liverytype[1]=GC_Sticker
 
-EmptyImage[W][1]=Rc-SJ.2.0
-EmptyImage[NW][1]=Rc-SJ.2.1
-EmptyImage[N][1]=Rc-SJ.2.2
-EmptyImage[NE][1]=Rc-SJ.2.3
-EmptyImage[E][1]=Rc-SJ.2.4
-EmptyImage[SE][1]=Rc-SJ.2.5
-EmptyImage[S][1]=Rc-SJ.2.6
-EmptyImage[SW][1]=Rc-SJ.2.7
+EmptyImage[W][0]=Rc-SJ.2.0
+EmptyImage[NW][0]=Rc-SJ.2.1
+EmptyImage[N][0]=Rc-SJ.2.2
+EmptyImage[NE][0]=Rc-SJ.2.3
+EmptyImage[E][0]=Rc-SJ.2.4
+EmptyImage[SE][0]=Rc-SJ.2.5
+EmptyImage[S][0]=Rc-SJ.2.6
+EmptyImage[SW][0]=Rc-SJ.2.7
 
 EmptyImage[W][1]=Rc-GC.2.0
 EmptyImage[NW][1]=Rc-GC.2.1

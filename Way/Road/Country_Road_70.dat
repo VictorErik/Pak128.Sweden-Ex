@@ -40,8 +40,8 @@ Diagonal[NW][0]=Country_Road_70.5.1
 Diagonal[NE][0]=Country_Road_70.5.2
 Diagonal[SE][0]=Country_Road_70.5.3
 
-FrontImage[NEW][0]=Skyltar.0.2
-FrontImage[NSE][0]=Skyltar.0.1
-FrontImage[SEW][0]=Skyltar.0.0
-FrontImage[NSW][0]=Skyltar.0.3
+#FrontImage[NEW][0]=Skyltar.0.2
+#FrontImage[NSE][0]=Skyltar.0.1
+#FrontImage[SEW][0]=Skyltar.0.0
+#FrontImage[NSW][0]=Skyltar.0.3
 
