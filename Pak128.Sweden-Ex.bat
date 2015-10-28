@@ -68,6 +68,9 @@ echo Packing Landscape
 echo =================
 rem packing Landskape
 CD Landscape\Grounds
+..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/ground.Misc.pak ./ >>..\..\err.txt
+
+CD ..\Outside
 ..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/ground.Outside.pak ./ >>..\..\err.txt
 
 CD ..\Rivers
