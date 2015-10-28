@@ -285,7 +285,7 @@ EmptyImage[SW]=40-tals_vagnar.4.7
 
 obj=vehicle
 copyright=Ves
-name=Se_Ro5_1940
+name=Se_Ro3_1940
 waytype=track
 freight=Passagiere
 length=16
@@ -305,7 +305,7 @@ can_lead_from_rear=0
 payload=0
 overcrowded_capacity=48
 comfort=65
-catering_level=0
+catering_level=5
 min_loading_time=15
 max_loading_time=30
 
