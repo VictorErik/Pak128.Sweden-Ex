@@ -1,7 +1,7 @@
 # City_Road_50
 Obj=way
 waytype=narrowgauge_track
-Name=Se_50_road
+Name=Narrowgauge_track
 copyright=Ves
 cost=7500
 maintenance=700

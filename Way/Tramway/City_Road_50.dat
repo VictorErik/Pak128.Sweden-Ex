@@ -1,7 +1,7 @@
 # City_Road_50
 Obj=way
 waytype=tram_track
-Name=Se_50_road
+Name=Tram_track
 copyright=Ves
 cost=7500
 maintenance=700

@@ -114,6 +114,7 @@ $(DESTFILE).zip: $(PAKDIR)
 
 copy:
 	@echo "===> COPY"
+	@mkdir -p $(PAKDIR)
 	@cp -pr Text/* $(PAKDIR)/
 
 $(DIRS32):

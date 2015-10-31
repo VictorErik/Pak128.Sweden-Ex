@@ -1,7 +1,7 @@
 # City_Road_50
 Obj=way
 waytype=air
-Name=Se_50_road
+Name=Taxiway
 copyright=Ves
 cost=7500
 maintenance=700
