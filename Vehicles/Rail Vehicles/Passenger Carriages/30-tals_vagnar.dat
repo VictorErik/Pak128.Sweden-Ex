@@ -207,7 +207,7 @@ EmptyImage[SW]=30-tals_vagnar.2.7
 
 obj=vehicle
 copyright=Ves
-name=Se_Ro5_1930
+name=Se_Ro3_1930
 waytype=track
 freight=Passagiere
 length=16
