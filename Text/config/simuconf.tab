@@ -707,7 +707,8 @@ city_road[0]=Se_50_road,1800,2500
 # intercity_road[0]=name,1900,1920
 # intercity_road[1]=name2,1921,1950
 
-intercity_road[0]=Se_70_road,1800,2500
+intercity_road[0]=Se_70_road,1800,1970
+intercity_road[1]=Se_90_road,1970,2500
 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
