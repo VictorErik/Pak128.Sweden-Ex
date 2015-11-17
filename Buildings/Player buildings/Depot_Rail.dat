@@ -12,39 +12,31 @@ retire_month = 2
 #Dims: tiles east-west, tiles north-south, rotations
 Dims=1,1,4
 
-icon=> .././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.1.3
-cursor=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.1.2
+icon=> .././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.6
+cursor=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.7
 
 #[rotation][north-south][east-west][elevation][animationframe][season]
 
 # Rotation 0
-BackImage[0][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.7.2
-#FrontImage[0][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.7.0
-BackImage[0][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.0,0,102
-FrontImage[0][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.0,0,102
+BackImage[0][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.0
+FrontImage[0][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.4
 
 # Rotation 1
-BackImage[1][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.7.3
-#FrontImage[1][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.7.1
-BackImage[1][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.1,0,102
-FrontImage[1][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.1,0,102
+BackImage[1][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.1
+FrontImage[1][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.5
 
 # Rotation 2
-BackImage[2][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.0.1
-#FrontImage[2][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.0.1
-BackImage[2][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.0,0,102
-FrontImage[2][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.0,0,102
+#BackImage[2][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.1
+FrontImage[2][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.2
 
 # Rotation 3
-BackImage[3][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.0.1
-#FrontImage[3][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.0.1
-BackImage[3][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.1,0,102
-FrontImage[3][0][0][1][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1.3.1,0,102
+#BackImage[3][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.1
+FrontImage[3][0][0][0][0][0]=.././Images/Modular Buildings/Brickstone Buildings/Brickstone_Buildings_1_Playerbuilding.0.3
 
 
-#BackImage[1][0][0][0][0][1]=Brickstone_Buildings_1-snow.1.0
-#FrontImage[1][0][0][0][0][1]=Brickstone_Buildings_1-snow.0.0
-#BackImage[0][0][0][0][0][1]=Brickstone_Buildings_1-snow.1.1
-#FrontImage[0][0][0][0][0][1]=Brickstone_Buildings_1-snow.0.1
-#FrontImage[3][0][0][0][0][1]=Brickstone_Buildings_1-snow.0.2
-#FrontImage[2][0][0][0][0][1]=Brickstone_Buildings_1-snow.0.3
+#BackImage[1][0][0][0][0][1]=Brickstone_Buildings_1_Playerbuilding-snow.1.0
+#FrontImage[1][0][0][0][0][1]=Brickstone_Buildings_1_Playerbuilding-snow.0.0
+#BackImage[0][0][0][0][0][1]=Brickstone_Buildings_1_Playerbuilding-snow.1.1
+#FrontImage[0][0][0][0][0][1]=Brickstone_Buildings_1_Playerbuilding-snow.0.1
+#FrontImage[3][0][0][0][0][1]=Brickstone_Buildings_1_Playerbuilding-snow.0.2
+#FrontImage[2][0][0][0][0][1]=Brickstone_Buildings_1_Playerbuilding-snow.0.3
