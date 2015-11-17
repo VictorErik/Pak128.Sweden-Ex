@@ -1,0 +1,83 @@
+# Author: VeS
+#
+# This Dat contains forest fields used by 
+# Lumber factories etc.
+#
+# Field 0-4 = 5 piled forest fields for use with eg lumber factory
+#
+##############
+
+# Field 0
+
+obj=field
+name=forest_piled_0
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.0
+image[1]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.0
+image[2]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.0
+image[3]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.0
+image[4]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.0
+
+--
+
+# Field 1
+
+obj=field
+name=forest_piled_1
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.1
+image[1]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.1
+image[2]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.1
+image[3]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.1
+image[4]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.1
+
+--
+
+# Field 2
+
+obj=field
+name=forest_piled_2
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.2
+image[1]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.2
+image[2]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.2
+image[3]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.2
+image[4]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.2
+
+--
+
+# Field 3
+
+obj=field
+name=forest_piled_3
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.3
+image[1]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.3
+image[2]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.3
+image[3]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.3
+image[4]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.3
+
+--
+
+# Field 4
+
+obj=field
+name=forest_piled_4
+copyright=VeS
+
+# Winter without Snow=0, Spring=1, Summer=2, Autumn=3, with snow=4
+image[0]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.4
+image[1]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.4
+image[2]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.4
+image[3]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.4
+image[4]=.././Images/Modular Buildings/Forest Fields/Field_Forest_2.0.4
+
+--
