@@ -126,8 +126,9 @@ value[4]=0
 speed_bonus=0
 weight_per_unit=1000
 -----------------------
-obj=good
+# Grain
 # Class: C
+obj=good
 name=grain
 metric=tonnen
 catg=2
@@ -168,26 +169,6 @@ value[3]=90
 to_distance[3]=0
 speed_bonus=10
 weight_per_unit=810
------------------------
-obj=good
-# Class: C
-name=grain
-metric=tonnen
-catg=2
-#
-#value=35
-value=75
-#
-value[0]=90
-to_distance[0]=32
-value[1]=75
-to_distance[1]=48
-value[2]=60
-to_distance[2]=80
-value[3]=35
-to_distance[3]=0
-speed_bonus=1
-weight_per_unit=1000
 -----------------------
 ### COOLED GOODS ###
 # Milk
