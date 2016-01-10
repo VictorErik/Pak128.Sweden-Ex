@@ -1174,14 +1174,30 @@ livery[16][0] = Edet_1
 intro_year[16][0] = 1930
 intro_month[16][0] = 1
 
+livery_scheme[17] = TGOJ
+retire_year[17] = 2500
+retire_month[17] = 1
+livery[17][0] = TGOJ_Leverans
+intro_year[17][0] = 1931
+intro_month[17][0] = 1
+livery[17][1] = TGOJ_Krigs
+intro_year[17][1] = 1940
+intro_month[17][1] = 1
+livery[17][2] = TGOJ_Brand
+intro_year[17][2] = 1965
+intro_month[17][2] = 1
+livery[17][3] = TGOJ_Modern_1
+intro_year[17][3] = 1995
+intro_month[17][3] = 1
+livery[17][4] = TGOJ_Modern_2
+intro_year[17][4] = 1999
+intro_month[17][4] = 1
+
 
 #livery_scheme[2] = AB Stockholm Spårvägar
 #livery_scheme[2] = Posten
 #livery_scheme[2] = Skånetrafiken
 #livery_scheme[2] = Veolia
 #livery_scheme[3] = Hectorrail
-#livery_scheme[4] = TGOJ
 #livery_scheme[6] = TågAB
 #livery_scheme[7] = Connex
-
-
