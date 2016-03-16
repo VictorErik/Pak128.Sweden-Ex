@@ -43,6 +43,9 @@ CD..\Misc_GUI_64
 CD..\Misc_GUI
 ..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
 
+CD..\Smokes
+..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
+
 CD ..
 CD ..
 

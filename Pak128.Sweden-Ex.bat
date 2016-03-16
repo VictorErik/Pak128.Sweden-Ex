@@ -52,6 +52,9 @@ copy misc.Se_Symbols.pak ..\..\Pak128.Sweden-Ex\*.*
 copy misc.Se_Menus.pak ..\..\Pak128.Sweden-Ex\*.*
 del *.pak
 
+CD..\Smokes
+..\..\makeobj PAK128 ../../Pak128.Sweden-Ex/Smokes.pak ./ >>..\..\err.txt
+
 CD ..
 CD ..
 
