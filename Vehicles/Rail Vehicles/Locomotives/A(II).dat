@@ -2,22 +2,19 @@
 #
 #This file includes following:
 #
-# SJ 1906:
+# SJ:
 #
-# A
+# A(II) (1906)
 #
-# SJ 
-# A-tender
+# A2 (1930)
 #
 #########################
 
-
-
 --
-#A
+#A(II)
 
 obj=vehicle
-name=Se_A_1900
+name=Se_A(II)_1900
 copyright=Ves
 intro_year=1906
 intro_month=1
@@ -39,7 +36,9 @@ range=
 brake_force=
 rolling_resistance=
 way_wear_factor=
-smoke=Steam2
+#smoke=Steam2
+
+upgrade[0]=Se_A2_1930
 
 cost=1400000
 runningcost=376
@@ -48,45 +47,51 @@ increase_maintenance_after_years=
 years_before_maintenance_max_reached=
 increase_maintenance_by_percent=
 
-constraint_next[0]=Se_A-tender_1900
 
-
+constraint[next][0]=Se_A-tender_1900
+constraint[next][1]=Se_C-tender_1870
 
 #way_constraint_permissive[2]=2
 
-
-EmptyImage[W]=A.0.0
-EmptyImage[NW]=A.0.1
-EmptyImage[N]=A.0.2
-EmptyImage[NE]=A.0.3
-EmptyImage[E]=A.0.4,0,0
-EmptyImage[SE]=A.0.5
-EmptyImage[S]=A.0.6,0,0
-EmptyImage[SW]=A.0.7
+EmptyImage[W]=A(II).0.0
+EmptyImage[NW]=A(II).0.1
+EmptyImage[N]=A(II).0.2
+EmptyImage[NE]=A(II).0.3
+EmptyImage[E]=A(II).0.4,0,0
+EmptyImage[SE]=A(II).0.5
+EmptyImage[S]=A(II).0.6,0,0
+EmptyImage[SW]=A(II).0.7
 
 
 --
-#A-tender
+#A2
 
 obj=vehicle
-name=Se_A-tender_1870
+name=Se_A2_1930
 copyright=Ves
-intro_year=1875
+intro_year=1930
 intro_month=1
-retire_year=1944
+retire_year=1950
 retire_month=1
 waytype=track
-length=5
+length=8
 speed=90
-weight=47
-axles=4
-#axle_load=15
+weight=67
+#axles=4
+axle_load=15
+engine_type=steam
+tractive_effort=55
+power=1800
 bidirectional=0
 
+sound=
 range=
 brake_force=
 rolling_resistance=
 way_wear_factor=
+#smoke=Steam2
+
+available_only_as_upgrade=1
 
 cost=1400000
 runningcost=376
@@ -95,23 +100,20 @@ increase_maintenance_after_years=
 years_before_maintenance_max_reached=
 increase_maintenance_by_percent=
 
-
-constraint_prev[0]=Se_A_1900
+constraint[next][0]=Se_A-tender_1900
+constraint[next][1]=Se_C-tender_1870
 
 #way_constraint_permissive[2]=2
 
-
-EmptyImage[W]=A.1.0
-EmptyImage[NW]=A.1.1
-EmptyImage[N]=A.1.2
-EmptyImage[NE]=A.1.3
-EmptyImage[E]=A.1.4,0,0
-EmptyImage[SE]=A.1.5
-EmptyImage[S]=A.1.6,0,0
-EmptyImage[SW]=A.1.7
-
+EmptyImage[W]=A(II).1.0
+EmptyImage[NW]=A(II).1.1
+EmptyImage[N]=A(II).1.2
+EmptyImage[NE]=A(II).1.3
+EmptyImage[E]=A(II).1.4,0,0
+EmptyImage[SE]=A(II).1.5
+EmptyImage[S]=A(II).1.6,0,0
+EmptyImage[SW]=A(II).1.7
 
 
 
---
 
