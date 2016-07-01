@@ -197,7 +197,7 @@ upgrade_group=1
 offset_left=11
 intro_year = 1858
 intro_month = 1
-#is_longblocksignal=1
+is_longblocksignal=1
 # DANGER
 Image[0]=images/Old_sem_1.1.0
 Image[1]=images/Old_sem_1.1.2
@@ -261,7 +261,7 @@ upgrade_group=1
 offset_left=11
 intro_year = 1890
 intro_month = 1
-#is_longblocksignal=1
+is_longblocksignal=1
 # DANGER
 Image[0]=images/Main_sem_down_1.1.0
 Image[1]=images/Main_sem_down_1.1.2
@@ -287,7 +287,6 @@ is_signal=1
 free_route=1
 aspects=2
 has_selective_choose=1
-#has_selective_choose=1
 # There is a bug where the signal disappears when this is set to 1
 upgrade_group=5
 offset_left=11
