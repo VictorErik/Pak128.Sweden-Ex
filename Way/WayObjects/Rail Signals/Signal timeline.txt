@@ -1,0 +1,35 @@
+# author: Vladislav Kurz (Vladki)
+#
+# Swedish timeline proposal:
+# 
+# 1850 - absolute block, 2-state, man with flag, blue/red cap (choose)
+# 1858 - absolute block, 2-state, 1-wing (T), lower quadrant, red plate - choose
+# 1880 - absolute block, 2-state, 1-wing (T), lower quadrant, red plate - choose, green plate - presignal
+# 1890 - absolute block, 2-state, 1/2-wings, lower quadrant
+# 1906 - absolute block, 2-state, 1/2-wings, upper quadrant
+# 1907 - absolute block, 2-state, 1/2/3-wings, upeer quadrant
+# 1910 - absolute block, 2-state, 1/2/3-wings, upper quadrant, presignal with arm
+# 1950 - end of semaphores
+# 1920 - circuit block, 3-state, 2-light signals
+# 1922 - circuit block, 2/3-state, 2-5 light signals
+# 1930 - presignal with yellow for sideway
+# 1975 - presignal with two green for sideway
+# 1980 - in-cab signalling ATC, same signals as circuit block, max speed 250 km/h, balise
+#
+# Upgrade groups:
+# 1: Two aspect stop, track circuit block
+# 2: Two aspect distant, track circuit block
+# 3: Three aspect plain
+# 4: Four aspect plain
+# 5: Two aspect junction, track circuit block
+# 6: Three aspect junction
+# 7: Four aspect junction
+# 8: Stop signal, absolute block
+# 9: Distant signal, absolute block
+# 10: Junction signal, absolute block
+# 11: Token block signal
+# 12: Combined signal, absolute block
+# 13: Permissive signal, absolute block
+# 14: Stop signal, time interval
+# 15: Junction signal, time interval
+#

@@ -1,0 +1,124 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+# This file contains the following:
+#
+# Cab signals
+#
+# Standard 2 aspect
+# Choose 2 aspect
+# Choose 3 aspect (eventually with callon)
+#
+#
+#
+#####################################
+---------------------------------------
+# MODERN STYLE 1980+ Cab signalling
+#--------------------------------------
+# Two aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_ATC_2
+working_method=cab_signalling
+waytype=track
+max_speed=250
+cost=3000
+is_signal=1
+aspects=3
+offset_left=11
+intro_year = 1980
+intro_month = 1
+# DANGER
+Image[0]=images/Main_2_ATC.1.0
+Image[1]=images/Main_2_ATC.1.2
+Image[2]=images/Main_2_ATC.1.1
+Image[3]=images/Main_2_ATC.1.3
+# CLEAR
+Image[4]=images/Main_2_ATC.2.0
+Image[5]=images/Main_2_ATC.2.2
+Image[6]=images/Main_2_ATC.2.1
+Image[7]=images/Main_2_ATC.2.3
+
+Icon=> images/Main_2_ATC.1.4
+Cursor=images/Main_2_ATC.2.4
+---------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_ATC_2_cho
+working_method=cab_signalling
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+offset_left=11
+intro_year = 1920
+intro_month = 1
+normal_danger=1
+# DANGER
+Image[0]=images/Main_3_ATC.1.0
+Image[1]=images/Main_3_ATC.1.2
+Image[2]=images/Main_3_ATC.1.1
+Image[3]=images/Main_3_ATC.1.3
+# CLEAR (sub route)
+Image[4]=images/Main_3_ATC.3.0
+Image[5]=images/Main_3_ATC.3.2
+Image[6]=images/Main_3_ATC.3.1
+Image[7]=images/Main_3_ATC.3.3
+# CLEAR (main route)
+Image[8]=images/Main_3_ATC.2.0
+Image[9]=images/Main_3_ATC.2.2
+Image[10]=images/Main_3_ATC.2.1
+Image[11]=images/Main_3_ATC.2.3
+
+Icon=> images/Main_3_ATC.1.4
+Cursor=images/Main_3_ATC.2.4
+---------------------------------------
+# Three aspect choose (eventually with callon)
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_ATC_3_cho
+working_method=cab_signalling
+waytype=track
+max_speed=250
+cost=5000
+is_signal=1
+free_route=1
+aspects=3
+has_selective_choose=1
+offset_left=11
+intro_year = 1980
+intro_month = 1
+# DANGER
+Image[0]=images/Main_5_ATC.1.0
+Image[1]=images/Main_5_ATC.1.2
+Image[2]=images/Main_5_ATC.1.1
+Image[3]=images/Main_5_ATC.1.3
+# CLEAR (sub route)
+Image[4]=images/Main_5_ATC.3.0
+Image[5]=images/Main_5_ATC.3.2
+Image[6]=images/Main_5_ATC.3.1
+Image[7]=images/Main_5_ATC.3.3
+# CAUTION (sub route)
+Image[8]=images/Main_5-blink_ATC.2.0
+Image[9]=images/Main_5-blink_ATC.2.2
+Image[10]=images/Main_5-blink_ATC.2.1
+Image[11]=images/Main_5-blink_ATC.2.3
+# CLEAR (main route)
+Image[12]=images/Main_5-blink_ATC.3.0
+Image[13]=images/Main_5-blink_ATC.3.2
+Image[14]=images/Main_5-blink_ATC.3.1
+Image[15]=images/Main_5-blink_ATC.3.3
+# CAUTION (main route)
+Image[16]=images/Main_5-blink_ATC.1.0
+Image[17]=images/Main_5-blink_ATC.1.2
+Image[18]=images/Main_5-blink_ATC.1.1
+Image[19]=images/Main_5-blink_ATC.1.3
+
+Icon=> images/Main_5_ATC.1.4
+Cursor=images/Main_5_ATC.2.4

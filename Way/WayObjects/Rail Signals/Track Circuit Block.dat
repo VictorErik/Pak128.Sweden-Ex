@@ -1,0 +1,239 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+#
+# In this file are the following:
+#
+# Three aspect stop, 1.generation
+#
+# Two aspect stop old
+# Three aspect stop old
+# Two aspect choose old
+# Three aspect choose old
+# Two aspect distant old
+#
+# Two aspect stop modern
+# Three aspect stop modern
+# Two aspect choose modern
+# Three aspect choose modern
+# Two aspect distant modern
+#
+#
+#
+#
+################################
+---------------------------------------
+# MODERN STYLE 1920+ Circuit block
+#--------------------------------------
+# Three aspect stop, 1.generation
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3-1.generation
+working_method=track_circuit_block
+waytype=track
+cost=3000
+is_signal=1
+is_longblocksignal=1
+aspects=3
+upgrade_group=3
+offset_left=11
+intro_year = 1920
+intro_month = 1
+normal_danger=1
+# DANGER
+Image[0]=images/Main_1.1.0
+Image[1]=images/Main_1.1.2
+Image[2]=images/Main_1.1.1
+Image[3]=images/Main_1.1.3
+# CLEAR
+Image[4]=images/Main_1.2.0
+Image[5]=images/Main_1.2.2
+Image[6]=images/Main_1.2.1
+Image[7]=images/Main_1.2.3
+# CAUTION
+Image[8]=images/Main_1-blink.1.0
+Image[9]=images/Main_1-blink.1.2
+Image[10]=images/Main_1-blink.1.1
+Image[11]=images/Main_1-blink.1.3
+
+Icon=> images/Main_1.1.4
+Cursor=images/Main_1.2.4
+---------------------------------------
+# Two aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_2
+working_method=track_circuit_block
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year = 1922
+intro_month = 1
+normal_danger=1
+# DANGER
+Image[0]=images/Main_2.1.0
+Image[1]=images/Main_2.1.2
+Image[2]=images/Main_2.1.1
+Image[3]=images/Main_2.1.3
+# CLEAR
+Image[4]=images/Main_2.2.0
+Image[5]=images/Main_2.2.2
+Image[6]=images/Main_2.2.1
+Image[7]=images/Main_2.2.3
+
+Icon=> images/Main_2.1.4
+Cursor=images/Main_2.2.4
+---------------------------------------
+# Two aspect distant
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_Dist
+working_method=track_circuit_block
+waytype=track
+cost=1000
+is_presignal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=2
+offset_left=11
+intro_year = 1920
+intro_month = 1
+#normal_danger=1
+# CAUTION
+Image[0]=images/Pre_3-blink.1.0
+Image[1]=images/Pre_3-blink.1.2
+Image[2]=images/Pre_3-blink.1.1
+Image[3]=images/Pre_3-blink.1.3
+# CLEAR
+Image[4]=images/Pre_3-blink.2.0
+Image[5]=images/Pre_3-blink.2.2
+Image[6]=images/Pre_3-blink.2.1
+Image[7]=images/Pre_3-blink.2.3
+
+Icon=> images/Pre_3.1.4
+Cursor=images/Pre_3.2.4
+---------------------------------------
+# Three aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3
+working_method=track_circuit_block
+waytype=track
+cost=3000
+is_signal=1
+is_longblocksignal=1
+aspects=3
+upgrade_group=3
+offset_left=11
+intro_year = 1920
+intro_month = 1
+normal_danger=1
+# DANGER
+Image[0]=images/Main_4.1.0
+Image[1]=images/Main_4.1.2
+Image[2]=images/Main_4.1.1
+Image[3]=images/Main_4.1.3
+# CLEAR
+Image[4]=images/Main_4-blink.1.0
+Image[5]=images/Main_4-blink.1.2
+Image[6]=images/Main_4-blink.1.1
+Image[7]=images/Main_4-blink.1.3
+# CAUTION
+Image[8]=images/Main_4-blink.2.0
+Image[9]=images/Main_4-blink.2.2
+Image[10]=images/Main_4-blink.2.1
+Image[11]=images/Main_4-blink.2.3
+
+Icon=> images/Main_4.1.4
+Cursor=images/Main_4.2.4
+---------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_2_cho
+working_method=track_circuit_block
+waytype=track
+cost=4000
+is_signal=1
+#is_longblocksignal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+upgrade_group=5
+offset_left=11
+intro_year = 1920
+intro_month = 1
+normal_danger=1
+# DANGER
+Image[0]=images/Main_3.1.0
+Image[1]=images/Main_3.1.2
+Image[2]=images/Main_3.1.1
+Image[3]=images/Main_3.1.3
+# CLEAR (sub route)
+Image[4]=images/Main_3.3.0
+Image[5]=images/Main_3.3.2
+Image[6]=images/Main_3.3.1
+Image[7]=images/Main_3.3.3
+# CLEAR (main route)
+Image[8]=images/Main_3.2.0
+Image[9]=images/Main_3.2.2
+Image[10]=images/Main_3.2.1
+Image[11]=images/Main_3.2.3
+
+Icon=> images/Main_3.1.4
+Cursor=images/Main_3.2.4
+---------------------------------------
+# Three aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3_cho
+working_method=track_circuit_block
+waytype=track
+cost=5000
+is_signal=1
+#is_longblocksignal=1
+free_route=1
+aspects=3
+has_selective_choose=1
+upgrade_group=6
+offset_left=11
+intro_year = 1920
+intro_month = 1
+normal_danger=1
+# DANGER
+Image[0]=images/Main_5.1.0
+Image[1]=images/Main_5.1.2
+Image[2]=images/Main_5.1.1
+Image[3]=images/Main_5.1.3
+# CLEAR (sub route)
+Image[4]=images/Main_5.3.0
+Image[5]=images/Main_5.3.2
+Image[6]=images/Main_5.3.1
+Image[7]=images/Main_5.3.3
+# CAUTION (sub route)
+Image[8]=images/Main_5-blink.2.0
+Image[9]=images/Main_5-blink.2.2
+Image[10]=images/Main_5-blink.2.1
+Image[11]=images/Main_5-blink.2.3
+# CLEAR (main route)
+Image[12]=images/Main_5-blink.3.0
+Image[13]=images/Main_5-blink.3.2
+Image[14]=images/Main_5-blink.3.1
+Image[15]=images/Main_5-blink.3.3
+# CAUTION (main route)
+Image[16]=images/Main_5-blink.1.0
+Image[17]=images/Main_5-blink.1.2
+Image[18]=images/Main_5-blink.1.1
+Image[19]=images/Main_5-blink.1.3
+
+Icon=> images/Main_5.1.4
+Cursor=images/Main_5.2.4
+
+---------------------------------------
