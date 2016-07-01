@@ -6,14 +6,18 @@ Pak128.Sweden-Ex is a graphics set (pak) for Simutrans Experiemental. It require
 
 !! Do note that the pak is currently under development why many basic features (such as economy or factories) are not in place !!
 
+Also please note that this "half-height" branch is aimed towards the next generation of Simutrans Experimental. It is not compatible with the current released one (Simutrans 112.3 Experiemental 11.35).
+
 
 HOW TO PAK FILES
-Using the "Pak128.Sweden-Ex.bat", you need to put the S.E. "Makeobj.exe" (found in the S.E. root folder) in the same folder as this "Readme.txt" is located. Then just press the "Pak128.Sweden-Ex.bat" and it should pak itself.
+Using the "Pak128.Sweden-Ex.bat", you need to put the S.E. "Makeobj.exe" in the same folder as this "Readme.txt" is located. Then just press the "Pak128.Sweden-Ex.bat" and it should pak itself.
 Put the newly created folder "Pak128.Sweden-Ex" containing all the .pak-files into you existing S.E. root folder.
 
 
 COMPATIBILITY
-Pak.Sweden-Ex does currently run on the latest release of S.E. (Simutrans 112.3 Experiemental 11.35). No testing has been done wheter it runs on older releases of S.E. and not either on the current developing version for the next release of S.E. Use at you own risk!
+Pak.Sweden-Ex is intended to use with the next generation of Simutrans Experimental, currently the devel-new branch:
+https://github.com/jamespetts/simutrans-experimental/tree/devel-new
+No testing has been done wheter it runs on the current release of S.E.(Simutrans 112.3 Experiemental 11.35) or on other older releases of S.E. Use at you own risk!
 
 LICENCE
 Pak128.Sweden-Ex is released open source under the terms of the Artistic License. Please read licence.txt for details.
