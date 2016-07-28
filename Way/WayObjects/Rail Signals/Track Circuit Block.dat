@@ -43,6 +43,7 @@ offset_left=11
 intro_year = 1920
 intro_month = 1
 normal_danger=1
+max_speed=180
 # DANGER
 Image[0]=images/Main_1.1.0
 Image[1]=images/Main_1.1.2
@@ -77,6 +78,7 @@ offset_left=11
 intro_year = 1922
 intro_month = 1
 normal_danger=1
+max_speed=180
 # DANGER
 Image[0]=images/Main_2.1.0
 Image[1]=images/Main_2.1.2
@@ -106,6 +108,7 @@ offset_left=11
 intro_year = 1920
 intro_month = 1
 #normal_danger=1
+max_speed=180
 # CAUTION
 Image[0]=images/Pre_3-blink.1.0
 Image[1]=images/Pre_3-blink.1.2
@@ -135,6 +138,7 @@ offset_left=11
 intro_year = 1920
 intro_month = 1
 normal_danger=1
+max_speed=180
 # DANGER
 Image[0]=images/Main_4.1.0
 Image[1]=images/Main_4.1.2
@@ -171,6 +175,7 @@ offset_left=11
 intro_year = 1920
 intro_month = 1
 normal_danger=1
+max_speed=180
 # DANGER
 Image[0]=images/Main_3.1.0
 Image[1]=images/Main_3.1.2
@@ -207,6 +212,7 @@ offset_left=11
 intro_year = 1920
 intro_month = 1
 normal_danger=1
+max_speed=180
 # DANGER
 Image[0]=images/Main_5.1.0
 Image[1]=images/Main_5.1.2

@@ -1,0 +1,109 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+#
+#
+# In this file are the following:
+#
+# Hand signals (HS) (Time interval signals)
+# Two aspect stop
+# Two aspect choose
+# Two aspect stop token
+#
+#
+################################
+
+#--------------------------------------
+# Hand Signals
+#--------------------------------------
+
+# Two aspect stop Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=Se_HS_1850
+working_method=time_interval_with_telegraph
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year=1850
+intro_month=1
+is_longblocksignal=1
+max_speed=40
+# DANGER
+Image[0]=images/Hand_stop.1.0
+Image[1]=images/Hand_stop.1.2
+Image[2]=images/Hand_stop.1.1
+Image[3]=images/Hand_stop.1.3
+# CLEAR
+Image[4]=images/Hand_stop.4.0
+Image[5]=images/Hand_stop.4.2
+Image[6]=images/Hand_stop.4.1
+Image[7]=images/Hand_stop.4.3
+
+Icon=> images/Hand_stop.1.4
+Cursor=images/Hand_stop.2.4
+---------------------------------------
+# Two aspect choose Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=Se_HS_1850_choose
+working_method=time_interval_with_telegraph
+waytype=track
+cost=2000
+is_signal=1
+free_route=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year=1850
+intro_month=1
+is_longblocksignal=1
+max_speed=40
+# DANGER
+Image[0]=images/Hand_choose.1.0
+Image[1]=images/Hand_choose.1.2
+Image[2]=images/Hand_choose.1.1
+Image[3]=images/Hand_choose.1.3
+# CLEAR
+Image[4]=images/Hand_choose.4.0
+Image[5]=images/Hand_choose.4.2
+Image[6]=images/Hand_choose.4.1
+Image[7]=images/Hand_choose.4.3
+
+Icon=> images/Hand_choose.1.4
+Cursor=images/Hand_choose.2.4
+---------------------------------------
+# Two aspect token Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=Se_HS_1850_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year=1850
+intro_month=1
+is_longblocksignal=1
+max_speed=40
+# DANGER
+Image[0]=images/Hand_token.1.0
+Image[1]=images/Hand_token.1.2
+Image[2]=images/Hand_token.1.1
+Image[3]=images/Hand_token.1.3
+# CLEAR
+Image[4]=images/Hand_token.4.0
+Image[5]=images/Hand_token.4.2
+Image[6]=images/Hand_token.4.1
+Image[7]=images/Hand_token.4.3
+
+Icon=> images/Hand_token.1.4
+Cursor=images/Hand_token.2.4
+---------------------------------------

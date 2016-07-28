@@ -7,31 +7,35 @@
 #
 # In this file are the following:
 #
-# Absolute block: (???)
+# Modern semaphore up (MSU)(track circuit block)
 # Two aspect stop
 # Two aspect distant
 # Two aspect choose
 # Two aspect choose (eventually with callon)
-# Two aspect stop longblock
+# Two aspect stop token
 #
-# Time interval signals:
-# Time interval with telegraph stop
-# Time interval with telegraph choose
+# Modern semaphore down (MSD)(time interval with telegraph)
+# Two aspect stop
+# Two aspect choose
+# Two aspect stop token
 #
-#
+# Old semaphores (OS)(time interval) 
+# Three aspect stop
+# Two aspect choose (platesignal)
+# Two aspect distant
 #
 #
 ################################
 
 #--------------------------------------
-# Absolute block signals
+# Modern Semaphores Up (track circuit block)
 #--------------------------------------
 
 # Two aspect stop
 obj=roadsign
 copyright=Vladki,Ves
-name=Se_ABB_2_1900
-working_method=absolute_block
+name=Se_MSU_2_1900
+working_method=track_circuit_block
 waytype=track
 cost=2000
 is_signal=1
@@ -40,6 +44,7 @@ upgrade_group=1
 offset_left=11
 intro_year = 1906
 intro_month = 1
+max_speed=150
 # DANGER
 Image[0]=images/Main_sem_1.1.0
 Image[1]=images/Main_sem_1.1.2
@@ -57,8 +62,8 @@ Cursor=images/Main_sem_1.2.4
 # Two aspect distant
 obj=roadsign
 copyright=Vladki,Ves
-Name=Se_ABB_Dist_1880
-working_method=absolute_block
+Name=Se_MSU_Dist_1880
+working_method=track_circuit_block
 waytype=track
 cost=1000
 is_presignal=1
@@ -67,6 +72,7 @@ upgrade_group=2
 offset_left=11
 intro_year = 1880
 intro_month = 1
+max_speed=150
 # CAUTION
 Image[0]=images/Pre_sem_1.1.0
 Image[1]=images/Pre_sem_1.1.2
@@ -84,8 +90,8 @@ Cursor=images/Pre_sem_1.2.4
 # Two aspect choose
 obj=roadsign
 copyright=Vladki,Ves
-Name=Se_ABB_2_cho_1900
-working_method=absolute_block
+Name=Se_MSU_2_cho_1900
+working_method=track_circuit_block
 waytype=track
 cost=4000
 is_signal=1
@@ -96,6 +102,7 @@ upgrade_group=5
 offset_left=11
 intro_year = 1906
 intro_month = 1
+max_speed=150
 # DANGER
 Image[0]=images/Main_sem_2.1.0
 Image[1]=images/Main_sem_2.1.2
@@ -118,8 +125,8 @@ Cursor=images/Main_sem_2.2.4
 # Two aspect choose (eventually with callon)
 obj=roadsign
 copyright=Vladki,Ves
-Name=Se_ABB_2_cho_1900_callon
-working_method=absolute_block
+Name=Se_MSU_2_cho_1900_callon
+working_method=track_circuit_block
 waytype=track
 cost=4000
 is_signal=1
@@ -130,6 +137,7 @@ upgrade_group=5
 offset_left=11
 intro_year = 1906
 intro_month = 1
+max_speed=150
 # DANGER
 Image[0]=images/Main_sem_3.1.0
 Image[1]=images/Main_sem_3.1.2
@@ -149,45 +157,142 @@ Image[11]=images/Main_sem_3.2.3
 Icon=> images/Main_sem_3.1.4
 Cursor=images/Main_sem_3.2.4
 ---------------------------------------
-# Two aspect stop longblock
+# Two aspect stop token
 obj=roadsign
 copyright=Vladki,Ves
-name=Se_ABB_2_1900_longblock
-working_method=track_circuit_block
+name=Se_MSU_2_1900_token
+working_method=token_block
 waytype=track
 cost=2000
 is_signal=1
-is_longblocksignal=1
 aspects=2
 upgrade_group=1
 offset_left=11
 intro_year = 1906
 intro_month = 1
+max_speed=150
 # DANGER
-Image[0]=images/Main_sem_1-long.1.0
-Image[1]=images/Main_sem_1-long.1.2
-Image[2]=images/Main_sem_1-long.1.1
-Image[3]=images/Main_sem_1-long.1.3
+Image[0]=images/Main_sem_1-token.1.0
+Image[1]=images/Main_sem_1-token.1.2
+Image[2]=images/Main_sem_1-token.1.1
+Image[3]=images/Main_sem_1-token.1.3
 # CLEAR
-Image[4]=images/Main_sem_1-long.2.0
-Image[5]=images/Main_sem_1-long.2.2
-Image[6]=images/Main_sem_1-long.2.1
-Image[7]=images/Main_sem_1-long.2.3
+Image[4]=images/Main_sem_1-token.2.0
+Image[5]=images/Main_sem_1-token.2.2
+Image[6]=images/Main_sem_1-token.2.1
+Image[7]=images/Main_sem_1-token.2.3
 
-Icon=> images/Main_sem_1-long.1.4
-Cursor=images/Main_sem_1-long.2.4
+Icon=> images/Main_sem_1-token.1.4
+Cursor=images/Main_sem_1-token.2.4
 ---------------------------------------
 
 #--------------------------------------
-# TIME INTERVAL SIGNALS
+# Modern Semaphores Down (Time interval with telegraph)
 #--------------------------------------
-# OLD
+
+# Two aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSD_2_1890
+working_method=time_interval_with_telegraph
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year = 1890
+intro_month = 1
+is_longblocksignal=1
+max_speed=150
+# DANGER
+Image[0]=images/Main_sem_down_1.1.0
+Image[1]=images/Main_sem_down_1.1.2
+Image[2]=images/Main_sem_down_1.1.1
+Image[3]=images/Main_sem_down_1.1.3
+# CLEAR
+Image[4]=images/Main_sem_down_1.2.0
+Image[5]=images/Main_sem_down_1.2.2
+Image[6]=images/Main_sem_down_1.2.1
+Image[7]=images/Main_sem_down_1.2.3
+
+Icon=> images/Main_sem_down_1.1.4
+Cursor=images/Main_sem_down_1.2.4
+---------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_MSD_2_1890_cho
+working_method=time_interval_with_telegraph
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+upgrade_group=5
+offset_left=11
+intro_year = 1890
+intro_month = 1
+max_speed=150
+# DANGER
+Image[0]=images/Main_sem_down_2.1.0
+Image[1]=images/Main_sem_down_2.1.2
+Image[2]=images/Main_sem_down_2.1.1
+Image[3]=images/Main_sem_down_2.1.3
+# CLEAR (sub route)
+Image[4]=images/Main_sem_down_2.3.0
+Image[5]=images/Main_sem_down_2.3.2
+Image[6]=images/Main_sem_down_2.3.1
+Image[7]=images/Main_sem_down_2.3.3
+# CLEAR (main route)
+Image[8]=images/Main_sem_down_2.2.0
+Image[9]=images/Main_sem_down_2.2.2
+Image[10]=images/Main_sem_down_2.2.1
+Image[11]=images/Main_sem_down_2.2.3
+
+Icon=> images/Main_sem_down_2.1.4
+Cursor=images/Main_sem_down_2.2.4
+
+---------------------------------------
+# Two aspect stop token
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSD_2_1900_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year = 1890
+intro_month = 1
+max_speed=150
+# DANGER
+Image[0]=images/Main_sem_down_1-token.1.0
+Image[1]=images/Main_sem_down_1-token.1.2
+Image[2]=images/Main_sem_down_1-token.1.1
+Image[3]=images/Main_sem_down_1-token.1.3
+# CLEAR
+Image[4]=images/Main_sem_down_1-token.2.0
+Image[5]=images/Main_sem_down_1-token.2.2
+Image[6]=images/Main_sem_down_1-token.2.1
+Image[7]=images/Main_sem_down_1-token.2.3
+
+Icon=> images/Main_sem_down_1-token.1.4
+Cursor=images/Main_sem_down_1-token.2.4
+---------------------------------------
+
 #--------------------------------------
+# Old Semaphores (Time interval with telegraph)
+#--------------------------------------
+
 
 # Two aspect stop old
 obj=roadsign
 copyright=Vladki,Ves
-name=Se_TIwT_2_1850
+name=Se_OS_2_1850
 working_method=time_interval_with_telegraph
 waytype=track
 cost=2000
@@ -198,6 +303,7 @@ offset_left=11
 intro_year = 1858
 intro_month = 1
 is_longblocksignal=1
+max_speed=150
 # DANGER
 Image[0]=images/Old_sem_1.1.0
 Image[1]=images/Old_sem_1.1.2
@@ -220,7 +326,7 @@ Cursor=images/Old_sem_1.2.4
 # Two aspect choose
 obj=roadsign
 copyright=Vladki,Ves
-Name=Se_TIwT_2_1850_cho
+Name=Se_OS_2_1850_cho
 working_method=time_interval_with_telegraph
 waytype=track
 cost=4000
@@ -231,6 +337,7 @@ upgrade_group=5
 offset_left=11
 intro_year = 1858
 intro_month = 1
+max_speed=150
 # DANGER
 Image[0]=images/Old_plate.1.0
 Image[1]=images/Old_plate.1.2
@@ -245,68 +352,3 @@ Image[7]=images/Old_plate.2.3
 Icon=> images/Old_plate.1.4
 Cursor=images/Old_plate.2.4
 ---------------------------------------
-#--------------------------------------
-# "MODERN"
-#--------------------------------------
-# Two aspect stop
-obj=roadsign
-copyright=Vladki,Ves
-name=Se_TIwT_2_1890
-working_method=time_interval_with_telegraph
-waytype=track
-cost=2000
-is_signal=1
-aspects=2
-upgrade_group=1
-offset_left=11
-intro_year = 1890
-intro_month = 1
-is_longblocksignal=1
-# DANGER
-Image[0]=images/Main_sem_down_1.1.0
-Image[1]=images/Main_sem_down_1.1.2
-Image[2]=images/Main_sem_down_1.1.1
-Image[3]=images/Main_sem_down_1.1.3
-# CLEAR
-Image[4]=images/Main_sem_down_1.2.0
-Image[5]=images/Main_sem_down_1.2.2
-Image[6]=images/Main_sem_down_1.2.1
-Image[7]=images/Main_sem_down_1.2.3
-
-Icon=> images/Main_sem_down_1.1.4
-Cursor=images/Main_sem_down_1.2.4
----------------------------------------
-# Two aspect choose
-obj=roadsign
-copyright=Vladki,Ves
-Name=Se_TIwT_2_1890_cho
-working_method=time_interval_with_telegraph
-waytype=track
-cost=4000
-is_signal=1
-free_route=1
-aspects=2
-has_selective_choose=1
-# There is a bug where the signal disappears when this is set to 1
-upgrade_group=5
-offset_left=11
-intro_year = 1890
-intro_month = 1
-# DANGER
-Image[0]=images/Main_sem_down_2.1.0
-Image[1]=images/Main_sem_down_2.1.2
-Image[2]=images/Main_sem_down_2.1.1
-Image[3]=images/Main_sem_down_2.1.3
-# CLEAR (sub route)
-Image[4]=images/Main_sem_down_2.3.0
-Image[5]=images/Main_sem_down_2.3.2
-Image[6]=images/Main_sem_down_2.3.1
-Image[7]=images/Main_sem_down_2.3.3
-# CLEAR (main route)
-Image[8]=images/Main_sem_down_2.2.0
-Image[9]=images/Main_sem_down_2.2.2
-Image[10]=images/Main_sem_down_2.2.1
-Image[11]=images/Main_sem_down_2.2.3
-
-Icon=> images/Main_sem_down_2.1.4
-Cursor=images/Main_sem_down_2.2.4

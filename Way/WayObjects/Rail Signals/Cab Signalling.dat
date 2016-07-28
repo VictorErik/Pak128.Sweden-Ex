@@ -31,6 +31,7 @@ aspects=3
 offset_left=11
 intro_year = 1980
 intro_month = 1
+max_speed=250
 # DANGER
 Image[0]=images/Main_2_ATC.1.0
 Image[1]=images/Main_2_ATC.1.2
@@ -60,6 +61,7 @@ offset_left=11
 intro_year = 1920
 intro_month = 1
 normal_danger=1
+max_speed=250
 # DANGER
 Image[0]=images/Main_3_ATC.1.0
 Image[1]=images/Main_3_ATC.1.2
@@ -94,6 +96,7 @@ has_selective_choose=1
 offset_left=11
 intro_year = 1980
 intro_month = 1
+max_speed=250
 # DANGER
 Image[0]=images/Main_5_ATC.1.0
 Image[1]=images/Main_5_ATC.1.2
