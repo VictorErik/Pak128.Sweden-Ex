@@ -195,7 +195,7 @@ EmptyImage[NE][0]=Rc-SJ.0.3
 EmptyImage[E][0]=Rc-SJ.0.4
 EmptyImage[SE][0]=Rc-SJ.0.5
 EmptyImage[S][0]=Rc-SJ.0.6
-EmptyImage[SW]v=Rc-SJ.0.7
+EmptyImage[SW][0]=Rc-SJ.0.7
 
 EmptyImage[W][1]=Rc-GC.0.0
 EmptyImage[NW][1]=Rc-GC.0.1
@@ -812,7 +812,7 @@ EmptyImage[NE][0]=Rc-SJ.0.3
 EmptyImage[E][0]=Rc-SJ.0.4
 EmptyImage[SE][0]=Rc-SJ.0.5
 EmptyImage[S][0]=Rc-SJ.0.6
-EmptyImage[SW]v=Rc-SJ.0.7
+EmptyImage[SW][0]=Rc-SJ.0.7
 
 EmptyImage[W][1]=Rc-GC.0.0
 EmptyImage[NW][1]=Rc-GC.0.1
