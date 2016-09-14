@@ -18,11 +18,13 @@
 # Two aspect stop
 # Two aspect choose
 # Two aspect stop token
+# T-semaphore
 #
 # Old semaphores (OS)(time interval) 
 # Three aspect stop
 # Two aspect choose (platesignal)
 # Two aspect distant
+# T-semaphore
 #
 #
 ################################
@@ -46,18 +48,18 @@ intro_year = 1906
 intro_month = 1
 max_speed=150
 # DANGER
-Image[0]=images/Main_sem_1.1.0
-Image[1]=images/Main_sem_1.1.2
-Image[2]=images/Main_sem_1.1.1
-Image[3]=images/Main_sem_1.1.3
+Image[0]=images/Sem_1.1.0
+Image[1]=images/Sem_1.1.2
+Image[2]=images/Sem_1.1.1
+Image[3]=images/Sem_1.1.3
 # CLEAR
-Image[4]=images/Main_sem_1.2.0
-Image[5]=images/Main_sem_1.2.2
-Image[6]=images/Main_sem_1.2.1
-Image[7]=images/Main_sem_1.2.3
+Image[4]=images/Sem_1.2.0
+Image[5]=images/Sem_1.2.2
+Image[6]=images/Sem_1.2.1
+Image[7]=images/Sem_1.2.3
 
-Icon=> images/Main_sem_1.1.4
-Cursor=images/Main_sem_1.2.4
+Icon=> images/Sem_1.1.4
+Cursor=images/Sem_1.2.4
 ---------------------------------------
 # Two aspect distant
 obj=roadsign
@@ -74,18 +76,18 @@ intro_year = 1880
 intro_month = 1
 max_speed=150
 # CAUTION
-Image[0]=images/Pre_sem_1.1.0
-Image[1]=images/Pre_sem_1.1.2
-Image[2]=images/Pre_sem_1.1.1
-Image[3]=images/Pre_sem_1.1.3
+Image[0]=images/Sem_pre_1.1.0
+Image[1]=images/Sem_pre_1.1.2
+Image[2]=images/Sem_pre_1.1.1
+Image[3]=images/Sem_pre_1.1.3
 # CLEAR
-Image[4]=images/Pre_sem_1.2.0
-Image[5]=images/Pre_sem_1.2.2
-Image[6]=images/Pre_sem_1.2.1
-Image[7]=images/Pre_sem_1.2.3
+Image[4]=images/Sem_pre_1.2.0
+Image[5]=images/Sem_pre_1.2.2
+Image[6]=images/Sem_pre_1.2.1
+Image[7]=images/Sem_pre_1.2.3
 
-Icon=> images/Pre_sem_1.1.4
-Cursor=images/Pre_sem_1.2.4
+Icon=> images/Sem_pre_1.1.4
+Cursor=images/Sem_pre_1.2.4
 ---------------------------------------
 # Two aspect choose
 obj=roadsign
@@ -104,23 +106,23 @@ intro_year = 1906
 intro_month = 1
 max_speed=150
 # DANGER
-Image[0]=images/Main_sem_2.1.0
-Image[1]=images/Main_sem_2.1.2
-Image[2]=images/Main_sem_2.1.1
-Image[3]=images/Main_sem_2.1.3
+Image[0]=images/Sem_2.1.0
+Image[1]=images/Sem_2.1.2
+Image[2]=images/Sem_2.1.1
+Image[3]=images/Sem_2.1.3
 # CLEAR (sub route)
-Image[4]=images/Main_sem_2.3.0
-Image[5]=images/Main_sem_2.3.2
-Image[6]=images/Main_sem_2.3.1
-Image[7]=images/Main_sem_2.3.3
+Image[4]=images/Sem_2.3.0
+Image[5]=images/Sem_2.3.2
+Image[6]=images/Sem_2.3.1
+Image[7]=images/Sem_2.3.3
 # CLEAR (main route)
-Image[8]=images/Main_sem_2.2.0
-Image[9]=images/Main_sem_2.2.2
-Image[10]=images/Main_sem_2.2.1
-Image[11]=images/Main_sem_2.2.3
+Image[8]=images/Sem_2.2.0
+Image[9]=images/Sem_2.2.2
+Image[10]=images/Sem_2.2.1
+Image[11]=images/Sem_2.2.3
 
-Icon=> images/Main_sem_2.1.4
-Cursor=images/Main_sem_2.2.4
+Icon=> images/Sem_2.1.4
+Cursor=images/Sem_2.2.4
 ---------------------------------------
 # Two aspect choose (eventually with callon)
 obj=roadsign
@@ -139,23 +141,23 @@ intro_year = 1906
 intro_month = 1
 max_speed=150
 # DANGER
-Image[0]=images/Main_sem_3.1.0
-Image[1]=images/Main_sem_3.1.2
-Image[2]=images/Main_sem_3.1.1
-Image[3]=images/Main_sem_3.1.3
+Image[0]=images/Sem_3.1.0
+Image[1]=images/Sem_3.1.2
+Image[2]=images/Sem_3.1.1
+Image[3]=images/Sem_3.1.3
 # CLEAR (sub route)
-Image[4]=images/Main_sem_3.3.0
-Image[5]=images/Main_sem_3.3.2
-Image[6]=images/Main_sem_3.3.1
-Image[7]=images/Main_sem_3.3.3
+Image[4]=images/Sem_3.3.0
+Image[5]=images/Sem_3.3.2
+Image[6]=images/Sem_3.3.1
+Image[7]=images/Sem_3.3.3
 # CLEAR (main route)
-Image[8]=images/Main_sem_3.2.0
-Image[9]=images/Main_sem_3.2.2
-Image[10]=images/Main_sem_3.2.1
-Image[11]=images/Main_sem_3.2.3
+Image[8]=images/Sem_3.2.0
+Image[9]=images/Sem_3.2.2
+Image[10]=images/Sem_3.2.1
+Image[11]=images/Sem_3.2.3
 
-Icon=> images/Main_sem_3.1.4
-Cursor=images/Main_sem_3.2.4
+Icon=> images/Sem_3.1.4
+Cursor=images/Sem_3.2.4
 ---------------------------------------
 # Two aspect stop token
 obj=roadsign
@@ -172,18 +174,18 @@ intro_year = 1906
 intro_month = 1
 max_speed=150
 # DANGER
-Image[0]=images/Main_sem_1-token.1.0
-Image[1]=images/Main_sem_1-token.1.2
-Image[2]=images/Main_sem_1-token.1.1
-Image[3]=images/Main_sem_1-token.1.3
+Image[0]=images/Sem_1-token.1.0
+Image[1]=images/Sem_1-token.1.2
+Image[2]=images/Sem_1-token.1.1
+Image[3]=images/Sem_1-token.1.3
 # CLEAR
-Image[4]=images/Main_sem_1-token.2.0
-Image[5]=images/Main_sem_1-token.2.2
-Image[6]=images/Main_sem_1-token.2.1
-Image[7]=images/Main_sem_1-token.2.3
+Image[4]=images/Sem_1-token.2.0
+Image[5]=images/Sem_1-token.2.2
+Image[6]=images/Sem_1-token.2.1
+Image[7]=images/Sem_1-token.2.3
 
-Icon=> images/Main_sem_1-token.1.4
-Cursor=images/Main_sem_1-token.2.4
+Icon=> images/Sem_1-token.1.4
+Cursor=images/Sem_1-token.2.4
 ---------------------------------------
 
 #--------------------------------------
@@ -198,26 +200,30 @@ working_method=time_interval_with_telegraph
 waytype=track
 cost=2000
 is_signal=1
-aspects=2
+aspects=3
 upgrade_group=1
 offset_left=11
 intro_year = 1890
 intro_month = 1
-is_longblocksignal=1
 max_speed=150
 # DANGER
-Image[0]=images/Main_sem_down_1.1.0
-Image[1]=images/Main_sem_down_1.1.2
-Image[2]=images/Main_sem_down_1.1.1
-Image[3]=images/Main_sem_down_1.1.3
+Image[0]=images/Sem_down_1.1.0
+Image[1]=images/Sem_down_1.1.2
+Image[2]=images/Sem_down_1.1.1
+Image[3]=images/Sem_down_1.1.3
 # CLEAR
-Image[4]=images/Main_sem_down_1.2.0
-Image[5]=images/Main_sem_down_1.2.2
-Image[6]=images/Main_sem_down_1.2.1
-Image[7]=images/Main_sem_down_1.2.3
+Image[4]=images/Sem_down_1.2.0
+Image[5]=images/Sem_down_1.2.2
+Image[6]=images/Sem_down_1.2.1
+Image[7]=images/Sem_down_1.2.3
+# CAUTION
+Image[8]=images/Sem_down_1.3.0
+Image[9]=images/Sem_down_1.3.2
+Image[10]=images/Sem_down_1.3.1
+Image[11]=images/Sem_down_1.3.3
 
-Icon=> images/Main_sem_down_1.1.4
-Cursor=images/Main_sem_down_1.2.4
+Icon=> images/Sem_down_1.1.4
+Cursor=images/Sem_down_1.2.4
 ---------------------------------------
 # Two aspect choose
 obj=roadsign
@@ -228,7 +234,7 @@ waytype=track
 cost=4000
 is_signal=1
 free_route=1
-aspects=2
+aspects=3
 has_selective_choose=1
 upgrade_group=5
 offset_left=11
@@ -236,23 +242,33 @@ intro_year = 1890
 intro_month = 1
 max_speed=150
 # DANGER
-Image[0]=images/Main_sem_down_2.1.0
-Image[1]=images/Main_sem_down_2.1.2
-Image[2]=images/Main_sem_down_2.1.1
-Image[3]=images/Main_sem_down_2.1.3
+Image[0]=images/Sem_down_2.1.0
+Image[1]=images/Sem_down_2.1.2
+Image[2]=images/Sem_down_2.1.1
+Image[3]=images/Sem_down_2.1.3
 # CLEAR (sub route)
-Image[4]=images/Main_sem_down_2.3.0
-Image[5]=images/Main_sem_down_2.3.2
-Image[6]=images/Main_sem_down_2.3.1
-Image[7]=images/Main_sem_down_2.3.3
+Image[4]=images/Sem_down_2.3.0
+Image[5]=images/Sem_down_2.3.2
+Image[6]=images/Sem_down_2.3.1
+Image[7]=images/Sem_down_2.3.3
 # CLEAR (main route)
-Image[8]=images/Main_sem_down_2.2.0
-Image[9]=images/Main_sem_down_2.2.2
-Image[10]=images/Main_sem_down_2.2.1
-Image[11]=images/Main_sem_down_2.2.3
+Image[8]=images/Sem_down_2.2.0
+Image[9]=images/Sem_down_2.2.2
+Image[10]=images/Sem_down_2.2.1
+Image[11]=images/Sem_down_2.2.3
+# CAUTION (sub route)
+Image[12]=images/Sem_down_2.3.0
+Image[13]=images/Sem_down_2.3.2
+Image[14]=images/Sem_down_2.3.1
+Image[15]=images/Sem_down_2.3.3
+# CAUTION (main route)
+Image[16]=images/Sem_down_2.2.0
+Image[17]=images/Sem_down_2.2.2
+Image[18]=images/Sem_down_2.2.1
+Image[19]=images/Sem_down_2.2.3
 
-Icon=> images/Main_sem_down_2.1.4
-Cursor=images/Main_sem_down_2.2.4
+Icon=> images/Sem_down_2.1.4
+Cursor=images/Sem_down_2.2.4
 
 ---------------------------------------
 # Two aspect stop token
@@ -270,18 +286,67 @@ intro_year = 1890
 intro_month = 1
 max_speed=150
 # DANGER
-Image[0]=images/Main_sem_down_1-token.1.0
-Image[1]=images/Main_sem_down_1-token.1.2
-Image[2]=images/Main_sem_down_1-token.1.1
-Image[3]=images/Main_sem_down_1-token.1.3
+Image[0]=images/Sem_down_1-token.1.0
+Image[1]=images/Sem_down_1-token.1.2
+Image[2]=images/Sem_down_1-token.1.1
+Image[3]=images/Sem_down_1-token.1.3
 # CLEAR
-Image[4]=images/Main_sem_down_1-token.2.0
-Image[5]=images/Main_sem_down_1-token.2.2
-Image[6]=images/Main_sem_down_1-token.2.1
-Image[7]=images/Main_sem_down_1-token.2.3
+Image[4]=images/Sem_down_1-token.2.0
+Image[5]=images/Sem_down_1-token.2.2
+Image[6]=images/Sem_down_1-token.2.1
+Image[7]=images/Sem_down_1-token.2.3
 
-Icon=> images/Main_sem_down_1-token.1.4
-Cursor=images/Main_sem_down_1-token.2.4
+Icon=> images/Sem_down_1-token.1.4
+Cursor=images/Sem_down_1-token.2.4
+---------------------------------------
+# T-semaphore
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSD_T-sem_1850
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=time_interval_with_telegraph
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+intro_year=1890
+intro_month=12
+# DANGER
+Image[0]=images/Sem_down_T.1.0
+Image[1]=images/Sem_down_T.1.2
+Image[2]=images/Sem_down_T.1.1
+Image[3]=images/Sem_down_T.1.3
+# CLEAR (inverse)
+Image[4]=images/Sem_down_T.3.0
+Image[5]=images/Sem_down_T.3.2
+Image[6]=images/Sem_down_T.3.1
+Image[7]=images/Sem_down_T.3.3
+# CAUTION (inverse)
+Image[8]=images/Sem_down_T.5.0
+Image[9]=images/Sem_down_T.5.2
+Image[10]=images/Sem_down_T.5.1
+Image[11]=images/Sem_down_T.5.3
+# CLEAR (obverse)
+Image[12]=images/Sem_down_T.2.0
+Image[13]=images/Sem_down_T.2.2
+Image[14]=images/Sem_down_T.2.1
+Image[15]=images/Sem_down_T.2.3
+# CAUTION (obverse)
+Image[16]=images/Sem_down_T.5.0
+Image[17]=images/Sem_down_T.5.2
+Image[18]=images/Sem_down_T.5.1
+Image[19]=images/Sem_down_T.5.3
+
+Icon=> images/Sem_down_T.1.4
+Cursor=images/Sem_old_T.2.4
 ---------------------------------------
 
 #--------------------------------------
@@ -293,7 +358,7 @@ Cursor=images/Main_sem_down_1-token.2.4
 obj=roadsign
 copyright=Vladki,Ves
 name=Se_OS_2_1850
-working_method=time_interval_with_telegraph
+working_method=time_interval
 waytype=track
 cost=2000
 is_signal=1
@@ -302,53 +367,106 @@ upgrade_group=1
 offset_left=11
 intro_year = 1858
 intro_month = 1
-is_longblocksignal=1
 max_speed=150
 # DANGER
-Image[0]=images/Old_sem_1.1.0
-Image[1]=images/Old_sem_1.1.2
-Image[2]=images/Old_sem_1.1.1
-Image[3]=images/Old_sem_1.1.3
+Image[0]=images/Sem_old_1.1.0
+Image[1]=images/Sem_old_1.1.2
+Image[2]=images/Sem_old_1.1.1
+Image[3]=images/Sem_old_1.1.3
 # CLEAR
-Image[4]=images/Old_sem_1.3.0
-Image[5]=images/Old_sem_1.3.2
-Image[6]=images/Old_sem_1.3.1
-Image[7]=images/Old_sem_1.3.3
+Image[4]=images/Sem_old_1.3.0
+Image[5]=images/Sem_old_1.3.2
+Image[6]=images/Sem_old_1.3.1
+Image[7]=images/Sem_old_1.3.3
 # CAUTION
-Image[8]=images/Old_sem_1.2.0
-Image[9]=images/Old_sem_1.2.2
-Image[10]=images/Old_sem_1.2.1
-Image[11]=images/Old_sem_1.2.3
+Image[8]=images/Sem_old_1.2.0
+Image[9]=images/Sem_old_1.2.2
+Image[10]=images/Sem_old_1.2.1
+Image[11]=images/Sem_old_1.2.3
 
-Icon=> images/Old_sem_1.1.4
-Cursor=images/Old_sem_1.2.4
+Icon=> images/Sem_old_1.1.4
+Cursor=images/Sem_old_1.2.4
 ---------------------------------------
 # Two aspect choose
 obj=roadsign
 copyright=Vladki,Ves
 Name=Se_OS_2_1850_cho
-working_method=time_interval_with_telegraph
+working_method=time_interval
 waytype=track
 cost=4000
 is_signal=1
 free_route=1
-aspects=2
+aspects=3
 upgrade_group=5
 offset_left=11
 intro_year = 1858
 intro_month = 1
 max_speed=150
 # DANGER
-Image[0]=images/Old_plate.1.0
-Image[1]=images/Old_plate.1.2
-Image[2]=images/Old_plate.1.1
-Image[3]=images/Old_plate.1.3
+Image[0]=images/Plate.1.0
+Image[1]=images/Plate.1.2
+Image[2]=images/Plate.1.1
+Image[3]=images/Plate.1.3
 # CLEAR
-Image[4]=images/Old_plate.2.0
-Image[5]=images/Old_plate.2.2
-Image[6]=images/Old_plate.2.1
-Image[7]=images/Old_plate.2.3
+Image[4]=images/Plate.2.0
+Image[5]=images/Plate.2.2
+Image[6]=images/Plate.2.1
+Image[7]=images/Plate.2.3
+# CAUTION
+Image[8]=images/Plate.2.0
+Image[9]=images/Plate.2.2
+Image[10]=images/Plate.2.1
+Image[11]=images/Plate.2.3
 
-Icon=> images/Old_plate.1.4
-Cursor=images/Old_plate.2.4
+Icon=> images/Plate.1.4
+Cursor=images/Plate.2.4
+---------------------------------------
+# T-semaphore old
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_T-sem_1850
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=time_interval
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+intro_year=1848
+intro_month=12
+# DANGER
+Image[0]=images/Sem_old_T.1.0
+Image[1]=images/Sem_old_T.1.2
+Image[2]=images/Sem_old_T.1.1
+Image[3]=images/Sem_old_T.1.3
+# CLEAR (inverse)
+Image[4]=images/Sem_old_T.5.0
+Image[5]=images/Sem_old_T.5.2
+Image[6]=images/Sem_old_T.5.1
+Image[7]=images/Sem_old_T.5.3
+# CAUTION (inverse)
+Image[8]=images/Sem_old_T.4.0
+Image[9]=images/Sem_old_T.4.2
+Image[10]=images/Sem_old_T.4.1
+Image[11]=images/Sem_old_T.4.3
+# CLEAR (obverse)
+Image[12]=images/Sem_old_T.3.0
+Image[13]=images/Sem_old_T.3.2
+Image[14]=images/Sem_old_T.3.1
+Image[15]=images/Sem_old_T.3.3
+# CAUTION (obverse)
+Image[16]=images/Sem_old_T.2.0
+Image[17]=images/Sem_old_T.2.2
+Image[18]=images/Sem_old_T.2.1
+Image[19]=images/Sem_old_T.2.3
+
+Icon=> images/Sem_old_T.1.4
+Cursor=images/Sem_old_T.2.4
 ---------------------------------------
