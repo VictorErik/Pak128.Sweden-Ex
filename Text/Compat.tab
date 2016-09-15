@@ -4,6 +4,8 @@
 #
 #                                                                              #
 ################################ Signals #################################
+#
+# Track circuit block signals:
 Se_TCB_2
 Se_TCB_2_1970
 Se_TCB_3
@@ -18,3 +20,9 @@ Se_TCB_3_old
 Se_TCB_3_1920
 Se_TCB_Dist
 Se_TCB_Dist_1920
+#
+# Semaphores:
+Se_MSD_T-sem_1850
+Se_MSD_1850_T-sem
+Se_T-signal_test_absolute-block
+Se_MSU_1900_T-sem
