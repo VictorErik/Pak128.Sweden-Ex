@@ -44,6 +44,7 @@ years_before_maintenance_max_reached=
 increase_maintenance_by_percent=
 
 constraint[next][0]=Se_C-tender_1870
+constraint[prev][0]=none
 
 #way_constraint_permissive[2]=2
 

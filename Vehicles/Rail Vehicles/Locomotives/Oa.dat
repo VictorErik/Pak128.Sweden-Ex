@@ -47,6 +47,7 @@ upgrade[0]=Se_Oa(a)_1930
 
 constraint[next][0]=Se_Oa(b)_1910
 
+constraint[prev][0]=none
 
 EmptyImage[W]=Oa.0.0
 EmptyImage[NW]=Oa.0.1

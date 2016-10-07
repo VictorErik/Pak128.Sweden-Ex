@@ -46,6 +46,8 @@ increase_maintenance_by_percent=
 constraint[next][0]=Se_A-tender_1900
 constraint[next][1]=Se_C-tender_1870
 
+constraint[prev][0]=none
+
 #way_constraint_permissive[2]=2
 
 EmptyImage[W]=B(II).0.0
