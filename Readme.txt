@@ -15,9 +15,12 @@ Put the newly created folder "Pak128.Sweden-Ex" containing all the .pak-files in
 
 
 COMPATIBILITY
-Pak.Sweden-Ex is intended to use with the next generation of Simutrans Extended, currently the devel-new branch:
-https://github.com/jamespetts/simutrans-extended/tree/devel-new
-No testing has been done wheter it runs on the current release of S.E.(Simutrans 112.3 Extended 11.35) or on other older releases of S.E. Use at you own risk!
+Pak.Sweden-Ex is intended to use with the next generation of Simutrans Extended, currently only existing as nightly builds and on this github branch:
+
+Nightly builds: http://bridgewater-brunel.me.uk/downloads/nightly/
+GitHub sources: https://github.com/jamespetts/simutrans-extended/tree/master
+
+No testing has been done wheter it runs on the current release of S.E.(Simutrans 112.3 Experimental 11.35) or on other older releases of S.E. Use at you own risk!
 
 LICENCE
 Pak128.Sweden-Ex is released open source under the terms of the Artistic License. Please read licence.txt for details.
