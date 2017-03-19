@@ -1,0 +1,147 @@
+# - 1890 Kinstaby, Max Jüdel & Co in Braunschweig, mechanical signalbox:
+#	Outdoor, circular handels "Ställbock"
+obj=building
+type=signalbox
+name=se_signalbox_mech_small_1890
+copyright=Ves
+intro_year=1890
+intro_month=1
+retire_year=2500
+retire_month=1
+Level=1
+cost=500000
+maintenance=6500
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=1
+needs_ground=1
+allow_underground=0
+signal_groups=5,6
+radius=1823
+#radius calculated: Irl distance / visual tilesize (24 m/tile) X in game tilesize (125 m/tile)
+capacity=4
+
+#Dims: tiles east-west, tiles north-south, rotations
+#Rotations: South, East, North, West
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_small.0.0
+BackImage[1][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_small.0.1
+BackImage[2][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_small.1.0
+BackImage[3][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_small.1.1
+
+Icon=> .././Images/Signalboxes/mechanical_sb_circular_handles_small.2.0
+Cursor=.././Images/Signalboxes/mechanical_sb_circular_handles_small.2.1
+
+------
+# - 1890 Bankeberg, Max Jüdel & Co in Braunschweig, mechanical signalbox:
+#	Outdoor, circular handels "Vevställverk"
+obj=building
+type=signalbox
+name=se_signalbox_mech_large_1890
+copyright=Ves
+intro_year=1890
+intro_month=1
+retire_year=2500
+retire_month=1
+Level=1
+cost=500000
+maintenance=6500
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=1
+needs_ground=1
+allow_underground=0
+
+signal_groups=5,6
+radius=1823
+#radius calculated: Irl distance / visual tilesize (24 m/tile) X in game tilesize (125 m/tile)
+capacity=8
+
+#Dims: tiles east-west, tiles north-south, rotations
+#Rotations: South, East, North, West
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_large.0.0
+BackImage[1][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_large.0.1
+BackImage[2][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_large.1.0
+BackImage[3][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_circular_handles_large.1.1
+
+Icon=> .././Images/Signalboxes/mechanical_sb_circular_handles_large.2.0
+Cursor=.././Images/Signalboxes/mechanical_sb_circular_handles_large.2.1
+------
+# - 1906 Upplands Väsby, Max Jüdel & Co in Braunschweig, mechanical signalbox (Faike year):
+#	Indoor, vertical handles "Hävstångsställverk"
+obj=building
+type=signalbox
+name=se_signalbox_mech_small_1900
+copyright=Ves
+intro_year=1906
+intro_month=1
+retire_year=2500
+retire_month=1
+Level=1
+cost=500000
+maintenance=6500
+population_and_visitor_demand_capacity=0
+employment_capacity=1
+mail_demand=1
+needs_ground=1
+allow_underground=0
+
+signal_groups=5,6,7
+radius=2865
+#radius calculated: Irl distance / visual tilesize (24 m/tile) X in game tilesize (125 m/tile)
+capacity=10
+
+#Dims: tiles east-west, tiles north-south, rotations
+#Rotations: South, East, North, West
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_small.0.0
+BackImage[1][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_small.0.1
+BackImage[2][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_small.1.0
+BackImage[3][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_small.1.1
+
+Icon=> .././Images/Signalboxes/mechanical_sb_small.2.0
+Cursor=.././Images/Signalboxes/mechanical_sb_small.2.1
+------
+# - 1906 Malmö, ???, mechanical signalbox: (Faike year)
+#	Indoor, vertical handles "Hävstångsställverk"
+obj=building
+type=signalbox
+name=se_signalbox_mech_large_1900
+copyright=Ves
+intro_year=1906
+intro_month=1
+retire_year=2500
+retire_month=1
+Level=1
+cost=500000
+maintenance=6500
+population_and_visitor_demand_capacity=0
+employment_capacity=5
+mail_demand=1
+needs_ground=1
+allow_underground=0
+
+signal_groups=5,6,7
+radius=2865
+#radius calculated: Irl distance / visual tilesize (24 m/tile) X in game tilesize (125 m/tile)
+capacity=26
+
+#Dims: tiles east-west, tiles north-south, rotations
+#Rotations: South, East, North, West
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_large.0.0
+BackImage[1][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_large.0.1
+BackImage[2][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_large.1.0
+BackImage[3][0][0][0][0][0]=.././Images/Signalboxes/mechanical_sb_large.1.1
+
+Icon=> .././Images/Signalboxes/mechanical_sb_large.2.0
+Cursor=.././Images/Signalboxes/mechanical_sb_large.2.1

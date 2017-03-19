@@ -1,0 +1,74 @@
+# - 1850 Shelter with no mechanic, only a symbolic place for signalmen to rest:
+#	8 signal slots: (two choose signals, one T-signal/6 signalmen)
+
+obj=building
+type=signalbox
+name=se_signalbox_man_small_1850
+copyright=Ves
+intro_year=1850
+intro_month=1
+retire_year=2500
+retire_month=1
+Level=1
+cost=500000
+maintenance=6500
+population_and_visitor_demand_capacity=2
+employment_capacity=1
+mail_demand=1
+needs_ground=1
+allow_underground=0
+signal_groups=2,4
+radius=1040
+#radius calculated: Irl distance / visual tilesize (24 m/tile) X in game tilesize (125 m/tile)
+capacity=8
+
+#Dims: tiles east-west, tiles north-south, rotations
+#Rotations: South, East, North, West
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Signalboxes/manually_sb.0.0
+BackImage[1][0][0][0][0][0]=.././Images/Signalboxes/manually_sb.0.1
+BackImage[2][0][0][0][0][0]=.././Images/Signalboxes/manually_sb.1.0
+BackImage[3][0][0][0][0][0]=.././Images/Signalboxes/manually_sb.1.1
+
+Icon=> .././Images/Signalboxes/manually_sb.2.0
+Cursor=.././Images/Signalboxes/manually_sb.2.1
+
+-----
+# - 1850 Shelter with telegraph and no mechanic. Also a symbolic signalbox for signalmen to rest:
+#	8 signal slots: (two choose signals, one T-signal/6 signalmen)
+
+obj=building
+type=signalbox
+name=se_signalbox_man_small_1850_no_telegraph
+copyright=Ves
+intro_year=1850
+intro_month=1
+retire_year=2500
+retire_month=1
+Level=1
+cost=500000
+maintenance=6500
+population_and_visitor_demand_capacity=2
+employment_capacity=1
+mail_demand=1
+needs_ground=1
+allow_underground=0
+signal_groups=3
+radius=1040
+#radius calculated: Irl distance / visual tilesize (24 m/tile) X in game tilesize (125 m/tile)
+capacity=8
+
+#Dims: tiles east-west, tiles north-south, rotations
+#Rotations: South, East, North, West
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+dims=1,1,4
+BackImage[0][0][0][0][0][0]=.././Images/Signalboxes/manually_sb_no_telegraph.0.0
+BackImage[1][0][0][0][0][0]=.././Images/Signalboxes/manually_sb_no_telegraph.0.1
+BackImage[2][0][0][0][0][0]=.././Images/Signalboxes/manually_sb_no_telegraph.1.0
+BackImage[3][0][0][0][0][0]=.././Images/Signalboxes/manually_sb_no_telegraph.1.1
+
+Icon=> .././Images/Signalboxes/manually_sb_no_telegraph.2.0
+Cursor=.././Images/Signalboxes/manually_sb_no_telegraph.2.1

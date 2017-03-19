@@ -6,11 +6,12 @@
 #
 # This file contains the following:
 #
-# Cab signals
+# Cab signals:
 #
-# Standard 2 aspect
-# Choose 2 aspect
-# Choose 3 aspect (eventually with callon)
+# - Standard 2 aspect
+# - Choose 2 aspect
+# - Choose 3 aspect (eventually with callon)
+# - Two aspect modern token (token block working method)
 #
 #
 #
@@ -125,3 +126,31 @@ Image[19]=images/Main_5-blink_ATC.1.3
 
 Icon=> images/Main_5_ATC.1.4
 Cursor=images/Main_5_ATC.2.4
+---------------------------------------
+# Two aspect modern token (token block working method)
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_ATC_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year=1980
+intro_month=1
+max_speed=90
+# DANGER
+Image[0]=images/Main_2_ATC_token.1.0
+Image[1]=images/Main_2_ATC_token.1.2
+Image[2]=images/Main_2_ATC_token.1.1
+Image[3]=images/Main_2_ATC_token.1.3
+# CLEAR
+Image[4]=images/Main_2_ATC_token.2.0
+Image[5]=images/Main_2_ATC_token.2.2
+Image[6]=images/Main_2_ATC_token.2.1
+Image[7]=images/Main_2_ATC_token.2.3
+
+Icon=> images/Main_2_ATC_token.1.4
+Cursor=images/Main_2_ATC_token.2.4
