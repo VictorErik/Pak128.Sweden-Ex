@@ -749,7 +749,7 @@ use_timeline = 2
 # Must be between 1492 and 2050
 # Pak128.Britain-Ex has vehicles from 1750 onwards.
 
-starting_year = 1750
+starting_year = 1860
 
 # Starting month of the game for people who want to start in summer (default 1=January)
 starting_month = 1
