@@ -1,7 +1,7 @@
 Obj=building
 Name=Se_Extension_Concreteplatform
 type=extension
-waytype=track
+# waytype=track
 enables_pax=1
 Level=2
 NoInfo=1
