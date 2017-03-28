@@ -92,10 +92,10 @@ dims=1,1,2
 
 # Rotation = 0
 
-Frontimage[0][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Houses_1.0.0
+Frontimage[0][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Houses_1.1.0
 Backimage[0][0][0][0][0][0]=.././Images/Modular Buildings/Forest Fields/Field_Forest_1.0.0
 
 # Rotation = 1
 
-Frontimage[1][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Houses_1.0.1
+Frontimage[1][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Houses_1.1.1
 Backimage[1][0][0][0][0][0]=.././Images/Modular Buildings/Forest Fields/Field_Forest_1.0.0
