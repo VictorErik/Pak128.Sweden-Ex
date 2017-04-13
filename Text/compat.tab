@@ -27,7 +27,7 @@ Se_MSD_1850_T-sem
 Se_T-signal_test_absolute-block
 Se_MSU_1900_T-sem
 Se_T-sem_1850
-roadsign.Se_OS_time_1850_T-sem
+Se_OS_time_1850_T-sem
 #
 # Hand signals:
 Se_HS_1850
