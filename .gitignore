@@ -4,6 +4,13 @@ Makeobj-extended.exe
 err.txt
 Pak128.Sweden-Ex/
 
+vehicles/rail vehicles/locomotives/*.xcf*
+vehicles/rail vehicles/multiple unit-railcars/*.xcf*
+vehicles/rail vehicles/passenger carriages/*.xcf*
+vehicles/rail vehicles/goods wagons/*.xcf*
+
+*.pak
+
 
 # Windows image file caches
 Thumbs.db
