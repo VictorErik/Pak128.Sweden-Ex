@@ -33,6 +33,8 @@ tractive_effort=147
 power=610
 bidirectional=1
 
+constraint[prev][0]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592
@@ -69,6 +71,8 @@ engine_type=electric
 tractive_effort=147
 power=610
 bidirectional=1
+
+constraint[prev][0]=none
 
 cost=1400000
 runningcost=376
@@ -109,6 +113,8 @@ tractive_effort=141
 power=610
 bidirectional=1
 
+constraint[prev][0]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592
@@ -147,6 +153,10 @@ engine_type=electric
 tractive_effort=147
 power=920
 bidirectional=1
+
+constraint[prev][0]=Se_Ue_1980
+constraint[prev][1]=Se_Uf_1980
+constraint[prev][2]=none
 
 cost=1400000
 runningcost=376
@@ -198,6 +208,10 @@ engine_type=electric
 tractive_effort=141
 power=920
 bidirectional=1
+
+constraint[prev][0]=Se_Ue_1980
+constraint[prev][1]=Se_Uf_1980
+constraint[prev][2]=none
 
 cost=1400000
 runningcost=376

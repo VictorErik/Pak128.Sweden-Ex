@@ -22,19 +22,32 @@
 #
 use_timeline = 3
 
-# Passenger generation (the default is 16): smaller values means fewer passengers.
-# NOTE: This will need to be adjusted depending on the meters_per_tile setting.
-# 16 is calibrated to be correct for 125m/tile. This should be doubled for every
-# halving of the meters per tile setting, and halved for every doubling thereof.
+# The height of tiles for the double/half height tile system
+tile_height = 8
 
-passenger_factor = 15
+height_conversion_factor = 2
 
 # In beginner mode, all good revenuses are multiplied by a factor (default 1500=1.5)
-
 beginner_price_factor = 1500
 
-# Use beginner mode for new maps
+# These settings are used to calculate adjusted figures based on the length of the month. 
+# To assume a base month length based on the settings in Simutrans-Standard, use 1,000
+# base_meters_per_tile and 18 base_bits_per_month.
+# 
+# To assume a base month length of 24 hours (to allow various settings to be calibrated
+# as if months were days), use a base meters per tile of 7500
+base_meters_per_tile = 1000
+base_bits_per_month = 18
 
+# This setting determines the rate at which jobs replenish. At the default, 100, all
+# of a building's jobs replenish in exactly 1 month. At 200, it takes 2 months, and at
+# 50, it takes 1/2 a month. This is useful when calibrating the month/year scale as
+# against the hour/minute scale. If a month is timed as 6.4 hours (6:24), for example,
+# a day (24 hours) consists of 3.75 "months". For jobs to replenish once every 24 hours,
+# therefore, set this to 375 if the length of a month is 6:24.
+job_replenishment_per_hundredths_of_months = 375
+
+# Use beginner mode for new maps
 first_beginner = 0
 
 # Size of the catchment area of a station/stop in tiles.
@@ -42,7 +55,7 @@ first_beginner = 0
 # (In older versions, this was used for both city buildings and factories)
 #
 # Default: 2
-station_coverage = 12
+station_coverage = 16
 
 # Size of the catchment area of a station/stop in tiles.
 # This is for factories only.
@@ -69,73 +82,73 @@ max_small_city_size = 3000
 # by the growth factors; ergo, the lower the number, the higher the growth. Longer games
 # should have less growth, whereas shorter games do better with more growth.
 
-growthfactor_villages = 895
-growthfactor_cities = 600
-growthfactor_capitals = 350
+growthfactor_villages = 1165
+growthfactor_cities = 720
+growthfactor_capitals = 420
 
-# These settings determine the proportion of passengers who travel to industries and
-# attractions respectively. 
-
-factory_worker_percentage = 15
-tourist_percentage = 8
-
-# Some passengers who are not able to find a route will be content
-# to go to an alternative destination. Set the maximum number here.
-# (Note: whether any given passenger is content to go to an alternative
-# destination, and, if so, the number, will be random. For each 
-# possible number of alternative destinations, the chances will be even.
-# For example, if the number is set at 2, there will be an equal chance
-# of passengers having 0, 1 or 2 alternative destinations).
+# Some passengers who are not able to find a route will be content to go to an alternative destination. 
+# This is set separately for visiting passengers and commuting passengers. It can either be set in
+# absolute figures using max_alternative_destinations_visiting and max_alternative_destinations_commuting,
+# or set as a proportion of the total number of jobs and total level of visitor demand, using 
+# max_alternative_destinations_per_visitor_demand_millionths and max_alternative_destinations_per_job_millionths.
+# Using the relative settings is recommended, as this scales much better to the map size.
+# 
+# This is specified as the maximum number of alternative destinations, as the actual number for any
+# given packet of passengers will be randomised between zero and this number. 
 #
-# Max: 7
+# This figure strongly affects how many passengers will travel, and also can have a significant effect on
+# the computational load.
 
-max_alternative_destinations = 7
+#max_alternative_destinations_commuting = 6
+#max_alternative_destinations_visiting = 12
 
-# The program will generate three groups of passengers: (1) local;
-# (2) midrange; and (3) long distance. The program will look for a town within
-# the specified distance ranges for each class of passenger. If it cannot
-# find such a town within a certain number of tries, it will pick a random town.
-# The ranges *may* overlap. These values are in kilometres. 
+max_alternative_destinations_per_visitor_demand_millionths = 500
+max_alternative_destinations_per_job_millionths = 675
 
-local_passengers_min_distance = 0
-local_passengers_max_distance = 16
-midrange_passengers_min_distance = 16
-midrange_passengers_max_distance = 80
-longdistance_passengers_min_distance = 55
-longdistance_passengers_max_distance = 16384
-
-# The following are percentage chances. They represent the chances that
-# any passengers generated will try to find a town within each of the three
-# ranges, respectively. 
+# Passengers have a maximum tolerance level for how long that they will spend travelling. 
+# Passengers are generated in two groups: commuting and visiting passengers. Commuting 
+# passengers travel to find work, whereas visiting passengers travel for other reasons, such
+# as leisure, business (i.e., travel between workplaces) and shopping. Each of these two
+# different types of passenger has a minimum and maximum journey time tolerance.
 #
-# 84% of journeys are 10 miles (16km) or under
-# 14% of journeys are 10 - 50  miles (16-80km)
-# 2% of journeys are >50 miles (80km)
-# See: http://www.sustrans.org.uk/assets/files/connect2/guidelines%2016.pdf
-# Allow for some overlap, however, between midrange and long distance.
+# The number is  expressed in minutes. For each packet of passengers, the number of minutes
+# travelling time (including waiting time) that they are prepared to tolerate is randomised 
+# between the minimum and maximum amount using a normal distribution, meaning that the numbers
+# are more likely to be in the middle of the range than at either end.
 
-passenger_routing_local_chance = 84
-passenger_routing_midrange_chance = 12
-# (Longdistance by inference = 4)
-# passenger_routing_longdistance_chance is 100 minus the sum of the two above values,
-# but not stipulated individually. 
+min_visiting_tolerance = 3
+range_visiting_tolerance = 5400
+min_commuting_tolerance = 20
+range_commuting_tolerance = 120
 
-# Passengers have a maximum tolerance level for how long that they will
-# spend travelling. The further that the passengers want to go, the more
-# time that they will be prepared to spend travelling. The number is 
-# expressed in minutes. For each packet of passengers, the number of 
-# minutes travelling time (including waiting time) that they are prepared
-# to tolerate is randomised between the minimum and maximum amount using a
-# normal distribution, meaning that the numbers are more likely to be in
-# the middle of the range than at either end. The local, mid-range and
-# long-distance passenger groups correspond to those above. 
+# The following settings determine the way in which individual packets of passengers decide
+# what their actual journey time tolerance is, within the above ranges. The options are:
+#
+# 0 - Even distribution
+# Every point between the minimum and maximum is equally likely to be selected
+#
+# 1 - Normal distribution (http://en.wikipedia.org/wiki/Normal_distribution)
+# Points nearer the middle of the range between minimum and maximum are more likely 
+# to be selected than points nearer the end of the ranges.
+#
+# 2 - Positively skewed normal distribution (squared) (http://en.wikipedia.org/wiki/Skewness)
+# Points nearer the a point in the range that is not the middle but is nearer to the lower
+# end of the range are more likely to be selected. The distance from the middle is the skew.
+#
+# 3 - Positively skewed normal distribution (cubed)
+# As with no. 2, but the degree of skewness (the extent to which the modal point in the range
+# is nearer the beginning than the end) is considerably greater.
+#
+# 4 - Positively skewed normal distribution (squared recursive)
+# As with nos. 2 and 3 with an even greater degree of skew.
+#
+# 5 - Positively skewed normal distribution (cubed recursive)
+# As with nos. 2, 3 and 4 with a still greater degree of skew.
+#
+# 6 and over - Positively skewed normal distribution (cubed multiple recursive)
 
-min_local_tolerance = 5
-max_local_tolerance = 150
-min_midrange_tolerance = 15
-max_midrange_tolerance = 270
-min_longdistance_tolerance = 60
-max_longdistance_tolerance = 5400
+random_mode_commuting = 2
+random_mode_visiting = 5
 
 # Settings for calibrating the revenue system
 #
@@ -176,7 +189,7 @@ max_longdistance_tolerance = 5400
 
 min_bonus_max_distance = 1
 median_bonus_distance = 160
-max_bonus_min_distance = 2000
+max_bonus_min_distance = 1000
 max_bonus_multiplier_percent = 50
 
 # meters_per_tile represents the length of each tile in meters. 
@@ -355,7 +368,7 @@ seperate_halt_capacities = 1
 # away from each other that the cities are built. This is introduced in Simutrans-Experimental
 # 9.0. It replaces Simutrans-Standard's setting of "minimum_city_distance".
 
-city_isolation_factor = 32
+city_isolation_factor = 48
 
 # Minimum distance of a city attraction to other special buildings
 special_building_distance = 2
@@ -366,7 +379,14 @@ special_building_distance = 2
 # the default setting of 15 means that passnegers will walk to their destination if
 # it is within 1.5km of their origin.
 
-max_walking_distance_km_tenth = 50
+max_walking_distance_km_tenth = 15
+
+# This is the speed in km/h at which passengers will walk. The average walking speed
+# is 5km/h, and this is the default. However, there is much to be said for a lower
+# setting than this to take into account the fact that many walking journeys are
+# not in a straight line.
+
+walking_speed = 4
 
 # This setting determines the relationship between the number of private car trips
 # generated and (1) the congestion recorded in the cities; and (2) the number of
@@ -438,17 +458,13 @@ seaport_toll_revenue_percentage = 15
 # service player. This does not affect other sorts of ways. 
 # Default: 0
 
-toll_free_public_roads = 0
+toll_free_public_roads = 1
 
 # If a player has allowed access to its roads to the public player, private
 # cars may use those roads. They will pay a toll to do so for every kilometre.
 # This is the amount (in simucents: 100 = 1 simucredit; 1 = 1 simucent)
 # that the player who owns the road will receive for each km traversed by a
 # private car on that road.
-#
-# NOTE: This value will not be saved with the saved game until the 
-# major version is incremented to 11. In a network game, this value
-# will default to 1.
 
 private_car_toll_per_km = 1
 
@@ -458,10 +474,6 @@ private_car_toll_per_km = 1
 # of the way, and cannot prevent other players from upgrading/
 # downgrading/removing it. Setting it to 0 will disable this 
 # feature.
-#
-# NOTE: This value will not be saved with the saved game until the 
-# major version is incremented to 11. In a network game, this value
-# will default to 1.
 
 towns_adopt_player_roads = 1
 
@@ -476,6 +488,10 @@ allow_making_public = 0
 # at airports without control towers. 1 = yes; 0 = no.
 
 allow_airports_without_control_towers = 0
+
+# If this is set to 2, single height bridges cannot be built over ways.
+
+way_height_clearance = 2
 
 ################################## Industry settings #################################
 
@@ -496,7 +512,7 @@ allow_underground_transformers = 1
 
 # How much is the total electric power available (in relation to total production) 
 # in parts per thousand. 1000 = 100% and default for Simutrans-Experimental.
-electric_promille = 1000
+electric_promille = 1200
 
 # powerlines
 cost_transformer = 2500
@@ -510,8 +526,8 @@ min_factory_spacing = 2
 # Maximum distance for connected factories
 # If percentage>0, it will be in percent of the largest map dimension
 # percentage also over-rides the absolute value (which is in tiles)
-max_factory_spacing_percentage = 33
-#max_factory_spacing = 40
+max_factory_spacing_percentage = 25
+#max_factory_spacing = 1280
 
 # Some factories have a retirement date, after which they are obsolete. After
 # that date, factories may close down (random chance each month). After the number
@@ -519,33 +535,62 @@ max_factory_spacing_percentage = 33
 # chance increases the closer to this value that factories get.
 max_years_obsolete = 32
 
-# The following settings determine the minimum and maximum number of towns in which
-# workers in industries live (and thus from which they need to be transported to
-# the industries in question). 
-
-factory_worker_minimum_towns = 1
-factory_worker_maximum_towns = 6
-
 # number of periods for averaging the amount of arrived pax/mail at factories for boost calculation
 # one period represents a fixed interval of 2^18 ms in-game time
 # value can range from 1 to 16, inclusive; 1 means no averaging; default is 4
 factory_arrival_periods = 4
 
-# whether factory's pax/mail demands are enforced or not; default is on
+# whether factory's passenger and mail demands are enforced or not; the default is on (1).
 factory_enforce_demand = 1
-
-# The maximum distance in tiles from which workers at industries may travel.
-factory_worker_radius = 320
 
 # How much amount in transport is sent before further distribution stops
 # This is only enabled when "just_in_time" is enabled
 # The limit is given in percent of factory storage (0=off)
-#
-# This needs to be very high.  Many factories have low storage numbers (like 30)
-# and high production per month (like 600).  Long, slow ship routes can take 6 months
-# to cross the map.  To keep a steady flow, we need a setting like 6 * (600/30) * 100% = 12000.
-# Make it even larger to avoid breakage.
-maximum_intransit_percentage = 16000
+# 
+# This number is (as of Simutrans-Experimental 11.16) scaled to the ratio
+# of the time that it takes the industry to consume its stock to the average
+# lead time for new deliveries. Values of slightly over 100% are recommended.
+maximum_intransit_percentage = 110
+
+# This is the fraction of the way's total wear capacity below which
+# the way will count as degraded and be automatically renewed or,
+# if the player has insufficient money or auto-renewal has been
+# disabled for the way in question, will enter a degraded state
+# in which the speed limit will be reduced. (At a state of 0,
+# the way will become totally impassable). 
+# Default: 7 (approx. 14%). 
+
+way_degradation_fraction = 7
+
+# These two settings determine the default relationship between
+# the weight of vehicles and their way wear factors. Air and
+# road vehicles use the "road_type", and all others apart from
+# maglev and water (which are hard coded to zero) use the 
+# "rail_type". This only applies to vehicles whose way wear
+# factor is not specified in the individual vehicle definitions.
+# The default for road is 4, based on the "forth power law":
+# http://www.pavementinteractive.org/article/equivalent-single-axle-load/
+# The default for rail is 1. 
+
+way_wear_power_factor_road_type = 4
+way_wear_power_factor_rail_type = 1
+
+# This is the setting to calibrate the way wear system. This
+# is only effective for vehicles which do not have their way
+# wear factor set in their individual .dat files. For an
+# explanation of the standard axle load (in tonnes), see
+# the link above.
+# The default is 8, which is the UK standard for road.
+
+standard_axle_load = 8
+
+# This is the way wear factor exerted on roads by all
+# "citycars" (that is, the automatically generated
+# private road traffic) in the game, measured in 
+# 1/10,000ths of a standard axle load. 
+# Default = 2
+
+citycar_way_wear_factor = 2
 
 ################################## Finance settings #################################
 
@@ -591,6 +636,40 @@ cost_multiply_found_industry=500000
 # Multiplied by headquarters "level"
 cost_multiply_headquarter=10000
 
+# Forge cost settings
+# 
+# The forge cost settings determine the cost of building a new way, in
+# SimuCents per kilometre. This cost is charged when building a new
+# way of a specified type on a tile, but not when upgrading an existing
+# way of that same type. This therefore makes it cheaper to upgrade ways
+# than build new ones. This cost is added to the base cost of the ways
+# specified in the .dat files.
+
+forge_cost_road = 10000
+forge_cost_track = 20000
+forge_cost_water = 40000
+forge_cost_monorail = 20000
+forge_cost_maglev = 30000
+forge_cost_tram = 5000
+forge_cost_narrowgauge = 10000
+forge_cost_air = 25000
+
+# The parallel ways forge cost percentage is the percentage of the
+# forge cost that is charged when building one way of each type
+# adjacent to an already existing way of that same type. For example,
+# if this number is set to 50 for roads, the forge cost (as specified 
+# above) of building one road immediately adjacent to another is 50%
+# of the full value.
+
+parallel_ways_forge_cost_percentage_road = 50
+parallel_ways_forge_cost_percentage_track = 35
+parallel_ways_forge_cost_percentage_water = 75
+parallel_ways_forge_cost_percentage_monorail = 35
+parallel_ways_forge_cost_percentage_maglev = 40
+parallel_ways_forge_cost_percentage_tram = 85
+parallel_ways_forge_cost_percentage_narrowgauge = 35
+parallel_ways_forge_cost_percentage_air = 85
+
 # Insolvency and debt settings
 #
 # These settings allow what happens when the player runs out of money and goes
@@ -627,6 +706,35 @@ allow_purchases_when_insolvent = 0
 
 speed_bonus_multiplier_percent=100
 
+# These settings determine the population, visitor demand, jobs and mail per "level" of building.
+# Each of these things can be set independently in the buildings' .dat files, but for older paksets
+# or paksets from Standard, only a "level" will be supplied, so these conversion factors are
+# important in those cases.
+population_per_level = 4
+visitor_demand_per_level = 4
+jobs_per_level = 3
+mail_per_level = 1
+
+# These settings determine the number of passenger trips that each person makes per game month
+# and the number of items of mail that each unit of mail demand produces per month, in 1/100ths.
+# This does *not* include onward and return trips, however, and is *before* adjustment for the
+# meters per tile and bits per month scales.
+passenger_trips_per_month_hundredths = 60
+mail_packets_per_month_hundredths = 5
+
+# This setting determines the maximum number of onward trips that passengers may make on a journey.
+# The actual number of onward trips for any given packet of passengers is a random number of anywhere
+# between 1 and this figure. This is only applicable if passengers are in fact going to make an onward
+# trip, the chance of which is determined by a different setting (see below).
+max_onward_trips = 3
+
+# This figure determines how likely that it is that passengers will make any onward trips at all. It
+# is expressed in percentage terms.
+onward_trip_chance_percent = 25
+
+# This is the chance, in percentage, that any given passenger journey will be a commuting trip. Any
+# trip that is not a commuting trip is classed as a visiting trip.
+commuting_trip_chance_percent = 67
 
 ################################### Time settings ################################
 
@@ -641,15 +749,15 @@ use_timeline = 2
 # Must be between 1492 and 2050
 # Pak128.Britain-Ex has vehicles from 1750 onwards.
 
-starting_year = 1930
+starting_year = 1860
 
 # Starting month of the game for people who want to start in summer (default 1=January)
 starting_month = 1
 
 # Should month be shown in date?
-# (0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4, japanese no season=5, us no season=6, german no season = 7, journey time equivalent = 8)
+# (0=no, 1=yes, 2>=show day in japan format=2, us format=3, german=4, japanese no season=5, us no season=6, german no season = 7, hours/minutes scale = 8)
 # This is most useful, if you use longer months than the default length (see below)
-
+# The hours/minutes scale shows the time in hours/minutes as used for determining journey times and other short times. It is the recommended setting. 
 show_month = 8
 
 # Global time multiplier (will be save with new games)
@@ -677,14 +785,14 @@ bits_per_month = 22
 # another stop (possibly owned by a rival player) in the nearby vicinity, and of passengers
 # walking instead of using player transport in some cases.
 #
-# 0 = false; 1 = true. Default: false.
+# 0 = off; 1 = on. Default: off.
 
 allow_routing_on_foot = 1
 
 ################################ Road Settings ###################################
 
 # (=1) drive on the left side of the road
-drive_left = 0
+drive_left = 1
 
 # Draw the signals on the left.
 # (In Pak128.Britain, this must be set to 0 until the signals are re-drawn to suit
@@ -701,14 +809,24 @@ signals_on_left = 1
 # city_road[0]=name,1900,1920
 # city_road[1]=name2,1921,1950
 
-city_road[0]=Se_50_road,1800,2500
+city_road[0]=dirt_road,1700,1780
+city_road[1]=cobblestone_road,1781,1910
+city_road[2]=tarmac_city_road,1911,1932
+city_road[3]=city_road,1933,1996
+city_road[4]=city_road-sma,1997,2200
 
 # Intercity roads timeline. Format examples: 
 # intercity_road[0]=name,1900,1920
 # intercity_road[1]=name2,1921,1950
 
-intercity_road[0]=Se_70_road,1800,1970
-intercity_road[1]=Se_90_road,1970,2500
+intercity_road[0]=bridleway,1700,1784
+intercity_road[1]=dirt_road,1785,1824
+intercity_road[2]=macadam_road,1825,1902
+intercity_road[3]=tarmac_road,1903,1925
+intercity_road[4]=tarmac_city_road,1926,1932
+intercity_road[5]=hr-asphalt-road-light,1933,1938
+intercity_road[6]=hr-asphalt-road-medium,1939,1996
+intercity_road[7]=sma-road-medium,1997,2300
 
 # Max. length of intitial intercity road connections
 # If you want to speed up map creation, lower this value
@@ -716,89 +834,53 @@ intercity_road[1]=Se_90_road,1970,2500
 
 intercity_road_length = 320
 
+# This is the maximum number of tiles that a road, river or canal
+# that is a public right of way may be diverted for an existing
+# public right of way to be deleted. Diversion allows players to
+# change the course of public rights of way to accomodate, for
+# example, railways whilst protecting their integrity.
+
+max_diversion_tiles = 16
+
 ################################ Vehicle settings ##############################
 
 # These settings determine how vehicles take corners, for each individual type of way.  They
 # only apply to vehicles that use fixed ways (road, rail, monorail, etc.), and not aircraft or
-# ships.
-#
-# Corner adjustment facotor (min/max) (%): The percentage of the normal speed limit applied
-# on a 45 degree bend (for example, if the speed limit was 200kph, and the adjustment
-# factor set to 50, the speed limit on the corner would be 100kph). 
+# ships. Note that these settings have changed substantially from versions earlier than 11.
 # 
-# Corner limit (min/max) (kph): The minimum and maximum speed limits for phasing of the 
-# corner adjustment factor. On a way with the speed limit at or below the minimum limit,
-# the minimum adjustment factor applies. On a way with the limit at or above the maximum
-# speed limit, the maximum adjustment factor applies. Between the two, a phased proportion
-# of the adjustment factor applies as a linear function of the difference between the two.
-# For example, at halfway between the minimum and maximum speeds, halfway between the
-# minimum and maximum adjustment factors apply.
+# corner_force_divider_[way type]: The maximum force as a proportion of G (gravitational force)
+# that it is permissible for vehicles of this way type to experience when taking a corner. This
+# number is expressed as a divider: e.g., a value of 10 is 1/10th of G, or 0.1G. The higher this
+# number, the slower that vehicles have to travel in corners. 
 #
-# Direction steps (min/max) (number of tiles): The number of steps that the simulation takes
-# into account when determining how sharp that a corner is. For example, if the number is set
-# to 6, the corner speed limit will be based on the greatest difference in angle between the
-# current direction and the direction in which the vehicle was travelling over the last 6 tiles.
-# The higher the number, therefore, the more important that it is to have straight ways.
-# Higher numbers should be set for railways and track based ways, and lower numbers for roadways.
-# The direction steps are phased in the same way as the adjustment factor.
+# The explanation for this formula can be found here:
+# https://books.google.co.uk/books?id=NbYqQSQcE2MC&pg=PA30&lpg=PA30&dq=curve+radius+speed+limit+formula+rail&source=bl&ots=mbfC3lCnX4&sig=qClyuNSarnvL-zgOj4HlTVgYOr8&hl=en&sa=X&ei=sBGwVOSGHMyBU4mHgNAC&ved=0CCYQ6AEwATgK#v=onepage&q=curve%20radius%20speed%20limit%20formula%20rail&f=false
+# The value of 10 (i.e., 0.1G) is accurate for rail for modern practice in the UK. Road appears
+# to work well at 5 (0.2G), but the value is an estimate. Superelevation is not accounted for.
+# Tilting trains are defined for the individual vehicles.
 #
-# Curve friction factor (x): The number of times extra friction that applies as a vehicle corners.
-# Since the friction occasioned by cornering is not usually a significant speed limiting factor for
-# most transport vehicles, it is recommended to set this to 0. It is preserved for those who prefer
-# the Simutrans-Standard system of cornering.
+# curve_friction_factor_[way type]: The number of times extra friction that applies as a vehicle 
+# corners. 
 #
-# Reverting to the older cornering system: To make Simutrans behave in the conventional way (by
-# using friction rather than speed limits to reduce speed in corners), set the minimum and
-# maximum adjustment factors, and the minimum and maximum direction steps, to 1, and the friction
-# factor to 8. With those settings, the minimum and maximum speed will be irrelevant. 
+# tilting_min_radius_effect: The minimum radius of a corner (in meters, calibrated according
+# to the meters_per_tile setting) at which a tilting train can traverse a corner faster than
+# a non-tilting train. 
 
-max_corner_limit_road=200
-min_corner_limit_road=30
-max_corner_adjustment_factor_road=80
-min_corner_adjustment_factor_road=90
-min_direction_steps_road=2
-max_direction_steps_road=2
+corner_force_divider_road=5
+corner_force_divider_track=10
+corner_force_divider_tram=8
+corner_force_divider_monorail=10
+corner_force_divider_maglev=10
+corner_force_divider_narrowgauge=10
+
 curve_friction_factor_road=0
-
-max_corner_limit_track=425
-min_corner_limit_track=45
-max_corner_adjustment_factor_track=50
-min_corner_adjustment_factor_track=85
-min_direction_steps_track=8
-max_direction_steps_track=28
 curve_friction_factor_track=0
-
-max_corner_limit_tram=250
-min_corner_limit_tram=30
-max_corner_adjustment_factor_tram=70
-min_corner_adjustment_factor_tram=87
-min_direction_steps_tram=3
-max_direction_steps_tram=8
-curve_friction_factor_tram=0
-
-max_corner_limit_monorail=425
-min_corner_limit_monorail=75
-max_corner_adjustment_factor_monorail=62
-min_corner_adjustment_factor_monorail=90
-min_direction_steps_monorail=10
-max_direction_steps_monorail=32
+curve_friction_factor_tram=2
 curve_friction_factor_monorail=0
-
-max_corner_limit_maglev=500
-min_corner_limit_maglev=50
-max_corner_adjustment_factor_maglev=40
-min_corner_adjustment_factor_maglev=80
-min_direction_steps_maglev=8
-max_direction_steps_maglev=32
 curve_friction_factor_maglev=0
-
-max_corner_limit_narrowgauge=250
-min_corner_limit_narrowgauge=30
-max_corner_adjustment_factor_narrowgauge=66
-min_corner_adjustment_factor_narrowgauge=92
-min_direction_steps_narrowgauge=6
-max_direction_steps_narrowgauge=16
 curve_friction_factor_narrowgauge=0
+
+tilting_min_radius_effect=1000
 
 # These settings determine how long that it takes a train-type convoy to turn
 # around when it reaches the end of the line. They do not apply to road vehicles
@@ -825,8 +907,8 @@ curve_friction_factor_narrowgauge=0
 # where they are present. 
 
 unit_reverse_time_seconds=60
-hauled_reverse_time_seconds=300
-turntable_reverse_time_seconds=700
+hauled_reverse_time_seconds=120
+turntable_reverse_time_seconds=360
 
 # This setting allows the power of all vehicles to be adjusted at once. It is a
 # percentage figure. Thus, if, for example, a vehicle has a power rating of 1,200kw
@@ -836,9 +918,13 @@ turntable_reverse_time_seconds=700
 # 2.0 and the global_power_factor_percent was set to 200, the vehicle would behave
 # as if it had a total power of 4,800kw. 
 #
-# The default is 100 (but should be set to 50% for Standard paksets).
+# The force factor percent has the same effect for tractive effort. 
+#
+# The default is 100 (but should be set to 50% for Standard paksets
+# in the case of the power factor only).
 
 global_power_factor_percent=100
+global_force_factor_percent=100
 
 # This setting allows the way in which weight limits are enforced to be customised.
 # If enforce_weight_limits is set to 0, weight limits are ignored entirely. If
@@ -856,7 +942,7 @@ enforce_weight_limits=2
 # to buy old vehicles by clicking a "Show obsolete" button in the depot / replacer
 # window. This button is not shown if this is set to 0.
 
-allow_buying_obsolete_vehicles=1
+allow_buying_obsolete_vehicles=0
 
 # This allows for a "driving it off the lot" drop in value.
 # This is not on by default, even in Experimental.
@@ -865,6 +951,31 @@ allow_buying_obsolete_vehicles=1
 
 used_vehicle_reduction=1
 
+# This is the distance in meters at which train drivers can see signals ahead.
+# Trains have to brake in time for signals which might be at danger, so this
+# distance affects train speed. 
+
+sighting_distance_meters = 875
+
+# This is the maximum speed in km/h at which rail (including narrow gauge, monorail and maglev)
+# vehicles may travel in the drive by sight working method. 0 = as fast as they can
+# stop within their sighting distance with no other limit.
+
+max_speed_drive_by_sight_kmh = 35
+
+# Corners of greater than 45 degrees have their radius calculated. However, because of 
+# the rigid tile system in Simutrans, this produces unrealistic results when applied
+# to corners of 45 degrees. A value is thus specified here. This affects the speed
+# at which vehicles can take 45 degree corners. 
+#
+# If this is set to 0, 45 degree corners are treated as straight.
+# 
+# If this is set to 9999, adjacent pairs of degree corners are treated as half the
+# radius of a 90 degree corner (and non-adjacent pairs scaled according to the distance
+# between them). This is techincally correct but does not work well in Simutrans because
+# of the inability to have gentler corners. 
+#
+assumed_curve_radius_45_degrees = 1000
 
 ############################### Display settings ###############################
 
@@ -874,15 +985,19 @@ used_vehicle_reduction=1
 
 # Show info windows for private cars and pedestrians?
 # (1=on, 0=off)
-pedes_and_car_info = 0
+pedes_and_car_info = 1
 
 # Show infos on trees?
 # (1=on, 0=off)
-tree_info = 0
+tree_info = 1
 
 # Show passenger level of townhalls?
 # (1=on, 0=off)
 townhall_info = 1
+
+# Show infos also on bare ground?
+# (1=on, 0=off)
+ground_info = 1
 
 # always open only a single info window for the ground,
 # even if there are more objects on this tile
@@ -911,19 +1026,18 @@ citycar_life = 1375
 # Pak128.Britain default = 158 (yellow)
 cursor_overlay_color = 158
 
-# how height is a tile in z-direction (default 16, TTD 8)
-# THIS WILL BE ONLY USED, WHEN THIS FILE IS IN THE pakxyz/config!
-tile_height = 16
-
 ################################### River settings ##################################
 
 # rivers:
 # The highest number is the smallest. A river with max_speed==0 is not navigavable by ships.
-river_type[0] = river_00
-river_type[1] = river_01
-river_type[2] = river_02
-river_type[3] = river_03
-river_type[4] = river_04
+river_type[0] = River3
+river_type[1] = River2b
+river_type[2] = River2a
+river_type[3] = River2
+river_type[4] = River1a
+river_type[5] = River1
+river_type[6] = River0a
+river_type[7] = River0
 
 # The number of rivers
 river_number = 128
@@ -941,6 +1055,8 @@ river_max_length = 4096
 
 # Number of trees on square 2 - minimal usable, 3 good, 5 very nice looking
 forest_no_of_trees_per_square = 3
+
+# All following tree options are only active during map generation/extension.
 
 # Base forest size - minimal size of forest - map independent
 forest_base_size = 36
@@ -970,12 +1086,17 @@ no_tree_climates = 130
 
 # if set, no trees will be created at all (save about 30% memory and
 # the season change will be much smoother on small machines)
-no_tree = 0
+no_trees = 0
+
+# if set, no lakes will be created at all
+no_lakes = 0
 
 ################################### Network settings ##############################
 
+# Most network settings are found in the base simuconf.tab
+
 # Pakset download URL (for display on the list server)
-server_pakurl = https://github.com/downloads/jamespetts/simutrans-pak128.britain/Pak128.Britain-Ex.zip
+server_pakurl = http://www.bridgewater-brunel.me.uk/downloads/Pak128.Britain-Ex-0.9.2.zip
 
 
 ################################### Livery settings ##################################

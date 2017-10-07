@@ -35,6 +35,11 @@ tractive_effort=325
 power=3960
 bidirectional=1
 
+constraint[prev][0]=Se_Ma_1950
+constraint[prev][1]=Se_Ma_1970
+constraint[prev][2]=Se_Ma_1990
+constraint[prev][3]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592
@@ -103,6 +108,11 @@ tractive_effort=325
 power=3960
 bidirectional=1
 
+constraint[prev][0]=Se_Ma_1950
+constraint[prev][1]=Se_Ma_1970
+constraint[prev][2]=Se_Ma_1990
+constraint[prev][3]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592
@@ -151,6 +161,11 @@ engine_type=electric
 tractive_effort=325
 power=3960
 bidirectional=1
+
+constraint[prev][0]=Se_Ma_1950
+constraint[prev][1]=Se_Ma_1970
+constraint[prev][2]=Se_Ma_1990
+constraint[prev][3]=none
 
 cost=1400000
 runningcost=376

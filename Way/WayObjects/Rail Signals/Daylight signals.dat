@@ -1,0 +1,832 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+#
+# In this file are the following:
+#
+# - Three aspect stop, 1.generation
+#
+# - Two aspect stop old
+# - Two aspect stop old double block
+# - Three aspect stop old
+# - Two aspect choose old
+# - Three aspect choose old
+# - Two aspect distant old/modern
+# - Two aspect old token block signal (token block working method)
+# - Two aspect stop old Longblock
+#
+# - Two aspect stop modern
+# - Two aspect stop modern double block
+# - Three aspect stop modern
+# - Two aspect choose modern
+# - Three aspect choose modern
+# - Two aspect modern token block signal (token block working method)
+# - Two aspect stop modern Longblock
+#
+# - Two aspect stop old (Absolute block)
+# - Two aspect stop old double block (Absolute block)
+# - Two aspect choose old (Absolute block)
+# - Two aspect choose old with Callon (Absolute block)
+# - Two aspect distant signal (Absolute block)
+#
+################################
+---------------------------------------
+# MODERN STYLE 1920+ Circuit block
+#--------------------------------------
+# Three aspect stop, 1.generation
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3-1.generation
+working_method=track_circuit_block
+waytype=track
+cost=3000
+is_signal=1
+aspects=3
+upgrade_group=3
+offset_left=11
+signal_groups=9
+intro_year=1920
+intro_month=1
+retire_year=1972
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_old_1.1.0
+Image[1]=images/daylight_old_1.1.2
+Image[2]=images/daylight_old_1.1.1
+Image[3]=images/daylight_old_1.1.3
+# CLEAR
+Image[4]=images/daylight_old_1.2.0
+Image[5]=images/daylight_old_1.2.2
+Image[6]=images/daylight_old_1.2.1
+Image[7]=images/daylight_old_1.2.3
+# CAUTION
+Image[8]=images/daylight_old_1-blink.1.0
+Image[9]=images/daylight_old_1-blink.1.2
+Image[10]=images/daylight_old_1-blink.1.1
+Image[11]=images/daylight_old_1-blink.1.3
+
+Icon=> images/daylight_old_1.1.4
+Cursor=images/daylight_old_1.2.4
+---------------------------------------
+# Two aspect stop old
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_2_1920
+working_method=track_circuit_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+signal_groups=9
+intro_year = 1922
+intro_month = 1
+retire_year=1972
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_old_2.1.0
+Image[1]=images/daylight_old_2.1.2
+Image[2]=images/daylight_old_2.1.1
+Image[3]=images/daylight_old_2.1.3
+# CLEAR
+Image[4]=images/daylight_old_2.2.0
+Image[5]=images/daylight_old_2.2.2
+Image[6]=images/daylight_old_2.2.1
+Image[7]=images/daylight_old_2.2.3
+
+Icon=> images/daylight_old_2.1.4
+Cursor=images/daylight_old_2.2.4
+---------------------------------------
+# Two aspect stop old double block
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_2_double_1920
+working_method=track_circuit_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+signal_groups=9
+intro_year = 1922
+intro_month = 1
+retire_year=1972
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+double_block=1
+# DANGER
+Image[0]=images/daylight_old_double.1.0
+Image[1]=images/daylight_old_double.1.2
+Image[2]=images/daylight_old_double.1.1
+Image[3]=images/daylight_old_double.1.3
+# CLEAR
+Image[4]=images/daylight_old_double-blink.2.0
+Image[5]=images/daylight_old_double-blink.2.2
+Image[6]=images/daylight_old_double-blink.2.1
+Image[7]=images/daylight_old_double-blink.2.3
+
+Icon=> images/daylight_old_double.1.4
+Cursor=images/daylight_old_double.2.4
+---------------------------------------
+# Three aspect stop old
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3_1920
+working_method=track_circuit_block
+waytype=track
+cost=3000
+is_signal=1
+aspects=3
+upgrade_group=3
+offset_left=11
+signal_groups=9
+intro_year = 1920
+intro_month = 1
+retire_year=1972
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_old_4.1.0
+Image[1]=images/daylight_old_4.1.2
+Image[2]=images/daylight_old_4.1.1
+Image[3]=images/daylight_old_4.1.3
+# CLEAR
+Image[4]=images/daylight_old_4-blink.2.0
+Image[5]=images/daylight_old_4-blink.2.2
+Image[6]=images/daylight_old_4-blink.2.1
+Image[7]=images/daylight_old_4-blink.2.3
+# CAUTION
+Image[8]=images/daylight_old_4-blink.1.0
+Image[9]=images/daylight_old_4-blink.1.2
+Image[10]=images/daylight_old_4-blink.1.1
+Image[11]=images/daylight_old_4-blink.1.3
+
+Icon=> images/daylight_old_4.1.4
+Cursor=images/daylight_old_4.2.4
+---------------------------------------
+# Two aspect choose old
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_2_cho_1920
+working_method=track_circuit_block
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+upgrade_group=5
+signal_groups=10
+offset_left=11
+intro_year = 1920
+intro_month = 1
+retire_year=1972
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_old_3.1.0
+Image[1]=images/daylight_old_3.1.2
+Image[2]=images/daylight_old_3.1.1
+Image[3]=images/daylight_old_3.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_old_3.3.0
+Image[5]=images/daylight_old_3.3.2
+Image[6]=images/daylight_old_3.3.1
+Image[7]=images/daylight_old_3.3.3
+# CLEAR (main route)
+Image[8]=images/daylight_old_3.2.0
+Image[9]=images/daylight_old_3.2.2
+Image[10]=images/daylight_old_3.2.1
+Image[11]=images/daylight_old_3.2.3
+
+Icon=> images/daylight_old_3.1.4
+Cursor=images/daylight_old_3.2.4
+---------------------------------------
+# Three aspect choose old
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3_cho_1920
+working_method=track_circuit_block
+waytype=track
+cost=5000
+is_signal=1
+free_route=1
+aspects=3
+has_selective_choose=1
+upgrade_group=6
+offset_left=11
+signal_groups=10
+intro_year = 1920
+intro_month = 1
+retire_year=1972
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_old_5.1.0
+Image[1]=images/daylight_old_5.1.2
+Image[2]=images/daylight_old_5.1.1
+Image[3]=images/daylight_old_5.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_old_5.3.0
+Image[5]=images/daylight_old_5.3.2
+Image[6]=images/daylight_old_5.3.1
+Image[7]=images/daylight_old_5.3.3
+# CAUTION (sub route)
+Image[8]=images/daylight_old_5-blink.2.0
+Image[9]=images/daylight_old_5-blink.2.2
+Image[10]=images/daylight_old_5-blink.2.1
+Image[11]=images/daylight_old_5-blink.2.3
+# CLEAR (main route)
+Image[12]=images/daylight_old_5-blink.3.0
+Image[13]=images/daylight_old_5-blink.3.2
+Image[14]=images/daylight_old_5-blink.3.1
+Image[15]=images/daylight_old_5-blink.3.3
+# CAUTION (main route)
+Image[16]=images/daylight_old_5-blink.1.0
+Image[17]=images/daylight_old_5-blink.1.2
+Image[18]=images/daylight_old_5-blink.1.1
+Image[19]=images/daylight_old_5-blink.1.3
+
+Icon=> images/daylight_old_5.1.4
+Cursor=images/daylight_old_5.2.4
+---------------------------------------
+# Two aspect distant old
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_Dist_1920
+working_method=track_circuit_block
+waytype=track
+cost=1000
+is_presignal=1
+aspects=2
+upgrade_group=2
+offset_left=11
+signal_groups=9
+intro_year = 1920
+intro_month = 1
+#retire_year=
+retire_month=1
+#normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# CAUTION
+Image[0]=images/daylight_old_pre-blink.1.0
+Image[1]=images/daylight_old_pre-blink.1.2
+Image[2]=images/daylight_old_pre-blink.1.1
+Image[3]=images/daylight_old_pre-blink.1.3
+# CLEAR
+Image[4]=images/daylight_old_pre-blink.2.0
+Image[5]=images/daylight_old_pre-blink.2.2
+Image[6]=images/daylight_old_pre-blink.2.1
+Image[7]=images/daylight_old_pre-blink.2.3
+
+Icon=> images/daylight_old_pre.1.4
+Cursor=images/daylight_old_pre.2.4
+---------------------------------------
+# Two aspect old token (token block working method)
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_token_1920
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=11
+offset_left=11
+intro_year=1920
+intro_month=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_old_token.1.0
+Image[1]=images/daylight_old_token.1.2
+Image[2]=images/daylight_old_token.1.1
+Image[3]=images/daylight_old_token.1.3
+# CLEAR
+Image[4]=images/daylight_old_token.2.0
+Image[5]=images/daylight_old_token.2.2
+Image[6]=images/daylight_old_token.2.1
+Image[7]=images/daylight_old_token.2.3
+
+Icon=> images/daylight_old_token.1.4
+Cursor=images/daylight_old_token.2.4
+
+---------------------------------------
+# Two aspect stop old longblock
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_longblock_2_1920
+working_method=track_circuit_block
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+signal_groups=9
+intro_year = 1922
+intro_month = 1
+retire_year=1972
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_old_long_2.1.0
+Image[1]=images/daylight_old_long_2.1.2
+Image[2]=images/daylight_old_long_2.1.1
+Image[3]=images/daylight_old_long_2.1.3
+# CLEAR
+Image[4]=images/daylight_old_long_2.3.0
+Image[5]=images/daylight_old_long_2.3.2
+Image[6]=images/daylight_old_long_2.3.1
+Image[7]=images/daylight_old_long_2.3.3
+
+Icon=> images/daylight_old_long_2.1.4
+Cursor=images/daylight_old_long_2.2.4
+
+---------------------------------------
+# MODERN STYLE 1970+ Circuit block
+# With reflex border
+#--------------------------------------
+
+# Two aspect stop modern
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_2_1970
+working_method=track_circuit_block
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=1
+signal_groups=9
+offset_left=11
+intro_year = 1972
+intro_month = 1
+retire_year=
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_modern_2.1.0
+Image[1]=images/daylight_modern_2.1.2
+Image[2]=images/daylight_modern_2.1.1
+Image[3]=images/daylight_modern_2.1.3
+# CLEAR
+Image[4]=images/daylight_modern_2.2.0
+Image[5]=images/daylight_modern_2.2.2
+Image[6]=images/daylight_modern_2.2.1
+Image[7]=images/daylight_modern_2.2.3
+
+Icon=> images/daylight_modern_2.1.4
+Cursor=images/daylight_modern_2.2.4
+---------------------------------------
+
+# Two aspect stop modern double
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_2_double_1970
+working_method=track_circuit_block
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=1
+signal_groups=9
+offset_left=11
+intro_year = 1972
+intro_month = 1
+retire_year=
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+double_block=1
+# DANGER
+Image[0]=images/daylight_modern_double.1.0
+Image[1]=images/daylight_modern_double.1.2
+Image[2]=images/daylight_modern_double.1.1
+Image[3]=images/daylight_modern_double.1.3
+# CLEAR
+Image[4]=images/daylight_modern_double-blink.2.0
+Image[5]=images/daylight_modern_double-blink.2.2
+Image[6]=images/daylight_modern_double-blink.2.1
+Image[7]=images/daylight_modern_double-blink.2.3
+
+Icon=> images/daylight_modern_double.1.4
+Cursor=images/daylight_modern_double.2.4
+---------------------------------------
+
+# Three aspect stop modern
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3_1970
+working_method=track_circuit_block
+waytype=track
+cost=3000
+is_signal=1
+is_longblocksignal=1
+aspects=3
+upgrade_group=3
+signal_groups=9
+offset_left=11
+intro_year = 1972
+intro_month = 1
+retire_year=
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_modern_4.1.0
+Image[1]=images/daylight_modern_4.1.2
+Image[2]=images/daylight_modern_4.1.1
+Image[3]=images/daylight_modern_4.1.3
+# CLEAR
+Image[4]=images/daylight_modern_4-blink.2.0
+Image[5]=images/daylight_modern_4-blink.2.2
+Image[6]=images/daylight_modern_4-blink.2.1
+Image[7]=images/daylight_modern_4-blink.2.3
+# CAUTION
+Image[8]=images/daylight_modern_4-blink.1.0
+Image[9]=images/daylight_modern_4-blink.1.2
+Image[10]=images/daylight_modern_4-blink.1.1
+Image[11]=images/daylight_modern_4-blink.1.3
+
+Icon=> images/daylight_modern_4.1.4
+Cursor=images/daylight_modern_4.2.4
+---------------------------------------
+# Two aspect choose modern
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_2_cho_1970
+working_method=track_circuit_block
+waytype=track
+cost=4000
+is_signal=1
+#is_longblocksignal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+upgrade_group=5
+signal_groups=10
+offset_left=11
+intro_year = 1972
+intro_month = 1
+retire_year=
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_modern_3.1.0
+Image[1]=images/daylight_modern_3.1.2
+Image[2]=images/daylight_modern_3.1.1
+Image[3]=images/daylight_modern_3.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_modern_3.3.0
+Image[5]=images/daylight_modern_3.3.2
+Image[6]=images/daylight_modern_3.3.1
+Image[7]=images/daylight_modern_3.3.3
+# CLEAR (main route)
+Image[8]=images/daylight_modern_3.2.0
+Image[9]=images/daylight_modern_3.2.2
+Image[10]=images/daylight_modern_3.2.1
+Image[11]=images/daylight_modern_3.2.3
+
+Icon=> images/daylight_modern_3.1.4
+Cursor=images/daylight_modern_3.2.4
+---------------------------------------
+# Three aspect choose modern
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_TCB_3_cho_1970
+working_method=track_circuit_block
+waytype=track
+cost=5000
+is_signal=1
+#is_longblocksignal=1
+free_route=1
+aspects=3
+has_selective_choose=1
+upgrade_group=6
+signal_groups=10
+offset_left=11
+intro_year = 1972
+intro_month = 1
+retire_year=
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_modern_5.1.0
+Image[1]=images/daylight_modern_5.1.2
+Image[2]=images/daylight_modern_5.1.1
+Image[3]=images/daylight_modern_5.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_modern_5.3.0
+Image[5]=images/daylight_modern_5.3.2
+Image[6]=images/daylight_modern_5.3.1
+Image[7]=images/daylight_modern_5.3.3
+# CAUTION (sub route)
+Image[8]=images/daylight_modern_5-blink.2.0
+Image[9]=images/daylight_modern_5-blink.2.2
+Image[10]=images/daylight_modern_5-blink.2.1
+Image[11]=images/daylight_modern_5-blink.2.3
+# CLEAR (main route)
+Image[12]=images/daylight_modern_5-blink.3.0
+Image[13]=images/daylight_modern_5-blink.3.2
+Image[14]=images/daylight_modern_5-blink.3.1
+Image[15]=images/daylight_modern_5-blink.3.3
+# CAUTION (main route)
+Image[16]=images/daylight_modern_5-blink.1.0
+Image[17]=images/daylight_modern_5-blink.1.2
+Image[18]=images/daylight_modern_5-blink.1.1
+Image[19]=images/daylight_modern_5-blink.1.3
+
+Icon=> images/daylight_modern_5.1.4
+Cursor=images/daylight_modern_5.2.4
+---------------------------------------
+# Two aspect modern token (token block working method)
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_token_1970
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=11
+offset_left=11
+intro_year=1972
+intro_month=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_modern_token.1.0
+Image[1]=images/daylight_modern_token.1.2
+Image[2]=images/daylight_modern_token.1.1
+Image[3]=images/daylight_modern_token.1.3
+# CLEAR
+Image[4]=images/daylight_modern_token.2.0
+Image[5]=images/daylight_modern_token.2.2
+Image[6]=images/daylight_modern_token.2.1
+Image[7]=images/daylight_modern_token.2.3
+
+Icon=> images/daylight_modern_token.1.4
+Cursor=images/daylight_modern_token.2.4
+
+---------------------------------------
+# Two aspect stop modern longblock
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_TCB_longblock_2_1970
+working_method=track_circuit_block
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+signal_groups=9
+intro_year = 1972
+intro_month = 1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_modern_long_2.1.0
+Image[1]=images/daylight_modern_long_2.1.2
+Image[2]=images/daylight_modern_long_2.1.1
+Image[3]=images/daylight_modern_long_2.1.3
+# CLEAR
+Image[4]=images/daylight_modern_long_2.3.0
+Image[5]=images/daylight_modern_long_2.3.2
+Image[6]=images/daylight_modern_long_2.3.1
+Image[7]=images/daylight_modern_long_2.3.3
+
+Icon=> images/daylight_modern_long_2.1.4
+Cursor=images/daylight_modern_long_2.2.4
+
+---------------------------------------
+###################################
+# ABSOLUTE BLOCK SIGNALS:
+###################################
+# Two aspect stop (Absolute Block)
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_abs_2_1920
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=20
+signal_groups=8
+offset_left=11
+intro_year = 1922
+intro_month = 1
+retire_year=1972
+retire_month=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_absolute_2.1.0
+Image[1]=images/daylight_absolute_2.1.2
+Image[2]=images/daylight_absolute_2.1.1
+Image[3]=images/daylight_absolute_2.1.3
+# CLEAR
+Image[4]=images/daylight_absolute_2.2.0
+Image[5]=images/daylight_absolute_2.2.2
+Image[6]=images/daylight_absolute_2.2.1
+Image[7]=images/daylight_absolute_2.2.3
+
+Icon=> images/daylight_absolute_2.1.4
+Cursor=images/daylight_absolute_2.2.4
+---------------------------------------
+
+# Two aspect stop double block (Absolute Block)
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_abs_2_double_1920
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=20
+signal_groups=8
+offset_left=11
+intro_year = 1922
+intro_month = 1
+retire_year=1972
+retire_month=1
+max_speed=180
+max_distance_to_signalbox=0
+double_block=1
+# DANGER
+Image[0]=images/daylight_absolute_double.1.0
+Image[1]=images/daylight_absolute_double.1.2
+Image[2]=images/daylight_absolute_double.1.1
+Image[3]=images/daylight_absolute_double.1.3
+# CLEAR
+Image[4]=images/daylight_absolute_double-blink.2.0
+Image[5]=images/daylight_absolute_double-blink.2.2
+Image[6]=images/daylight_absolute_double-blink.2.1
+Image[7]=images/daylight_absolute_double-blink.2.3
+
+Icon=> images/daylight_absolute_double.1.4
+Cursor=images/daylight_absolute_double.2.4
+---------------------------------------
+# Two aspect choose (Absolute block)
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_abs_2_cho_1920
+working_method=absolute_block
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+upgrade_group=22
+signal_groups=8
+offset_left=11
+intro_year = 1920
+intro_month = 1
+retire_year=
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_absolute_3.1.0
+Image[1]=images/daylight_absolute_3.1.2
+Image[2]=images/daylight_absolute_3.1.1
+Image[3]=images/daylight_absolute_3.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_absolute_3.3.0
+Image[5]=images/daylight_absolute_3.3.2
+Image[6]=images/daylight_absolute_3.3.1
+Image[7]=images/daylight_absolute_3.3.3
+# CLEAR (main route)
+Image[8]=images/daylight_absolute_3.2.0
+Image[9]=images/daylight_absolute_3.2.2
+Image[10]=images/daylight_absolute_3.2.1
+Image[11]=images/daylight_absolute_3.2.3
+
+Icon=> images/daylight_absolute_3.1.4
+Cursor=images/daylight_absolute_3.2.4
+---------------------------------------
+# Three aspect choose with Callon (Absolute block)
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_abs_5_cho_1920
+working_method=absolute_block
+waytype=track
+cost=5000
+is_signal=1
+free_route=1
+aspects=3
+has_selective_choose=1
+upgrade_group=23
+signal_groups=8
+offset_left=11
+intro_year = 1920
+intro_month = 1
+retire_year=
+retire_month=1
+normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_absolute_5.1.0
+Image[1]=images/daylight_absolute_5.1.2
+Image[2]=images/daylight_absolute_5.1.1
+Image[3]=images/daylight_absolute_5.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_absolute_5.3.0
+Image[5]=images/daylight_absolute_5.3.2
+Image[6]=images/daylight_absolute_5.3.1
+Image[7]=images/daylight_absolute_5.3.3
+# CAUTION (sub route)
+Image[8]=images/daylight_absolute_5-blink.2.0
+Image[9]=images/daylight_absolute_5-blink.2.2
+Image[10]=images/daylight_absolute_5-blink.2.1
+Image[11]=images/daylight_absolute_5-blink.2.3
+# CLEAR (main route)
+Image[12]=images/daylight_absolute_5-blink.3.0
+Image[13]=images/daylight_absolute_5-blink.3.2
+Image[14]=images/daylight_absolute_5-blink.3.1
+Image[15]=images/daylight_absolute_5-blink.3.3
+# CAUTION (main route)
+Image[16]=images/daylight_absolute_5-blink.1.0
+Image[17]=images/daylight_absolute_5-blink.1.2
+Image[18]=images/daylight_absolute_5-blink.1.1
+Image[19]=images/daylight_absolute_5-blink.1.3
+
+Icon=> images/daylight_absolute_5.1.4
+Cursor=images/daylight_absolute_5.2.4
+---------------------------------------
+# Two aspect distant (Absolute block)
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_abs_Dist_1920
+working_method=absolute_block
+waytype=track
+cost=1000
+is_presignal=1
+aspects=2
+upgrade_group=24
+signal_groups=8
+offset_left=11
+intro_year = 1920
+intro_month = 1
+#retire_year=
+retire_month=1
+#normal_danger=1
+max_speed=180
+max_distance_to_signalbox=0
+# CAUTION
+Image[0]=images/daylight_old_pre-blink.1.0
+Image[1]=images/daylight_old_pre-blink.1.2
+Image[2]=images/daylight_old_pre-blink.1.1
+Image[3]=images/daylight_old_pre-blink.1.3
+# CLEAR
+Image[4]=images/daylight_old_pre-blink.2.0
+Image[5]=images/daylight_old_pre-blink.2.2
+Image[6]=images/daylight_old_pre-blink.2.1
+Image[7]=images/daylight_old_pre-blink.2.3
+
+Icon=> images/daylight_old_pre.1.4
+Cursor=images/daylight_old_pre.2.4
+---------------------------------------

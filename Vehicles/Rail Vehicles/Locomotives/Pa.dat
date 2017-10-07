@@ -35,6 +35,8 @@ tractive_effort=138
 power=600
 bidirectional=1
 
+constraint[prev][0]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592
@@ -75,6 +77,8 @@ engine_type=electric
 tractive_effort=138
 power=600
 bidirectional=1
+
+constraint[prev][0]=none
 
 cost=1400000
 runningcost=376

@@ -1,0 +1,3 @@
+The bridge types are inspired by the following bridges (name of .png - name of real bridge):
+
+Concrete_bridge_1920 - Årstabron, Stockholm

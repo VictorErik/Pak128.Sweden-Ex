@@ -31,6 +31,8 @@ tractive_effort=203
 power=2580
 bidirectional=1
 
+constraint[prev][0]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592

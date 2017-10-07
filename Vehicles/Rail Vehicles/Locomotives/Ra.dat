@@ -26,7 +26,8 @@ engine_type=electric
 
 way_constraint_permissive[2]=2
 bidirectional=1
-can_lead_from_rear=0
+
+constraint[prev][0]=none
 
 upgrade[0]=Se_Ra_1960
 
@@ -69,12 +70,13 @@ available_only_as_upgrade=1
 
 way_constraint_permissive[2]=2
 bidirectional=1
-can_lead_from_rear=0
+
+constraint[prev][0]=none
 
 liverytype[0]=SJ-Orange
 
 
-EmptyImage[W][0]Ra.1.0
+EmptyImage[W][0]=Ra.1.0
 EmptyImage[NW][0]=Ra.1.1
 EmptyImage[N][0]=Ra.1.2
 EmptyImage[NE][0]=Ra.1.3

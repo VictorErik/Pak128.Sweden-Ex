@@ -1,0 +1,326 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+#
+# In this file are the following:
+#
+# Electric semaphore up (ESU)(Absolute block)
+# Two aspect stop
+# Two aspect stop doouble block
+# Two aspect distant
+# Two aspect choose
+# Two aspect choose (eventually with callon)
+# Two aspect stop token
+# T-semaphore
+# T-semaphore double block
+#
+################################
+
+#--------------------------------------
+# Electric Semaphores Up (Absolute block)
+#--------------------------------------
+
+# Two aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+name=se_esu_2_1900
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=7
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+maintenance=100
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/sem_electric_1.1.0
+Image[1]=images/sem_electric_1.1.2
+Image[2]=images/sem_electric_1.1.1
+Image[3]=images/sem_electric_1.1.3
+# CLEAR
+Image[4]=images/sem_electric_1.2.0
+Image[5]=images/sem_electric_1.2.2
+Image[6]=images/sem_electric_1.2.1
+Image[7]=images/sem_electric_1.2.3
+
+Icon=> images/sem_electric_1.1.4
+Cursor=images/sem_electric_1.2.4
+--------------------------------------
+# Two aspect stop double
+obj=roadsign
+copyright=Vladki,Ves
+name=se_esu_2_1900_double
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=7
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+maintenance=100
+double_block=1
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/sem_electric_double.1.0
+Image[1]=images/sem_electric_double.1.2
+Image[2]=images/sem_electric_double.1.1
+Image[3]=images/sem_electric_double.1.3
+# CLEAR
+Image[4]=images/sem_electric_double.2.0
+Image[5]=images/sem_electric_double.2.2
+Image[6]=images/sem_electric_double.2.1
+Image[7]=images/sem_electric_double.2.3
+
+Icon=> images/sem_electric_double.1.4
+Cursor=images/sem_electric_double.2.4
+---------------------------------------
+# Two aspect distant
+obj=roadsign
+copyright=Vladki,Ves
+Name=se_esu_dist_1880
+working_method=absolute_block
+waytype=track
+cost=1000
+is_presignal=1
+aspects=2
+upgrade_group=2
+signal_groups=7
+offset_left=11
+intro_year = 1880
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=0
+# CAUTION
+Image[0]=images/sem_electric_pre.1.0
+Image[1]=images/sem_electric_pre.1.2
+Image[2]=images/sem_electric_pre.1.1
+Image[3]=images/sem_electric_pre.1.3
+# CLEAR
+Image[4]=images/sem_electric_pre.2.0
+Image[5]=images/sem_electric_pre.2.2
+Image[6]=images/sem_electric_pre.2.1
+Image[7]=images/sem_electric_pre.2.3
+
+Icon=> images/sem_electric_pre.1.4
+Cursor=images/sem_electric_pre.2.4
+---------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=se_esu_2_cho_1900
+working_method=absolute_block
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+upgrade_group=5
+signal_groups=7
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/sem_electric_2.1.0
+Image[1]=images/sem_electric_2.1.2
+Image[2]=images/sem_electric_2.1.1
+Image[3]=images/sem_electric_2.1.3
+# CLEAR (sub route)
+Image[4]=images/sem_electric_2.3.0
+Image[5]=images/sem_electric_2.3.2
+Image[6]=images/sem_electric_2.3.1
+Image[7]=images/sem_electric_2.3.3
+# CLEAR (main route)
+Image[8]=images/sem_electric_2.2.0
+Image[9]=images/sem_electric_2.2.2
+Image[10]=images/sem_electric_2.2.1
+Image[11]=images/sem_electric_2.2.3
+
+Icon=> images/sem_electric_2.1.4
+Cursor=images/sem_electric_2.2.4
+---------------------------------------
+# Two aspect choose (eventually with callon)
+obj=roadsign
+copyright=Vladki,Ves
+Name=se_esu_2_cho_1900_callon
+working_method=absolute_block
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+permissive=1
+upgrade_group=5
+signal_groups=7
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/sem_electric_3.1.0
+Image[1]=images/sem_electric_3.1.2
+Image[2]=images/sem_electric_3.1.1
+Image[3]=images/sem_electric_3.1.3
+# CLEAR (sub route)
+Image[4]=images/sem_electric_3.3.0
+Image[5]=images/sem_electric_3.3.2
+Image[6]=images/sem_electric_3.3.1
+Image[7]=images/sem_electric_3.3.3
+# CLEAR (main route)
+Image[8]=images/sem_electric_3.2.0
+Image[9]=images/sem_electric_3.2.2
+Image[10]=images/sem_electric_3.2.1
+Image[11]=images/sem_electric_3.2.3
+
+Icon=> images/sem_electric_3.1.4
+Cursor=images/sem_electric_3.2.4
+---------------------------------------
+# Two aspect stop token
+obj=roadsign
+copyright=Vladki,Ves
+name=se_esu_2_1900_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=7
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/sem_electric_token.1.0
+Image[1]=images/sem_electric_token.1.2
+Image[2]=images/sem_electric_token.1.1
+Image[3]=images/sem_electric_token.1.3
+# CLEAR
+Image[4]=images/sem_electric_token.2.0
+Image[5]=images/sem_electric_token.2.2
+Image[6]=images/sem_electric_token.2.1
+Image[7]=images/sem_electric_token.2.3
+
+Icon=> images/sem_electric_token.1.4
+Cursor=images/sem_electric_token.2.4
+---------------------------------------
+# T-semaphore
+obj=roadsign
+copyright=Vladki,Ves
+name=se_esu_1900_t-sem
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=absolute_block
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+signal_groups=7
+intro_year=1848
+intro_month=12
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/sem_electric_t.1.0
+Image[1]=images/sem_electric_t.1.2
+Image[2]=images/sem_electric_t.1.1
+Image[3]=images/sem_electric_t.1.3
+# CLEAR (inverse)
+Image[4]=images/sem_electric_t.3.0
+Image[5]=images/sem_electric_t.3.2
+Image[6]=images/sem_electric_t.3.1
+Image[7]=images/sem_electric_t.3.3
+# CAUTION (inverse)
+Image[8]=images/sem_electric_t.3.0
+Image[9]=images/sem_electric_t.3.2
+Image[10]=images/sem_electric_t.3.1
+Image[11]=images/sem_electric_t.3.3
+# CLEAR (obverse)
+Image[12]=images/sem_electric_t.2.0
+Image[13]=images/sem_electric_t.2.2
+Image[14]=images/sem_electric_t.2.1
+Image[15]=images/sem_electric_t.2.3
+# CAUTION (obverse)
+Image[16]=images/sem_electric_t.2.0
+Image[17]=images/sem_electric_t.2.2
+Image[18]=images/sem_electric_t.2.1
+Image[19]=images/sem_electric_t.2.3
+
+Icon=> images/sem_electric_t.1.4
+Cursor=images/sem_electric_t.2.4
+---------------------------------------
+# T-semaphore double
+obj=roadsign
+copyright=Vladki,Ves
+name=se_esu_1900_t-sem_double
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=absolute_block
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+signal_groups=7
+intro_year=1848
+intro_month=12
+double_block=1
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/sem_electric_double_t.1.0
+Image[1]=images/sem_electric_double_t.1.2
+Image[2]=images/sem_electric_double_t.1.1
+Image[3]=images/sem_electric_double_t.1.3
+# CLEAR (inverse)
+Image[4]=images/sem_electric_double_t.3.0
+Image[5]=images/sem_electric_double_t.3.2
+Image[6]=images/sem_electric_double_t.3.1
+Image[7]=images/sem_electric_double_t.3.3
+# CAUTION (inverse)
+Image[8]=images/sem_electric_double_t.3.0
+Image[9]=images/sem_electric_double_t.3.2
+Image[10]=images/sem_electric_double_t.3.1
+Image[11]=images/sem_electric_double_t.3.3
+# CLEAR (obverse)
+Image[12]=images/sem_electric_double_t.2.0
+Image[13]=images/sem_electric_double_t.2.2
+Image[14]=images/sem_electric_double_t.2.1
+Image[15]=images/sem_electric_double_t.2.3
+# CAUTION (obverse)
+Image[16]=images/sem_electric_double_t.2.0
+Image[17]=images/sem_electric_double_t.2.2
+Image[18]=images/sem_electric_double_t.2.1
+Image[19]=images/sem_electric_double_t.2.3
+
+Icon=> images/sem_electric_double_t.1.4
+Cursor=images/sem_electric_double_t.2.4
+

@@ -1,4 +1,4 @@
-# Se Landsväg 90km/t
+Se# Landsväg 90km/t
 Obj=way
 waytype=road
 Name=Se_90_road
@@ -33,15 +33,23 @@ Image[SEW]=Country_Road_90.3.2
 Image[NSW]=Country_Road_90.3.3
 ImageUp[12]=Country_Road_90.4.0
 ImageUp[9]=Country_Road_90.4.1
-ImageUp[3]=Country_Road_90.4.2
-ImageUp[6]=Country_Road_90.4.3
-Diagonal[SW]=Country_Road_90.5.0
-Diagonal[NW]=Country_Road_90.5.1
-Diagonal[NE]=Country_Road_90.5.2
-Diagonal[SE]=Country_Road_90.5.3
+ImageUp[6]=Country_Road_90.4.2
+ImageUp[3]=Country_Road_90.4.3
+ImageUp2[12]=Country_Road_90.5.0
+ImageUp2[9]=Country_Road_90.5.1
+ImageUp2[6]=Country_Road_90.5.2
+ImageUp2[3]=Country_Road_90.5.3
+Diagonal[SW]=Country_Road_90.6.0
+Diagonal[NW]=Country_Road_90.6.1
+Diagonal[NE]=Country_Road_90.6.2
+Diagonal[SE]=Country_Road_90.6.3
 
-#FrontImage[NEW][0]=Skyltar.1.2
-#FrontImage[NSE][0]=Skyltar.1.1
-#FrontImage[SEW][0]=Skyltar.1.0
-#FrontImage[NSW][0]=Skyltar.1.3
+
+FrontImage[NEW][0]=Skyltar.1.2
+FrontImage[NSE][0]=Skyltar.1.1
+FrontImage[SEW][0]=Skyltar.1.0
+FrontImage[NSW][0]=Skyltar.1.3
+
+
+
 

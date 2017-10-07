@@ -1,0 +1,107 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+# This file contains the following:
+#
+# SJ Signalföreskrifter 1941: http://www.ekeving.se/t/sao41/sif.html
+#
+# End of Choose sign   -> Spårspärrskärm fig.9a
+# Drive by sight sign  -> Spårspärrskärm fig.9b2
+# One way sign         -> Röd bansignaltavla fig.14
+# Minimum speed sign   -> Grön bansignaltavla fig.17
+# Private road sign    -> Pak.Cz
+#
+#######################################
+---------------------------------------
+# RAILWAY SIGNS 1850+
+#--------------------------------------
+# End of Choose Sign
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_EndofChooseSignal
+waytype=track
+cost=500
+maintenance=1
+end_of_choose=1
+offset_left=11
+intro_year = 1850
+intro_month = 1
+Image[0]=images/signs.4.0
+Image[1]=images/signs.4.2
+Image[2]=images/signs.4.1
+Image[3]=images/signs.4.3
+Icon=> images/signs.4.4
+Cursor=images/signs.4.5
+---------------------------------------
+# Drive by sight sign
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_DriveBySight
+working_method=drive_by_sight
+waytype=track
+cost=500
+is_signal=1
+offset_left=11
+intro_year = 1850
+intro_month = 1
+Image[0]=images/signs.5.0
+Image[1]=images/signs.5.2
+Image[2]=images/signs.5.1
+Image[3]=images/signs.5.3
+Icon=> images/signs.5.4
+Cursor=images/signs.5.5
+---------------------------------------
+# one-way sign
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_RailOneWay
+waytype=track
+cost=500
+single_way=1
+offset_left=11
+intro_year = 1850
+intro_month = 1
+Image[0]=images/signs.2.0
+Image[1]=images/signs.2.2
+Image[2]=images/signs.2.1
+Image[3]=images/signs.2.3
+Icon=> images/signs.2.4
+Cursor=images/signs.2.5
+---------------------------------------
+# minimum speed sign
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_RailMin80
+waytype=track
+cost=500
+min_speed=80
+offset_left=11
+intro_year = 1850
+intro_month = 1
+Image[0]=images/signs.1.0
+Image[1]=images/signs.1.2
+Image[2]=images/signs.1.1
+Image[3]=images/signs.1.3
+Icon=> images/signs.1.4
+Cursor=images/signs.1.5
+---------------------------------------
+## private sign
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_Railgate_mod
+waytype=track
+cost=5000
+is_private=1
+intro_year = 1850
+intro_month = 1
+Image[0]=images/railgate_mod.0.0
+Image[1]=images/railgate_mod.0.1
+Image[2]=images/railgate_mod.0.2
+Image[3]=images/railgate_mod.0.3
+Icon=> images/railgate_mod.0.4
+Cursor=images/railgate_mod.0.5
+---------------------------------------
+# END OF FILE

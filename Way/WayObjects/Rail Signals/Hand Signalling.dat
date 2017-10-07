@@ -1,0 +1,277 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: James Petts and Victor Erik (Ves)
+#
+#
+# In this file are the following:
+#
+# Hand signals (HS)
+# - Time interval signals:
+# Three aspect stop
+# Three aspect choose
+#
+# - Time interval with telegraph signals:
+# three aspect stop
+# three aspect choose
+#
+# - Token block signals:
+# Two aspect stop token
+#
+# - Absolute block signals:
+# Two aspect stop
+#
+################################
+
+#--------------------------------------
+# Hand Signals
+#--------------------------------------
+
+# Three aspect stop Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=se_hs_time_1850
+working_method=time_interval
+waytype=track
+cost=2000
+is_signal=1
+aspects=3
+upgrade_group=1
+signal_groups=3
+offset_left=11
+intro_year=1850
+intro_month=1
+is_longblocksignal=1
+max_speed=50
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/hand_stop.1.0
+Image[1]=images/hand_stop.1.2
+Image[2]=images/hand_stop.1.1
+Image[3]=images/hand_stop.1.3
+# CLEAR
+Image[4]=images/hand_stop.4.0
+Image[5]=images/hand_stop.4.2
+Image[6]=images/hand_stop.4.1
+Image[7]=images/hand_stop.4.3
+# CAUTION
+Image[8]=images/hand_stop.3.0
+Image[9]=images/hand_stop.3.2
+Image[10]=images/hand_stop.3.1
+Image[11]=images/hand_stop.3.3
+
+Icon=> images/hand_stop.1.4
+Cursor=images/hand_stop.2.4
+---------------------------------------
+# Three aspect choose Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=se_hs_time_1850_choose
+working_method=time_interval
+waytype=track
+cost=2000
+is_signal=1
+free_route=1
+aspects=3
+upgrade_group=1
+signal_groups=3
+offset_left=11
+intro_year=1850
+intro_month=1
+max_speed=50
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/hand_choose.1.0
+Image[1]=images/hand_choose.1.2
+Image[2]=images/hand_choose.1.1
+Image[3]=images/hand_choose.1.3
+# CLEAR
+Image[4]=images/hand_choose.4.0
+Image[5]=images/hand_choose.4.2
+Image[6]=images/hand_choose.4.1
+Image[7]=images/hand_choose.4.3
+# CAUTION
+Image[8]=images/hand_choose.3.0
+Image[9]=images/hand_choose.3.2
+Image[10]=images/hand_choose.3.1
+Image[11]=images/hand_choose.3.3
+
+Icon=> images/hand_choose.1.4
+Cursor=images/hand_choose.2.4
+---------------------------------------
+#######################################
+# Time interval with telegraph signals:
+#######################################
+
+# Three aspect stop Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=se_hs_timetel_1850
+working_method=time_interval_with_telegraph
+waytype=track
+cost=2000
+is_signal=1
+aspects=3
+upgrade_group=1
+signal_groups=2
+offset_left=11
+intro_year=1850
+intro_month=1
+is_longblocksignal=1
+max_speed=50
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/hand_stop.1.0
+Image[1]=images/hand_stop.1.2
+Image[2]=images/hand_stop.1.1
+Image[3]=images/hand_stop.1.3
+# CLEAR
+Image[4]=images/hand_stop.4.0
+Image[5]=images/hand_stop.4.2
+Image[6]=images/hand_stop.4.1
+Image[7]=images/hand_stop.4.3
+# CAUTION
+Image[8]=images/hand_stop.3.0
+Image[9]=images/hand_stop.3.2
+Image[10]=images/hand_stop.3.1
+Image[11]=images/hand_stop.3.3
+
+Icon=> images/hand_stop.1.4
+Cursor=images/hand_stop.2.4
+---------------------------------------
+# Three aspect choose Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=se_hs_timetel_1850_choose
+working_method=time_interval_with_telegraph
+waytype=track
+cost=2000
+is_signal=1
+free_route=1
+aspects=3
+upgrade_group=1
+signal_groups=2
+offset_left=11
+intro_year=1850
+intro_month=1
+max_speed=50
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/hand_choose.1.0
+Image[1]=images/hand_choose.1.2
+Image[2]=images/hand_choose.1.1
+Image[3]=images/hand_choose.1.3
+# CLEAR
+Image[4]=images/hand_choose.4.0
+Image[5]=images/hand_choose.4.2
+Image[6]=images/hand_choose.4.1
+Image[7]=images/hand_choose.4.3
+# CAUTION
+Image[8]=images/hand_choose.3.0
+Image[9]=images/hand_choose.3.2
+Image[10]=images/hand_choose.3.1
+Image[11]=images/hand_choose.3.3
+
+Icon=> images/hand_choose.1.4
+Cursor=images/hand_choose.2.4
+---------------------------------------
+#######################################
+# Token block signals:
+#######################################
+
+# Two aspect token Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=Se_HS_1850_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=2
+offset_left=11
+intro_year=1850
+intro_month=1
+max_speed=50
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/hand_token.1.0
+Image[1]=images/hand_token.1.2
+Image[2]=images/hand_token.1.1
+Image[3]=images/hand_token.1.3
+# CLEAR
+Image[4]=images/hand_token.4.0
+Image[5]=images/hand_token.4.2
+Image[6]=images/hand_token.4.1
+Image[7]=images/hand_token.4.3
+
+Icon=> images/hand_token.1.4
+Cursor=images/hand_token.2.4
+---------------------------------------
+#######################################
+# Absolute block signals:
+#######################################
+
+# Two aspect absolute block Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=Se_HS_1850_abs
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=4
+offset_left=11
+intro_year=1850
+intro_month=1
+max_speed=50
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/hand_stop.1.0
+Image[1]=images/hand_stop.1.2
+Image[2]=images/hand_stop.1.1
+Image[3]=images/hand_stop.1.3
+# CLEAR
+Image[4]=images/hand_stop.4.0
+Image[5]=images/hand_stop.4.2
+Image[6]=images/hand_stop.4.1
+Image[7]=images/hand_stop.4.3
+
+Icon=> images/hand_stop.1.4
+Cursor=images/hand_stop.2.4
+---------------------------------------
+# Two aspect absolute block double Hand
+obj=roadsign
+copyright=JamesPetts,Ves
+name=Se_HS_1850_abs_double
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=4
+offset_left=11
+intro_year=1850
+intro_month=1
+max_speed=50
+double_block=1
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/hand_stop_double.1.0
+Image[1]=images/hand_stop_double.1.2
+Image[2]=images/hand_stop_double.1.1
+Image[3]=images/hand_stop_double.1.3
+# CLEAR
+Image[4]=images/hand_stop_double.4.0
+Image[5]=images/hand_stop_double.4.2
+Image[6]=images/hand_stop_double.4.1
+Image[7]=images/hand_stop_double.4.3
+
+Icon=> images/hand_stop_double.1.4
+Cursor=images/hand_stop_double.2.4
+---------------------------------------

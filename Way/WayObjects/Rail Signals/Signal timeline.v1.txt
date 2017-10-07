@@ -1,0 +1,428 @@
+# author: Vladislav Kurz (Vladki) and Victor Sørensen (Ves)
+#
+# Swedish timeline proposal:
+# 
+# -------------------------------------------------------------
+#
+# Nonsignalbox signals:
+# - All signs
+# - One train staff's
+#
+#
+# 1850-1890 - Station building with telegraph, manually set signals. Many signals, short range.
+# - 1850-(1890) - Man with flag, 50kmh:
+#				Absolute block, 2 aspect
+#				Token Block, 2 aspect
+#				Timeinterval, 3 aspect
+#				Timeinterval w. telegraph, 3 aspect +choose.
+#
+# - 1858-(1890) - T-signal, 80kmh:	
+#				Timeinterval, 3 aspect Station
+#				Timeinterval w. telegraph, 3 aspect, Station
+# - 1858-(1890) - Platesignal, 80kmh:	
+#				Timeinterval w. telegraph, 2 aspect, choose
+#				timeinterval, 
+#
+# -------------------------------------------------------------
+# 1850-1906 - Shelter without telegraph, few signals, short range.
+# - 1850-(1890) - Man with flag, 50kmh:
+#				Timeinterval, 3 aspect +choose.
+# - 1858-(1890) - T-signal, 80kmh:	
+#				Timeinterval, 3 aspect, Station
+# - 1858-(1890) - Platesignal, 80kmh:	
+#				Timeinterval, 3 aspect, choose
+#
+# -------------------------------------------------------------
+# 1890-1910 - Mechanical signalbox, small, medium and big with different ranges. Quite a number of signals.
+# - 1850-(1906) - Man with flag, 50kmh:
+#				Absolute block, 2 aspect
+#
+# - 1890-(1906) - Lower quadrant semaphore, 110kmh:
+#				Timeinterval w. telegraph, 3 aspect +choose/+presignal/+Station
+#				Token block, 2 aspect
+#
+# - 1906-(1920) - Upper quadrant semaphore, 140kmh:
+#				Absolute block, 2 aspect +choose/+presignal/+Station
+#				Token block, 2 aspect
+#
+#
+# -------------------------------------------------------------
+# - 1910-1966 - Electric signalbox, small, medium and big. Extended range. Increased number of signals.
+#
+# - 1906-(1920) - Upper quadrant semaphore, 140kmh:
+#				Absolute block, 2 aspect +choose/+presignal/+Station
+#
+# - 1920-(1922) - Lamp signal with changing color, 160kmh:
+#				Track circuit block, 3 aspect
+# - 1922-#### - Modern lamp signal (old type), 160kmh:
+#				Track circuit block, 2+3 aspect +choose/+presignal
+#				Token block, 2 aspect
+#
+# -------------------------------------------------------------
+# - 1966-#### - Electronic signalbox, small, medium and big. Increased range and number of signals.
+# - 1966-#### - Modern lamp signal (new type type):
+#				Track circuit block, 2+3 aspect +choose/+presignal
+#				Token block, 2 aspect
+#
+# -------------------------------------------------------------
+# - 1971-#### - Computer signalbox, small, medium and big. Increased number of signals.
+# - 1966-#### - Modern lamp signal (new type type):
+#				Track circuit block, 2+3 aspect +choose/+presignal
+# - 1980-#### - Modern lamp signal ATC:
+#				Cab signalling, 2 aspect +choose
+#				Token block, 2 aspect
+#
+# -------------------------------------------------------------
+# - 20??-#### - Computer signalbox, initially small, dedicated for ERTMS level 3 (moving block),
+#               but also having ATC signals.
+# - 20??-#### - ERTMS level 3 beacon:
+#				Moving block +choose
+# - 1980-#### - Modern lamp signal ATC:
+#				Cab signalling, 2 aspect +choose
+#				Token block, 2 aspect
+#
+#
+# -------------------------------------------------------------
+# -------------------------------------------------------------
+#
+# Some principles:
+# -	"Unmanned signalboxes" (small cabinets etc) can only support automatic signals,
+#	such as 2-3 aspect track circuit, ATC, level 3 and NO choose signals!
+#	Also, range and no of signals is smaller.
+#
+# -	Mechanical signalboxes will range from outdoor signalboxes with just a few visible handles,
+#	to big buildings. In general, the initial signalboxes will contain only a handfull of signal slots
+#	but later on bigger boxes will be introduced.
+#
+# -	Only electrical signal boxes and later can have daylight signals
+#
+# -	It is meant that the player should use different kinds of signal boxes at the same time.
+#	Eg, a signalbox takes care of the station while automatic signals have their own signalbox.
+#
+#
+# -------------------------------------------------------------
+# -------------------------------------------------------------
+#
+# Real world signalboxes:
+#
+# - 1850 Shelter with no mechanic, only a symbolic place for signalmen to rest:
+#	8 signal slots: (two choose signals, one T-signal/6 signalmen)
+#	Range: 200 meter
+#	Man with flag:	TimeTe	3 aspect stop
+#	Man with flag:	TimeTe	3 aspect choose
+#	Man with flag:	Abso	2 aspect stop
+#	Man with flag:	Time	3 aspect stop
+#	Man with flag:	Token	2 aspect stop
+#	T-signal:	TimeTe	3 aspect station
+#	T-signal:	Time	3 aspect station
+#	Platesignal:	TimeTe	3 aspect choose
+#	Platesignal:	Time	3 aspect choose
+#
+# - 1850 Shelter with telegraph and no mechanic. Also a symbolic signalbox for signalmen to rest:
+#	8 signal slots: (two choose signals, one T-signal/6 signalmen)
+#	Range: 200 meter
+#	Man with flag:	Time	3 aspect stop
+#	Man with flag:	Time	3 aspect choose
+#	T-signal:	Time	3 aspect station
+#	Platesignal:	Time	3 aspect choose
+#
+# - 1890 Kinstaby, Max Jüdel & Co in Braunschweig, mechanical signalbox:
+#	Outdoor, circular handels "Ställbock"
+#	4 signal slots: (two choose signals, one T-signal, +1 spare)
+#	Range: 350 meter
+#	Low quad one wing:	TimeTe	3 aspect stop
+#	Low quad two wing:	TimeTe	3 aspect choose
+#	Low quad T-semaphore:	TimeTe	3 aspect station
+#	Low quad one wing:	Token	2 aspect stop
+#	Plate presignal:	TimeTe	2 aspect presignal
+#
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#	
+#
+# - 1890 Bankeberg, Max Jüdel & Co in Braunschweig, mechanical signalbox:
+#	Outdoor, circular handels "Vevställverk"
+#	8 signal slots: (two choose signals, two presignals, one T-signal, +3 spare)
+#	Range: 350 meter
+#	Low quad one wing:	TimeTe	3 aspect stop
+#	Low quad two wing:	TimeTe	3 aspect choose
+#	Low quad T-semaphore:	TimeTe	3 aspect station
+#	Low quad one wing:	Token	2 aspect stop
+#	Plate presignal:	TimeTe	2 aspect presignal
+#
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+#
+# - 1906 Upplands Väsby, Max Jüdel & Co in Braunschweig, mechanical signalbox: (Årstal fejk)
+#	Indoor, vertical handles "Hävstångsställverk"
+#	10 signal slots: (two choose, two presignals, one T-signal +5 spare)
+#	Range: 550 meter
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+# - 1906 Malmö, ???, mechanical signalbox: (Årstal fejk)
+#	Indoor, vertical handles "Hävstångsställverk"
+#	26 signal slots: (As many as "Malmö signalbox I" had)
+#	Range: 550 meter
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+#
+# - 1910 Nyboda, Siemens Schuckert, electro mechanical signalbox:
+#	Indoor, turning handles
+#	8 signal slots: (two choose, two presignals, four platforms)
+#	Range: "Sighting distance from signalbox"
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+#	Daylight, 2 lamp:	Abso	2 aspect stop
+#	Daylight, 2 lamp:	Token	2 aspect stop
+#	Daylight, 3 lamp:	Abso	2 aspect choose
+#	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
+#	Daylight, pre:		Abso	2 aspect presignal
+#
+#
+# - 1912 ????, L.M.Ericsson, electro mechanical signalbox:
+#	Indoor, turning handles?
+#	10 signal slots: (two choose, two presignals, six platforms)
+#	Range: "Sighting distance from signalbox"
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+#	Daylight, 2 lamp:	Abso	2 aspect stop
+#	Daylight, 2 lamp:	Token	2 aspect stop
+#	Daylight, 3 lamp:	Abso	2 aspect choose
+#	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
+#	Daylight, pre:		Abso	2 aspect presignal
+#
+#
+# - 1918 Tomteboda, Siemens Schuckert, electro mechanical signalbox with track circuit (29.400kr):
+#	Indoor, turning handles?
+#	27 signal slots: (As many as the "Tomteboda signalbox" had)
+#	Range: 1000 meter
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+#	Daylight, 2 lamp:	Abso	2 aspect stop
+#	Daylight, 2 lamp:	Token	2 aspect stop
+#	Daylight, 3 lamp:	Abso	2 aspect choose
+#	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
+#	Daylight, pre:		Abso	2 aspect presignal
+#
+#	Daylight, 1 lamp:	track	3 aspect stop
+#	Daylight, 2 lamp:	track	2 aspect stop
+#	Daylight, 3 lamp:	track	2 aspect choose
+#	Daylight, 4 lamp:	track	3 aspect stop
+#	Daylight, 5 lamp:	track	3 aspect choose, Callon
+#	Daylight, pre:		track	2 aspect presignal
+#
+#
+# - 1922 Malmö-Arlöv, ????, Powerbox for track circuit signals, only automatic signals:
+#	A closed box with lots of cables inside
+#	8 signal slots: (As many as the first track circuit block stretch had)
+#	Range: 2 km (with app 1 km spacing between signals)
+#	Daylight, 1 lamp:	track	3 aspect stop
+#	Daylight, 2 lamp:	track	2 aspect stop
+#	Daylight, 4 lamp:	track	2 aspect stop
+#	Daylight, pre:		track	2 aspect presignal
+#
+#
+# - 1925 Malmö, Westinghous Style K, electro electric signalbox:
+#	Indoor, Push-Pull handles
+#	35 signal slots: (An educated guess on how many signals a big station might need)
+#	Range: 1000 meter
+#	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+#	Daylight, 2 lamp:	Abso	2 aspect stop
+#	Daylight, 2 lamp:	Token	2 aspect stop
+#	Daylight, 3 lamp:	Abso	2 aspect choose
+#	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
+#	Daylight, pre:		Abso	2 aspect presignal
+#
+#	Daylight, 1 lamp:	track	3 aspect stop
+#	Daylight, 2 lamp:	track	2 aspect stop
+#	Daylight, 3 lamp:	track	2 aspect choose
+#	Daylight, 4 lamp:	track	3 aspect stop
+#	Daylight, 5 lamp:	track	3 aspect choose, Callon
+#	Daylight, pre:		track	2 aspect presignal
+#
+#
+# - 1935 Älvsjö-Järna, ????, Powerbox for track circuit signals, only automatic signals:
+#	A closed box with lots of cables inside next to a transformer
+#	12 signal slots: (6 signals in each directions)
+#	Range: 6 km (with app 1 km spacing between signals)
+#	Daylight, 1 lamp:	track	3 aspect stop
+#	Daylight, 2 lamp:	track	2 aspect stop
+#	Daylight, 4 lamp:	track	3 aspect stop
+#	Daylight, pre:		track	2 aspect presignal
+#
+#
+# - 1945 - Södertälje, Signalbolaget, electro electric signalbox:
+#	Indoor, door + turn handles, "Södertäljetypen"
+#	10 signal slots: (two choose, two presignals, six platforms)
+#	Range: 1500 meter
+#	Daylight, 2 lamp:	Abso	2 aspect stop
+#	Daylight, 2 lamp:	Token	2 aspect stop
+#	Daylight, 3 lamp:	Abso	2 aspect choose
+#	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
+#	Daylight, pre:		Abso	2 aspect presignal
+#	
+#
+# - 1950 - Katrineholm, Signalbolaget, electro electric signalbox:
+#	Indoor, door + turn handles, "Södertäljetypen"
+#	35 signal slots: (As many as Katrineholm might have had)
+#	Range: 1500 meter
+#	Daylight, 2 lamp:	Abso	2 aspect stop
+#	Daylight, 2 lamp:	Token	2 aspect stop
+#	Daylight, 3 lamp:	Abso	2 aspect choose
+#	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
+#	Daylight, pre:		Abso	2 aspect presignal
+#
+# ============================================
+# 		Signal Groups:
+# ============================================
+# --------- Manually set signals -------------
+# 2  -	Man with flag		TimeTe	3 aspect stop
+#	Man with flag		TimeTe	3 aspect choose
+#	Man with flag		Token	2 aspect stop
+#	Manual T-semaphore	TimeTe	3 aspect station
+#	Manual presignal	TimeTe	2 aspect pre
+#	Manual Platesignal	TimeTe	3 aspect choose
+#
+# --------- Manually set signals, without telegraph -------------
+# 3 - 	Man with flag		Time	3 aspect stop
+#	Manual T-semaphore	Time	3 aspect station
+#	Manual presignal	Time	2 aspect pre
+#	Manual Platesignal	Time	3 aspect choose
+#
+# --------- Man will be used at many signalboxes -------------
+# 4 -	Man with flag		Abso	2 aspect stop
+#
+# --------- Mechanically set signals -------------
+# 5 -	Low quad one wing:	TimeTe	3 aspect stop
+#	Low quad two wing:	TimeTe	3 aspect choose
+#	Low quad T-semaphore:	TimeTe	3 aspect station
+#	Low quad one wing:	Token	2 aspect stop
+#	Plate presignal:	TimeTe	2 aspect presignal
+#
+# 6 -	Upper quad one wing:	Abso	2 aspect stop
+#	Upper quad two wing:	Abso	2 aspect choose
+#	Upper quad three wing:	Abso	2 aspect choose, Callon
+#	Upper quad T-semaphore:	Abso	2 aspect station
+#	Upper quad one wing:	Token	2 aspect stop
+#	Plate presignal:	Abso	2 aspect presignal
+#
+# --------- Mechanically set signals, with electric power -------------
+# 7 -	Daylight, 2 lamp:	Abso	2 aspect stop
+#	Daylight, 3 lamp:	Abso	2 aspect choose
+#	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
+#	Daylight, pre:		Abso	2 aspect presignal
+#
+# --------- Track circuit block signals -------------
+# 8 -	Daylight, 1 lamp:	track	3 aspect stop
+#	Daylight, 2 lamp:	track	2 aspect stop
+#	Daylight, 3 lamp:	track	2 aspect choose
+#	Daylight, 4 lamp:	track	3 aspect stop
+#	Daylight, 5 lamp:	track	3 aspect choose, Callon
+#	Daylight, pre:		track	2 aspect presignal
+#
+# --------- And just because we need the token block in many signalboxes -------------
+# 9 -	Daylight, 2 lamp:	Token	2 aspect stop
+#
+# --------- ATC-signals -------------
+# 10 -	Daylight-ATC, 2 lamp:	Cab	2 aspect stop
+#	Daylight-ATC, 3 lamp:	Cab	2 aspect choose
+#	Daylight-ATC, 5 lamp:	Cab	3 aspect choose, Callon
+#
+# --------- Moving block signals -------------
+# 11 -	Beacon:			Mov	Moving block "stop"
+#	Beacon:			Mov	Moving block choose
+#
+# --------- And just because we need the token block in even more signalboxes.. -------------
+# 12 -	Daylight-ATC, 2 lamp:	Token	2 aspect stop
+#
+#
+#
+#
+#
+# Upgrade groups:
+# 1: Three aspect stop		TIMEINTERVAL
+# 2: Three aspect station	TIMEINTERVAL
+# 3: Three aspect choose	TIMEINTERVAL
+# 4: Distant			TIMEINTERVAL
+# 5: Three aspect stop		TIMEINTERVAL	Longblock
+# 6: Three aspect station	TIMEINTERVAL	Longblock
+# 7: Three aspect choose	TIMEINTERVAL	Longblock
+
+# 10: Three aspect stop		TIMEINT.W.TEL
+# 11: Three aspect station	TIMEINT.W.TEL
+# 12: Three aspect choose	TIMEINT.W.TEL
+# 13: Distant			TIMEINT.W.TEL
+# 14: Three aspect stop		TIMEINT.W.TEL	Longblock
+# 15: Three aspect station	TIMEINT.W.TEL	Longblock
+# 16: Three aspect choose	TIMEINT.W.TEL	Longblock
+
+# 20: Two aspect stop		ABSOLUTE BLOCK
+# 21: Two aspect station	ABSOLUTE BLOCK
+# 22: Two aspect choose		ABSOLUTE BLOCK
+# 23: Three aspect choose	ABSOLUTE BLOCK	...	...	Callon
+# 24: Distant			ABSOLUTE BLOCK
+# 25: Intermediate block	ABSOLUTE BLOCK
+
+# 30: Two aspect stop		TRACK CIRCUIT
+# 31: Three aspect stop		TRACK CIRCUIT
+# 32: Two aspect choose		TRACK CIRCUIT
+# 33: Three aspect choose	TRACK CIRCUIT	...	...	Callon
+# 34: Two aspect stop		TRACK CIRCUIT	Longblock
+# 35: Three aspect stop		TRACK CIRCUIT	Longblock
+# 36: Two aspect choose		TRACK CIRCUIT	Longblock
+# 37: Three aspect choose	TRACK CIRCUIT	Longblock	Callon
+# 38: Distant			TRACK CIRCUIT
+
+# 40: ATC stop			CAB SIGNAL
+# 41: ATC choose		CAB SIGNAL
+# 42: ATC choose callon		CAB SIGNAL	...	...	Callon
+# 40: ATC stop			CAB SIGNAL	Longblock
+# 41: ATC choose		CAB SIGNAL	Longblock
+# 42: ATC choose callon		CAB SIGNAL	Longblock	Callon
+
+# 50: Moving block stop		MOVING BLOCK
+# 51: Moving block choose	MOVING BLOCK
+
+# 60: Two aspect stop		TOKEN BLOCK
+# 61: One train staff		ONE TRAIN STAFF
+

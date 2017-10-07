@@ -2,9 +2,10 @@
 #
 #This file includes following:
 #
-# Ha 1936
-# Hb 1939
-# Hg 1947
+# Ha  1936
+# Hb  1939
+# Hg  1947
+# Hg2 1970
 #
 #########################
 
@@ -30,6 +31,8 @@ engine_type=electric
 tractive_effort=138
 power=1176
 bidirectional=1
+
+constraint[prev][0]=none
 
 cost=1400000
 runningcost=376
@@ -71,6 +74,8 @@ tractive_effort=145
 power=1176
 bidirectional=1
 
+constraint[prev][0]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592
@@ -89,7 +94,8 @@ EmptyImage[SW]=H.1.7
 
 
 
---#Hg
+--
+#Hg
 
 obj=vehicle
 name=Se_Hg_1940
@@ -109,6 +115,8 @@ tractive_effort=157
 power=1300
 bidirectional=1
 
+constraint[prev][0]=none
+
 cost=1400000
 runningcost=376
 fixed_maintenance=592
@@ -125,6 +133,46 @@ EmptyImage[SE]=H.2.5
 EmptyImage[S]=H.2.6
 EmptyImage[SW]=H.2.7
 
+--
 
+#Hg2
+
+obj=vehicle
+name=Se_Hg2_1970
+copyright=Ves
+intro_year=1972
+intro_month=1
+retire_year=1993
+retire_month=1
+waytype=track
+length=8
+speed=80
+weight=64
+axles=4
+#axle_load=
+engine_type=electric
+tractive_effort=157
+power=1300
+bidirectional=1
+
+constraint[prev][0]=Se_Hg2_1970
+constraint[prev][1]=none
+
+
+cost=1400000
+runningcost=376
+fixed_maintenance=592
+
+#way_constraint_permissive[2]=2
+
+
+EmptyImage[W]=H.2.0
+EmptyImage[NW]=H.2.1
+EmptyImage[N]=H.2.2
+EmptyImage[NE]=H.2.3
+EmptyImage[E]=H.2.4
+EmptyImage[SE]=H.2.5
+EmptyImage[S]=H.2.6
+EmptyImage[SW]=H.2.7
 
 --

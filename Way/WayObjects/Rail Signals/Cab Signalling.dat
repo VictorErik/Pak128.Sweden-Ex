@@ -1,0 +1,223 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+# This file contains the following:
+#
+# Cab signals:
+#
+# - Standard 2 aspect
+# - Standard 2 aspect double block
+# - Choose 2 aspect
+# - Choose 3 aspect (eventually with callon)
+# - Two aspect modern token (token block working method)
+#
+#
+#
+#####################################
+---------------------------------------
+# MODERN STYLE 1980+ Cab signalling
+#--------------------------------------
+# Two aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_ATC_2
+working_method=cab_signalling
+waytype=track
+max_speed=250
+cost=3000
+is_signal=1
+aspects=2
+offset_left=11
+intro_year = 1980
+intro_month = 1
+max_speed=250
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_atc_2.1.0
+Image[1]=images/daylight_atc_2.1.2
+Image[2]=images/daylight_atc_2.1.1
+Image[3]=images/daylight_atc_2.1.3
+# CLEAR
+Image[4]=images/daylight_atc_2.2.0
+Image[5]=images/daylight_atc_2.2.2
+Image[6]=images/daylight_atc_2.2.1
+Image[7]=images/daylight_atc_2.2.3
+
+Icon=> images/daylight_atc_2.1.4
+Cursor=images/daylight_atc_2.2.4
+---------------------------------------
+# Two aspect stop double block
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_ATC_2_double
+working_method=cab_signalling
+waytype=track
+max_speed=250
+cost=3000
+is_signal=1
+aspects=2
+offset_left=11
+intro_year = 1980
+intro_month = 1
+max_speed=250
+max_distance_to_signalbox=0
+double_block=1
+# DANGER
+Image[0]=images/daylight_atc_double.1.0
+Image[1]=images/daylight_atc_double.1.2
+Image[2]=images/daylight_atc_double.1.1
+Image[3]=images/daylight_atc_double.1.3
+# CLEAR
+Image[4]=images/daylight_atc_double-blink.2.0
+Image[5]=images/daylight_atc_double-blink.2.2
+Image[6]=images/daylight_atc_double-blink.2.1
+Image[7]=images/daylight_atc_double-blink.2.3
+
+Icon=> images/daylight_atc_double.1.4
+Cursor=images/daylight_atc_double.2.4
+---------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_ATC_2_cho
+working_method=cab_signalling
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+offset_left=11
+intro_year = 1920
+intro_month = 1
+normal_danger=1
+max_speed=250
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_atc_3.1.0
+Image[1]=images/daylight_atc_3.1.2
+Image[2]=images/daylight_atc_3.1.1
+Image[3]=images/daylight_atc_3.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_atc_3.3.0
+Image[5]=images/daylight_atc_3.3.2
+Image[6]=images/daylight_atc_3.3.1
+Image[7]=images/daylight_atc_3.3.3
+# CLEAR (main route)
+Image[8]=images/daylight_atc_3.2.0
+Image[9]=images/daylight_atc_3.2.2
+Image[10]=images/daylight_atc_3.2.1
+Image[11]=images/daylight_atc_3.2.3
+
+Icon=> images/daylight_atc_3.1.4
+Cursor=images/daylight_atc_3.2.4
+---------------------------------------
+# Three aspect choose (eventually with callon)
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_ATC_3_cho
+working_method=cab_signalling
+waytype=track
+max_speed=250
+cost=5000
+is_signal=1
+free_route=1
+aspects=3
+has_selective_choose=1
+offset_left=11
+intro_year = 1980
+intro_month = 1
+max_speed=250
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_atc_5.1.0
+Image[1]=images/daylight_atc_5.1.2
+Image[2]=images/daylight_atc_5.1.1
+Image[3]=images/daylight_atc_5.1.3
+# CLEAR (sub route)
+Image[4]=images/daylight_atc_5.3.0
+Image[5]=images/daylight_atc_5.3.2
+Image[6]=images/daylight_atc_5.3.1
+Image[7]=images/daylight_atc_5.3.3
+# CAUTION (sub route)
+Image[8]=images/daylight_atc_5-blink.2.0
+Image[9]=images/daylight_atc_5-blink.2.2
+Image[10]=images/daylight_atc_5-blink.2.1
+Image[11]=images/daylight_atc_5-blink.2.3
+# CLEAR (main route)
+Image[12]=images/daylight_atc_5-blink.3.0
+Image[13]=images/daylight_atc_5-blink.3.2
+Image[14]=images/daylight_atc_5-blink.3.1
+Image[15]=images/daylight_atc_5-blink.3.3
+# CAUTION (main route)
+Image[16]=images/daylight_atc_5-blink.1.0
+Image[17]=images/daylight_atc_5-blink.1.2
+Image[18]=images/daylight_atc_5-blink.1.1
+Image[19]=images/daylight_atc_5-blink.1.3
+
+Icon=> images/daylight_atc_5.1.4
+Cursor=images/daylight_atc_5.2.4
+---------------------------------------
+# Two aspect token (token block working method)
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_atc_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year=1980
+intro_month=1
+max_speed=250
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_atc_token.1.0
+Image[1]=images/daylight_atc_token.1.2
+Image[2]=images/daylight_atc_token.1.1
+Image[3]=images/daylight_atc_token.1.3
+# CLEAR
+Image[4]=images/daylight_atc_token.2.0
+Image[5]=images/daylight_atc_token.2.2
+Image[6]=images/daylight_atc_token.2.1
+Image[7]=images/daylight_atc_token.2.3
+
+Icon=> images/daylight_atc_token.1.4
+Cursor=images/daylight_atc_token.2.4
+
+---------------------------------------
+# Two aspect stop longblock
+obj=roadsign
+copyright=Vladki,Ves
+name=se_atc_longblock_2
+working_method=cab_signalling
+waytype=track
+cost=2000
+is_signal=1
+is_longblocksignal=1
+aspects=2
+upgrade_group=1
+offset_left=11
+intro_year = 1972
+intro_month = 1
+normal_danger=1
+max_speed=250
+max_distance_to_signalbox=0
+# DANGER
+Image[0]=images/daylight_atc_long_2.1.0
+Image[1]=images/daylight_atc_long_2.1.2
+Image[2]=images/daylight_atc_long_2.1.1
+Image[3]=images/daylight_atc_long_2.1.3
+# CLEAR
+Image[4]=images/daylight_atc_long_2.3.0
+Image[5]=images/daylight_atc_long_2.3.2
+Image[6]=images/daylight_atc_long_2.3.1
+Image[7]=images/daylight_atc_long_2.3.3
+
+Icon=> images/daylight_atc_long_2.1.4
+Cursor=images/daylight_atc_long_2.2.4
