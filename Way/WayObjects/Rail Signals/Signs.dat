@@ -29,12 +29,12 @@ end_of_choose=1
 offset_left=11
 intro_year = 1850
 intro_month = 1
-Image[0]=images/Signs.4.0
-Image[1]=images/Signs.4.2
-Image[2]=images/Signs.4.1
-Image[3]=images/Signs.4.3
-Icon=> images/Signs.4.4
-Cursor=images/Signs.4.5
+Image[0]=images/signs.4.0
+Image[1]=images/signs.4.2
+Image[2]=images/signs.4.1
+Image[3]=images/signs.4.3
+Icon=> images/signs.4.4
+Cursor=images/signs.4.5
 ---------------------------------------
 # Drive by sight sign
 obj=roadsign
@@ -47,12 +47,12 @@ is_signal=1
 offset_left=11
 intro_year = 1850
 intro_month = 1
-Image[0]=images/Signs.5.0
-Image[1]=images/Signs.5.2
-Image[2]=images/Signs.5.1
-Image[3]=images/Signs.5.3
-Icon=> images/Signs.5.4
-Cursor=images/Signs.5.5
+Image[0]=images/signs.5.0
+Image[1]=images/signs.5.2
+Image[2]=images/signs.5.1
+Image[3]=images/signs.5.3
+Icon=> images/signs.5.4
+Cursor=images/signs.5.5
 ---------------------------------------
 # one-way sign
 obj=roadsign
@@ -64,12 +64,12 @@ single_way=1
 offset_left=11
 intro_year = 1850
 intro_month = 1
-Image[0]=images/Signs.2.0
-Image[1]=images/Signs.2.2
-Image[2]=images/Signs.2.1
-Image[3]=images/Signs.2.3
-Icon=> images/Signs.2.4
-Cursor=images/Signs.2.5
+Image[0]=images/signs.2.0
+Image[1]=images/signs.2.2
+Image[2]=images/signs.2.1
+Image[3]=images/signs.2.3
+Icon=> images/signs.2.4
+Cursor=images/signs.2.5
 ---------------------------------------
 # minimum speed sign
 obj=roadsign
@@ -81,12 +81,12 @@ min_speed=80
 offset_left=11
 intro_year = 1850
 intro_month = 1
-Image[0]=images/Signs.1.0
-Image[1]=images/Signs.1.2
-Image[2]=images/Signs.1.1
-Image[3]=images/Signs.1.3
-Icon=> images/Signs.1.4
-Cursor=images/Signs.1.5
+Image[0]=images/signs.1.0
+Image[1]=images/signs.1.2
+Image[2]=images/signs.1.1
+Image[3]=images/signs.1.3
+Icon=> images/signs.1.4
+Cursor=images/signs.1.5
 ---------------------------------------
 ## private sign
 obj=roadsign
@@ -97,11 +97,11 @@ cost=5000
 is_private=1
 intro_year = 1850
 intro_month = 1
-Image[0]=images/Railgate_mod.0.0
-Image[1]=images/Railgate_mod.0.1
-Image[2]=images/Railgate_mod.0.2
-Image[3]=images/Railgate_mod.0.3
-Icon=> images/Railgate_mod.0.4
-Cursor=images/Railgate_mod.0.5
+Image[0]=images/railgate_mod.0.0
+Image[1]=images/railgate_mod.0.1
+Image[2]=images/railgate_mod.0.2
+Image[3]=images/railgate_mod.0.3
+Icon=> images/railgate_mod.0.4
+Cursor=images/railgate_mod.0.5
 ---------------------------------------
 # END OF FILE

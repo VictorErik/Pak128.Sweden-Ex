@@ -1,0 +1,201 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+#
+# In this file are the following:
+#
+# Old semaphores (OS)(time interval with telegraph) 
+# Three aspect stop
+# Two aspect choose (platesignal)
+# Two aspect distant
+# T-semaphore
+#
+# Old semaphores (OS)(time interval) 
+# Three aspect stop
+# Two aspect choose (platesignal)
+# Two aspect distant
+# T-semaphore
+#
+#--------------------------------------
+# Old Semaphores (Time interval with telegraph)
+#--------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_OS_timetel_1850_cho
+working_method=time_interval_with_telegraph
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=3
+upgrade_group=5
+signal_groups=2
+offset_left=11
+intro_year = 1858
+intro_month = 2
+max_speed=150
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/sem_old_plate.1.0
+Image[1]=images/sem_old_plate.1.2
+Image[2]=images/sem_old_plate.1.1
+Image[3]=images/sem_old_plate.1.3
+# CLEAR
+Image[4]=images/sem_old_plate.2.0
+Image[5]=images/sem_old_plate.2.2
+Image[6]=images/sem_old_plate.2.1
+Image[7]=images/sem_old_plate.2.3
+# CAUTION
+Image[8]=images/sem_old_plate.2.0
+Image[9]=images/sem_old_plate.2.2
+Image[10]=images/sem_old_plate.2.1
+Image[11]=images/sem_old_plate.2.3
+
+Icon=> images/sem_old_plate.1.4
+Cursor=images/sem_old_plate.2.4
+---------------------------------------
+# T-semaphore old
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_OS_timetel_1850_T-sem
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=time_interval_with_telegraph
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+signal_groups=2
+intro_year=1848
+intro_month=12
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/sem_old_t.1.0
+Image[1]=images/sem_old_t.1.2
+Image[2]=images/sem_old_t.1.1
+Image[3]=images/sem_old_t.1.3
+# CLEAR (inverse)
+Image[4]=images/sem_old_t.5.0
+Image[5]=images/sem_old_t.5.2
+Image[6]=images/sem_old_t.5.1
+Image[7]=images/sem_old_t.5.3
+# CAUTION (inverse)
+Image[8]=images/sem_old_t.4.0
+Image[9]=images/sem_old_t.4.2
+Image[10]=images/sem_old_t.4.1
+Image[11]=images/sem_old_t.4.3
+# CLEAR (obverse)
+Image[12]=images/sem_old_t.3.0
+Image[13]=images/sem_old_t.3.2
+Image[14]=images/sem_old_t.3.1
+Image[15]=images/sem_old_t.3.3
+# CAUTION (obverse)
+Image[16]=images/sem_old_t.2.0
+Image[17]=images/sem_old_t.2.2
+Image[18]=images/sem_old_t.2.1
+Image[19]=images/sem_old_t.2.3
+
+Icon=> images/sem_old_t.1.4
+Cursor=images/sem_old_t.2.4
+---------------------------------------
+#--------------------------------------
+# Old Semaphores (Time interval (without telegraph))
+#--------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_OS_time_1850_cho
+working_method=time_interval
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=3
+upgrade_group=5
+signal_groups=3
+offset_left=11
+intro_year = 1858
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/sem_old_plate.1.0
+Image[1]=images/sem_old_plate.1.2
+Image[2]=images/sem_old_plate.1.1
+Image[3]=images/sem_old_plate.1.3
+# CLEAR
+Image[4]=images/sem_old_plate.2.0
+Image[5]=images/sem_old_plate.2.2
+Image[6]=images/sem_old_plate.2.1
+Image[7]=images/sem_old_plate.2.3
+# CAUTION
+Image[8]=images/sem_old_plate.2.0
+Image[9]=images/sem_old_plate.2.2
+Image[10]=images/sem_old_plate.2.1
+Image[11]=images/sem_old_plate.2.3
+
+Icon=> images/sem_old_plate.1.4
+Cursor=images/sem_old_plate.2.4
+---------------------------------------
+# T-semaphore old
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_OS_time_1850_T-sem
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=time_interval
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+signal_groups=3
+intro_year=1848
+intro_month=12
+max_distance_to_signalbox=1000
+# DANGER
+Image[0]=images/sem_old_t.1.0
+Image[1]=images/sem_old_t.1.2
+Image[2]=images/sem_old_t.1.1
+Image[3]=images/sem_old_t.1.3
+# CLEAR (inverse)
+Image[4]=images/sem_old_t.5.0
+Image[5]=images/sem_old_t.5.2
+Image[6]=images/sem_old_t.5.1
+Image[7]=images/sem_old_t.5.3
+# CAUTION (inverse)
+Image[8]=images/sem_old_t.4.0
+Image[9]=images/sem_old_t.4.2
+Image[10]=images/sem_old_t.4.1
+Image[11]=images/sem_old_t.4.3
+# CLEAR (obverse)
+Image[12]=images/sem_old_t.3.0
+Image[13]=images/sem_old_t.3.2
+Image[14]=images/sem_old_t.3.1
+Image[15]=images/sem_old_t.3.3
+# CAUTION (obverse)
+Image[16]=images/sem_old_t.2.0
+Image[17]=images/sem_old_t.2.2
+Image[18]=images/sem_old_t.2.1
+Image[19]=images/sem_old_t.2.3
+
+Icon=> images/sem_old_t.1.4
+Cursor=images/sem_old_t.2.4
+---------------------------------------

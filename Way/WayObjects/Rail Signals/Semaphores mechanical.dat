@@ -1,0 +1,502 @@
+#--------------------------------------
+# RAIL SIGNALS FOR SIMUTRANS EXPERIMENTAL
+#--------------------------------------
+#
+# author: Vladislav Kurz (Vladki) and Victor Erik (Ves)
+#
+#
+# In this file are the following:
+#
+# Modern semaphore up (MSU)(Absolute block)
+# Two aspect stop
+# Two aspect stop doouble block
+# Two aspect distant
+# Two aspect choose
+# Two aspect choose (eventually with callon)
+# Two aspect stop token
+# T-semaphore
+# T-semaphore doouble block
+#
+# Modern semaphore down (MSD)(time interval with telegraph)
+# Two aspect stop
+# Two aspect choose
+# Two aspect stop token
+# T-semaphore
+#
+################################
+
+#--------------------------------------
+# Modern Semaphores Up (Absolute block)
+#--------------------------------------
+
+# Two aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSU_2_1900
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=6
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+maintenance=100
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_up_1.1.0
+Image[1]=images/sem_up_1.1.2
+Image[2]=images/sem_up_1.1.1
+Image[3]=images/sem_up_1.1.3
+# CLEAR
+Image[4]=images/sem_up_1.2.0
+Image[5]=images/sem_up_1.2.2
+Image[6]=images/sem_up_1.2.1
+Image[7]=images/sem_up_1.2.3
+
+Icon=> images/sem_up_1.1.4
+Cursor=images/sem_up_1.2.4
+--------------------------------------
+# Two aspect stop double
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSU_2_1900_double
+working_method=absolute_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=6
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+maintenance=100
+double_block=1
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_up_double.1.0
+Image[1]=images/sem_up_double.1.2
+Image[2]=images/sem_up_double.1.1
+Image[3]=images/sem_up_double.1.3
+# CLEAR
+Image[4]=images/sem_up_double.2.0
+Image[5]=images/sem_up_double.2.2
+Image[6]=images/sem_up_double.2.1
+Image[7]=images/sem_up_double.2.3
+
+Icon=> images/sem_up_double.1.4
+Cursor=images/sem_up_double.2.4
+---------------------------------------
+# Two aspect distant
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_MSU_Dist_1880
+working_method=absolute_block
+waytype=track
+cost=1000
+is_presignal=1
+aspects=2
+upgrade_group=2
+signal_groups=6
+offset_left=11
+intro_year = 1880
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=3000
+# CAUTION
+Image[0]=images/sem_up_pre.1.0
+Image[1]=images/sem_up_pre.1.2
+Image[2]=images/sem_up_pre.1.1
+Image[3]=images/sem_up_pre.1.3
+# CLEAR
+Image[4]=images/sem_up_pre.2.0
+Image[5]=images/sem_up_pre.2.2
+Image[6]=images/sem_up_pre.2.1
+Image[7]=images/sem_up_pre.2.3
+
+Icon=> images/sem_up_pre.1.4
+Cursor=images/sem_up_pre.2.4
+---------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_MSU_2_cho_1900
+working_method=absolute_block
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+upgrade_group=5
+signal_groups=6
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_up_2.1.0
+Image[1]=images/sem_up_2.1.2
+Image[2]=images/sem_up_2.1.1
+Image[3]=images/sem_up_2.1.3
+# CLEAR (sub route)
+Image[4]=images/sem_up_2.3.0
+Image[5]=images/sem_up_2.3.2
+Image[6]=images/sem_up_2.3.1
+Image[7]=images/sem_up_2.3.3
+# CLEAR (main route)
+Image[8]=images/sem_up_2.2.0
+Image[9]=images/sem_up_2.2.2
+Image[10]=images/sem_up_2.2.1
+Image[11]=images/sem_up_2.2.3
+
+Icon=> images/sem_up_2.1.4
+Cursor=images/sem_up_2.2.4
+---------------------------------------
+# Two aspect choose (eventually with callon)
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_MSU_2_cho_1900_callon
+working_method=absolute_block
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=2
+has_selective_choose=1
+permissive=1
+upgrade_group=5
+signal_groups=6
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_up_3.1.0
+Image[1]=images/sem_up_3.1.2
+Image[2]=images/sem_up_3.1.1
+Image[3]=images/sem_up_3.1.3
+# CLEAR (sub route)
+Image[4]=images/sem_up_3.3.0
+Image[5]=images/sem_up_3.3.2
+Image[6]=images/sem_up_3.3.1
+Image[7]=images/sem_up_3.3.3
+# CLEAR (main route)
+Image[8]=images/sem_up_3.2.0
+Image[9]=images/sem_up_3.2.2
+Image[10]=images/sem_up_3.2.1
+Image[11]=images/sem_up_3.2.3
+
+Icon=> images/sem_up_3.1.4
+Cursor=images/sem_up_3.2.4
+---------------------------------------
+# Two aspect stop token
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSU_2_1900_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=6
+offset_left=11
+intro_year = 1906
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_up_token.1.0
+Image[1]=images/sem_up_token.1.2
+Image[2]=images/sem_up_token.1.1
+Image[3]=images/sem_up_token.1.3
+# CLEAR
+Image[4]=images/sem_up_token.2.0
+Image[5]=images/sem_up_token.2.2
+Image[6]=images/sem_up_token.2.1
+Image[7]=images/sem_up_token.2.3
+
+Icon=> images/sem_up_token.1.4
+Cursor=images/sem_up_token.2.4
+---------------------------------------
+# T-semaphore
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSU_1900_T-sem
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=absolute_block
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+signal_groups=6
+intro_year=1848
+intro_month=12
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_up_t.1.0
+Image[1]=images/sem_up_t.1.2
+Image[2]=images/sem_up_t.1.1
+Image[3]=images/sem_up_t.1.3
+# CLEAR (inverse)
+Image[4]=images/sem_up_t.3.0
+Image[5]=images/sem_up_t.3.2
+Image[6]=images/sem_up_t.3.1
+Image[7]=images/sem_up_t.3.3
+# CAUTION (inverse)
+Image[8]=images/sem_up_t.3.0
+Image[9]=images/sem_up_t.3.2
+Image[10]=images/sem_up_t.3.1
+Image[11]=images/sem_up_t.3.3
+# CLEAR (obverse)
+Image[12]=images/sem_up_t.2.0
+Image[13]=images/sem_up_t.2.2
+Image[14]=images/sem_up_t.2.1
+Image[15]=images/sem_up_t.2.3
+# CAUTION (obverse)
+Image[16]=images/sem_up_t.2.0
+Image[17]=images/sem_up_t.2.2
+Image[18]=images/sem_up_t.2.1
+Image[19]=images/sem_up_t.2.3
+
+Icon=> images/sem_up_t.1.4
+Cursor=images/sem_up_t.2.4
+---------------------------------------
+# T-semaphore double
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSU_1900_T-sem_double
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=absolute_block
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+signal_groups=6
+intro_year=1848
+intro_month=12
+double_block=1
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_up_double_t.1.0
+Image[1]=images/sem_up_double_t.1.2
+Image[2]=images/sem_up_double_t.1.1
+Image[3]=images/sem_up_double_t.1.3
+# CLEAR (inverse)
+Image[4]=images/sem_up_double_t.3.0
+Image[5]=images/sem_up_double_t.3.2
+Image[6]=images/sem_up_double_t.3.1
+Image[7]=images/sem_up_double_t.3.3
+# CAUTION (inverse)
+Image[8]=images/sem_up_double_t.3.0
+Image[9]=images/sem_up_double_t.3.2
+Image[10]=images/sem_up_double_t.3.1
+Image[11]=images/sem_up_double_t.3.3
+# CLEAR (obverse)
+Image[12]=images/sem_up_double_t.2.0
+Image[13]=images/sem_up_double_t.2.2
+Image[14]=images/sem_up_double_t.2.1
+Image[15]=images/sem_up_double_t.2.3
+# CAUTION (obverse)
+Image[16]=images/sem_up_double_t.2.0
+Image[17]=images/sem_up_double_t.2.2
+Image[18]=images/sem_up_double_t.2.1
+Image[19]=images/sem_up_double_t.2.3
+
+Icon=> images/sem_up_double_t.1.4
+Cursor=images/sem_up_double_t.2.4
+
+
+
+---------------------------------------
+# Modern Semaphores Down (Time interval with telegraph)
+#--------------------------------------
+
+# Two aspect stop
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSD_2_1890
+working_method=time_interval_with_telegraph
+waytype=track
+cost=2000
+is_signal=1
+aspects=3
+upgrade_group=1
+signal_groups=5
+offset_left=11
+intro_year = 1890
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_down_1.1.0
+Image[1]=images/sem_down_1.1.2
+Image[2]=images/sem_down_1.1.1
+Image[3]=images/sem_down_1.1.3
+# CLEAR
+Image[4]=images/sem_down_1.2.0
+Image[5]=images/sem_down_1.2.2
+Image[6]=images/sem_down_1.2.1
+Image[7]=images/sem_down_1.2.3
+# CAUTION
+Image[8]=images/sem_down_1.3.0
+Image[9]=images/sem_down_1.3.2
+Image[10]=images/sem_down_1.3.1
+Image[11]=images/sem_down_1.3.3
+
+Icon=> images/sem_down_1.1.4
+Cursor=images/sem_down_1.2.4
+---------------------------------------
+# Two aspect choose
+obj=roadsign
+copyright=Vladki,Ves
+Name=Se_MSD_2_1890_cho
+working_method=time_interval_with_telegraph
+waytype=track
+cost=4000
+is_signal=1
+free_route=1
+aspects=3
+has_selective_choose=1
+upgrade_group=5
+signal_groups=5
+offset_left=11
+intro_year = 1890
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_down_2.1.0
+Image[1]=images/sem_down_2.1.2
+Image[2]=images/sem_down_2.1.1
+Image[3]=images/sem_down_2.1.3
+# CLEAR (sub route)
+Image[4]=images/sem_down_2.3.0
+Image[5]=images/sem_down_2.3.2
+Image[6]=images/sem_down_2.3.1
+Image[7]=images/sem_down_2.3.3
+# CLEAR (main route)
+Image[8]=images/sem_down_2.2.0
+Image[9]=images/sem_down_2.2.2
+Image[10]=images/sem_down_2.2.1
+Image[11]=images/sem_down_2.2.3
+# CAUTION (sub route)
+Image[12]=images/sem_down_2.3.0
+Image[13]=images/sem_down_2.3.2
+Image[14]=images/sem_down_2.3.1
+Image[15]=images/sem_down_2.3.3
+# CAUTION (main route)
+Image[16]=images/sem_down_2.2.0
+Image[17]=images/sem_down_2.2.2
+Image[18]=images/sem_down_2.2.1
+Image[19]=images/sem_down_2.2.3
+
+Icon=> images/sem_down_2.1.4
+Cursor=images/sem_down_2.2.4
+
+---------------------------------------
+# Two aspect stop token
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSD_2_1900_token
+working_method=token_block
+waytype=track
+cost=2000
+is_signal=1
+aspects=2
+upgrade_group=1
+signal_groups=5
+offset_left=11
+intro_year = 1890
+intro_month = 1
+max_speed=150
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_down_token.1.0
+Image[1]=images/sem_down_token.1.2
+Image[2]=images/sem_down_token.1.1
+Image[3]=images/sem_down_token.1.3
+# CLEAR
+Image[4]=images/sem_down_token.2.0
+Image[5]=images/sem_down_token.2.2
+Image[6]=images/sem_down_token.2.1
+Image[7]=images/sem_down_token.2.3
+
+Icon=> images/sem_down_token.1.4
+Cursor=images/sem_down_token.2.4
+---------------------------------------
+# T-semaphore
+obj=roadsign
+copyright=Vladki,Ves
+name=Se_MSD_1850_T-sem
+waytype=track
+cost=2000
+maintenance=1600
+aspects=3
+working_method=time_interval_with_telegraph
+max_speed=90
+has_selective_choose=1
+offset_left=11
+has_call_on=0
+permissive=0
+allow_underground=0
+is_signal=1
+#free_route=1
+is_longblocksignal=1
+signal_groups=5
+intro_year=1890
+intro_month=12
+max_distance_to_signalbox=3000
+# DANGER
+Image[0]=images/sem_down_t.1.0
+Image[1]=images/sem_down_t.1.2
+Image[2]=images/sem_down_t.1.1
+Image[3]=images/sem_down_t.1.3
+# CLEAR (inverse)
+Image[4]=images/sem_down_t.3.0
+Image[5]=images/sem_down_t.3.2
+Image[6]=images/sem_down_t.3.1
+Image[7]=images/sem_down_t.3.3
+# CAUTION (inverse)
+Image[8]=images/sem_down_t.5.0
+Image[9]=images/sem_down_t.5.2
+Image[10]=images/sem_down_t.5.1
+Image[11]=images/sem_down_t.5.3
+# CLEAR (obverse)
+Image[12]=images/sem_down_t.2.0
+Image[13]=images/sem_down_t.2.2
+Image[14]=images/sem_down_t.2.1
+Image[15]=images/sem_down_t.2.3
+# CAUTION (obverse)
+Image[16]=images/sem_down_t.5.0
+Image[17]=images/sem_down_t.5.2
+Image[18]=images/sem_down_t.5.1
+Image[19]=images/sem_down_t.5.3
+
+Icon=> images/sem_down_t.1.4
+Cursor=images/sem_down_t.2.4
+---------------------------------------

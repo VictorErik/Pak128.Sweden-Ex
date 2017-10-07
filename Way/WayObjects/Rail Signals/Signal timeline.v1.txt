@@ -188,7 +188,7 @@
 # - 1910 Nyboda, Siemens Schuckert, electro mechanical signalbox:
 #	Indoor, turning handles
 #	8 signal slots: (two choose, two presignals, four platforms)
-#	Range: "Sighting distance from signalbox" (ca 800 meter)
+#	Range: "Sighting distance from signalbox"
 #	Upper quad one wing:	Abso	2 aspect stop
 #	Upper quad two wing:	Abso	2 aspect choose
 #	Upper quad three wing:	Abso	2 aspect choose, Callon
@@ -206,7 +206,7 @@
 # - 1912 ????, L.M.Ericsson, electro mechanical signalbox:
 #	Indoor, turning handles?
 #	10 signal slots: (two choose, two presignals, six platforms)
-#	Range: "Sighting distance from signalbox" (ca 800 meter)
+#	Range: "Sighting distance from signalbox"
 #	Upper quad one wing:	Abso	2 aspect stop
 #	Upper quad two wing:	Abso	2 aspect choose
 #	Upper quad three wing:	Abso	2 aspect choose, Callon
@@ -331,9 +331,8 @@
 #
 # --------- Man will be used at many signalboxes -------------
 # 4 -	Man with flag		Abso	2 aspect stop
-# 	Man with flag		Abso	2 aspect stop, double
 #
-# --------- Mechanically set semaphores -------------
+# --------- Mechanically set signals -------------
 # 5 -	Low quad one wing:	TimeTe	3 aspect stop
 #	Low quad two wing:	TimeTe	3 aspect choose
 #	Low quad T-semaphore:	TimeTe	3 aspect station
@@ -346,49 +345,35 @@
 #	Upper quad T-semaphore:	Abso	2 aspect station
 #	Upper quad one wing:	Token	2 aspect stop
 #	Plate presignal:	Abso	2 aspect presignal
-#	Upper quad one wing:	Abso	2 aspect stop, double
-#
-# --------- Electrically set semaphores -------------
-# 7 -	Upper quad one wing:	Abso	2 aspect stop
-#	Upper quad two wing:	Abso	2 aspect choose
-#	Upper quad three wing:	Abso	2 aspect choose, Callon
-#	Upper quad T-semaphore:	Abso	2 aspect station
-#	Upper quad one wing:	Token	2 aspect stop
-#	Plate presignal:	Abso	2 aspect presignal
-#	Upper quad one wing:	Abso	2 aspect stop, double
 #
 # --------- Mechanically set signals, with electric power -------------
-# 8 -	Daylight, 2 lamp:	Abso	2 aspect stop
+# 7 -	Daylight, 2 lamp:	Abso	2 aspect stop
 #	Daylight, 3 lamp:	Abso	2 aspect choose
 #	Daylight, 5 lamp:	Abso	3 aspect choose, Callon
 #	Daylight, pre:		Abso	2 aspect presignal
-#	Daylight, 2 lamp:	Abso	2 aspect stop, double
 #
-# --------- Track circuit block signals, automatic -------------
-# 9 -	Daylight, 1 lamp:	track	3 aspect stop
+# --------- Track circuit block signals -------------
+# 8 -	Daylight, 1 lamp:	track	3 aspect stop
 #	Daylight, 2 lamp:	track	2 aspect stop
+#	Daylight, 3 lamp:	track	2 aspect choose
 #	Daylight, 4 lamp:	track	3 aspect stop
-#	Daylight, pre:		track	2 aspect presignal
-#	Daylight, 2 lamp:	track	2 aspect stop, double block
-#
-# --------- Track circuit block signals, semi automatic -------------
-# 10 -	Daylight, 3 lamp:	track	2 aspect choose
 #	Daylight, 5 lamp:	track	3 aspect choose, Callon
+#	Daylight, pre:		track	2 aspect presignal
 #
 # --------- And just because we need the token block in many signalboxes -------------
-# 11 -	Daylight, 2 lamp:	Token	2 aspect stop
+# 9 -	Daylight, 2 lamp:	Token	2 aspect stop
 #
 # --------- ATC-signals -------------
-# 12 -	Daylight-ATC, 2 lamp:	Cab	2 aspect stop
+# 10 -	Daylight-ATC, 2 lamp:	Cab	2 aspect stop
 #	Daylight-ATC, 3 lamp:	Cab	2 aspect choose
 #	Daylight-ATC, 5 lamp:	Cab	3 aspect choose, Callon
 #
 # --------- Moving block signals -------------
-# 13 -	Beacon:			Mov	Moving block "stop"
+# 11 -	Beacon:			Mov	Moving block "stop"
 #	Beacon:			Mov	Moving block choose
 #
 # --------- And just because we need the token block in even more signalboxes.. -------------
-# 14 -	Daylight-ATC, 2 lamp:	Token	2 aspect stop
+# 12 -	Daylight-ATC, 2 lamp:	Token	2 aspect stop
 #
 #
 #
