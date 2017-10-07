@@ -10,6 +10,7 @@ vehicles/rail vehicles/passenger carriages/*.xcf*
 vehicles/rail vehicles/goods wagons/*.xcf*
 
 *.pak
+*error*
 
 
 # Windows image file caches
