@@ -6,7 +6,7 @@ Pak128.Sweden-Ex is a graphics set (pak) for Simutrans Extended. It requires a S
 
 !! Do note that the pak is currently under development why many basic features (such as economy or factories) are not in place !!
 
-Also please note that this "half-height" branch is aimed towards the next generation of Simutrans Extended. It is not compatible with the current released one (Simutrans 112.3 Experiemental 11.35, released the 30th of June 2014).
+Also please note that this is aimed towards the next generation of Simutrans Extended. It is not compatible with the current released one (Simutrans 112.3 Experiemental 11.35, released the 30th of June 2014).
 
 
 HOW TO PAK FILES
