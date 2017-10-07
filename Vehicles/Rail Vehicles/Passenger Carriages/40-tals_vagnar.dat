@@ -139,7 +139,7 @@ EmptyImage[SW]=40-tals_vagnar.2.7
 
 obj=vehicle
 copyright=Ves
-name=Se_ACo4_1940_Sitt
+name=Se_ACo4_1940_sitt
 waytype=track
 freight=Passagiere
 length=16
@@ -164,7 +164,7 @@ min_loading_time=15
 max_loading_time=30
 
 
-upgrade[0]=Se_ACo4_1940_SLeep
+upgrade[0]=Se_ACo4_1940_sleep
 upgrade[1]=Se_WLABo4_1950(weld)
 upgrade[2]=Se_WL2_1960_(Ao5,ACo4,WLABo4)
 upgrade[3]=Se_WL2_1980_(Ao5,ACo4,WLABo4)
@@ -189,7 +189,7 @@ EmptyImage[SW]=40-tals_vagnar.1.7
 
 obj=vehicle
 copyright=Ves
-name=Se_ACo4_1940_Sleep
+name=Se_ACo4_1940_sleep
 waytype=track
 freight=Passagiere
 length=16
@@ -214,7 +214,7 @@ min_loading_time=15
 max_loading_time=30
 
 
-upgrade[0]=Se_ACo4_1940_Sitt
+upgrade[0]=Se_ACo4_1940_sitt
 upgrade[1]=Se_WLABo4_1950(weld)
 upgrade[2]=Se_WL2_1960_(Ao5,ACo4,WLABo4)
 upgrade[3]=Se_WL2_1980_(Ao5,ACo4,WLABo4)
@@ -336,7 +336,7 @@ EmptyImage[SW]=40-tals_vagnar.3.7
 
 obj=vehicle
 copyright=Ves
-name=Se_Ao5_1950_Sitt
+name=Se_Ao5_1950_sitt
 waytype=track
 freight=Passagiere
 length=16
@@ -361,7 +361,7 @@ min_loading_time=15
 max_loading_time=30
 
 
-upgrade[0]=Se_Ao5_1950_SLeep
+upgrade[0]=Se_Ao5_1950_sleep
 upgrade[1]=Se_WL2_1960_(Ao5,ACo4,WLABo4)
 upgrade[2]=Se_WL2_1980_(Ao5,ACo4,WLABo4)
 upgrade[3]=Se_BC2_1970_(Ao5,ACo4,WLABo4)
@@ -412,7 +412,7 @@ min_loading_time=15
 max_loading_time=30
 
 
-upgrade[0]=Se_Ao5_1950_Sitt
+upgrade[0]=Se_Ao5_1950_sitt
 upgrade[1]=Se_WL2_1960_(Ao5,ACo4,WLABo4)
 upgrade[2]=Se_WL2_1980_(Ao5,ACo4,WLABo4)
 upgrade[3]=Se_BC2_1970_(Ao5,ACo4,WLABo4)
