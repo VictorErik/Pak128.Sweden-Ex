@@ -54,7 +54,7 @@ loading_time=4500
 upgrade[0]=Se_Gs_1910_Piece_G4nb
 upgrade[1]=Se_Gsh_1910_Livestock_G4nb
 upgrade[2]=Se_Gsk_1910_Cool_G4nb
-upgrade[3]=Se_Gsö_1910_Bulk_G4nb
+upgrade[3]=Se_Gsoe_1910_Bulk_G4nb
 
 EmptyImage[W]=G1-G5.0.0
 EmptyImage[NW]=G1-G5.0.1
@@ -98,7 +98,7 @@ loading_time=4500
 upgrade[0]=Se_Gs_1910_Piece_G4
 upgrade[1]=Se_Gsh_1910_Livestock_G4
 upgrade[2]=Se_Gsk_1910_Cool_G4
-upgrade[3]=Se_Gsö_1910_Bulk_G4
+upgrade[3]=Se_Gsoe_1910_Bulk_G4
 
 EmptyImage[W]=G1-G5.1.0
 EmptyImage[NW]=G1-G5.1.1
@@ -142,7 +142,7 @@ loading_time=4500
 upgrade[0]=Se_Gs_1910_Piece_G1G3nb
 upgrade[1]=Se_Gsh_1910_Livestock_G1G3nb
 upgrade[2]=Se_Gsk_1910_Cool_G1G3nb
-upgrade[3]=Se_Gsö_1910_Bulk_G1G3nb
+upgrade[3]=Se_Gsoe_1910_Bulk_G1G3nb
 
 
 EmptyImage[W]=G1-G5.2.0
@@ -187,7 +187,7 @@ loading_time=4500
 upgrade[0]=Se_Gs_1910_Piece_G1G3
 upgrade[1]=Se_Gsh_1910_Livestock_G1G3
 upgrade[2]=Se_Gsk_1910_Cool_G1G3
-upgrade[3]=Se_Gsö_1910_Bulk_G1G3
+upgrade[3]=Se_Gsoe_1910_Bulk_G1G3
 
 
 EmptyImage[W]=G1-G5.3.0
@@ -231,7 +231,7 @@ loading_time=4500
 upgrade[0]=Se_Gs_1910_Piece_G1G3nb
 upgrade[1]=Se_Gsh_1910_Livestock_G1G3nb
 upgrade[2]=Se_Gsk_1910_Cool_G1G3nb
-upgrade[3]=Se_Gsö_1910_Bulk_G1G3nb
+upgrade[3]=Se_Gsoe_1910_Bulk_G1G3nb
 
 
 EmptyImage[W]=G1-G5.2.0
@@ -276,7 +276,7 @@ loading_time=4500
 upgrade[0]=Se_Gs_1910_Piece_G1G3
 upgrade[1]=Se_Gsh_1910_Livestock_G1G3
 upgrade[2]=Se_Gsk_1910_Cool_G1G3
-upgrade[3]=Se_Gsö_1910_Bulk_G1G3
+upgrade[3]=Se_Gsoe_1910_Bulk_G1G3
 
 
 EmptyImage[W]=G1-G5.4.0

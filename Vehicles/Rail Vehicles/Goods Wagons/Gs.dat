@@ -4,7 +4,7 @@
 # Littera Gs Piece, Upgraded from G1, G3 and G4
 # Littera Gsh Animal, Upgraded from G1, G3 and G4
 # Littera Gsk Cool, Upgraded from G1, G3 and G4
-# Littera Gsö Food bulk, Upgraded from G1, G3 and G4
+# Littera Gsö (Gsoe - due to special caracters) Food bulk, Upgraded from G1, G3 and G4
 #
 ##################
 
@@ -472,7 +472,7 @@ EmptyImage[SW]=Gs.1.7
 # Gsö (G1/G3 Nobrake) Bulk
 
 obj=vehicle
-name=Se_Gsö_1910_Bulk_G1G3nb
+name=Se_Gsoe_1910_Bulk_G1G3nb
 copyright=VeS
 intro_year=1915
 intro_month=1
@@ -510,7 +510,7 @@ EmptyImage[SW]=Gs.2.7
 # Gsö (G1/G3 Brake) Bulk
 
 obj=vehicle
-name=Se_Gsö_1910_Bulk_G1G3
+name=Se_Gsoe_1910_Bulk_G1G3
 copyright=VeS
 intro_year=1915
 intro_month=1
@@ -548,7 +548,7 @@ EmptyImage[SW]=Gs.3.7
 # Gsö (G4 Nobrake) Bulk
 
 obj=vehicle
-name=Se_Gsö_1910_Bulk_G4nb
+name=Se_Gsoe_1910_Bulk_G4nb
 copyright=VeS
 intro_year=1915
 intro_month=1
@@ -586,7 +586,7 @@ EmptyImage[SW]=Gs.0.7
 # Gsö (G4 Brake) Bulk
 
 obj=vehicle
-name=Se_Gsö_1910_Bulk_G4
+name=Se_Gsoe_1910_Bulk_G4
 copyright=VeS
 intro_year=1915
 intro_month=1

@@ -35,7 +35,7 @@ se_hs_timetel_1850
 Se_HS_1850_choose
 se_hs_timetel_1850_choose
 #
-# Vehicles:
+# Vehicles (Locomotives):
 Se_Rc1_1960_SMS
 Se_Rc1_1960
 Se_Rc1_1990_SMS
@@ -58,6 +58,16 @@ Se_Rc6_2000_SMS
 Se_Rc6_2000
 Se_Rc7_2000_SMS
 Se_Rc7_2000
+#
+# (Good cars):
+Se_Gsö_1910_Bulk_G1G3
+Se_Gsoe_1910_Bulk_G1G3
+Se_Gsö_1910_Bulk_G1G3nb
+Se_Gsoe_1910_Bulk_G1G3nb
+Se_Gsö_1910_Bulk_G4
+Se_Gsoe_1910_Bulk_G4
+Se_Gsö_1910_Bulk_G4nb
+Se_Gsoe_1910_Bulk_G4nb
 ################################ Buildings #################################
 #
 1890_RES_City_House_1_City
