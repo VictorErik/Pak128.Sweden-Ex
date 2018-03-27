@@ -15,7 +15,21 @@
 # paletten = crates
 # m3       = m^3
 
-
+#
+#
+# Class information:
+#
+# Passengers:
+# 4 = Ultra luxuary class
+# 3 = 1st class
+# 2 = 2nd class
+# 1 = 3rd class
+# 0 = Sitting on the roof
+#
+# Mail:
+# 1 = 1st prioritare
+# 0 = 2nd prioritare
+#
 ### UNIQUE GOODS TYPES ###
 # None
 obj=good
@@ -44,6 +58,14 @@ value[2]=47
 to_distance[2]=0
 speed_bonus=18
 weight_per_unit=70
+
+number_of_classes=5
+
+class_revenue_percent[0]=60
+class_revenue_percent[1]=100
+class_revenue_percent[2]=133
+class_revenue_percent[3]=150
+class_revenue_percent[4]=200
 -----------------------
 # Mail
 # Class: mail
@@ -63,9 +85,13 @@ value[2]=54
 to_distance[2]=0
 speed_bonus=15
 weight_per_unit=50
+
+number_of_classes=2
+class_revenue_percent[0]=100
+class_revenue_percent[1]=250
 -----------------------
 # Timber
-# Class: Timber trated as class of own.
+# Class: Timber treated as class of own.
 obj=good
 name=timber
 metric=logs
@@ -84,7 +110,7 @@ speed_bonus=0
 weight_per_unit=200
 -----------------------
 # Livestock
-# Class: Livestock trated as class of own.
+# Class: Livestock treated as class of own.
 obj=good
 name=livestock
 metric=head
