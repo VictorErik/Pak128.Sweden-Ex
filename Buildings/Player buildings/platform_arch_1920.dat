@@ -1,0 +1,73 @@
+##############################
+#
+# This platform is based upon Malmö Centralstation's arched platforms
+# https://www.ekeving.se/r/bgd/SJ_div/M_1933//stnh_1925.jpg
+# 
+##############################
+
+
+Obj=building
+Name=se_platform_arch_1920
+copyright=Ves
+type=stop
+waytype=track
+enables_pax=1
+enables_post=1
+enables_ware=1
+intro_year=1925
+retire_year=2100
+Dims=1,1,16
+NoInfo=0
+Level=2
+
+station_maintenance=2700
+station_price=180000
+station_capacity=5
+
+
+
+Icon=> .././Images/Stations/platform_arch_1920.4.0
+Cursor=.././Images/Stations/platform_arch_1920.4.1
+
+# [rotation][north-south][east-west][height][animation frame][season]
+# Offset syntax: ,pixeloffset_x,pixeloffset_y
+
+# N-S Platform behind
+BackImage[0][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.0
+FrontImage[0][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.0
+BackImage[2][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.1
+FrontImage[2][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.1
+BackImage[4][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.2
+FrontImage[4][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.2
+BackImage[6][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.3
+FrontImage[6][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.3
+
+# E-W Platform behind
+BackImage[1][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.0
+FrontImage[1][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.0
+BackImage[3][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.1
+FrontImage[3][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.1
+BackImage[5][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.2
+FrontImage[5][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.2
+BackImage[7][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.3
+FrontImage[7][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.3
+
+# N-S Platform in front
+FrontImage[8][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.4
+BackImage[8][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.4,0,-128
+FrontImage[10][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.5
+BackImage[10][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.5,0,-128
+FrontImage[12][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.6
+BackImage[12][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.6,0,-128
+FrontImage[14][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.1.7
+BackImage[14][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.0.7,0,-128
+
+# E-W Platform in front
+FrontImage[9][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.4
+BackImage[9][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.4,0,-128
+FrontImage[11][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.5
+BackImage[11][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.5,0,-128
+FrontImage[13][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.6
+BackImage[13][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.6,0,-128
+FrontImage[15][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.3.7
+BackImage[15][0][0][0][0][0]=.././Images/Stations/platform_arch_1920.2.7,0,-128
