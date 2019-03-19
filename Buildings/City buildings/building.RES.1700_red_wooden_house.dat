@@ -1,17 +1,23 @@
 
 obj=building
 name=Se_1700_RES_wooden_house_1
+type=res
 copyright=Ves
 intro_month=4
 intro_year=1700
 retire_month=1
 retire_year=2500
 #retire_year=1920
-noinfo=1
-noconstruction=0
-type=res
-level=20
 needs_ground=1
+chance=55
+
+population_and_visitor_demand_capacity=4
+Level=2
+class_proportion[0]=45
+class_proportion[1]=50
+class_proportion[2]=10
+class_proportion[3]=0
+class_proportion[4]=0
 
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
 
@@ -25,17 +31,24 @@ BackImage[3][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Ho
 
 obj=building
 name=Se_1700_RES_wooden_house_2
+type=res
 copyright=Ves
 intro_month=4
 intro_year=1700
 retire_month=1
 retire_year=2500
 #retire_year=1920
-noinfo=1
-noconstruction=0
-type=res
-level=20
 needs_ground=1
+chance=55
+
+population_and_visitor_demand_capacity=5
+Level=2
+# Low density townhouses
+class_proportion[0]=45
+class_proportion[1]=50
+class_proportion[2]=10
+class_proportion[3]=0
+class_proportion[4]=0
 
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
 
@@ -49,17 +62,24 @@ BackImage[3][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Ho
 
 obj=building
 name=Se_1700_RES_wooden_house_3
+type=res
 copyright=Ves
 intro_month=4
 intro_year=1700
 retire_month=1
 retire_year=2500
 #retire_year=1920
-noinfo=1
-noconstruction=0
-type=res
-level=20
 needs_ground=1
+chance=55
+
+population_and_visitor_demand_capacity=6
+Level=2
+# Low density townhouses
+class_proportion[0]=45
+class_proportion[1]=50
+class_proportion[2]=10
+class_proportion[3]=0
+class_proportion[4]=0
 
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
 
@@ -73,17 +93,24 @@ BackImage[3][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Ho
 
 obj=building
 name=Se_1700_RES_wooden_house_4
+type=res
 copyright=Ves
 intro_month=4
 intro_year=1700
 retire_month=1
 retire_year=2500
 #retire_year=1920
-noinfo=1
-noconstruction=0
-type=res
-level=20
 needs_ground=1
+chance=55
+
+population_and_visitor_demand_capacity=6
+Level=2
+# Low density townhouses
+class_proportion[0]=45
+class_proportion[1]=50
+class_proportion[2]=10
+class_proportion[3]=0
+class_proportion[4]=0
 
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
 
@@ -97,17 +124,24 @@ BackImage[3][0][0][0][0][0]=.././Images/Normal Buildings/Wooden houses/Wooden_Ho
 
 obj=building
 name=Se_1700_RES_wooden_house_5
+type=res
 copyright=Ves
 intro_month=4
 intro_year=1700
 retire_month=1
 retire_year=2500
 #retire_year=1920
-noinfo=1
-noconstruction=0
-type=res
-level=20
 needs_ground=1
+chance=55
+
+population_and_visitor_demand_capacity=5
+Level=2
+# Low density townhouses
+class_proportion[0]=45
+class_proportion[1]=50
+class_proportion[2]=10
+class_proportion[3]=0
+class_proportion[4]=0
 
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
 

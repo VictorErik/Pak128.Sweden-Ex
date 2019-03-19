@@ -1,16 +1,22 @@
 obj=building
 name=Se_1890_RES_City_House_1_City
+type=res
 copyright=Ves
 intro_month=4
 intro_year=1890
 retire_month=1
 retire_year=2500
 #retire_year=1920
-noinfo=1
-noconstruction=0
-type=res
-level=20
 needs_ground=1
+chance=45
+population_and_visitor_demand_capacity=31
+Level=3
+# Low density townhouses
+class_proportion[0]=0
+class_proportion[1]=5
+class_proportion[2]=40
+class_proportion[3]=55
+class_proportion[4]=0
 
 # Backimage[rotation][coordinat][coordinat][höjd-coordinat][animation-frame]
 
