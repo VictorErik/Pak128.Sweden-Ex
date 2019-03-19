@@ -1,0 +1,274 @@
+#####################
+#
+# These townhalls are based upon, and inspired by, Östersund Rådhus (Östersund townhall) 
+#
+#
+#####################
+
+
+# Layout: Small size townhall
+Obj=building
+name=se_cityhall_small_1900
+type=tow
+copyright=Ves
+intro_year=1909
+intro_month=1
+retire_year=2500
+retire_month=1
+level=3
+needs_ground=1
+
+#Dims: tiles east-west, tiles north-south, rotations
+dims=2,1,4
+
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+#######################
+# Rotation = 0 // South
+
+Backimage[0][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.0
+Backimage[0][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.0
+Backimage[0][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.5
+Backimage[0][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.5
+
+#######################
+# Rotation = 1 // East
+Backimage[1][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.5
+Backimage[1][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.5
+Backimage[1][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.0
+Backimage[1][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.0
+
+#######################
+# Rotation = 2 // North
+
+Backimage[2][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.5
+Backimage[2][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.5
+Backimage[2][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.0
+Backimage[2][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.0
+
+#######################
+# Rotation = 3 // West
+Backimage[3][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.0
+Backimage[3][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.0
+Backimage[3][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.5
+Backimage[3][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.5
+
+--
+
+
+# Layout: Medium size townhall
+Obj=building
+name=se_cityhall_medium_1900
+type=tow
+copyright=Ves
+intro_year=1909
+intro_month=1
+retire_year=2500
+retire_month=1
+level=7
+needs_ground=1
+
+#Dims: tiles east-west, tiles north-south, rotations
+dims=4,2,4
+
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+#######################
+# Rotation = 0 // South
+
+Backimage[0][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.10
+Backimage[0][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.10
+Backimage[0][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.2
+Backimage[0][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.2
+Backimage[0][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.3
+Backimage[0][0][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.3
+Backimage[0][0][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.11
+Backimage[0][0][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.11
+
+Backimage[0][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.14
+Backimage[0][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.6
+Backimage[0][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.7
+Backimage[0][1][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.14
+# Tower:
+Backimage[0][0][2][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,-32,93
+
+#######################
+# Rotation = 1 // East
+Backimage[1][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.11
+Backimage[1][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.11
+
+Backimage[1][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.3
+Backimage[1][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.3
+Backimage[1][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.7
+
+Backimage[1][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.2
+Backimage[1][2][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.2
+Backimage[1][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.6
+
+Backimage[1][3][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.10
+Backimage[1][3][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.10
+# Tower:
+Backimage[1][2][0][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,32,93
+
+#######################
+# Rotation = 2 // North
+Backimage[2][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.7
+Backimage[2][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.6
+
+Backimage[2][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.11
+Backimage[2][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.11
+Backimage[2][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.3
+Backimage[2][1][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.3
+Backimage[2][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.2
+Backimage[2][1][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.2
+Backimage[2][1][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.10
+Backimage[2][1][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.10
+
+# Tower:
+Backimage[2][1][2][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,-32,93
+
+#######################
+# Rotation = 3 // West
+Backimage[3][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.10
+Backimage[3][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.10
+
+Backimage[3][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.6
+Backimage[3][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.2
+Backimage[3][1][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.2
+
+Backimage[3][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.7
+Backimage[3][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.3
+Backimage[3][2][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.3
+
+Backimage[3][3][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.11
+Backimage[3][3][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.11
+# Tower:
+Backimage[3][2][1][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,32,93
+--
+
+
+# Layout: Actual Östersund Rådhus
+Obj=building
+name=se_cityhall_large_1900
+type=tow
+copyright=Ves
+intro_year=1909
+intro_month=1
+retire_year=2500
+retire_month=1
+level=10
+needs_ground=1
+
+#Dims: tiles east-west, tiles north-south, rotations
+dims=4,3,4
+
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+#######################
+# Rotation = 0 // South
+Backimage[0][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.8
+Backimage[0][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.8
+Backimage[0][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.9
+Backimage[0][0][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.9
+
+Backimage[0][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.1
+Backimage[0][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.1
+Backimage[0][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.2
+Backimage[0][1][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.2
+Backimage[0][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.3
+Backimage[0][1][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.3
+Backimage[0][1][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.4
+Backimage[0][1][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.4
+
+Backimage[0][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.0
+Backimage[0][2][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.0
+Backimage[0][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.6
+Backimage[0][2][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.7
+Backimage[0][2][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.5
+Backimage[0][2][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.5
+# Extensions:
+Frontimage[0][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.8,-6,3
+Frontimage[0][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.9,-6,3
+# Tower:
+Backimage[0][1][2][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,-32,93
+
+#######################
+# Rotation = 1 // East
+Backimage[1][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.9
+Backimage[1][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.4
+Backimage[1][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.4
+Backimage[1][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.5
+Backimage[1][0][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.5
+
+Backimage[1][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.9
+Backimage[1][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.3
+Backimage[1][1][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.3
+Backimage[1][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.7
+
+Backimage[1][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.8
+Backimage[1][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.2
+Backimage[1][2][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.2
+Backimage[1][2][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.6
+
+Backimage[1][3][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.8
+Backimage[1][3][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.1
+Backimage[1][3][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.1
+Backimage[1][3][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.0
+Backimage[1][3][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.0
+# Extensions:
+Frontimage[1][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.9,6,3
+Frontimage[1][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.8,6,3
+# Tower:
+Backimage[1][2][1][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,32,93
+
+#######################
+# Rotation = 2 // North
+Backimage[2][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.5
+Backimage[2][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.5
+Backimage[2][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.7
+Backimage[2][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.6
+Backimage[2][0][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.0
+Backimage[2][0][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.0
+
+Backimage[2][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.4
+Backimage[2][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.4
+Backimage[2][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.3
+Backimage[2][1][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.3
+Backimage[2][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.2
+Backimage[2][1][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.2
+Backimage[2][1][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.1
+Backimage[2][1][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.1
+
+Backimage[2][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.9
+Backimage[2][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.9
+Backimage[2][2][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.8
+Backimage[2][2][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.8
+# Tower:
+Backimage[2][1][2][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,-32,93
+
+#######################
+# Rotation = 3 // West
+Backimage[3][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.0
+Backimage[3][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.0
+Backimage[3][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.1
+Backimage[3][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.1
+Backimage[3][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.8
+
+Backimage[3][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.6
+Backimage[3][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.2
+Backimage[3][1][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.2
+Backimage[3][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.8
+
+Backimage[3][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.7
+Backimage[3][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.3
+Backimage[3][2][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.3
+Backimage[3][2][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.9
+
+Backimage[3][3][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.5
+Backimage[3][3][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.5
+Backimage[3][3][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.4
+Backimage[3][3][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.4
+Backimage[3][3][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.9
+# Tower:
+Backimage[3][2][1][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,32,93
+--
