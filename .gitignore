@@ -11,7 +11,7 @@ vehicles/rail vehicles/goods wagons/*.xcf*
 
 Documentation/
 
-*.pak
+pak.bat
 *error*
 
 
