@@ -15,8 +15,22 @@ intro_year=1909
 intro_month=1
 retire_year=2500
 retire_month=1
-level=3
 needs_ground=1
+noconstruction=1
+
+population_and_visitor_demand_capacity=75
+employment_capacity=30
+mail_demand=100
+class_proportion[0]=3
+class_proportion[1]=7
+class_proportion[2]=25
+class_proportion[3]=30
+class_proportion[4]=30
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=10
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=25
+class_proportion_jobs[4]=15
 
 #Dims: tiles east-west, tiles north-south, rotations
 dims=2,1,4
@@ -65,8 +79,22 @@ intro_year=1909
 intro_month=1
 retire_year=2500
 retire_month=1
-level=7
 needs_ground=1
+noconstruction=1
+
+population_and_visitor_demand_capacity=100
+employment_capacity=70
+mail_demand=150
+class_proportion[0]=3
+class_proportion[1]=7
+class_proportion[2]=25
+class_proportion[3]=30
+class_proportion[4]=30
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=10
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=25
+class_proportion_jobs[4]=15
 
 #Dims: tiles east-west, tiles north-south, rotations
 dims=4,2,4
@@ -156,8 +184,22 @@ intro_year=1909
 intro_month=1
 retire_year=2500
 retire_month=1
-level=10
 needs_ground=1
+noconstruction=1
+
+population_and_visitor_demand_capacity=175
+employment_capacity=150
+mail_demand=250
+class_proportion[0]=3
+class_proportion[1]=7
+class_proportion[2]=25
+class_proportion[3]=30
+class_proportion[4]=30
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=10
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=25
+class_proportion_jobs[4]=15
 
 #Dims: tiles east-west, tiles north-south, rotations
 dims=4,3,4
@@ -173,6 +215,7 @@ Backimage[0][0][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_
 
 Backimage[0][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.1
 Backimage[0][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.1
+Frontimage[0][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.8.1
 Backimage[0][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.2
 Backimage[0][1][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.2
 Backimage[0][1][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.3
@@ -181,10 +224,12 @@ Backimage[0][1][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_
 Backimage[0][1][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.4
 
 Backimage[0][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.0
+Frontimage[0][2][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.8.0
 Backimage[0][2][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.0
 Backimage[0][2][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.6
 Backimage[0][2][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.7
 Backimage[0][2][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.5
+Frontimage[0][2][3][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.8.5
 Backimage[0][2][3][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.5
 # Extensions:
 Frontimage[0][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.8,-6,3
@@ -197,8 +242,10 @@ Backimage[0][1][2][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.
 Backimage[1][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.9
 Backimage[1][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.4
 Backimage[1][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.4
+Frontimage[1][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.9.4
 Backimage[1][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.5
 Backimage[1][0][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.5
+Frontimage[1][0][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.9.5
 
 Backimage[1][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.9
 Backimage[1][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.3
@@ -214,6 +261,7 @@ Backimage[1][3][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_
 Backimage[1][3][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.1
 Backimage[1][3][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.1
 Backimage[1][3][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.0
+Frontimage[1][3][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.9.0
 Backimage[1][3][2][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.0
 # Extensions:
 Frontimage[1][1][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.9,6,3
