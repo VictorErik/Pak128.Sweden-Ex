@@ -5,7 +5,7 @@ echo =========================
 echo.
 echo This batch compiles to folder simutrans/pak128.
 echo It requires the file Makeobj-Extended.exe to be in the same
-echo folder as this file pak128.bat.
+echo folder as this file "Pak128.Sweden-Ex Single files.bat".
 echo.
 if not exist .\Makeobj-Extended.exe goto abort
 
@@ -125,10 +125,6 @@ CD ..\Factories
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
 
 CD ..\Player buildings
-..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
-
-rem - Prepared for more special buildings!
-CD ..\Special buildings
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
 
 CD ..
