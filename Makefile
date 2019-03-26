@@ -77,8 +77,6 @@ DIRS128 += Buildings/Factories
 TR_DIRS += Buildings/Factories
 DIRS128 += Buildings/Player\ buildings
 TR_DIRS += Buildings/Player\ buildings
-DIRS128 += Buildings/Special\ buildings
-TR_DIRS += Buildings/Special\ buildings
 DIRS128 += Buildings/City\ buildings
 TR_DIRS += Buildings/City\ buildings
 
