@@ -3,71 +3,12 @@
 # These townhalls are based upon, and inspired by, Östersund Rådhus (Östersund townhall) 
 #
 #
+#
+# Problem: Only attemted to compile small towmhall, which ended up 1kb
+# Debug test 1:
+# Move small size house to bottom of file
+#
 #####################
-
-
-# Layout: Small size townhall
-Obj=building
-name=se_cityhall_small_1900
-type=tow
-copyright=Ves
-intro_year=1909
-intro_month=1
-retire_year=2500
-retire_month=1
-needs_ground=1
-noconstruction=1
-
-population_and_visitor_demand_capacity=75
-employment_capacity=30
-mail_demand=100
-class_proportion[0]=3
-class_proportion[1]=7
-class_proportion[2]=25
-class_proportion[3]=30
-class_proportion[4]=30
-class_proportion_jobs[0]=5
-class_proportion_jobs[1]=10
-class_proportion_jobs[2]=45
-class_proportion_jobs[3]=25
-class_proportion_jobs[4]=15
-
-#Dims: tiles east-west, tiles north-south, rotations
-dims=2,1,4
-
-#[rotation][north-south][east-west][elevation][animationframe][season]
-
-#######################
-# Rotation = 0 // South
-
-Backimage[0][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.0
-Backimage[0][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.0
-Backimage[0][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.5
-Backimage[0][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.5
-
-#######################
-# Rotation = 1 // East
-Backimage[1][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.5
-Backimage[1][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.5
-Backimage[1][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.0
-Backimage[1][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.0
-
-#######################
-# Rotation = 2 // North
-
-Backimage[2][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.5
-Backimage[2][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.5
-Backimage[2][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.0
-Backimage[2][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.0
-
-#######################
-# Rotation = 3 // West
-Backimage[3][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.0
-Backimage[3][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.0
-Backimage[3][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.5
-Backimage[3][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.5
-
---
 
 
 # Layout: Medium size townhall
@@ -324,4 +265,65 @@ Backimage[3][3][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_
 Backimage[3][3][2][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.9
 # Tower:
 Backimage[3][2][1][2][0][0]=.././Images\Modular Buildings\Towers\Copper_tower.0.0,32,93
+--
+
+
+# Layout: Small size townhall
+Obj=building
+name=se_cityhall_small_1900
+type=tow
+copyright=Ves
+intro_year=1909
+intro_month=1
+retire_year=2500
+retire_month=1
+needs_ground=1
+noconstruction=1
+
+population_and_visitor_demand_capacity=75
+employment_capacity=30
+mail_demand=100
+class_proportion[0]=3
+class_proportion[1]=7
+class_proportion[2]=25
+class_proportion[3]=30
+class_proportion[4]=30
+class_proportion_jobs[0]=5
+class_proportion_jobs[1]=10
+class_proportion_jobs[2]=45
+class_proportion_jobs[3]=25
+class_proportion_jobs[4]=15
+
+#Dims: tiles east-west, tiles north-south, rotations
+dims=2,1,4
+
+#[rotation][north-south][east-west][elevation][animationframe][season]
+
+#######################
+# Rotation = 0 // South
+Backimage[0][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.0
+Backimage[0][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.0
+Backimage[0][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.5
+Backimage[0][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.5
+
+#######################
+# Rotation = 1 // East
+Backimage[1][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.5
+Backimage[1][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.5
+Backimage[1][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.0
+Backimage[1][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.0
+
+#######################
+# Rotation = 2 // North
+Backimage[2][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.7.5
+Backimage[2][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.6.5
+Backimage[2][0][1][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.3.0
+Backimage[2][0][1][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.2.0
+
+#######################
+# Rotation = 3 // West
+Backimage[3][0][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.5.0
+Backimage[3][0][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.4.0
+Backimage[3][1][0][0][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.1.5
+Backimage[3][1][0][1][0][0]=.././Images\Modular Buildings\Brick Buildings\brick_buildings_cityhall_1900.0.5
 --
