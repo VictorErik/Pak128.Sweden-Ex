@@ -18,8 +18,8 @@ has_own_way_graphics=0
 pillar_distance=1
 pillar_asymmetric=1
 
-cursor=Concrete_bridge_1920.4.1
-icon=> Concrete_bridge_1920.4.0
+cursor=Concrete_bridge_1920_track.4.1
+icon=> Concrete_bridge_1920_track.4.0
 
 #-- Half Height: --#
 BackStart[N][0]=Concrete_bridge_1920_track.0.0,0,32
@@ -79,7 +79,7 @@ backPillar2[W][0]=Concrete_bridge_1920_track.4.5
 --
 
 Obj=bridge
-name=Se_Concrete_bridge_1920_track_road
+name=Se_Concrete_bridge_1920_road
 copyright=Ves
 waytype=road
 intro_year=1929
