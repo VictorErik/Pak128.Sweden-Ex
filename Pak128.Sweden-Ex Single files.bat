@@ -83,9 +83,11 @@ echo Packing Ways
 echo ============
 rem packing ways
 
-CD Way\Crossings
+CD Way\Air
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
-CD ..\Air
+CD ..\Bridges
+..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
+CD ..\Crossings
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
 CD ..\Maglev
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
@@ -101,7 +103,7 @@ CD ..\Road
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
 CD ..\Sea
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
-CD ..\Bridges
+CD ..\Tramway
 ..\..\Makeobj-Extended PAK128 ../../Pak128.Sweden-Ex/ ./ >>..\..\err.txt
 CD ..\Wayobjects\Catenarys
 ..\..\..\Makeobj-Extended PAK128 ../../../Pak128.Sweden-Ex/ ./ >>..\..\..\err.txt
