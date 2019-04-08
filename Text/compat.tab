@@ -78,3 +78,9 @@ Se_1700_RES_wooden_house_1
 # (City halls):
 Se_Townhall_01
 se_cityhall_small_1900
+################################ Ways and Crossings ########################
+#
+STAX30_track_90kmt_road
+track_road_modern_90
+STAX30_track_70kmt_road
+track_road_modern_70
