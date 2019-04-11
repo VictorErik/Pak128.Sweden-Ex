@@ -4,6 +4,7 @@ People who have made graphics (also specified in the dat-files):
 Ves
 Vladki
 The Pak128 team
+Ranran
 
 Other, who have given thoughts, contributed with ideas and in other ways have helped to form this pakset etc:
 Junna
