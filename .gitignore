@@ -10,6 +10,7 @@ vehicles/rail vehicles/passenger carriages/*.xcf*
 vehicles/rail vehicles/goods wagons/*.xcf*
 
 Documentation/
+*backup*
 
 *.pak
 /pak.bat
